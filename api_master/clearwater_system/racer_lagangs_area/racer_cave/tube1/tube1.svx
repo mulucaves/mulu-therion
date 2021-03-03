@@ -1,0 +1,13 @@
+*begin tube1
+*export s39 s900
+*units tape feet
+*date 1990.9.9
+*team aw
+*team wilson
+*team paris
+*data normal from to tape compass  clino ignoreall
+s39	s903	96.13	128	39
+s903	s902	42.65	63	11
+s902	s901	95.14	72	12
+s901	s900	95.14	67.5	14
+*end tube1

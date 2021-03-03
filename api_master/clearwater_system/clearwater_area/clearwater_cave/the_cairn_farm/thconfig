@@ -1,0 +1,6 @@
+source the_cairn_farm.th
+input ../layoutscales.thc
+
+export model -o the_cairn_farm.3d
+export model -o the_cairn_farm.lox
+export map -o the_cairn_farm.pdf -layout LayoutScale5000

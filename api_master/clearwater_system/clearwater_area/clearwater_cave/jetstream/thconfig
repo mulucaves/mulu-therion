@@ -1,0 +1,5 @@
+source jetstream.th
+
+export model -o jetstream.lox
+export model -o jetstream.3d
+export map -o jetstream.pdf

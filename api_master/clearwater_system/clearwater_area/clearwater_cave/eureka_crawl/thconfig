@@ -1,0 +1,5 @@
+source eureka_crawl.th
+
+export model -o eureka_crawl.3d
+export model -o eureka_crawl.lox
+export map -o eureka_crawl.pdf

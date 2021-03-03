@@ -1,0 +1,7 @@
+encoding  utf-8
+source snaketrack_resurvey.th
+input ../layoutscales.thc
+
+export model -o snaketrack_resurvey.3d
+export model -o snaketrack_resurvey.lox
+export map -o snaketrack_resurvey.pdf -layout LayoutScale5000

@@ -1,0 +1,8 @@
+survey elevationsurveycheck5
+	centreline
+		date 2009.2.15
+		data normal from to tape compass clino ignoreall
+		v18	g2	28.42	233	-16
+		g2	g3	12.71	276	-35	# gina's notes to here
+	endcentreline
+endsurvey

@@ -1,0 +1,13 @@
+input farnorth.th2
+
+map farnorth_m
+    WestPassageSP1
+    break
+    GreatWallChamberSP1
+    EastPassageSP1
+    GnomeOxbowSP1
+    TrollCavernSP1
+    break
+    GnomeOxbowSP2
+    KingsLoopSP1
+endmap

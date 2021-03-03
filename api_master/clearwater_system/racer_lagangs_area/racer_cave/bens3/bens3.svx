@@ -1,0 +1,14 @@
+*begin bens3
+*export s500
+*units tape feet
+*date 1990.9.6
+*team ajb
+*team njt
+*data normal from to tape compass clino
+s500	s508	17.06	40	-37.5
+s508	s509	49.87	321	-12.5
+*data passage station left up down right
+s500	0.5	21	1.5	3
+s508	3	5	1.5	1
+s509	0.5	5	1.5	3
+*end bens3

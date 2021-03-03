@@ -1,0 +1,69 @@
+therion 5.4.4+4cb2921 (2020-04-05)
+initialization file: /home/ben/.therion/therion.ini
+reading ... done
+checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... OK
+checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... OK
+configuration file: thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+average loop error: 0.12%
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.2.43
+ 2> Copyright © 1990-2020 Olly Betts
+ 3> Survey has no fixed points. Therefore I’ve fixed 1 at (0,0,0)
+ 4> 
+ 5> Survey contains 239 survey stations, joined by 238 legs.
+ 6> There is 1 loop.
+ 7> Survey has 2 connected components.
+ 8> Total length of survey legs =    0.00m (   0.00m adjusted)
+ 9> Total plan length of survey legs =    0.00m
+10> Total vertical length of survey legs =    0.00m
+11> Vertical range = 110.48m (from 36 at 21.40m to 238 at -89.08m)
+12> North-South range = 331.45m (from 10 at 20.50m to 217 at -310.94m)
+13> East-West range = 445.16m (from 11 at 15.60m to 233 at -429.57m)
+14>  188 1-nodes.
+15>    3 2-nodes.
+16>    2 3-nodes.
+17>    5 4-nodes.
+18>   10 5-nodes.
+19>   20 6-nodes.
+20>    9 7-nodes.
+21>    1 10-node.
+22>    1 13-node.
+23> 
+######################### transcription ########################
+ 3> 1 : 1@af_leap_in_time
+ 5> 239 : 52@af_leap_in_time -- 238 : -@af_leap_in_time
+ 6> 1 : 1@af_leap_in_time
+ 7> 2 : -@af_leap_in_time
+11> 36 : -@af_leap_in_time -- 238 : -@af_leap_in_time
+12> 10 : -@af_leap_in_time -- 217 : -@af_leap_in_time
+13> 11 : -@af_leap_in_time -- 233 : -@af_leap_in_time
+14> 188 : -@af_leap_in_time
+15> 3 : -@af_leap_in_time
+16> 2 : -@af_leap_in_time
+17> 5 : -@af_leap_in_time
+18> 10 : -@af_leap_in_time
+19> 20 : -@af_leap_in_time
+20> 9 : -@af_leap_in_time
+21> 1 : 1@af_leap_in_time
+22> 1 : 1@af_leap_in_time
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+writing af_leap_in_time.3d ... done
+compilation time: 0 sec
+
+
+######################### loop errors ##########################
+REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
+  0.12%    0.0m   38.3m   2    0.0m   -0.0m    0.0m [2@af_leap_in_time - 3 - 2]
+##################### end of loop errors #######################

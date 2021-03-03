@@ -1,0 +1,87 @@
+encoding  utf-8
+#import   resources/api_master.3d
+#import ../../api_master.3d
+#import   resources/clearwater_master.3d
+#import ../../clearwater_master.3d
+import ../../mulu_master.3d -surveys create
+
+survey clearwater_master
+  input  alans_clearwater_5/alans_clearwater_5.th2
+  #input  alexandra_palace/alexandra_palace.th2
+  input  and_finally/and_finally.th2
+  input  armistice/armistice.th2
+  #input  berangs_to_inflation/berangs_to_inflation.th2
+  input  bladerunner/bladerunner.th2
+  input  boom_boom/boom_boom.th2
+  input  cairn_farm/cairn_farm.th2
+  input  cleartop/cleartop.th2
+  #input  clearwater_cave_fake/clearwater_cave_fake.th
+  input  clearwater_2/clearwater_II.th2
+  input  clearwater_3/clearwater_III.th2
+  input  clearwater_5/clearwater_5.th2
+  input  clearwater_6/clearwater_6.th2
+  input  clearwater_7/clearwater_7.th2
+  #input  c_o_w_ent_to_scumring_mainline_1/c_o_w_ent_to_scumring_mainline_1.th
+  #input  c_o_w_ent_to_scumring_mainline_2/c_o_w_ent_to_scumring_mainline_2.th
+  input  creedence/creedence.th2
+  input  crucible_offset/crucible_offset.th2
+  #input  downdraught/downdraught.th2
+  input  dune/dune.th2
+  input  edwins_long_cut/edwins_long_cut.th2
+  #input  elevationsurveycheck1/elevationsurveycheck1.th
+  #input  elevationsurveycheck2/elevationsurveycheck2.th
+  #input  elevationsurveycheck3/elevationsurveycheck3.th
+  #input  elevationsurveycheck4/elevationsurveycheck4.th
+  #input  elevationsurveycheck5/elevationsurveycheck5.th
+  #input  elevationsurveycheck6/elevationsurveycheck6.th
+  #input  elevationsurveycheck7/elevationsurveycheck7.th
+  input  far_from_home/far_from_home.th2
+  input  goldwater/goldwater.th2
+  input  helic/helic.th2
+  input  high_noon/high_noon.th2
+  #input  imperial/imperial.th2
+  input  jetstream/jetstream.th2
+  #input  lagang/lagang.th2
+  #input  leopard/leopard.th2
+  #input  lost_in_translation/lost_in_translation.th2
+  #input  lower_series/lower.th2
+  #input  metric/metric.th2
+  input  nesters/nesters.th2
+  #input  nilong/nilong.th2
+  #input  no_justice/no_justice.th2
+  input  quattro_formaggio/quattro_formaggio.th2
+  #input  racer/racer.th2
+  input  rampage/rampage.th2
+  input  revival/revival.th2
+  input  ronnies_delight/ronnies_delight.th2
+  input  snake_track/snake_track.th2
+  input  snow_slopes/snow_slopes.th2
+  #input  squeezy_bypass/squeezy_bypass.th
+  #input  strapless/strapless.th2
+  #input  the_big_uee/the_big_uee.th2
+  input  troll/troll.th2
+  input  upper_series/upper_series.th2
+  input  upskirt/upskirt.th2
+  input  upskirt_lower/upskirt_lower.th2
+  input  volcano/volcano.th2
+  input clearwater_joins.th
+  input clearwater_maps.th
+  #input clearwater_equates.th
+  
+  
+  ## Unused surveys
+  ##input  wind/wind.th2
+  input  clearwater_river/clearwater_river.th2
+  ##input  drunken_forest/drunken_forest.th2
+  ##input  imperial/imperial.th2
+  ##input  lagang/lagang.th2
+  ##input  leopard/leopard.th2
+  ##input  lower_series/lower.th2
+  ##input  metric/metric.th2
+  ##input  nilong/nilong.th2
+  ##input  no_justice/no_justice.th2
+  ##input  racer/racer.th2
+  ##input  snake_track/snake_track.th2
+  ##input  surface/surface.th2
+endsurvey
+

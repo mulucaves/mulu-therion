@@ -1,0 +1,5 @@
+source eastern.th
+
+export model -o eastern.3d
+export model -o eastern.lox
+export map -o eastern.pdf

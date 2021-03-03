@@ -1,0 +1,35 @@
+encoding  utf-8
+source ../clearwater.th
+input "../../../common_layout.th"
+######################################## Layouts  ################################################
+
+layout layout
+  copy common
+  copy LayoutScale1000
+  copy water-blue
+
+  rotate 60
+  layers on
+  symbol-show group centreline
+
+   colour map-fg altitude
+#debug station-names
+#debug scrap-names
+map-header 0 0 sw
+legend off
+endlayout
+ 
+layout muluHeader
+ code tex-map
+  \def\loadpicture#1{\pdfximage{#1}\pdfrefximage\pdflastximage} 
+
+  \def\maplayout{
+ #   \legendbox{0}{100}{NE}{\the\legendcontent}
+    #\legendbox{90}{0}{SE}{\loadpicture{/Users/daveclucas/Documents/caving/surveys/Sarawak/Mulu/resources/sarawakCavesLogo.png}}        %%% pdf, png, jpg supported
+      \legendbox{0}{-10}{NW}{\northarrow}
+      \legendbox{0}{-20}{NW}{\scalebar}      
+  }
+endlayout
+
+select highLevelPlan@clearwater_master
+export map -o ../output/HighLevel.pdf -layout layout

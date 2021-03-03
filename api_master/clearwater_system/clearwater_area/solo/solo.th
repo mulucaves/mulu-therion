@@ -1,0 +1,18 @@
+survey solo
+input solo.th2
+
+ centerline
+##export 0
+title "passage name"
+date 2006.03.03
+#team "person" notes
+#team "person" insts
+#team "person" tape
+data normal from to tape compass clino ignoreall
+0	1	1	10	-1
+1	2	150	-	down
+2	3	150	270	-45
+3	4	60	270	-45
+station 0 entrance
+endcenterline
+  endsurvey

@@ -1,0 +1,129 @@
+survey fatsnake
+ centerline
+##export 5.10 5.13 13.4
+equate 5@5 0@10
+equate 2@10 0@11
+equate 2@10 0@12
+equate 2@12 0@13
+equate 2@12 0@14
+#calibrate declination -0.11 deg
+#team "frank tully, dave cooke"
+endcenterline
+survey 5
+ centerline
+##export 5 10 13
+date 2019.04.24
+1	2	 2.68	 98.26	 40.54
+2	3	 2.37	 84.61	 68.83
+3	4	 3.12	137.52	 45.23
+4	5	 1.73	160.09	 51.55
+5	5a	 0.47	  2.27	 -4.03
+5	6	 5.28	 23.03	 55.27
+6	7	 5.18	 58.48	 56.33
+7	8	 4.34	 92.51	 58.49
+8	9	 4.12	 52.04	 29.93
+9	10	 6.25	  9.53	 15.23
+10	11	14.44	 57.95	  4.65
+11	12	11.70	110.77	 -3.72
+12	13	 4.93	 37.05	  0.86
+data dimensions station left right up down
+1	 1.86	 2.76	 1.43	 1.50
+2	 1.28	 2.41	 0.87	 0.54
+3	 1.27	 3.72	 0.92	 1.70
+4	 0.45	 1.09	 0.00	 0.90
+5	 0.47	12.22	 5.74	 1.35
+6	 0.00	 2.52	 1.89	 2.17
+7	 1.97	 0.59	 2.36	 1.62
+8	 2.51	 0.00	 4.78	 0.69
+9	 0.00	 0.00	 0.00	 0.00
+10	 0.00	 0.00	 0.00	 0.00
+11	 0.00	 0.00	 0.00	 0.00
+12	 0.00	 0.00	 0.00	 0.00
+endcenterline
+  endsurvey
+survey 10
+ centerline
+##export 0 2
+date 2019.04.30
+0	1	 9.23	204.52	-10.00
+1	2	 4.04	211.52	-11.00
+2	3	 7.63	319.53	-40.26
+data dimensions station left right up down
+0	 0.00	 0.57	 5.41	 1.87
+1	 1.01	 0.34	 0.69	 0.79
+2	 0.28	 1.74	 2.20	 0.74
+3	 2.95	 2.87	 3.14	 1.40
+endcenterline
+  endsurvey
+survey 11
+ centerline
+##export 0
+date 2019.04.30
+0	1	 5.26	  8.60	-34.40
+1	2	 3.53	340.51	-29.71
+2	3	 3.16	354.06	 17.48
+data dimensions station left right up down
+0	 0.43	 2.20	 2.18	 1.55
+1	 1.22	 0.58	 0.00	 3.16
+2	 0.00	 0.57	 1.77	 1.42
+3	 0.48	 0.68	 0.28	 1.97
+endcenterline
+  endsurvey
+survey 12
+ centerline
+##export 0 2
+date 2019.04.30
+0	1	 4.70	164.46	 35.79
+1	2	 5.90	173.86	 28.01
+2	3	 8.91	182.87	 36.79
+3	4	 5.14	221.11	 -2.25
+data dimensions station left right up down
+0	 2.16	 0.49	 2.16	 1.53
+1	 2.89	 2.75	 5.40	 1.09
+2	 1.74	 0.33	 1.98	 1.16
+3	 0.00	 1.06	 0.00	 0.97
+4	 4.21	 5.68	 7.46	 1.08
+endcenterline
+  endsurvey
+survey 13
+ centerline
+##export 0 4
+date 2019.04.30
+0	1	 3.97	300.34	-20.76
+1	2	 4.57	269.63	-21.85
+2	3	 4.62	  2.76	-16.81
+3	4	 8.54	236.61	-36.99
+data dimensions station left right up down
+0	 0.00	 1.22	 1.69	 1.50
+1	 2.42	 0.89	 0.50	 1.27
+2	 0.00	 6.65	 1.76	 0.96
+3	 3.28	 0.00	 1.25	 3.44
+endcenterline
+  endsurvey
+survey 14
+ centerline
+##export 0
+date 2019.04.30
+0	1	 4.53	125.72	 11.99
+1	2	 3.22	150.31	 27.80
+2	3	 1.56	108.78	 11.23
+3	4	 0.93	114.51	-29.98
+5	4	 1.90	212.51	 53.05
+6	5	 3.26	  9.32	 58.20
+6	7	 3.74	131.24	-73.02
+data dimensions station left right up down
+0	 1.16	 0.30	 1.96	 1.33
+1	 0.00	 0.77	 0.38	 0.00
+2	 5.17	 0.00	 0.42	 0.96
+3	 1.04	 3.87	 1.11	 0.55
+4	 0.85	 0.58	 2.30	 3.57
+data dimensions station left right up down
+6	 0.00	 0.35	 0.76	 3.35
+5	 0.00	 0.00	 3.97	 2.10
+4	 0.85	 0.58	 2.30	 3.57
+data dimensions station left right up down
+6	 0.35	 0.00	 0.76	 3.35
+7	 0.42	 2.05	 2.86	 1.19
+endcenterline
+  endsurvey
+endsurvey

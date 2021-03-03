@@ -1,0 +1,6 @@
+*begin ipois_master
+*include ipois_cave.svx
+
+*fix ipois_cave.23 259477 447834 58 ; estimated fixed point not gps checked
+
+*end ipois_master

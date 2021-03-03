@@ -1,0 +1,5 @@
+source leftovers.th
+
+export model -o leftovers.3d
+export model -o leftovers.lox
+export map -o leftovers.pdf

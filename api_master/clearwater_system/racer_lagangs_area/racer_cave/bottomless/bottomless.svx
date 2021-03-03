@@ -1,0 +1,15 @@
+;simon's cave
+*begin bottomless
+*export s6
+*units tape feet
+*date 1990.08.22
+*team ajb notes
+*team "njt instruments
+*team sl tape
+;declination: 1.5 format: dmmdlrudlad
+
+*data normal from to tape compass clino
+s6	s6a	72.18	29 0.5
+*data passage station left up down right
+s6	26.25	19.68	6.56	9.84
+*end bottomless

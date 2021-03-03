@@ -1,0 +1,11 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 190.90m (surface 0.00m, duplicated 0.00m)\nvertical range: 32.41m (from 15a@strapless at 32.41m to m0@strapless at 0.00m)\nnorth-south range: 104.05m (from m0@strapless at 0.00m to 14b@strapless at -104.05m)\neast-west range: 65.47m (from 0@strapless at 10.60m to 14b@strapless at -54.87m)\nnumber of shots: 21\nnumber of stations: 22"
+xth_cp_data_tree_insert 19 1 1 strapless strapless "" "" "length: 190.90m (surface 0.00m, duplicated 0.00m)\nvertical range: 32.41m (from 15a@strapless at 32.41m to m0@strapless at 0.00m)\nnorth-south range: 104.05m (from m0@strapless at 0.00m to 14b@strapless at -104.05m)\neast-west range: 65.47m (from 0@strapless at 10.60m to 14b@strapless at -54.87m)\nnumber of shots: 21\nnumber of stations: 22"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_create
+xth_cp_comp_stat 191 1
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1586785781
+

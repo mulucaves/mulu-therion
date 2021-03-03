@@ -1,0 +1,15 @@
+survey elevationsurveycheck7
+	centreline
+		date 2009.2.15
+		data normal from to tape compass clino ignoreall
+		r13	r14	18.5	321	-21
+		r14	r15	8	231	-23
+		r15	r16	2.6	273	-12	
+		r16	r17	6.5	221	-27
+		r17	r18	5.4	301	-24
+		r18	r19	17.5	022	-15
+		r19	r20	25.4	041	6
+		r20	r21	46.8	044	0
+		r21	r22	11.8	323	-19
+	endcentreline
+endsurvey

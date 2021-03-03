@@ -1,0 +1,62 @@
+therion 5.4.4+4cb2921 (2020-04-05)
+initialization file: /home/ben/.therion/therion.ini
+reading ... done
+checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... OK
+checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... OK
+configuration file: thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.2.43
+ 2> Copyright © 1990-2020 Olly Betts
+ 3> Survey has no fixed points. Therefore I’ve fixed 1 at (0,0,0)
+ 4> 
+ 5> Survey contains 127 survey stations, joined by 126 legs.
+ 6> There is 1 loop.
+ 7> Survey has 2 connected components.
+ 8> Total length of survey legs =  528.83m ( 528.83m adjusted)
+ 9> Total plan length of survey legs =  443.70m
+10> Total vertical length of survey legs =  224.76m
+11> Vertical range = 178.94m (from 32 at 2.14m to 110 at -176.80m)
+12> North-South range = 151.41m (from 118 at 56.54m to 56 at -94.87m)
+13> East-West range = 284.99m (from 55 at 73.78m to 100 at -211.21m)
+14>  104 1-nodes.
+15>    1 2-node.
+16>    1 4-node.
+17>    3 5-nodes.
+18>   11 6-nodes.
+19>    2 7-nodes.
+20>    2 8-nodes.
+21>    2 10-nodes.
+22>    1 11-node.
+23> 
+######################### transcription ########################
+ 3> 1 : 20@baba_yaga
+ 5> 127 : 42e@baba_yaga -- 126 : 42d@baba_yaga
+ 6> 1 : 20@baba_yaga
+ 7> 2 : 20a@baba_yaga
+11> 32 : 25g@baba_yaga -- 110 : 39d@baba_yaga
+12> 118 : 41a@baba_yaga -- 56 : 30e@baba_yaga
+13> 55 : 30d@baba_yaga -- 100 : 38d@baba_yaga
+14> 104 : 37g@baba_yaga
+15> 1 : 20@baba_yaga
+16> 1 : 20@baba_yaga
+17> 3 : 20b@baba_yaga
+18> 11 : 22@baba_yaga
+19> 2 : 20a@baba_yaga
+20> 2 : 20a@baba_yaga
+21> 2 : 20a@baba_yaga
+22> 1 : 20@baba_yaga
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+writing baba_yaga.3d ... done
+compilation time: 1 sec

@@ -1,0 +1,14 @@
+*begin endofmez
+*export s126
+*units tape feet
+*date 1991.08.24
+*team aw
+*team rw
+*team paris
+*data normal from to tape compass clino
+s126	s126a	57.74	195.5	-17
+s126a	s126b	66.93	116	-52
+s126b	s126c	98.43	13	-31
+s126c	s126d	65.62	7.5	-5
+s126d	s8	63.32	294.5	-2.5
+*end endofmez

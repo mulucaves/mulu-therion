@@ -1,0 +1,2 @@
+source surprisingly_obvious_master.th
+export model -o surprisingly_obvious_master.3d

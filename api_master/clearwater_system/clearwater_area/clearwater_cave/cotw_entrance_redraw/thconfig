@@ -1,0 +1,5 @@
+source cotw_entrance_redraw.th
+
+export model -o cotw_entrance_redraw.3d
+export model -o cotw_entrance_redraw.lox
+export map -o cotw_entrance_redraw.pdf

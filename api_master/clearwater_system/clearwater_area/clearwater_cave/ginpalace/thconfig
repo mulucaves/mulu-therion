@@ -1,0 +1,5 @@
+source ginpalace.th
+
+export model -o ginpalace.3d
+export model -o ginpalace.lox
+export map -o ginpalace.pdf

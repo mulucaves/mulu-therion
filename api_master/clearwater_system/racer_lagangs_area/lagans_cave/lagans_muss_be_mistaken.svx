@@ -1,0 +1,32 @@
+*begin lagans_muss_be_mistaken
+
+*export 421	;link to lagans main survey
+*export 0	;link to leopard psg 1 and bit on the side 57
+
+*date 2012.4.13
+*team fran white jason lin junhan
+
+1	0	35.46	210	0 	;original survex 35.46 m shortening these puts the link to 4-21 main in the right place pls 23/12/16
+					; confirm dw jan 2017 the mutual muss bot side and leoprad psg surveys are all from station at top of pitch. pls jan 2017
+1	2	27.9	030	0
+2	3	8.14	355	-8
+3	4	20.13	313	4
+4	5	8.09	328	5
+5	6	4	091	-10
+6	7	6.14	013	-63
+7	8	8.55	044	-20
+
+5	9	10.26	344	-5
+9	10	15.98	024	-5
+10	11	6.16	345	45
+
+*flags duplicate	;these are the legs along the side of the main psg. tthey may actually be seprate psg???? check pls jan 2017
+11	12	13.53	044	-4
+12	13	5.0	005	5.5
+13	14	17.6	001	-2
+14	421	16.3	043	-10
+
+;fjt 17/4/17 station 421 is believed to roughly corrospond to legans_entrance.4_21 (the more accurate re-survey showcave2017.svx did not find station.4_21) the closure error is 53.07m, this signifecently distorts the main passage survey.
+; the opinion of fjt is that there is a leg missing, backwards or a junction mis-connected, this loop; therfore has not ben connected in survex and need re-surveying.
+
+*end lagans_muss_be_mistaken

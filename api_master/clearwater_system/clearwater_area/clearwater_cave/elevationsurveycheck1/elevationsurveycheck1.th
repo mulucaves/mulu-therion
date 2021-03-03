@@ -1,0 +1,20 @@
+survey elevationsurveycheck1
+	centreline
+		date 2009.2.15
+		data normal from to tape compass clino ignoreall
+		r0	r0a	37.6	59	6
+		r0	r0b	38.4	200	5
+		r0	r0c	54	197	6
+		r0	r1	26.3	317	-24
+		r1	r2	18.7	352	-8
+		r2	r3	36.2	256	-1
+		r3	r4	20.7	291	2
+		r4	r5	47.6	5	0
+		r5	r6	34.1	249	-5
+		r6	r7	21.3	296	0
+		r7	r8	28.5	42	-3
+		r8	r9	26.4	73	-37	#	r8 is top of pitch
+		r9	r10	9.7	310	-9	#	r9 is st27 1989 boothroyd and fogg
+		r10	r11	15.8	295	-18
+	endcentreline
+endsurvey

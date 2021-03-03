@@ -1,0 +1,5 @@
+source quatermass2.th
+
+export model -o quatermass2.3d
+export model -o quatermass2.lox
+export map -o quatermass2.pdf

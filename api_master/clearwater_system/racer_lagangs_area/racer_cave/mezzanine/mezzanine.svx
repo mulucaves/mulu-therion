@@ -1,0 +1,17 @@
+*begin mezzanine
+*export s124 s126
+*units tape feet
+*date 1990.08.25
+*team rw
+*team njt
+*team pn
+
+*data normal from to tape compass  clino ignoreall
+s124	s126	73.16	350	7
+s126	s127	48.88	45.5	22
+
+*data passage station left up down right
+s124	2 18	1.5	0
+s126	2 20	1.5	0
+
+*end mezzanine

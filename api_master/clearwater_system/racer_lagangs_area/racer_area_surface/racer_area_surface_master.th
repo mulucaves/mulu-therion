@@ -1,0 +1,44 @@
+survey racer_area_surface_master
+##export helipad_to_lagangs.55
+##export helipad_to_lagangs.79
+##export surface_racertocowpete.0
+##export eastersurface.34
+##export racertotjunction.40
+##export racertotjunction.51
+##export surprisingly_obvious_totjunction.0
+input helipad_to_lagangs.th
+input racertotjunction.th
+input eastersurface.th
+input surface_racertocowpete.th
+input surprisingly_obvious_totjunction.th
+equate 0@helipad_to_lagangs hq_helipad_kd
+equate 82@racertotjunction 55@helipad_to_lagangs
+equate 0@racertotjunction 0@surface_racertocowpete
+equate 26@surprisingly_obvious_totjunction 55@helipad_to_lagangs
+equate 30@racertotjunction 0@eastersurface
+equate 47@surface_racertocowpete c_o_w_lower_ent
+centerline
+fix helipad_to_lagangs.99 258626 447660 33.3
+ endcenterline
+
+centerline
+fix helipad_to_lagangs.79 258431 447988 39.8
+ endcenterline
+
+centerline
+fix eastersurface.34 258905 448591 128.0
+ endcenterline
+
+centerline
+fix surface_racertocowpete.0 258807 448770 27.9
+ endcenterline
+
+centerline
+fix hq_helipad_kd 0257218.28 447151.22 23.94
+ endcenterline
+
+centerline
+fix c_o_w_lower_ent 259115.520 449172.917 28.336
+ endcenterline
+
+endsurvey

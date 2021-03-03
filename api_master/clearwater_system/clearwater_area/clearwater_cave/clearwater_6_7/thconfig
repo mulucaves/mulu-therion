@@ -1,0 +1,6 @@
+source clearwater_6_7.th
+input ../layoutscales.thc
+
+export model -o clearwater_6_7.3d
+export model -o clearwater_6_7.lox
+export map -o clearwater_6_7.pdf -layout LayoutScale10000

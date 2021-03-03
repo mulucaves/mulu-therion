@@ -1,0 +1,12 @@
+encoding  utf-8
+source volcano.th
+input ../../common_layout.th
+layout layout
+  copy common
+  scale 1 2000
+  scale-bar 250 metres
+endlayout
+
+select volcano_m
+
+export map -o ../output/volcano.pdf -layout layout -layout water-blue

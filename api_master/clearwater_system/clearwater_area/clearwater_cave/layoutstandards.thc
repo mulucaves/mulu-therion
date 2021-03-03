@@ -1,0 +1,606 @@
+encoding  utf-8
+#FILENAME: LayoutStandards.thc
+#=================================
+
+#REDFINE LEGEND & OTHER OUTPUT ELEMENT TEXT
+#==========================================
+#The text statements below can only be read in a th-config file OUTSIDE of a layout block.
+# As this file is called up by an 'input' statement in our standard th-config files placing
+# it here allows us to always have it without putting it in EVERY thconfig file
+
+#custom entities
+text en "line u:rope"            "rope" #text to appear in legend 
+
+#redefined built-in phrases
+#text en "line arrow"             ""   #no point in labelling these
+text en "point no-equipment"     "no equipment"
+text en "point raft"             "calcite raft"
+text en "point water"            "water, small pool"
+text en "point water-flow:paleo" "paleo water flow (scallops)"
+text en "point paleo-material"   "paleo material, bones"
+text en "point archeo-material"  "archaeological material"
+text en "line ceiling-step"      "ceiling step"
+text en "point height"           "floor step/chimney/pit height/depth"
+text en "point height:unsigned"  "floor step height"
+text en "point passage-height:both" "height above, depth below water"
+text en "point narrow-end"       "passage end, narrow"
+text en "point low-end"          "passage end, low"
+text en "point clay-choke"       "clay/mud choke"
+text en "point blocks"           "blocks, breakdown"
+text en "line wall:blocks"       "blocks, breakdown"
+text en "area blocks"            "blocks, breakdown"
+text en "point sand"             "sand, silt"
+text en "line wall:sand"         "sand, silt"
+text en "area sand"              "sand, silt"
+text en "point clay"             "clay, mud"
+text en "line wall:clay"         "clay, mud"
+text en "area clay"              "clay, mud"
+#text en "area flowstone"         "flowstone"
+#text en "area moonmilk"          "moonmilk"
+text en "point gradient"         "gradient/slope"
+text en "line gradient"          "gradient/slope"
+text en "point station:fixed"    "fixed survey station, cairn"
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+#Edited Bruce Mutton 20 Mar 2012 Rationalised file format
+
+#STANDARD LAYOUTS; Layout setting defaults or those not usually changed; May be overridden within the calling thconfig file
+#================
+layout LayoutStandard # Make settings that apply to map AND atlas outputs
+#--------------------
+  
+  #PAGE LAYOUT
+  #-----------  
+  north grid             # set true or grid north (+ rotate value) parellel to paper edge
+  rotate  60           # map orientation on page
+  scale 1 1000          # Adopted default = 1000
+  #base-scale 1 1000   # to equal scale unless outputs to be photo enlarged or reduced
+                       #leave base-scale undefined in standard  
+  scale-bar 1000 m  
+  units metric 
+  grid-size 100 100 100 metres  # coordinate grid
+  grid bottom                  # plots grid under cave passage   
+  
+  # grid-coords border  #label grids on GRID border intersections only
+   grid-coords all          #label grids on all grid intersections     
+  
+###  overlap 2 cm        # empty border around the page  
+# above line disturbs atlas formats therefore use ONLY in lowest level specific plan or elev layouts
+ 
+  #MAP HEADER
+  #Map Headers:> these are to be set in calling thconfig file by preference
+  #----------  
+  #LEGEND
+  
+  language en_UK  # English, UK only changes line pit to pitch (from pit), more like NZ usage
+  legend on        # on = symbols used in outputs only, all = all possible symbols
+  colour-legend on
+  legend-width 14 cm # default 14cm 
+  legend-columns 2   
+  
+  #CAVE APPEARANCE
+  #---------------  
+  #symbol-set #leave as default, which uses a variety of the following;
+  # UIS, BCRA, NSS, ASF, CCNP, SKBB  
+  
+  #Adopt passage slope 'fat triangle arrows' in favour of default skinny arrows
+  symbol-assign line gradient BCRA
+  symbol-assign point gradient BCRA
+  
+  # symbol-assign area blocks AUT # this one is too dense
+  symbol-assign line wall:blocks AUT  
+  symbol-assign point blocks AUT
+  
+  symbol-assign area debris AUT   
+  symbol-assign line wall:debris AUT  
+  symbol-assign point debris AUT  
+  
+  # symbol-assign area sand AUT    #area sand redefined below
+  symbol-assign line wall:sand AUT  
+  symbol-assign point sand AUT   
+  
+  #symbol-assign line wall:clay AUT  #prefer SKBB clay but with lighter line
+  
+  # symbol-show group all  
+  # symbol-hide group cave-centreline 
+  # above line (symbol-hide) will cause Therion to hang if no scraps are present
+  # because there is nothing to plot!!
+
+  colour map-fg [97 86 38] # yellow brown
+  # colour map-fg 90    # Shading in cave passage, <altitude>, <scrap>, <map> 90 = dark grey
+  colour preview-below 80    #0 = black 100 =  white
+  colour preview-above 80    #0 = black 100 =  white
+  colour labels off   
+  transparency on     # see thru passages
+  opacity 80         # degree of transparency  
+                      #00 = transparent, 100 = block out
+                      #40 = subtle, 60 - 70 = apparent: overwritten text still visible
+                      #80 = good passage definition but overwritten text barely visible  
+              
+#CODE TO MAKE UNSURVEYED WALL LINES LIGHT-WEIGHT AND DASHED
+#---------------------------------------------------------------
+code metapost
+%Bruce Mutton 2010.06.20 for Therion 5.3.8
+def l_wall_unsurveyed (expr P) = 
+  T:=identity;
+  pickup PenC;
+  thdraw P dashed evenly scaled (2*optical_zoom);
+enddef;
+endcode
+
+#CODE TO MAKE AREA AUT SAND MORE SPACED OUT AND MORE RANDOM
+#----------------------------------------------------------
+code metapost
+%Bruce Mutton 2010.06.20, after original author Georg Pacher
+%for Therion 5.3.8
+beginpattern(pattern_sand);
+    pickup PenC;
+    p:= origin -- (0.01u,0.01u);
+    for i=0.0u step 0.4u until 2.4u:  %AUT is step 0.2u 
+        for j=0.0u step 0.4u until 2.4u:  %AUT is step 0.2u 
+          draw p rotated uniformdeviate(360) 
+           shifted ((i,j) randomized 0.4u);  %%AUT is 0.09u
+        endfor;
+    endfor;
+    if BaseScale<=2.5:
+      my_step:=2.6u;  %mystep controls tessilation pattern, must synchronise with i, j above, was 2.4u
+    else:
+      my_step:=2.8u;  %was 2.6u
+    fi;
+    patternstep(my_step,my_step);       
+endpattern;
+
+def a_sand (expr Path) =
+  T:=identity;
+  %thclean Path; %makes passage colour more intense under area, not good for sand
+  thfill Path withpattern pattern_sand ;
+enddef;
+endcode
+
+#CODE TO DEFINE NZSS TYPE LINE WALL PRESUMED
+#-------------------------------------------
+code metapost
+%Bruce Mutton 2010.06.20 uses general code and adjust_step defined in therion source code by Martin Budaj
+%for Therion 5.3.8
+def l_wall_presumed (expr P) =
+  T:=identity;
+  cas := 0;                                 % cursor to step along path
+  dlzka := arclength P;
+  mojkrok:=adjust_step(dlzka, 1.5u);        % symbol length nudged to be multiple of path length
+  q  := (-0.2u,-0.4u)--(0,0)--(0.2u,-0.4u); % define v shape 
+  forever:
+    t1 := arctime (cas + mojkrok*1/5) of P;
+    t  := arctime (cas + mojkrok/2) of P;
+    t2 := arctime (cas + mojkrok*4/5) of P;
+      pickup PenA;                          % thick
+  thdraw (subpath (t1,t2) of P);          % dash
+    pickup PenC;                          % thin
+    thdraw q rotated angle(thdir(P,t)) shifted (point t of P ); % v shape
+  
+    cas := cas + mojkrok;
+    exitif cas > dlzka - (2*mojkrok/3);     % for rounding errors
+  endfor;
+enddef;
+endcode 
+
+#CODE TO REDFINE AREA AND POINT WATER
+#------------------------------------
+#Patterns similar to standard definition of pattern_water_UIS and pattern_sump_UIS
+#Gives b&w shaded symbols with borders, unless custom colours are defined
+#in which case colour backgrounds defined in LayoutColourSymbols are used
+code metapost
+beginpattern(pattern_water);
+    draw origin--10up withpen pensquare scaled (0.04u); % line thickness
+    patternxstep(.50u);                                 % spacing
+    patterntransform(identity rotated 45);
+endpattern;
+
+beginpattern(pattern_sump);
+    draw origin--(0,.50u) withpen pensquare scaled (0.04u);
+    draw origin--(.50u,0) withpen pensquare scaled (0.04u);
+    patterntransform(identity rotated 45);  
+endpattern;
+
+
+def p_water (expr pos,theta,sc,al)=
+%Bruce Mutton 2010.06.20 for Therion 5.3.8
+    U:=(.425u,.3u);
+    T:=identity aligned al rotated theta scaled sc shifted pos;
+    pickup PenD;
+    p:=fullcircle xscaled (1.2u) yscaled (0.8u) randomized (0.1u) rotated uniformdeviate (-45);
+    if known colour_water_bg: thfill p withcolor colour_water_bg; else: thfill p withcolor white; fi; 
+    thfill p withpattern pattern_water; %%% withcolor black;  %but with failed attempt at black hatch
+    thdraw p;   %outline
+enddef; 
+
+def a_water (expr Path) =
+%Bruce Mutton 2010.06.20 for Therion 5.3.8
+  T:=identity;
+  thclean Path;
+  pickup PenD;
+  if known colour_water_bg: thfill Path withcolor colour_water_bg; else: thfill Path withcolor white; fi; 
+  thfill Path withpattern pattern_water;  
+  %%thdraw Path;  %outline, not needed as area drawn is defined by line border anyway
+   %and border can be made invisible with subtype invisible where water meets sump in elevation
+enddef;
+
+def a_sump (expr Path) =
+%Bruce Mutton 2010.06.20 for Therion 5.3.8
+  T:=identity;
+  thclean Path;
+  pickup PenD;
+  if known colour_sump_bg:  thfill Path withcolor colour_sump_bg; else: thfill Path withcolor 0.7white; fi;
+  thfill Path withpattern pattern_sump;  
+  %%thdraw Path;  %outline, not needed as area drawn is defined by line border anyway
+   %and border can be made invisible with subtype invisible where water meets sump in elevation
+enddef;
+endcode
+
+
+#CODE TO CHANGE GRID SYMBOLS FROM CROSS HAIRS TO CONTINOUS LINES
+#---------------------------------------------------------------
+code metapost
+def s_hgrid (expr xpos, ypos, xsize, ysize) =
+  pickup PenD;
+  draw (
+    if xpos < 0: 0 else: -xsize/2 fi, 0
+  ) -- (
+    if xpos > 0: 0 else: xsize/2 fi, 0
+  ) withcolor 0.1black+0.5white;
+  draw (
+    0, if ypos < 0: 0 else: -ysize/2 fi
+  ) -- (
+    0, if ypos > 0: 0 else: ysize/2 fi
+  ) withcolor 0.1black+0.5white;
+enddef;
+endcode
+
+#CODE TO REDEFINE ENTRANCE SYMBOL
+#-------------------------------=
+code metapost
+def p_entrance (expr pos,theta,sc,al)=
+    U:=(.3u,.25u);
+    T:=identity aligned al scaled sc shifted pos;
+    pickup PenX;
+  if known colour_entrance: thdraw (-.3u,-.25u) -- (-.2u,-.25u){dir 135} .. (0, .25u) .. {dir 225}(.2u,-.25u) -- (.3u,-.25u) withcolor colour_entrance;
+  else: thdraw (-.3u,-.25u) -- (-.2u,-.25u){dir 135} .. (0, .25u) .. {dir 225}(.2u,-.25u) -- (.3u,-.25u);
+  fi;
+enddef;
+endcode
+
+#USER DEFINED LINE ROPE
+#----------------------
+code metapost
+#submitted by Christian Jackson Nov2011
+#modified for colour or black and white Bruce Mutton Nov2011
+def l_u_rope (expr P) =
+  T:=identity;
+  pickup pensquare scaled (1.0*u/10);
+  if known colour_rope: thdraw P withcolor colour_rope; else: thdraw P withcolor 0.1black+0.5white;
+  fi;
+  pickup PenC;
+  thdraw P dashed dashpattern(on 1bp off 2bp on 1bp off 2bp);
+enddef;
+
+initsymbol("l_u_rope")
+
+def l_u_rope_legend =
+  l_u_rope(((.2,.2) -- (.8,.8)) inscale)
+enddef;
+endcode
+
+endlayout LayoutStandard
+
+#+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+#CODE TO MAKE FULL COLOUR SYMBOLS
+#----------------------------
+#experimental layout RBM July 2010
+layout LayoutColourSymbols
+#affects colour symbol linework but not labels and not fills
+  
+  symbol-colour point station [54 7 60]  #purple[54 7 60] #seems to affect +s, flag symbols and station text
+  
+  #survey cave
+  symbol-colour group cave-centreline [35 16 16] # brown [35 16 16] # red brown [50 0 0]
+  symbol-colour point cave-station [35 16 16]  #ineffective?
+  #symbol-colour point station-name [0 100 0]  
+  
+  #survey surface
+  symbol-colour group surface-centreline [54 74 29] # green [54 74 29]
+  symbol-colour point surface-station [54 74 29]  #ineffective?
+  symbol-colour point flag:entrance [54 74 29]  #ineffective?
+  
+  #magenta
+  symbol-colour group equipment  [80 0 40] # magenta [80 0 40]
+  
+  #dark blue
+  # symbol-colour group water  [22 22 95] # this breaks custom water definitions
+  symbol-colour point water-flow  [22 22 95]
+  symbol-colour line water-flow  [22 22 95]  
+  symbol-colour point water [22 22 95]      # inconsistent?
+  # symbol-colour area sump [22 22 95]  # this breaks custom water definitions
+
+  #light blue  
+  # symbol-colour area water [86 100 100]  # this breaks custom water definitions
+  
+  #define colours for redefined water point & area
+  code metapost  
+  %these colours affect fills, not the linework
+    !color colour_water_bg; %! forces interpretation as metapost
+    colour_water_bg := (0.86,1,1);      %light blue
+    !color colour_sump_bg;  %! forces interpretation as metapost
+    colour_sump_bg := (.22,.22,.95);    %dark blue
+  
+    %these colours affect the linework  
+    !color colour_rope;  %! forces interpretation as metapost
+    colour_rope :=  (0.35,0.75,1.0);    %blue  
+    
+  %this colour for redefined entrance symbol (not point station flag entrance)
+    !color colour_entrance;  %! forces interpretation as metapost
+    colour_entrance :=  (0.54,0.74,0.29);      
+    endcode
+endlayout LayoutColourSymbols
+
+
+
+#CODE TO HIDE SMALL ITEMS
+#------------------------
+#Hides rocks that are too small to look nice at the current scale
+
+layout LayoutHideSmallItems
+#labels
+code metapost
+   
+     % label with minimum text height condition
+     vardef p_label@#(expr txt,pos,rot,mode) =
+       if abs(llcorner txt - ulcorner txt ) > 3pt:  % ie only plots text objects 3 pts and larger
+        p_label_orig@#(txt,pos,rot,mode)
+       else:
+         last_write := charcode    
+       fi;
+     enddef;
+   
+     % original therion label definition
+     vardef p_label_orig@#(expr txt,pos,rot,mode) =
+       if (mode=1) or (mode=7): interim labeloffset:=(u/8) fi;
+       lab:=thelabel@#(txt, pos);
+       if mode>1: pickup PenD fi;
+       if mode=1:
+         pickup pencircle scaled (u/6);
+         drawdot(pos);
+         process_label(pos,0);
+       elseif mode=2: process_uplabel;
+       elseif mode=3: process_downlabel;
+       elseif mode=4: process_updownlabel;
+       elseif mode=5: process_circledlabel;
+       elseif mode=6: process_boxedlabel;
+       elseif mode=7: process_label(pos,rot);  % station name
+       elseif mode=8: process_filledlabel(pos, rot);
+       else: process_label(pos,rot); fi;
+     enddef;
+
+   endcode
+   
+
+#Rocks
+code metapost
+  def l_rockborder (expr p) =
+    if abs(llcorner p - urcorner p) > u:
+      l_rockborder_UIS(p);
+    fi;
+  enddef;
+  
+  def l_rockedge (expr p) =
+    if abs(llcorner p - urcorner p) > u:
+      l_rockedge_UIS(p);
+    fi;
+  enddef;
+endcode
+endlayout LayoutHideSmallItems
+
+#CODE TO ADD SCALE TEXT TO SCALEBAR
+#----------------------------------
+
+layout LayoutScalebar1  # Scalebar by Thomas Holder
+code metapost
+  def s_scalebar (expr l, units, txt) =
+  % l = value of scale-bar length
+  % units = ??
+  % txt = string representing units
+    begingroup
+      interim warningcheck:=0;
+      tmpl:=l / Scale * cm * units / 2;
+  % tmpl = half plotted length of scale bar from central top insertion point  
+      tmpx:=l / Scale * cm * units / 5;
+      tmph:=5bp; % bar height
+    endgroup;
+    pickup PenC;
+    draw (-tmpl,0)--(tmpl,0)--(tmpl,-tmph)--(-tmpl,-tmph)--cycle;
+    p:=(0,0)--(tmpx,0)--(tmpx,-tmph)--(0,-tmph)--cycle;
+    for i:=-2.5 step 2 until 2:
+      fill p shifted (i * tmpx,0);
+    endfor;
+    begingroup
+      interim labeloffset:=3.5bp;
+      for i:=0 step (l/5) until ( l-1 ):   % 0.3*l: %  %  0.9*l: alternative exit criteria 
+      tmpx:=tmpl * (i * 2 / l - 1); % crashes here if scale bar plotted is too long or too short
+        label.top(thTEX(decimal (i)),(tmpx,0)); 
+      endfor;
+      label.top(thTEX(decimal (l) & "\thinspace" & txt),(tmpl,0));
+      label.bot(thTEX( "Original Scale  1 : " & decimal (Scale*100)),(0,-tmph));
+    endgroup;
+  enddef;
+endcode
+endlayout LayoutScalebar1
+
+
+#CODE TO DISPLAY CONTINUATIONS (LEADS)
+#------------------------------------
+layout LayoutShowContinuationQmarkOnly
+  #Show question marks only where continuations 
+  #are flagged in survey or scrap
+  
+  symbol-show point flag:continuation
+ 
+endlayout LayoutShowContinuationQmarkOnly
+
+layout LayoutShowContinuationFullText
+  #Show full text highlighted in pink where continuations
+  # are flagged in survey or scrap
+  
+  code metapost
+    def p_continuation(expr pos,theta,sc,al) =
+      % draw default continuation symbol ie ?
+      p_continuation_UIS(pos,theta,sc,al);
+      % if text attribute is set
+      if known(ATTR__text) and picture(ATTR__text):
+      % set labeling color to light orange
+      push_label_fill_color(1.0, 0.9, 0.8);
+      % draw filled label with text next to symbol ?
+      p_label.urt(ATTR__text,(.5u,-.25u) transformed T,0.0,8);
+      % restore original labeling color
+      pop_label_fill_color;
+      fi;
+    enddef;
+  endcode
+  symbol-show point flag:continuation
+  
+  
+endlayout LayoutShowContinuationFullText
+
+#CODE TO PUT BORDER AROUND MAP
+#-----------------------------
+layout LayoutMapBorder
+code tex-map
+  \framethickness=0.5mm
+endlayout LayoutMapBorder
+
+#CODE TO CUSTOMISE PDF MAP OUTPUT
+#------------------------------
+layout LayoutExperimentalHeader
+#This code is experimental redefinition of map header
+#Bruce Mutton 25Jun2011 Therion 5.3.8
+
+# date and version temporarily entered manually in thconfig file
+
+#this one affects maps only
+code tex-map
+% start bruces addition
+\newtoks\thversiontitleA \thversiontitleA={Compiled}
+\newtoks\thversiontitleB \thversiontitleB={Therion }
+\newtoks\datetitle \datetitle{ on }
+% end bruces addition
+\legendcontent={%
+  \hsize=\legendwidth
+  \color[0 0 0]\the\legendtextcolor 
+  \ifnortharrow\vbox to 0pt{\line{\hfil\northarrow}\vss}\fi
+  \edef\tmp{\the\cavename} \ifx\tmp\empty \else
+     {\the\legendtextheadersize\the\cavename}\vskip1cm
+  \fi
+  \ifscalebar\scalebar\vskip1cm\fi
+  {\rightskip=0pt plus 3em\parskip=3bp
+    \edef\tmp{\the\comment} \ifx\tmp\empty \else
+      {\the\legendtextsize\the\comment} \par\medskip
+    \fi
+    \everypar{\hangindent=2em\hangafter=1}
+    \edef\tmp{\the\cavelength} \ifx\tmp\empty \else
+      {\the\legendtextsize\si\the\cavelengthtitle: \ss\the\cavelength\par}
+    \fi
+    \edef\tmp{\the\cavedepth} \ifx\tmp\empty \else
+      {\the\legendtextsize\si\the\cavedepthtitle: \ss\the\cavedepth\par}
+    \fi
+    \edef\tmp{\the\exploteam} \ifx\tmp\empty \else
+      {\the\legendtextsize\si\the\explotitle: \ss\the\exploteam\quad\si\the\explodate\par}
+    \fi
+    \edef\tmp{\the\topoteam} \ifx\tmp\empty \else
+      {\the\legendtextsize\si\the\topotitle: \ss\the\topoteam\quad\si\the\topodate\par}
+    \fi
+    \edef\tmp{\the\cartoteam} \ifx\tmp\empty \else
+      {\the\legendtextsize\si\the\cartotitle: \ss\the\cartoteam\quad\si\the\cartodate\par}
+    \fi
+  % start bruces addition
+    \edef\tmp{\the\thversion} \ifx\tmp\empty \else  %only write version and date if version is not emplty
+      {\the\legendtextsize\si\the\thversiontitleA: \ss\the\thversiontitleB \ss\the\thversion}
+    % \fi 
+    % \edef\tmp{\the\today} \ifx\tmp\empty \else
+      {\the\legendtextsize\ss\the\datetitle {\ss\the\day } \ss\endate{\month} \the\year \par}
+    \fi   
+  % end bruces addition
+    \edef\tmp{\the\copyrights} \ifx\tmp\empty \else
+      {\the\legendtextsize\ss\the\copyrights\par}
+    \fi  
+  }
+  \formattedlegend
+  \color[0 0 0]
+}
+
+\def\endate#1{%           from http://www.alfredklomp.com/programming/tex/macros/
+    \ifcase#1%            Translate month number to name
+        \or January %
+        \or February %
+        \or March %
+        \or April %
+        \or May %
+        \or June %
+        \or July %
+        \or August %
+        \or September %
+        \or October %
+        \or November %
+        \or December %
+    \fi%
+}
+endcode
+
+#this one affects atlas only
+#but seems to be ineffective so far??
+code tex-atlas
+% start bruces addition
+\newtoks\thversiontitleA \thversiontitleA={Compiled with}
+\newtoks\thversiontitleB \thversiontitleB={Therion version }
+\newtoks\datetitle \datetitle{ on }
+% end bruces addition
+\def\atlastitlepages{
+  \edef\tmp{\the\cavename} \ifx\tmp\empty \else
+%    \TITLE{\the\cavename}
+    {\size[20]\the\cavename} \par\medskip  
+  \fi
+%  {\rightskip=0pt plus 3em\parskip=3bp
+    \edef\tmp{\the\comment} \ifx\tmp\empty \else
+      {\size[12]\the\comment} \par\medskip
+    \fi
+%    \everypar{\hangindent=2em\hangafter=1}
+    \edef\tmp{\the\exploteam} \ifx\tmp\empty \else
+      {\size[12]\si\the\explotitle: \ss\the\exploteam\par}
+    \fi
+    \edef\tmp{\the\topoteam} \ifx\tmp\empty \else
+      {\size[12]\si\the\topotitle: \ss\the\topoteam\par}
+    \fi
+    \edef\tmp{\the\cartoteam} \ifx\tmp\empty \else
+      {\size[12]\si\the\cartotitle: \ss\the\cartoteam\par}
+    \fi
+    \edef\tmp{\the\copyrights} \ifx\tmp\empty \else
+      {\size[12]\ss\the\copyrights\par}
+    \fi
+  % start bruces addition
+    \edef\tmp{\the\thversion} \ifx\tmp\empty \else
+      {\the\legendtextsize\si\the\thversiontitleA: \ss\the\thversiontitleB \ss\the\thversion}
+    \fi 
+    \edef\tmp{\the\today} \ifx\tmp\empty \else
+      {\the\legendtextsize\ss\the\datetitle \ss\day \month \year \par}
+    \fi   
+  % end bruces addition  
+    \edef\tmp{\the\cavelength} \ifx\tmp\empty \else
+      {\the\legendtextsize\si\the\cavelengthtitle: \ss\the\cavelength\par}
+    \fi
+    \edef\tmp{\the\cavedepth} \ifx\tmp\empty \else
+      {\the\legendtextsize\si\the\cavedepthtitle: \ss\the\cavedepth\par}
+    \fi
+%  }
+}
+endcode
+endlayout LayoutExperimentalHeader
+#!END
+

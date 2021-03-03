@@ -1,0 +1,3353 @@
+therion 5.4.1 (2017-04-18)
+initialization file: /etc/therion.ini
+reading ... done
+checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... OK
+checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... OK
+configuration file: thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.2.33
+ 2> Copyright © 1990-2017 Olly Betts
+ 3> /tmp/th12915/data.svx:341: warning: Unused fixed point “565”
+ 4> /tmp/th12915/data.svx:582: warning: Unused fixed point “882”
+ 5> /tmp/th12915/data.svx:686: warning: Unused fixed point “933”
+ 6> /tmp/th12915/data.svx:708: warning: Unused fixed point “969”
+ 7> /tmp/th12915/data.svx:794: warning: Unused fixed point “1010”
+ 8> /tmp/th12915/data.svx:826: warning: Unused fixed point “1026”
+ 9> /tmp/th12915/data.svx:943: warning: Unused fixed point “1086”
+10> /tmp/th12915/data.svx:944: warning: Unused fixed point “1087”
+11> /tmp/th12915/data.svx:989: warning: Unused fixed point “1106”
+12> /tmp/th12915/data.svx:1067: warning: Unused fixed point “1143”
+13> /tmp/th12915/data.svx:1148: warning: Unused fixed point “1183”
+14> /tmp/th12915/data.svx:1158: warning: Unused fixed point “1184”
+15> /tmp/th12915/data.svx:1228: warning: Unused fixed point “1218”
+16> /tmp/th12915/data.svx:1240: warning: Unused fixed point “1224”
+17> /tmp/th12915/data.svx:1268: warning: Unused fixed point “1237”
+18> /tmp/th12915/data.svx:1295: warning: Unused fixed point “1252”
+19> /tmp/th12915/data.svx:1296: warning: Unused fixed point “1253”
+20> /tmp/th12915/data.svx:1392: warning: Unused fixed point “1298”
+21> /tmp/th12915/data.svx:1428: warning: Unused fixed point “1325”
+22> /tmp/th12915/data.svx:1541: warning: Unused fixed point “1374”
+23> /tmp/th12915/data.svx:1698: warning: Unused fixed point “1451”
+24> /tmp/th12915/data.svx:1726: warning: Unused fixed point “1463”
+25> /tmp/th12915/data.svx:1825: warning: Unused fixed point “1511”
+26> /tmp/th12915/data.svx:1973: warning: Unused fixed point “1616”
+27> /tmp/th12915/data.svx:2117: warning: Unused fixed point “1658”
+28> /tmp/th12915/data.svx:2144: warning: Unused fixed point “1666”
+29> /tmp/th12915/data.svx:2145: warning: Unused fixed point “1667”
+30> /tmp/th12915/data.svx:2169: warning: Unused fixed point “1681”
+31> /tmp/th12915/data.svx:2215: warning: Unused fixed point “1704”
+32> /tmp/th12915/data.svx:2282: warning: Unused fixed point “1745”
+33> /tmp/th12915/data.svx:2342: warning: Unused fixed point “1769”
+34> /tmp/th12915/data.svx:2361: warning: Unused fixed point “1774”
+35> /tmp/th12915/data.svx:2432: warning: Unused fixed point “1811”
+36> /tmp/th12915/data.svx:2473: warning: Unused fixed point “1833”
+37> /tmp/th12915/data.svx:2491: warning: Unused fixed point “1841”
+38> /tmp/th12915/data.svx:2520: warning: Unused fixed point “1855”
+39> /tmp/th12915/data.svx:2643: warning: Unused fixed point “1933”
+40> /tmp/th12915/data.svx:2650: warning: Unused fixed point “1934”
+41> /tmp/th12915/data.svx:2704: warning: Unused fixed point “1944”
+42> /tmp/th12915/data.svx:2760: warning: Unused fixed point “1968”
+43> /tmp/th12915/data.svx:2812: warning: Unused fixed point “1994”
+44> /tmp/th12915/data.svx:2966: warning: Unused fixed point “2070”
+45> /tmp/th12915/data.svx:2976: warning: Unused fixed point “2075”
+46> /tmp/th12915/data.svx:3008: warning: Unused fixed point “2091”
+47> /tmp/th12915/data.svx:3010: warning: Unused fixed point “2092”
+48> /tmp/th12915/data.svx:3316: warning: Unused fixed point “2242”
+49> /tmp/th12915/data.svx:3328: warning: Unused fixed point “2248”
+50> /tmp/th12915/data.svx:3386: warning: Unused fixed point “2277”
+51> /tmp/th12915/data.svx:3489: warning: Unused fixed point “2333”
+52> /tmp/th12915/data.svx:3619: warning: Unused fixed point “2409”
+53> /tmp/th12915/data.svx:3683: warning: Unused fixed point “2418”
+54> /tmp/th12915/data.svx:3701: warning: Unused fixed point “2427”
+55> /tmp/th12915/data.svx:3707: warning: Unused fixed point “2430”
+56> /tmp/th12915/data.svx:3794: warning: Unused fixed point “2471”
+57> /tmp/th12915/data.svx:3960: warning: Unused fixed point “2553”
+58> /tmp/th12915/data.svx:3984: warning: Unused fixed point “2565”
+59> /tmp/th12915/data.svx:4036: warning: Unused fixed point “2591”
+60> /tmp/th12915/data.svx:4187: warning: Unused fixed point “2671”
+61> /tmp/th12915/data.svx:4216: warning: Unused fixed point “2679”
+62> /tmp/th12915/data.svx:4410: warning: Unused fixed point “2773”
+63> /tmp/th12915/data.svx:4432: warning: Unused fixed point “2784”
+64> /tmp/th12915/data.svx:4467: warning: Unused fixed point “2801”
+65> /tmp/th12915/data.svx:4531: warning: Unused fixed point “2831”
+66> /tmp/th12915/data.svx:4696: warning: Unused fixed point “2931”
+67> /tmp/th12915/data.svx:4741: warning: Unused fixed point “2932”
+68> /tmp/th12915/data.svx:5081: warning: Unused fixed point “3092”
+69> /tmp/th12915/data.svx:5155: warning: Unused fixed point “3146”
+70> /tmp/th12915/data.svx:5168: warning: Unused fixed point “3147”
+71> /tmp/th12915/data.svx:5179: warning: Unused fixed point “3148”
+72> /tmp/th12915/data.svx:5261: warning: Unused fixed point “3200”
+73> /tmp/th12915/data.svx:5275: warning: Unused fixed point “3201”
+74> /tmp/th12915/data.svx:5278: warning: Unused fixed point “3202”
+75> /tmp/th12915/data.svx:5494: warning: Unused fixed point “3308”
+76> /tmp/th12915/data.svx:5517: warning: Unused fixed point “3309”
+77> /tmp/th12915/data.svx:5526: warning: Unused fixed point “3310”
+78> /tmp/th12915/data.svx:5527: warning: Unused fixed point “3311”
+79> /tmp/th12915/data.svx:5543: warning: Unused fixed point “3312”
+80> /tmp/th12915/data.svx:5579: warning: Unused fixed point “3336”
+81> /tmp/th12915/data.svx:5582: warning: Unused fixed point “3337”
+82> /tmp/th12915/data.svx:5585: warning: Unused fixed point “3338”
+83> /tmp/th12915/data.svx:5599: warning: Unused fixed point “3339”
+84> /tmp/th12915/data.svx:5657: warning: Unused fixed point “3365”
+85> /tmp/th12915/data.svx:5684: warning: Unused fixed point “3377”
+86> /tmp/th12915/data.svx:5761: warning: Unused fixed point “3426”
+87> /tmp/th12915/data.svx:5785: warning: Unused fixed point “3427”
+88> /tmp/th12915/data.svx:5806: warning: Unused fixed point “3445”
+89> /tmp/th12915/data.svx:5868: warning: Unused fixed point “3476”
+90> /tmp/th12915/data.svx:5869: warning: Unused fixed point “3477”
+91> /tmp/th12915/data.svx:5887: warning: Unused fixed point “3478”
+92> /tmp/th12915/data.svx:5970: warning: Unused fixed point “3520”
+93> /tmp/th12915/data.svx:6042: warning: Unused fixed point “3548”
+94> /tmp/th12915/data.svx:6164: warning: Unused fixed point “3619”
+95> /tmp/th12915/data.svx:6433: warning: Unused fixed point “3776”
+96> /tmp/th12915/data.svx:6437: warning: Unused fixed point “3777”
+97> /tmp/th12915/data.svx:6517: warning: Unused fixed point “3779”
+98> /tmp/th12915/data.svx:6525: warning: Unused fixed point “3782”
+99> /tmp/th12915/data.svx:6542: warning: Unused fixed point “3793”
+100> /tmp/th12915/data.svx:6543: warning: Unused fixed point “3794”
+101> /tmp/th12915/data.svx:6550: warning: Unused fixed point “3795”
+102> /tmp/th12915/data.svx:6552: warning: Unused fixed point “3796”
+103> /tmp/th12915/data.svx:6559: warning: Unused fixed point “3797”
+104> /tmp/th12915/data.svx:6589: warning: Unused fixed point “3817”
+105> /tmp/th12915/data.svx:6590: warning: Unused fixed point “3818”
+106> /tmp/th12915/data.svx:6598: warning: Unused fixed point “3819”
+107> /tmp/th12915/data.svx:6605: warning: Unused fixed point “3820”
+108> /tmp/th12915/data.svx:6611: warning: Unused fixed point “3821”
+109> /tmp/th12915/data.svx:6614: warning: Unused fixed point “3822”
+110> /tmp/th12915/data.svx:6619: warning: Unused fixed point “3823”
+111> /tmp/th12915/data.svx:6636: warning: Unused fixed point “3831”
+112> /tmp/th12915/data.svx:6640: warning: Unused fixed point “3833”
+113> /tmp/th12915/data.svx:6680: warning: Unused fixed point “3872”
+114> /tmp/th12915/data.svx:6720: warning: Unused fixed point “3873”
+115> /tmp/th12915/data.svx:6790: warning: Unused fixed point “3905”
+116> /tmp/th12915/data.svx:6818: warning: Unused fixed point “3919”
+117> /tmp/th12915/data.svx:6904: warning: Unused fixed point “3961”
+118> /tmp/th12915/data.svx:6916: warning: Unused fixed point “3972”
+119> /tmp/th12915/data.svx:6928: warning: Unused fixed point “3973”
+120> /tmp/th12915/data.svx:6936: warning: Unused fixed point “3977”
+121> /tmp/th12915/data.svx:6941: warning: Unused fixed point “3981”
+122> /tmp/th12915/data.svx:6946: warning: Unused fixed point “3982”
+123> /tmp/th12915/data.svx:7012: warning: Unused fixed point “4032”
+124> /tmp/th12915/data.svx:7022: warning: Unused fixed point “4033”
+125> /tmp/th12915/data.svx:7024: warning: Unused fixed point “4034”
+126> /tmp/th12915/data.svx:7029: warning: Unused fixed point “4035”
+127> /tmp/th12915/data.svx:7045: warning: Unused fixed point “4036”
+128> /tmp/th12915/data.svx:7080: warning: Unused fixed point “4045”
+129> /tmp/th12915/data.svx:7086: warning: Unused fixed point “4046”
+130> /tmp/th12915/data.svx:7092: warning: Unused fixed point “4047”
+131> /tmp/th12915/data.svx:7102: warning: Unused fixed point “4052”
+132> /tmp/th12915/data.svx:7120: warning: Unused fixed point “4061”
+133> /tmp/th12915/data.svx:7143: warning: Unused fixed point “4080”
+134> /tmp/th12915/data.svx:7145: warning: Unused fixed point “4081”
+135> /tmp/th12915/data.svx:7147: warning: Unused fixed point “4082”
+136> /tmp/th12915/data.svx:7166: warning: Unused fixed point “4083”
+137> /tmp/th12915/data.svx:7168: warning: Unused fixed point “4085”
+138> /tmp/th12915/data.svx:7185: warning: Unused fixed point “4093”
+139> /tmp/th12915/data.svx:7233: warning: Unused fixed point “4116”
+140> /tmp/th12915/data.svx:7251: warning: Unused fixed point “4125”
+141> /tmp/th12915/data.svx:7313: warning: Unused fixed point “4156”
+142> /tmp/th12915/data.svx:7576: warning: Unused fixed point “4286”
+143> /tmp/th12915/data.svx:7696: warning: Unused fixed point “4346”
+144> /tmp/th12915/data.svx:7841: warning: Unused fixed point “4416”
+145> /tmp/th12915/data.svx:7944: warning: Unused fixed point “4467”
+146> /tmp/th12915/data.svx:7980: warning: Unused fixed point “4485”
+147> /tmp/th12915/data.svx:7992: warning: Unused fixed point “4491”
+148> /tmp/th12915/data.svx:8028: warning: Unused fixed point “4509”
+149> /tmp/th12915/data.svx:8056: warning: Unused fixed point “4523”
+150> /tmp/th12915/data.svx:8200: warning: Unused fixed point “4632”
+151> /tmp/th12915/data.svx:8291: warning: Unused fixed point “4643”
+152> /tmp/th12915/data.svx:8293: warning: Unused fixed point “4644”
+153> /tmp/th12915/data.svx:8303: warning: Unused fixed point “4645”
+154> /tmp/th12915/data.svx:8306: warning: Unused fixed point “4646”
+155> /tmp/th12915/data.svx:8343: warning: Unused fixed point “4672”
+156> /tmp/th12915/data.svx:8351: warning: Unused fixed point “4673”
+157> /tmp/th12915/data.svx:8357: warning: Unused fixed point “4674”
+158> /tmp/th12915/data.svx:8419: warning: Unused fixed point “4716”
+159> /tmp/th12915/data.svx:8429: warning: Unused fixed point “4717”
+160> /tmp/th12915/data.svx:8459: warning: Unused fixed point “4718”
+161> /tmp/th12915/data.svx:8475: warning: Unused fixed point “4727”
+162> /tmp/th12915/data.svx:8477: warning: Unused fixed point “4728”
+163> /tmp/th12915/data.svx:8478: warning: Unused fixed point “4729”
+164> /tmp/th12915/data.svx:8495: warning: Unused fixed point “4733”
+165> /tmp/th12915/data.svx:8512: warning: Unused fixed point “4741”
+166> /tmp/th12915/data.svx:8592: warning: Unused fixed point “4779”
+167> /tmp/th12915/data.svx:8656: warning: Unused fixed point “4814”
+168> /tmp/th12915/data.svx:8793: warning: Unused fixed point “4870”
+169> /tmp/th12915/data.svx:8818: warning: Unused fixed point “4878”
+170> /tmp/th12915/data.svx:8858: warning: Unused fixed point “4903”
+171> /tmp/th12915/data.svx:8866: warning: Unused fixed point “4904”
+172> /tmp/th12915/data.svx:8919: warning: Unused fixed point “4924”
+173> /tmp/th12915/data.svx:9100: warning: Unused fixed point “5020”
+174> /tmp/th12915/data.svx:9160: warning: Unused fixed point “5043”
+175> /tmp/th12915/data.svx:9239: warning: Unused fixed point “5119”
+176> /tmp/th12915/data.svx:9318: warning: Unused fixed point “5120”
+177> /tmp/th12915/data.svx:9358: warning: Unused fixed point “5149”
+178> /tmp/th12915/data.svx:9424: warning: Unused fixed point “5188”
+179> /tmp/th12915/data.svx:9435: warning: Unused fixed point “5189”
+180> /tmp/th12915/data.svx:9443: warning: Unused fixed point “5190”
+181> /tmp/th12915/data.svx:9464: warning: Unused fixed point “5191”
+182> /tmp/th12915/data.svx:9465: warning: Unused fixed point “5192”
+183> /tmp/th12915/data.svx:9472: warning: Unused fixed point “5193”
+184> /tmp/th12915/data.svx:9553: warning: Unused fixed point “5226”
+185> /tmp/th12915/data.svx:9653: warning: Unused fixed point “5289”
+186> /tmp/th12915/data.svx:9699: warning: Unused fixed point “5295”
+187> /tmp/th12915/data.svx:9717: warning: Unused fixed point “5304”
+188> /tmp/th12915/data.svx:9940: warning: Unused fixed point “5408”
+189> /tmp/th12915/data.svx:9995: warning: Unused fixed point “5452”
+190> /tmp/th12915/data.svx:10011: warning: Unused fixed point “5453”
+191> /tmp/th12915/data.svx:10034: warning: Unused fixed point “5454”
+192> /tmp/th12915/data.svx:10138: warning: Unused fixed point “5508”
+193> /tmp/th12915/data.svx:10141: warning: Unused fixed point “5509”
+194> /tmp/th12915/data.svx:10154: warning: Unused fixed point “5510”
+195> /tmp/th12915/data.svx:10155: warning: Unused fixed point “5511”
+196> /tmp/th12915/data.svx:10158: warning: Unused fixed point “5512”
+197> /tmp/th12915/data.svx:10163: warning: Unused fixed point “5513”
+198> /tmp/th12915/data.svx:10245: warning: Unused fixed point “5554”
+199> /tmp/th12915/data.svx:10443: warning: Unused fixed point “5652”
+200> /tmp/th12915/data.svx:10535: warning: Unused fixed point “5695”
+201> /tmp/th12915/data.svx:10557: warning: Unused fixed point “5706”
+202> /tmp/th12915/data.svx:10601: warning: Unused fixed point “5728”
+203> /tmp/th12915/data.svx:10612: warning: Unused fixed point “5734”
+204> /tmp/th12915/data.svx:10615: warning: Unused fixed point “5735”
+205> /tmp/th12915/data.svx:10679: warning: Unused fixed point “5766”
+206> /tmp/th12915/data.svx:10713: warning: Unused fixed point “5783”
+207> /tmp/th12915/data.svx:10765: warning: Unused fixed point “5815”
+208> /tmp/th12915/data.svx:10783: warning: Unused fixed point “5816”
+209> /tmp/th12915/data.svx:10827: warning: Unused fixed point “5842”
+210> /tmp/th12915/data.svx:10838: warning: Unused fixed point “5843”
+211> /tmp/th12915/data.svx:10850: warning: Unused fixed point “5851”
+212> /tmp/th12915/data.svx:10856: warning: Unused fixed point “5852”
+213> /tmp/th12915/data.svx:10982: warning: Unused fixed point “5918”
+214> /tmp/th12915/data.svx:10990: warning: Unused fixed point “5919”
+215> /tmp/th12915/data.svx:11002: warning: Unused fixed point “5920”
+216> /tmp/th12915/data.svx:11191: warning: Unused fixed point “6012”
+217> /tmp/th12915/data.svx:11235: warning: Unused fixed point “6043”
+218> /tmp/th12915/data.svx:11283: warning: Unused fixed point “6068”
+219> /tmp/th12915/data.svx:11288: warning: Unused fixed point “6069”
+220> /tmp/th12915/data.svx:11312: warning: Unused fixed point “6070”
+221> /tmp/th12915/data.svx:11329: warning: Unused fixed point “6078”
+222> /tmp/th12915/data.svx:11335: warning: Unused fixed point “6081”
+223> /tmp/th12915/data.svx:11441: warning: Unused fixed point “6133”
+224> /tmp/th12915/data.svx:11617: warning: Unused fixed point “6226”
+225> /tmp/th12915/data.svx:11635: warning: Unused fixed point “6227”
+226> /tmp/th12915/data.svx:11667: warning: Unused fixed point “6243”
+227> /tmp/th12915/data.svx:11669: warning: Unused fixed point “6244”
+228> /tmp/th12915/data.svx:11675: warning: Unused fixed point “6247”
+229> /tmp/th12915/data.svx:11687: warning: Unused fixed point “6253”
+230> /tmp/th12915/data.svx:11733: warning: Unused fixed point “6276”
+231> /tmp/th12915/data.svx:11799: warning: Unused fixed point “6316”
+232> /tmp/th12915/data.svx:11902: warning: Unused fixed point “6356”
+233> /tmp/th12915/data.svx:11916: warning: Unused fixed point “6363”
+234> /tmp/th12915/data.svx:11920: warning: Unused fixed point “6365”
+235> /tmp/th12915/data.svx:11975: warning: Unused fixed point “6394”
+236> /tmp/th12915/data.svx:11976: warning: Unused fixed point “6395”
+237> /tmp/th12915/data.svx:11996: warning: Unused fixed point “6399”
+238> /tmp/th12915/data.svx:12045: warning: Unused fixed point “6423”
+239> /tmp/th12915/data.svx:12081: warning: Unused fixed point “6441”
+240> /tmp/th12915/data.svx:12120: warning: Unused fixed point “6457”
+241> /tmp/th12915/data.svx:12231: warning: Unused fixed point “6517”
+242> /tmp/th12915/data.svx:12239: warning: Unused fixed point “6518”
+243> /tmp/th12915/data.svx:12319: warning: Unused fixed point “6572”
+244> /tmp/th12915/data.svx:12326: warning: Unused fixed point “6573”
+245> /tmp/th12915/data.svx:12370: warning: Unused fixed point “6574”
+246> /tmp/th12915/data.svx:12375: warning: Unused fixed point “6575”
+247> /tmp/th12915/data.svx:12389: warning: Unused fixed point “6584”
+248> /tmp/th12915/data.svx:12430: warning: Unused fixed point “6626”
+249> /tmp/th12915/data.svx:12460: warning: Unused fixed point “6627”
+250> /tmp/th12915/data.svx:12488: warning: Unused fixed point “6641”
+251> /tmp/th12915/data.svx:12584: warning: Unused fixed point “6686”
+252> /tmp/th12915/data.svx:12596: warning: Unused fixed point “6692”
+253> /tmp/th12915/data.svx:12608: warning: Unused fixed point “6697”
+254> /tmp/th12915/data.svx:12618: warning: Unused fixed point “6702”
+255> /tmp/th12915/data.svx:12636: warning: Unused fixed point “6710”
+256> /tmp/th12915/data.svx:12724: warning: Unused fixed point “6791”
+257> /tmp/th12915/data.svx:12793: warning: Unused fixed point “6792”
+258> /tmp/th12915/data.svx:12811: warning: Unused fixed point “6801”
+259> /tmp/th12915/data.svx:13039: warning: Unused fixed point “6912”
+260> /tmp/th12915/data.svx:13045: warning: Unused fixed point “6915”
+261> /tmp/th12915/data.svx:13047: warning: Unused fixed point “6916”
+262> /tmp/th12915/data.svx:13360: warning: Unused fixed point “7067”
+263> /tmp/th12915/data.svx:13362: warning: Unused fixed point “7068”
+264> /tmp/th12915/data.svx:13409: warning: Unused fixed point “7091”
+265> /tmp/th12915/data.svx:13419: warning: Unused fixed point “7096”
+266> /tmp/th12915/data.svx:13445: warning: Unused fixed point “7108”
+267> /tmp/th12915/data.svx:13597: warning: Unused fixed point “7179”
+268> /tmp/th12915/data.svx:13625: warning: Unused fixed point “7193”
+269> /tmp/th12915/data.svx:13675: warning: Unused fixed point “7217”
+270> /tmp/th12915/data.svx:13729: warning: Unused fixed point “7255”
+271> /tmp/th12915/data.svx:13785: warning: Unused fixed point “7271”
+272> /tmp/th12915/data.svx:14219: warning: Unused fixed point “7646”
+273> /tmp/th12915/data.svx:14667: warning: Unused fixed point “7715”
+274> /tmp/th12915/data.svx:14777: warning: Unused fixed point “7794”
+275> /tmp/th12915/data.svx:15066: warning: Unused fixed point “7913”
+276> /tmp/th12915/data.svx:15223: warning: Unused fixed point “7991”
+277> /tmp/th12915/data.svx:15366: warning: Unused fixed point “8062”
+278> /tmp/th12915/data.svx:15425: warning: Unused fixed point “8091”
+279> /tmp/th12915/data.svx:15722: warning: Unused fixed point “8258”
+280> /tmp/th12915/data.svx:15853: warning: Unused fixed point “8305”
+281> /tmp/th12915/data.svx:15972: warning: Unused fixed point “8362”
+282> /tmp/th12915/data.svx:16125: warning: Unused fixed point “8438”
+283> /tmp/th12915/data.svx:16149: warning: Unused fixed point “8459”
+284> /tmp/th12915/data.svx:16384: warning: Unused fixed point “8673”
+285> /tmp/th12915/data.svx:17110: warning: Unused fixed point “9031”
+286> /tmp/th12915/data.svx:17337: warning: Unused fixed point “9160”
+287> /tmp/th12915/data.svx:17449: warning: Unused fixed point “9210”
+288> /tmp/th12915/data.svx:17450: warning: Unused fixed point “9211”
+289> /tmp/th12915/data.svx:18058: warning: Unused fixed point “9515”
+290> /tmp/th12915/data.svx:18084: warning: Unused fixed point “9528”
+291> /tmp/th12915/data.svx:18298: warning: Unused fixed point “9633”
+292> /tmp/th12915/data.svx:19534: warning: Unused fixed point “10333”
+293> /tmp/th12915/data.svx:19866: warning: Unused fixed point “10428”
+294> /tmp/th12915/data.svx:19973: warning: Unused fixed point “10501”
+295> /tmp/th12915/data.svx:20014: warning: Unused fixed point “10502”
+296> /tmp/th12915/data.svx:20017: warning: Unused fixed point “10503”
+297> /tmp/th12915/data.svx:20256: warning: Unused fixed point “10618”
+298> /tmp/th12915/data.svx:20473: warning: Unused fixed point “10719”
+299> /tmp/th12915/data.svx:20474: warning: Unused fixed point “10720”
+300> /tmp/th12915/data.svx:20933: warning: Unused fixed point “10945”
+301> /tmp/th12915/data.svx:21350: warning: Unused fixed point “11339”
+302> /tmp/th12915/data.svx:21472: warning: Unused fixed point “11340”
+303> /tmp/th12915/data.svx:21697: warning: Unused fixed point “11341”
+304> /tmp/th12915/data.svx:21764: warning: Unused fixed point “11342”
+305> /tmp/th12915/data.svx:21858: warning: Unused fixed point “11402”
+306> /tmp/th12915/data.svx:21951: warning: Unused fixed point “11445”
+307> /tmp/th12915/data.svx:22005: warning: Unused fixed point “11469”
+308> /tmp/th12915/data.svx:22430: warning: Unused fixed point “11679”
+309> /tmp/th12915/data.svx:23076: warning: Unused fixed point “11997”
+310> /tmp/th12915/data.svx:23483: warning: Unused fixed point “12202”
+311> /tmp/th12915/data.svx:23614: warning: Unused fixed point “12266”
+312> /tmp/th12915/data.svx:23789: warning: Unused fixed point “12408”
+313> /tmp/th12915/data.svx:23917: warning: Unused fixed point “12409”
+314> /tmp/th12915/data.svx:24183: warning: Unused fixed point “12654”
+315> /tmp/th12915/data.svx:24425: warning: Unused fixed point “12655”
+316> /tmp/th12915/data.svx:24537: warning: Unused fixed point “12709”
+317> /tmp/th12915/data.svx:25021: warning: Unused fixed point “12964”
+318> /tmp/th12915/data.svx:25443: warning: Unused fixed point “13171”
+319> /tmp/th12915/data.svx:25578: warning: Unused fixed point “13261”
+320> /tmp/th12915/data.svx:25637: warning: Unused fixed point “13262”
+321> /tmp/th12915/data.svx:25638: warning: Unused fixed point “13263”
+322> /tmp/th12915/data.svx:26126: warning: Unused fixed point “13655”
+323> /tmp/th12915/data.svx:26281: warning: Unused fixed point “13656”
+324> /tmp/th12915/data.svx:26911: warning: Unused fixed point “13885”
+325> /tmp/th12915/data.svx:26982: warning: Unused fixed point “13937”
+326> /tmp/th12915/data.svx:27019: warning: Unused fixed point “13938”
+327> /tmp/th12915/data.svx:27850: warning: Unused fixed point “14527”
+328> /tmp/th12915/data.svx:27954: warning: Unused fixed point “14528”
+329> /tmp/th12915/data.svx:28165: warning: Unused fixed point “14529”
+330> /tmp/th12915/data.svx:28244: warning: Unused fixed point “14530”
+331> /tmp/th12915/data.svx:28260: warning: Unused fixed point “14536”
+332> /tmp/th12915/data.svx:28290: warning: Unused fixed point “14551”
+333> /tmp/th12915/data.svx:28888: warning: Unused fixed point “14848”
+334> /tmp/th12915/data.svx:29949: warning: Unused fixed point “15377”
+335> /tmp/th12915/data.svx:29950: warning: Unused fixed point “15378”
+336> /tmp/th12915/data.svx:30675: warning: Unused fixed point “15738”
+337> /tmp/th12915/data.svx:32129: warning: Unused fixed point “16465”
+338> /tmp/th12915/data.svx:32159: warning: Unused fixed point “16480”
+339> /tmp/th12915/data.svx:32227: warning: Unused fixed point “16542”
+340> /tmp/th12915/data.svx:32474: warning: Unused fixed point “16644”
+341> /tmp/th12915/data.svx:32672: warning: Unused fixed point “16742”
+342> /tmp/th12915/data.svx:32742: warning: Unused fixed point “16776”
+343> /tmp/th12915/data.svx:32904: warning: Unused fixed point “16856”
+344> /tmp/th12915/data.svx:33085: warning: Unused fixed point “16970”
+345> /tmp/th12915/data.svx:33122: warning: Unused fixed point “16971”
+346> /tmp/th12915/data.svx:33350: warning: Unused fixed point “17075”
+347> /tmp/th12915/data.svx:33356: warning: Unused fixed point “17076”
+348> /tmp/th12915/data.svx:33559: warning: Unused fixed point “17175”
+349> /tmp/th12915/data.svx:33670: warning: Unused fixed point “17244”
+350> /tmp/th12915/data.svx:33777: warning: Unused fixed point “17280”
+351> /tmp/th12915/data.svx:33823: warning: Unused fixed point “17303”
+352> /tmp/th12915/data.svx:33837: warning: Unused fixed point “17309”
+353> /tmp/th12915/data.svx:33950: warning: Unused fixed point “17365”
+354> /tmp/th12915/data.svx:33980: warning: Unused fixed point “17390”
+355> /tmp/th12915/data.svx:34006: warning: Unused fixed point “17391”
+356> /tmp/th12915/data.svx:34030: warning: Unused fixed point “17407”
+357> /tmp/th12915/data.svx:34086: warning: Unused fixed point “17434”
+358> /tmp/th12915/data.svx:34104: warning: Unused fixed point “17443”
+359> /tmp/th12915/data.svx:34170: warning: Unused fixed point “17478”
+360> /tmp/th12915/data.svx:34180: warning: Unused fixed point “17479”
+361> /tmp/th12915/data.svx:34389: warning: Unused fixed point “17625”
+362> /tmp/th12915/data.svx:34699: warning: Unused fixed point “17736”
+363> /tmp/th12915/data.svx:34733: warning: Unused fixed point “17753”
+364> /tmp/th12915/data.svx:34738: warning: Unused fixed point “17759”
+365> /tmp/th12915/data.svx:34739: warning: Unused fixed point “17760”
+366> /tmp/th12915/data.svx:34757: warning: Unused fixed point “17768”
+367> /tmp/th12915/data.svx:34796: warning: Unused fixed point “17821”
+368> /tmp/th12915/data.svx:34810: warning: Unused fixed point “17822”
+369> /tmp/th12915/data.svx:34880: warning: Unused fixed point “17857”
+370> /tmp/th12915/data.svx:34962: warning: Unused fixed point “17898”
+371> /tmp/th12915/data.svx:35056: warning: Unused fixed point “17942”
+372> /tmp/th12915/data.svx:35123: warning: Unused fixed point “17978”
+373> /tmp/th12915/data.svx:35184: warning: Unused fixed point “18005”
+374> /tmp/th12915/data.svx:35201: warning: Unused fixed point “18006”
+375> /tmp/th12915/data.svx:35290: warning: Unused fixed point “18061”
+376> /tmp/th12915/data.svx:35315: warning: Unused fixed point “18062”
+377> /tmp/th12915/data.svx:35328: warning: Unused fixed point “18068”
+378> /tmp/th12915/data.svx:35372: warning: Unused fixed point “18095”
+379> /tmp/th12915/data.svx:35395: warning: Unused fixed point “18096”
+380> /tmp/th12915/data.svx:35483: warning: Unused fixed point “18140”
+381> /tmp/th12915/data.svx:35525: warning: Unused fixed point “18161”
+382> /tmp/th12915/data.svx:35561: warning: Unused fixed point “18178”
+383> /tmp/th12915/data.svx:35601: warning: Unused fixed point “18198”
+384> /tmp/th12915/data.svx:35613: warning: Unused fixed point “18203”
+385> /tmp/th12915/data.svx:35685: warning: Unused fixed point “18249”
+386> /tmp/th12915/data.svx:35713: warning: Unused fixed point “18250”
+387> /tmp/th12915/data.svx:35785: warning: Unused fixed point “18346”
+388> /tmp/th12915/data.svx:35811: warning: Unused fixed point “18359”
+389> /tmp/th12915/data.svx:35832: warning: Unused fixed point “18376”
+390> /tmp/th12915/data.svx:35840: warning: Unused fixed point “18379”
+391> /tmp/th12915/data.svx:35846: warning: Unused fixed point “18382”
+392> /tmp/th12915/data.svx:35869: warning: Unused fixed point “18393”
+393> /tmp/th12915/data.svx:35887: warning: Unused fixed point “18401”
+394> /tmp/th12915/data.svx:35905: warning: Unused fixed point “18413”
+395> /tmp/th12915/data.svx:35919: warning: Unused fixed point “18419”
+396> /tmp/th12915/data.svx:35948: warning: Unused fixed point “18432”
+397> /tmp/th12915/data.svx:35955: warning: Unused fixed point “18435”
+398> /tmp/th12915/data.svx:35979: warning: Unused fixed point “18445”
+399> /tmp/th12915/data.svx:36021: warning: Unused fixed point “18465”
+400> /tmp/th12915/data.svx:36097: warning: Unused fixed point “18522”
+401> /tmp/th12915/data.svx:36379: warning: Unused fixed point “18652”
+402> /tmp/th12915/data.svx:36428: warning: Unused fixed point “18660”
+403> /tmp/th12915/data.svx:36442: warning: Unused fixed point “18666”
+404> /tmp/th12915/data.svx:36502: warning: Unused fixed point “18696”
+405> /tmp/th12915/data.svx:36531: warning: Unused fixed point “18708”
+406> /tmp/th12915/data.svx:36559: warning: Unused fixed point “18722”
+407> /tmp/th12915/data.svx:36567: warning: Unused fixed point “18725”
+408> /tmp/th12915/data.svx:36573: warning: Unused fixed point “18728”
+409> /tmp/th12915/data.svx:36614: warning: Unused fixed point “18759”
+410> /tmp/th12915/data.svx:36646: warning: Unused fixed point “18761”
+411> /tmp/th12915/data.svx:36648: warning: Unused fixed point “18762”
+412> /tmp/th12915/data.svx:36654: warning: Unused fixed point “18765”
+413> /tmp/th12915/data.svx:36680: warning: Unused fixed point “18776”
+414> /tmp/th12915/data.svx:36708: warning: Unused fixed point “18790”
+415> /tmp/th12915/data.svx:36718: warning: Unused fixed point “18795”
+416> /tmp/th12915/data.svx:36720: warning: Unused fixed point “18796”
+417> /tmp/th12915/data.svx:36724: warning: Unused fixed point “18798”
+418> /tmp/th12915/data.svx:36736: warning: Unused fixed point “18804”
+419> /tmp/th12915/data.svx:36740: warning: Unused fixed point “18806”
+420> /tmp/th12915/data.svx:36744: warning: Unused fixed point “18808”
+421> /tmp/th12915/data.svx:36768: warning: Unused fixed point “18818”
+422> /tmp/th12915/data.svx:36786: warning: Unused fixed point “18826”
+423> /tmp/th12915/data.svx:36796: warning: Unused fixed point “18830”
+424> /tmp/th12915/data.svx:36802: warning: Unused fixed point “18833”
+425> /tmp/th12915/data.svx:36834: warning: Unused fixed point “18847”
+426> /tmp/th12915/data.svx:36883: warning: Unused fixed point “18874”
+427> /tmp/th12915/data.svx:36894: warning: Unused fixed point “18875”
+428> /tmp/th12915/data.svx:36967: warning: Unused fixed point “18910”
+429> /tmp/th12915/data.svx:37012: warning: Unused fixed point “18932”
+430> /tmp/th12915/data.svx:37211: warning: Unused fixed point “19095”
+431> /tmp/th12915/data.svx:37212: warning: Unused fixed point “19096”
+432> /tmp/th12915/data.svx:37220: warning: Unused fixed point “19103”
+433> /tmp/th12915/data.svx:37238: warning: Unused fixed point “19111”
+434> /tmp/th12915/data.svx:37296: warning: Unused fixed point “19139”
+435> /tmp/th12915/data.svx:37528: warning: Unused fixed point “19245”
+436> /tmp/th12915/data.svx:37656: warning: Unused fixed point “19267”
+437> /tmp/th12915/data.svx:37678: warning: Unused fixed point “19278”
+438> /tmp/th12915/data.svx:37710: warning: Unused fixed point “19294”
+439> /tmp/th12915/data.svx:37715: warning: Unused fixed point “19295”
+440> /tmp/th12915/data.svx:37771: warning: Unused fixed point “19323”
+441> /tmp/th12915/data.svx:37822: warning: Unused fixed point “19348”
+442> /tmp/th12915/data.svx:37826: warning: Unused fixed point “19350”
+443> /tmp/th12915/data.svx:37828: warning: Unused fixed point “19351”
+444> /tmp/th12915/data.svx:38114: warning: Unused fixed point “19493”
+445> /tmp/th12915/data.svx:38480: warning: Unused fixed point “19674”
+446> /tmp/th12915/data.svx:38576: warning: Unused fixed point “19722”
+447> /tmp/th12915/data.svx:38711: warning: Unused fixed point “19780”
+448> /tmp/th12915/data.svx:38712: warning: Unused fixed point “19781”
+449> /tmp/th12915/data.svx:38713: warning: Unused fixed point “19782”
+450> /tmp/th12915/data.svx:38714: warning: Unused fixed point “19783”
+451> /tmp/th12915/data.svx:38715: warning: Unused fixed point “19784”
+452> /tmp/th12915/data.svx:38716: warning: Unused fixed point “19785”
+453> /tmp/th12915/data.svx:38836: warning: Unused fixed point “19818”
+454> /tmp/th12915/data.svx:38895: warning: Unused fixed point “19859”
+455> /tmp/th12915/data.svx:39083: warning: Unused fixed point “19946”
+456> /tmp/th12915/data.svx:39421: warning: Unused fixed point “20160”
+457> /tmp/th12915/data.svx:39505: warning: Unused fixed point “20161”
+458> /tmp/th12915/data.svx:39558: warning: Unused fixed point “20162”
+459> /tmp/th12915/data.svx:39740: warning: Unused fixed point “20296”
+460> /tmp/th12915/data.svx:40116: warning: Unused fixed point “20439”
+461> /tmp/th12915/data.svx:40160: warning: Unused fixed point “20461”
+462> /tmp/th12915/data.svx:40228: warning: Unused fixed point “20524”
+463> /tmp/th12915/data.svx:40581: warning: Unused fixed point “20671”
+464> /tmp/th12915/data.svx:40625: warning: Unused fixed point “20693”
+465> /tmp/th12915/data.svx:40791: warning: Unused fixed point “20774”
+466> /tmp/th12915/data.svx:41812: warning: Unused fixed point “21283”
+467> /tmp/th12915/data.svx:41883: warning: Unused fixed point “21317”
+468> /tmp/th12915/data.svx:41963: warning: Unused fixed point “21357”
+469> /tmp/th12915/data.svx:42038: warning: Unused fixed point “21393”
+470> /tmp/th12915/data.svx:42064: warning: Unused fixed point “21406”
+471> /tmp/th12915/data.svx:42190: warning: Unused fixed point “21466”
+472> /tmp/th12915/data.svx:42222: warning: Unused fixed point “21481”
+473> /tmp/th12915/data.svx:42242: warning: Unused fixed point “21491”
+474> /tmp/th12915/data.svx:42291: warning: Unused fixed point “21515”
+475> /tmp/th12915/data.svx:42309: warning: Unused fixed point “21523”
+476> /tmp/th12915/data.svx:42345: warning: Unused fixed point “21541”
+477> /tmp/th12915/data.svx:42389: warning: Unused fixed point “21569”
+478> /tmp/th12915/data.svx:42436: warning: Unused fixed point “21584”
+479> /tmp/th12915/data.svx:42452: warning: Unused fixed point “21592”
+480> /tmp/th12915/data.svx:42482: warning: Unused fixed point “21604”
+481> /tmp/th12915/data.svx:42551: warning: Unused fixed point “21664”
+482> /tmp/th12915/data.svx:42552: warning: Unused fixed point “21665”
+483> /tmp/th12915/data.svx:42553: warning: Unused fixed point “21666”
+484> /tmp/th12915/data.svx:42574: warning: Unused fixed point “21667”
+485> /tmp/th12915/data.svx:42585: warning: Unused fixed point “21668”
+486> /tmp/th12915/data.svx:42592: warning: Unused fixed point “21669”
+487> /tmp/th12915/data.svx:42620: warning: Unused fixed point “21670”
+488> /tmp/th12915/data.svx:42647: warning: Unused fixed point “21680”
+489> /tmp/th12915/data.svx:42732: warning: Unused fixed point “21727”
+490> /tmp/th12915/data.svx:42845: warning: Unused fixed point “21775”
+491> /tmp/th12915/data.svx:42896: warning: Unused fixed point “21815”
+492> /tmp/th12915/data.svx:42929: warning: Unused fixed point “21816”
+493> /tmp/th12915/data.svx:43124: warning: Unused fixed point “21914”
+494> /tmp/th12915/data.svx:43220: warning: Unused fixed point “21962”
+495> /tmp/th12915/data.svx:43254: warning: Unused fixed point “21979”
+496> /tmp/th12915/data.svx:43286: warning: Unused fixed point “21995”
+497> /tmp/th12915/data.svx:43332: warning: Unused fixed point “22016”
+498> /tmp/th12915/data.svx:43370: warning: Unused fixed point “22035”
+499> /tmp/th12915/data.svx:43382: warning: Unused fixed point “22040”
+500> /tmp/th12915/data.svx:43414: warning: Unused fixed point “22056”
+501> /tmp/th12915/data.svx:43444: warning: Unused fixed point “22071”
+502> /tmp/th12915/data.svx:43468: warning: Unused fixed point “22083”
+503> /tmp/th12915/data.svx:43482: warning: Unused fixed point “22089”
+504> /tmp/th12915/data.svx:43544: warning: Unused fixed point “22120”
+505> /tmp/th12915/data.svx:43780: warning: Unused fixed point “22237”
+506> /tmp/th12915/data.svx:43798: warning: Unused fixed point “22245”
+507> /tmp/th12915/data.svx:43878: warning: Unused fixed point “22285”
+508> /tmp/th12915/data.svx:43888: warning: Unused fixed point “22290”
+509> /tmp/th12915/data.svx:44024: warning: Unused fixed point “22357”
+510> /tmp/th12915/data.svx:44338: warning: Unused fixed point “22513”
+511> /tmp/th12915/data.svx:44591: warning: Unused fixed point “22682”
+512> /tmp/th12915/data.svx:44666: warning: Unused fixed point “22683”
+513> /tmp/th12915/data.svx:44832: warning: Unused fixed point “22748”
+514> /tmp/th12915/data.svx:44834: warning: Unused fixed point “22749”
+515> /tmp/th12915/data.svx:44899: warning: Unused fixed point “22750”
+516> /tmp/th12915/data.svx:46513: warning: Unused fixed point “23555”
+517> /tmp/th12915/data.svx:46520: warning: Unused fixed point “23559”
+518> /tmp/th12915/data.svx:46565: warning: Unused fixed point “23579”
+519> /tmp/th12915/data.svx:46586: warning: Unused fixed point “23594”
+520> /tmp/th12915/data.svx:46604: warning: Unused fixed point “23595”
+521> /tmp/th12915/data.svx:46677: warning: Unused fixed point “23635”
+522> /tmp/th12915/data.svx:46903: warning: Unused fixed point “23742”
+523> /tmp/th12915/data.svx:47028: warning: Unused fixed point “23804”
+524> /tmp/th12915/data.svx:47275: warning: Unused fixed point “23926”
+525> /tmp/th12915/data.svx:47304: warning: Unused fixed point “23938”
+526> /tmp/th12915/data.svx:47316: warning: Unused fixed point “23944”
+527> /tmp/th12915/data.svx:47322: warning: Unused fixed point “23945”
+528> /tmp/th12915/data.svx:47336: warning: Unused fixed point “23952”
+529> /tmp/th12915/data.svx:47348: warning: Unused fixed point “23958”
+530> /tmp/th12915/data.svx:48455: warning: Unused fixed point “24519”
+531> /tmp/th12915/data.svx:48499: warning: Unused fixed point “24520”
+532> /tmp/th12915/data.svx:48539: warning: Unused fixed point “24540”
+533> /tmp/th12915/data.svx:48559: warning: Unused fixed point “24550”
+534> /tmp/th12915/data.svx:48589: warning: Unused fixed point “24565”
+535> /tmp/th12915/data.svx:48654: warning: Unused fixed point “24596”
+536> /tmp/th12915/data.svx:49304: warning: Unused fixed point “24919”
+537> /tmp/th12915/data.svx:49330: warning: Unused fixed point “24939”
+538> /tmp/th12915/data.svx:49412: warning: Unused fixed point “24997”
+539> /tmp/th12915/data.svx:49582: warning: Unused fixed point “25105”
+540> /tmp/th12915/data.svx:49696: warning: Unused fixed point “25108”
+541> /tmp/th12915/data.svx:49704: warning: Unused fixed point “25112”
+542> /tmp/th12915/data.svx:50791: warning: Unused fixed point “25654”
+543> /tmp/th12915/data.svx:50867: warning: Unused fixed point “25691”
+544> /tmp/th12915/data.svx:51021: warning: Unused fixed point “25838”
+545> /tmp/th12915/data.svx:51211: warning: Unused fixed point “25859”
+546> /tmp/th12915/data.svx:51255: warning: Unused fixed point “25881”
+547> /tmp/th12915/data.svx:51273: warning: Unused fixed point “25890”
+548> /tmp/th12915/data.svx:51283: warning: Unused fixed point “25895”
+549> /tmp/th12915/data.svx:51691: warning: Unused fixed point “26099”
+550> /tmp/th12915/data.svx:52115: warning: Unused fixed point “26306”
+551> /tmp/th12915/data.svx:52144: warning: Unused fixed point “26319”
+552> /tmp/th12915/data.svx:52731: warning: Unused fixed point “26608”
+553> /tmp/th12915/data.svx:52741: warning: Unused fixed point “26613”
+554> /tmp/th12915/data.svx:52827: warning: Unused fixed point “26664”
+555> /tmp/th12915/data.svx:53238: warning: Unused fixed point “26854”
+556> /tmp/th12915/data.svx:53448: warning: Unused fixed point “27027”
+557> /tmp/th12915/data.svx:53647: warning: Unused fixed point “27028”
+558> /tmp/th12915/data.svx:53847: warning: Unused fixed point “27135”
+559> /tmp/th12915/data.svx:54199: warning: Unused fixed point “27315”
+560> /tmp/th12915/data.svx:54235: warning: Unused fixed point “27316”
+561> /tmp/th12915/data.svx:54417: warning: Unused fixed point “27403”
+562> /tmp/th12915/data.svx:54418: warning: Unused fixed point “27404”
+563> /tmp/th12915/data.svx:54800: warning: Unused fixed point “27596”
+564> /tmp/th12915/data.svx:54807: warning: Unused fixed point “27597”
+565> /tmp/th12915/data.svx:55031: warning: Unused fixed point “27708”
+566> /tmp/th12915/data.svx:55137: warning: Unused fixed point “27759”
+567> /tmp/th12915/data.svx:55997: warning: Unused fixed point “28417”
+568> /tmp/th12915/data.svx:56472: warning: Unused fixed point “28418”
+569> /tmp/th12915/data.svx:56915: warning: Unused fixed point “28619”
+570> /tmp/th12915/data.svx:57043: warning: Unused fixed point “28674”
+571> /tmp/th12915/data.svx:57192: warning: Unused fixed point “28751”
+572> /tmp/th12915/data.svx:57383: warning: Unused fixed point “28840”
+573> /tmp/th12915/data.svx:57470: warning: Unused fixed point “28917”
+574> /tmp/th12915/data.svx:57642: warning: Unused fixed point “28966”
+575> /tmp/th12915/data.svx:57690: warning: Unused fixed point “28987”
+576> /tmp/th12915/data.svx:57748: warning: Unused fixed point “29016”
+577> /tmp/th12915/data.svx:57835: warning: Unused fixed point “29071”
+578> /tmp/th12915/data.svx:57861: warning: Unused fixed point “29072”
+579> /tmp/th12915/data.svx:58051: warning: Unused fixed point “29174”
+580> /tmp/th12915/data.svx:58066: warning: Unused fixed point “29175”
+581> /tmp/th12915/data.svx:58165: warning: Unused fixed point “29221”
+582> /tmp/th12915/data.svx:58173: warning: Unused fixed point “29222”
+583> /tmp/th12915/data.svx:58515: warning: Unused fixed point “29750”
+584> /tmp/th12915/data.svx:58516: warning: Unused fixed point “29751”
+585> /tmp/th12915/data.svx:58567: warning: Unused fixed point “29752”
+586> /tmp/th12915/data.svx:58599: warning: Unused fixed point “29768”
+587> /tmp/th12915/data.svx:58629: warning: Unused fixed point “29780”
+588> /tmp/th12915/data.svx:58639: warning: Unused fixed point “29785”
+589> /tmp/th12915/data.svx:58657: warning: Unused fixed point “29794”
+590> /tmp/th12915/data.svx:58745: warning: Unused fixed point “29838”
+591> /tmp/th12915/data.svx:58799: warning: Unused fixed point “29879”
+592> /tmp/th12915/data.svx:58830: warning: Unused fixed point “29880”
+593> /tmp/th12915/data.svx:58868: warning: Unused fixed point “29896”
+594> /tmp/th12915/data.svx:58967: warning: Unused fixed point “29942”
+595> /tmp/th12915/data.svx:59071: warning: Unused fixed point “29992”
+596> /tmp/th12915/data.svx:59080: warning: Unused fixed point “29993”
+597> /tmp/th12915/data.svx:59116: warning: Unused fixed point “30011”
+598> /tmp/th12915/data.svx:59188: warning: Unused fixed point “30047”
+599> /tmp/th12915/data.svx:59212: warning: Unused fixed point “30059”
+600> /tmp/th12915/data.svx:59228: warning: Unused fixed point “30067”
+601> /tmp/th12915/data.svx:59356: warning: Unused fixed point “30131”
+602> /tmp/th12915/data.svx:59429: warning: Unused fixed point “30175”
+603> /tmp/th12915/data.svx:59461: warning: Unused fixed point “30185”
+604> /tmp/th12915/data.svx:59470: warning: Unused fixed point “30186”
+605> /tmp/th12915/data.svx:59480: warning: Unused fixed point “30191”
+606> /tmp/th12915/data.svx:59492: warning: Unused fixed point “30197”
+607> /tmp/th12915/data.svx:59542: warning: Unused fixed point “30222”
+608> /tmp/th12915/data.svx:59548: warning: Unused fixed point “30225”
+609> /tmp/th12915/data.svx:59622: warning: Unused fixed point “30270”
+610> /tmp/th12915/data.svx:59706: warning: Unused fixed point “30302”
+611> /tmp/th12915/data.svx:59717: warning: Unused fixed point “30308”
+612> /tmp/th12915/data.svx:59719: warning: Unused fixed point “30309”
+613> /tmp/th12915/data.svx:59773: warning: Unused fixed point “30336”
+614> /tmp/th12915/data.svx:59809: warning: Unused fixed point “30360”
+615> /tmp/th12915/data.svx:59823: warning: Unused fixed point “30361”
+616> /tmp/th12915/data.svx:59874: warning: Unused fixed point “30405”
+617> /tmp/th12915/data.svx:59915: warning: Unused fixed point “30406”
+618> /tmp/th12915/data.svx:59929: warning: Unused fixed point “30413”
+619> /tmp/th12915/data.svx:60028: warning: Unused fixed point “30465”
+620> /tmp/th12915/data.svx:60090: warning: Unused fixed point “30501”
+621> /tmp/th12915/data.svx:60137: warning: Unused fixed point “30510”
+622> /tmp/th12915/data.svx:60149: warning: Unused fixed point “30516”
+623> /tmp/th12915/data.svx:60278: warning: Unused fixed point “30578”
+624> /tmp/th12915/data.svx:60305: warning: Unused fixed point “30601”
+625> /tmp/th12915/data.svx:60360: warning: Unused fixed point “30617”
+626> /tmp/th12915/data.svx:60863: warning: Unused fixed point “31081”
+627> /tmp/th12915/data.svx:61071: warning: Unused fixed point “31082”
+628> /tmp/th12915/data.svx:61081: warning: Unused fixed point “31083”
+629> /tmp/th12915/data.svx:61151: warning: Unused fixed point “31084”
+630> /tmp/th12915/data.svx:61224: warning: Unused fixed point “31085”
+631> /tmp/th12915/data.svx:61238: warning: Unused fixed point “31086”
+632> /tmp/th12915/data.svx:61310: warning: Unused fixed point “31087”
+633> /tmp/th12915/data.svx:61354: warning: Unused fixed point “31100”
+634> /tmp/th12915/data.svx:61372: warning: Unused fixed point “31109”
+635> /tmp/th12915/data.svx:61373: warning: Unused fixed point “31110”
+636> /tmp/th12915/data.svx:61422: warning: Unused fixed point “31132”
+637> /tmp/th12915/data.svx:61458: warning: Unused fixed point “31150”
+638> /tmp/th12915/data.svx:61508: warning: Unused fixed point “31173”
+639> /tmp/th12915/data.svx:61554: warning: Unused fixed point “31196”
+640> /tmp/th12915/data.svx:61576: warning: Unused fixed point “31207”
+641> /tmp/th12915/data.svx:61600: warning: Unused fixed point “31219”
+642> /tmp/th12915/data.svx:61612: warning: Unused fixed point “31224”
+643> /tmp/th12915/data.svx:61654: warning: Unused fixed point “31245”
+644> /tmp/th12915/data.svx:61686: warning: Unused fixed point “31260”
+645> /tmp/th12915/data.svx:61740: warning: Unused fixed point “31287”
+646> /tmp/th12915/data.svx:61768: warning: Unused fixed point “31301”
+647> /tmp/th12915/data.svx:61858: warning: Unused fixed point “31346”
+648> /tmp/th12915/data.svx:61920: warning: Unused fixed point “31377”
+649> /tmp/th12915/data.svx:61996: warning: Unused fixed point “31414”
+650> /tmp/th12915/data.svx:62051: warning: Unused fixed point “31455”
+651> /tmp/th12915/data.svx:62351: warning: Unused fixed point “31683”
+652> /tmp/th12915/data.svx:62355: warning: Unused fixed point “31684”
+653> /tmp/th12915/data.svx:62362: warning: Unused fixed point “31685”
+654> /tmp/th12915/data.svx:62373: warning: Unused fixed point “31686”
+655> /tmp/th12915/data.svx:62381: warning: Unused fixed point “31687”
+656> /tmp/th12915/data.svx:62384: warning: Unused fixed point “31688”
+657> /tmp/th12915/data.svx:62387: warning: Unused fixed point “31689”
+658> /tmp/th12915/data.svx:62389: warning: Unused fixed point “31690”
+659> /tmp/th12915/data.svx:62394: warning: Unused fixed point “31691”
+660> /tmp/th12915/data.svx:62404: warning: Unused fixed point “31692”
+661> /tmp/th12915/data.svx:62409: warning: Unused fixed point “31693”
+662> /tmp/th12915/data.svx:62422: warning: Unused fixed point “31694”
+663> /tmp/th12915/data.svx:62434: warning: Unused fixed point “31695”
+664> /tmp/th12915/data.svx:62436: warning: Unused fixed point “31696”
+665> /tmp/th12915/data.svx:62438: warning: Unused fixed point “31697”
+666> /tmp/th12915/data.svx:62450: warning: Unused fixed point “31698”
+667> /tmp/th12915/data.svx:62453: warning: Unused fixed point “31699”
+668> /tmp/th12915/data.svx:62458: warning: Unused fixed point “31700”
+669> /tmp/th12915/data.svx:62466: warning: Unused fixed point “31701”
+670> /tmp/th12915/data.svx:62469: warning: Unused fixed point “31702”
+671> /tmp/th12915/data.svx:62475: warning: Unused fixed point “31703”
+672> /tmp/th12915/data.svx:62483: warning: Unused fixed point “31704”
+673> /tmp/th12915/data.svx:62486: warning: Unused fixed point “31705”
+674> /tmp/th12915/data.svx:62492: warning: Unused fixed point “31706”
+675> /tmp/th12915/data.svx:62504: warning: Unused fixed point “31707”
+676> /tmp/th12915/data.svx:62524: warning: Unused fixed point “31708”
+677> /tmp/th12915/data.svx:62538: warning: Unused fixed point “31709”
+678> /tmp/th12915/data.svx:62541: warning: Unused fixed point “31710”
+679> /tmp/th12915/data.svx:62546: warning: Unused fixed point “31711”
+680> /tmp/th12915/data.svx:62552: warning: Unused fixed point “31712”
+681> /tmp/th12915/data.svx:62571: warning: Unused fixed point “31713”
+682> /tmp/th12915/data.svx:62584: warning: Unused fixed point “31714”
+683> /tmp/th12915/data.svx:62587: warning: Unused fixed point “31715”
+684> /tmp/th12915/data.svx:62595: warning: Unused fixed point “31716”
+685> /tmp/th12915/data.svx:62596: warning: Unused fixed point “31717”
+686> /tmp/th12915/data.svx:62600: warning: Unused fixed point “31718”
+687> /tmp/th12915/data.svx:62607: warning: Unused fixed point “31719”
+688> /tmp/th12915/data.svx:62609: warning: Unused fixed point “31720”
+689> /tmp/th12915/data.svx:62613: warning: Unused fixed point “31721”
+690> /tmp/th12915/data.svx:62642: warning: Unused fixed point “31741”
+691> /tmp/th12915/data.svx:62644: warning: Unused fixed point “31742”
+692> /tmp/th12915/data.svx:62646: warning: Unused fixed point “31743”
+693> /tmp/th12915/data.svx:62648: warning: Unused fixed point “31744”
+694> /tmp/th12915/data.svx:62667: warning: Unused fixed point “31762”
+695> /tmp/th12915/data.svx:62687: warning: Unused fixed point “31763”
+696> /tmp/th12915/data.svx:62708: warning: Unused fixed point “31773”
+697> /tmp/th12915/data.svx:62718: warning: Unused fixed point “31778”
+698> /tmp/th12915/data.svx:62726: warning: Unused fixed point “31782”
+699> /tmp/th12915/data.svx:62750: warning: Unused fixed point “31792”
+700> /tmp/th12915/data.svx:62766: warning: Unused fixed point “31800”
+701> /tmp/th12915/data.svx:62786: warning: Unused fixed point “31810”
+702> /tmp/th12915/data.svx:62794: warning: Unused fixed point “31814”
+703> /tmp/th12915/data.svx:62821: warning: Unused fixed point “31826”
+704> /tmp/th12915/data.svx:62945: warning: Unused fixed point “31885”
+705> /tmp/th12915/data.svx:62961: warning: Unused fixed point “31893”
+706> /tmp/th12915/data.svx:63158: warning: Unused fixed point “32023”
+707> /tmp/th12915/data.svx:63331: warning: Unused fixed point “32067”
+708> /tmp/th12915/data.svx:63419: warning: Unused fixed point “32111”
+709> /tmp/th12915/data.svx:63575: warning: Unused fixed point “32187”
+710> /tmp/th12915/data.svx:63629: warning: Unused fixed point “32213”
+711> /tmp/th12915/data.svx:63685: warning: Unused fixed point “32240”
+712> /tmp/th12915/data.svx:63697: warning: Unused fixed point “32246”
+713> /tmp/th12915/data.svx:63713: warning: Unused fixed point “32253”
+714> /tmp/th12915/data.svx:63733: warning: Unused fixed point “32263”
+715> /tmp/th12915/data.svx:63759: warning: Unused fixed point “32275”
+716> /tmp/th12915/data.svx:63856: warning: Unused fixed point “32335”
+717> /tmp/th12915/data.svx:63935: warning: Unused fixed point “32364”
+718> /tmp/th12915/data.svx:63948: warning: Unused fixed point “32365”
+719> /tmp/th12915/data.svx:63977: warning: Unused fixed point “32382”
+720> /tmp/th12915/data.svx:63991: warning: Unused fixed point “32383”
+721> /tmp/th12915/data.svx:63993: warning: Unused fixed point “32384”
+722> /tmp/th12915/data.svx:64029: warning: Unused fixed point “32400”
+723> /tmp/th12915/data.svx:64030: warning: Unused fixed point “32401”
+724> /tmp/th12915/data.svx:64074: warning: Unused fixed point “32422”
+725> /tmp/th12915/data.svx:64209: warning: Unused fixed point “32488”
+726> /tmp/th12915/data.svx:64251: warning: Unused fixed point “32508”
+727> /tmp/th12915/data.svx:64291: warning: Unused fixed point “32528”
+728> /tmp/th12915/data.svx:64337: warning: Unused fixed point “32551”
+729> /tmp/th12915/data.svx:64369: warning: Unused fixed point “32567”
+730> /tmp/th12915/data.svx:64411: warning: Unused fixed point “32588”
+731> /tmp/th12915/data.svx:64482: warning: Unused fixed point “32646”
+732> /tmp/th12915/data.svx:64530: warning: Unused fixed point “32647”
+733> /tmp/th12915/data.svx:64550: warning: Unused fixed point “32657”
+734> /tmp/th12915/data.svx:64654: warning: Unused fixed point “32705”
+735> /tmp/th12915/data.svx:64770: warning: Unused fixed point “32758”
+736> /tmp/th12915/data.svx:64800: warning: Unused fixed point “32773”
+737> /tmp/th12915/data.svx:64812: warning: Unused fixed point “32783”
+738> /tmp/th12915/data.svx:64823: warning: Unused fixed point “32784”
+739> /tmp/th12915/data.svx:64847: warning: Unused fixed point “32804”
+740> /tmp/th12915/data.svx:64867: warning: Unused fixed point “32805”
+741> /tmp/th12915/data.svx:64891: warning: Unused fixed point “32817”
+742> /tmp/th12915/data.svx:64920: warning: Unused fixed point “32835”
+743> /tmp/th12915/data.svx:64929: warning: Unused fixed point “32836”
+744> /tmp/th12915/data.svx:64933: warning: Unused fixed point “32837”
+745> /tmp/th12915/data.svx:64989: warning: Unused fixed point “32865”
+746> /tmp/th12915/data.svx:65011: warning: Unused fixed point “32876”
+747> /tmp/th12915/data.svx:65055: warning: Unused fixed point “32895”
+748> /tmp/th12915/data.svx:65090: warning: Unused fixed point “32919”
+749> /tmp/th12915/data.svx:65106: warning: Unused fixed point “32920”
+750> /tmp/th12915/data.svx:65170: warning: Unused fixed point “32952”
+751> /tmp/th12915/data.svx:65188: warning: Unused fixed point “32961”
+752> /tmp/th12915/data.svx:65301: warning: Unused fixed point “33038”
+753> /tmp/th12915/data.svx:65361: warning: Unused fixed point “33049”
+754> /tmp/th12915/data.svx:65368: warning: Unused fixed point “33050”
+755> /tmp/th12915/data.svx:65390: warning: Unused fixed point “33061”
+756> /tmp/th12915/data.svx:65437: warning: Unused fixed point “33098”
+757> /tmp/th12915/data.svx:65467: warning: Unused fixed point “33099”
+758> /tmp/th12915/data.svx:65479: warning: Unused fixed point “33109”
+759> /tmp/th12915/data.svx:65497: warning: Unused fixed point “33113”
+760> /tmp/th12915/data.svx:65576: warning: Unused fixed point “33152”
+761> /tmp/th12915/data.svx:65580: warning: Unused fixed point “33153”
+762> /tmp/th12915/data.svx:65612: warning: Unused fixed point “33169”
+763> /tmp/th12915/data.svx:65626: warning: Unused fixed point “33176”
+764> /tmp/th12915/data.svx:65628: warning: Unused fixed point “33177”
+765> /tmp/th12915/data.svx:65675: warning: Unused fixed point “33206”
+766> /tmp/th12915/data.svx:65689: warning: Unused fixed point “33207”
+767> /tmp/th12915/data.svx:65695: warning: Unused fixed point “33210”
+768> /tmp/th12915/data.svx:65703: warning: Unused fixed point “33214”
+769> /tmp/th12915/data.svx:65725: warning: Unused fixed point “33225”
+770> /tmp/th12915/data.svx:65831: warning: Unused fixed point “33303”
+771> /tmp/th12915/data.svx:65869: warning: Unused fixed point “33304”
+772> /tmp/th12915/data.svx:65924: warning: Unused fixed point “33321”
+773> /tmp/th12915/data.svx:65954: warning: Unused fixed point “33336”
+774> /tmp/th12915/data.svx:66079: warning: Unused fixed point “33418”
+775> /tmp/th12915/data.svx:66122: warning: Unused fixed point “33419”
+776> /tmp/th12915/data.svx:66142: warning: Unused fixed point “33425”
+777> /tmp/th12915/data.svx:66198: warning: Unused fixed point “33453”
+778> /tmp/th12915/data.svx:66243: warning: Unused fixed point “33482”
+779> /tmp/th12915/data.svx:66343: warning: Unused fixed point “33520”
+780> /tmp/th12915/data.svx:66344: warning: Unused fixed point “33521”
+781> /tmp/th12915/data.svx:66390: warning: Unused fixed point “33550”
+782> /tmp/th12915/data.svx:66421: warning: Unused fixed point “33557”
+783> /tmp/th12915/data.svx:66431: warning: Unused fixed point “33562”
+784> /tmp/th12915/data.svx:66462: warning: Unused fixed point “33577”
+785> /tmp/th12915/data.svx:66578: warning: Unused fixed point “33636”
+786> /tmp/th12915/data.svx:66582: warning: Unused fixed point “33637”
+787> /tmp/th12915/data.svx:66622: warning: Unused fixed point “33654”
+788> /tmp/th12915/data.svx:66630: warning: Unused fixed point “33655”
+789> /tmp/th12915/data.svx:66632: warning: Unused fixed point “33656”
+790> /tmp/th12915/data.svx:66633: warning: Unused fixed point “33657”
+791> /tmp/th12915/data.svx:66645: warning: Unused fixed point “33662”
+792> /tmp/th12915/data.svx:66646: warning: Unused fixed point “33663”
+793> /tmp/th12915/data.svx:66700: warning: Unused fixed point “33686”
+794> /tmp/th12915/data.svx:66730: warning: Unused fixed point “33701”
+795> /tmp/th12915/data.svx:66785: warning: Unused fixed point “33737”
+796> /tmp/th12915/data.svx:66786: warning: Unused fixed point “33738”
+797> /tmp/th12915/data.svx:66831: warning: Unused fixed point “33753”
+798> /tmp/th12915/data.svx:66842: warning: Unused fixed point “33754”
+799> /tmp/th12915/data.svx:66865: warning: Unused fixed point “33763”
+800> /tmp/th12915/data.svx:67093: warning: Unused fixed point “33908”
+801> /tmp/th12915/data.svx:67107: warning: Unused fixed point “33909”
+802> /tmp/th12915/data.svx:67174: warning: Unused fixed point “33910”
+803> /tmp/th12915/data.svx:67225: warning: Unused fixed point “33933”
+804> /tmp/th12915/data.svx:67251: warning: Unused fixed point “33946”
+805> /tmp/th12915/data.svx:67368: warning: Unused fixed point “33998”
+806> /tmp/th12915/data.svx:67392: warning: Unused fixed point “34009”
+807> /tmp/th12915/data.svx:67589: warning: Unused fixed point “34130”
+808> /tmp/th12915/data.svx:67602: warning: Unused fixed point “34131”
+809> /tmp/th12915/data.svx:67609: warning: Unused fixed point “34132”
+810> /tmp/th12915/data.svx:67613: warning: Unused fixed point “34133”
+811> /tmp/th12915/data.svx:67633: warning: Unused fixed point “34134”
+812> /tmp/th12915/data.svx:67681: warning: Unused fixed point “34151”
+813> /tmp/th12915/data.svx:67699: warning: Unused fixed point “34152”
+814> /tmp/th12915/data.svx:67745: warning: Unused fixed point “34173”
+815> /tmp/th12915/data.svx:67813: warning: Unused fixed point “34213”
+816> /tmp/th12915/data.svx:67992: warning: Unused fixed point “34295”
+817> /tmp/th12915/data.svx:68000: warning: Unused fixed point “34296”
+818> /tmp/th12915/data.svx:68012: warning: Unused fixed point “34297”
+819> /tmp/th12915/data.svx:68037: warning: Unused fixed point “34307”
+820> /tmp/th12915/data.svx:68055: warning: Unused fixed point “34316”
+821> /tmp/th12915/data.svx:68157: warning: Unused fixed point “34384”
+822> /tmp/th12915/data.svx:68162: warning: Unused fixed point “34385”
+823> /tmp/th12915/data.svx:68163: warning: Unused fixed point “34386”
+824> /tmp/th12915/data.svx:68286: warning: Unused fixed point “34434”
+825> /tmp/th12915/data.svx:68302: warning: Unused fixed point “34435”
+826> /tmp/th12915/data.svx:68314: warning: Unused fixed point “34438”
+827> /tmp/th12915/data.svx:68366: warning: Unused fixed point “34465”
+828> /tmp/th12915/data.svx:68380: warning: Unused fixed point “34467”
+829> /tmp/th12915/data.svx:68383: warning: Unused fixed point “34468”
+830> /tmp/th12915/data.svx:68399: warning: Unused fixed point “34476”
+831> /tmp/th12915/data.svx:68498: warning: Unused fixed point “34543”
+832> /tmp/th12915/data.svx:68515: warning: Unused fixed point “34544”
+833> /tmp/th12915/data.svx:68556: warning: Unused fixed point “34548”
+834> /tmp/th12915/data.svx:68576: warning: Unused fixed point “34561”
+835> /tmp/th12915/data.svx:68587: warning: Unused fixed point “34562”
+836> /tmp/th12915/data.svx:68608: warning: Unused fixed point “34576”
+837> /tmp/th12915/data.svx:68610: warning: Unused fixed point “34577”
+838> /tmp/th12915/data.svx:68622: warning: Unused fixed point “34578”
+839> /tmp/th12915/data.svx:68712: warning: Unused fixed point “34621”
+840> /tmp/th12915/data.svx:68829: warning: Unused fixed point “34687”
+841> /tmp/th12915/data.svx:68846: warning: Unused fixed point “34688”
+842> /tmp/th12915/data.svx:68869: warning: Unused fixed point “34693”
+843> /tmp/th12915/data.svx:68983: warning: Unused fixed point “34753”
+844> /tmp/th12915/data.svx:69028: warning: Unused fixed point “34773”
+845> /tmp/th12915/data.svx:69038: warning: Unused fixed point “34778”
+846> /tmp/th12915/data.svx:69186: warning: Unused fixed point “34851”
+847> /tmp/th12915/data.svx:69224: warning: Unused fixed point “34870”
+848> /tmp/th12915/data.svx:69348: warning: Unused fixed point “34968”
+849> /tmp/th12915/data.svx:69366: warning: Unused fixed point “34977”
+850> /tmp/th12915/data.svx:69406: warning: Unused fixed point “34997”
+851> /tmp/th12915/data.svx:69465: warning: Unused fixed point “35035”
+852> /tmp/th12915/data.svx:69480: warning: Unused fixed point “35036”
+853> /tmp/th12915/data.svx:69549: warning: Unused fixed point “35067”
+854> /tmp/th12915/data.svx:69641: warning: Unused fixed point “35113”
+855> /tmp/th12915/data.svx:69813: warning: Unused fixed point “35197”
+856> /tmp/th12915/data.svx:69897: warning: Unused fixed point “35239”
+857> /tmp/th12915/data.svx:70025: warning: Unused fixed point “35301”
+858> /tmp/th12915/data.svx:70089: warning: Unused fixed point “35332”
+859> /tmp/th12915/data.svx:70236: warning: Unused fixed point “35404”
+860> /tmp/th12915/data.svx:70282: warning: Unused fixed point “35427”
+861> /tmp/th12915/data.svx:70362: warning: Unused fixed point “35467”
+862> /tmp/th12915/data.svx:70634: warning: Unused fixed point “35620”
+863> /tmp/th12915/data.svx:70838: warning: Unused fixed point “35719”
+864> /tmp/th12915/data.svx:70909: warning: Unused fixed point “35735”
+865> /tmp/th12915/data.svx:70993: warning: Unused fixed point “35776”
+866> /tmp/th12915/data.svx:71031: warning: Unused fixed point “35805”
+867> /tmp/th12915/data.svx:71059: warning: Unused fixed point “35806”
+868> /tmp/th12915/data.svx:71089: warning: Unused fixed point “35832”
+869> /tmp/th12915/data.svx:71138: warning: Unused fixed point “35844”
+870> /tmp/th12915/data.svx:71270: warning: Unused fixed point “35916”
+871> /tmp/th12915/data.svx:71289: warning: Unused fixed point “35917”
+872> /tmp/th12915/data.svx:71367: warning: Unused fixed point “35952”
+873> /tmp/th12915/data.svx:71494: warning: Unused fixed point “36014”
+874> /tmp/th12915/data.svx:71503: warning: Unused fixed point “36017”
+875> /tmp/th12915/data.svx:71630: warning: Unused fixed point “36081”
+876> /tmp/th12915/data.svx:71753: warning: Unused fixed point “36137”
+877> /tmp/th12915/data.svx:71849: warning: Unused fixed point “36184”
+878> /tmp/th12915/data.svx:71857: warning: Unused fixed point “36187”
+879> /tmp/th12915/data.svx:72028: warning: Unused fixed point “36268”
+880> /tmp/th12915/data.svx:72159: warning: Unused fixed point “36372”
+881> /tmp/th12915/data.svx:72248: warning: Unused fixed point “36373”
+882> /tmp/th12915/data.svx:72266: warning: Unused fixed point “36381”
+883> /tmp/th12915/data.svx:72270: warning: Unused fixed point “36382”
+884> /tmp/th12915/data.svx:72274: warning: Unused fixed point “36383”
+885> /tmp/th12915/data.svx:72292: warning: Unused fixed point “36391”
+886> /tmp/th12915/data.svx:72318: warning: Unused fixed point “36403”
+887> /tmp/th12915/data.svx:72474: warning: Unused fixed point “36480”
+888> /tmp/th12915/data.svx:72507: warning: Unused fixed point “36501”
+889> /tmp/th12915/data.svx:72532: warning: Unused fixed point “36510”
+890> /tmp/th12915/data.svx:72543: warning: Unused fixed point “36511”
+891> /tmp/th12915/data.svx:72557: warning: Unused fixed point “36517”
+892> /tmp/th12915/data.svx:72622: warning: Unused fixed point “36549”
+893> /tmp/th12915/data.svx:72625: warning: Unused fixed point “36550”
+894> /tmp/th12915/data.svx:72642: warning: Unused fixed point “36565”
+895> /tmp/th12915/data.svx:72659: warning: Unused fixed point “36566”
+896> /tmp/th12915/data.svx:72670: warning: Unused fixed point “36576”
+897> /tmp/th12915/data.svx:72682: warning: Unused fixed point “36577”
+898> /tmp/th12915/data.svx:72856: warning: Unused fixed point “36672”
+899> /tmp/th12915/data.svx:72908: warning: Unused fixed point “36685”
+900> /tmp/th12915/data.svx:72909: warning: Unused fixed point “36686”
+901> /tmp/th12915/data.svx:72910: warning: Unused fixed point “36687”
+902> /tmp/th12915/data.svx:72911: warning: Unused fixed point “36688”
+903> /tmp/th12915/data.svx:72912: warning: Unused fixed point “36689”
+904> /tmp/th12915/data.svx:72913: warning: Unused fixed point “36690”
+905> /tmp/th12915/data.svx:72914: warning: Unused fixed point “36691”
+906> /tmp/th12915/data.svx:72915: warning: Unused fixed point “36692”
+907> /tmp/th12915/data.svx:72916: warning: Unused fixed point “36693”
+908> /tmp/th12915/data.svx:72917: warning: Unused fixed point “36694”
+909> /tmp/th12915/data.svx:72918: warning: Unused fixed point “36695”
+910> /tmp/th12915/data.svx:72919: warning: Unused fixed point “36696”
+911> /tmp/th12915/data.svx:72923: warning: Unused fixed point “36698”
+912> /tmp/th12915/data.svx:72928: warning: Unused fixed point “36699”
+913> /tmp/th12915/data.svx:72998: warning: Unused fixed point “36731”
+914> /tmp/th12915/data.svx:73007: warning: Unused fixed point “36739”
+915> /tmp/th12915/data.svx:73017: warning: Unused fixed point “36740”
+916> /tmp/th12915/data.svx:73035: warning: Unused fixed point “36747”
+917> /tmp/th12915/data.svx:73043: warning: Unused fixed point “36750”
+918> /tmp/th12915/data.svx:73046: warning: Unused fixed point “36752”
+919> /tmp/th12915/data.svx:73050: warning: Unused fixed point “36753”
+920> /tmp/th12915/data.svx:73064: warning: Unused fixed point “36759”
+921> /tmp/th12915/data.svx:73090: warning: Unused fixed point “36781”
+922> /tmp/th12915/data.svx:73135: warning: Unused fixed point “36793”
+923> /tmp/th12915/data.svx:73141: warning: Unused fixed point “36798”
+924> /tmp/th12915/data.svx:73148: warning: Unused fixed point “36799”
+925> /tmp/th12915/data.svx:73235: warning: Unused fixed point “36862”
+926> /tmp/th12915/data.svx:73291: warning: Unused fixed point “36863”
+927> /tmp/th12915/data.svx:73340: warning: Unused fixed point “36885”
+928> /tmp/th12915/data.svx:73377: warning: Unused fixed point “36902”
+929> /tmp/th12915/data.svx:73381: warning: Unused fixed point “36903”
+930> /tmp/th12915/data.svx:73421: warning: Unused fixed point “36922”
+931> /tmp/th12915/data.svx:73439: warning: Unused fixed point “36929”
+932> /tmp/th12915/data.svx:73483: warning: Unused fixed point “36952”
+933> /tmp/th12915/data.svx:73489: warning: Unused fixed point “36953”
+934> /tmp/th12915/data.svx:73496: warning: Unused fixed point “36957”
+935> /tmp/th12915/data.svx:73508: warning: Unused fixed point “36963”
+936> /tmp/th12915/data.svx:73516: warning: Unused fixed point “36964”
+937> /tmp/th12915/data.svx:73527: warning: Unused fixed point “36972”
+938> /tmp/th12915/data.svx:73539: warning: Unused fixed point “36973”
+939> /tmp/th12915/data.svx:73560: warning: Unused fixed point “36987”
+940> /tmp/th12915/data.svx:73596: warning: Unused fixed point “37006”
+941> /tmp/th12915/data.svx:73617: warning: Unused fixed point “37007”
+942> /tmp/th12915/data.svx:73707: warning: Unused fixed point “37043”
+943> /tmp/th12915/data.svx:73734: warning: Unused fixed point “37066”
+944> /tmp/th12915/data.svx:73783: warning: Unused fixed point “37077”
+945> /tmp/th12915/data.svx:73801: warning: Unused fixed point “37085”
+946> /tmp/th12915/data.svx:73808: warning: Unused fixed point “37091”
+947> /tmp/th12915/data.svx:73816: warning: Unused fixed point “37092”
+948> /tmp/th12915/data.svx:73820: warning: Unused fixed point “37095”
+949> /tmp/th12915/data.svx:73846: warning: Unused fixed point “37116”
+950> /tmp/th12915/data.svx:73869: warning: Unused fixed point “37117”
+951> /tmp/th12915/data.svx:73875: warning: Unused fixed point “37122”
+952> /tmp/th12915/data.svx:73882: warning: Unused fixed point “37123”
+953> /tmp/th12915/data.svx:73890: warning: Unused fixed point “37130”
+954> /tmp/th12915/data.svx:73899: warning: Unused fixed point “37131”
+955> /tmp/th12915/data.svx:73907: warning: Unused fixed point “37138”
+956> /tmp/th12915/data.svx:73916: warning: Unused fixed point “37139”
+957> /tmp/th12915/data.svx:73956: warning: Unused fixed point “37157”
+958> /tmp/th12915/data.svx:73968: warning: Unused fixed point “37168”
+959> /tmp/th12915/data.svx:73981: warning: Unused fixed point “37169”
+960> /tmp/th12915/data.svx:73999: warning: Unused fixed point “37177”
+961> /tmp/th12915/data.svx:74009: warning: Unused fixed point “37184”
+962> /tmp/th12915/data.svx:74018: warning: Unused fixed point “37185”
+963> /tmp/th12915/data.svx:74028: warning: Unused fixed point “37192”
+964> /tmp/th12915/data.svx:74029: warning: Unused fixed point “37193”
+965> /tmp/th12915/data.svx:74051: warning: Unused fixed point “37206”
+966> /tmp/th12915/data.svx:74066: warning: Unused fixed point “37207”
+967> /tmp/th12915/data.svx:74116: warning: Unused fixed point “37231”
+968> /tmp/th12915/data.svx:74128: warning: Unused fixed point “37232”
+969> /tmp/th12915/data.svx:74152: warning: Unused fixed point “37243”
+970> /tmp/th12915/data.svx:74166: warning: Unused fixed point “37249”
+971> /tmp/th12915/data.svx:74237: warning: Unused fixed point “37285”
+972> /tmp/th12915/data.svx:74314: warning: Unused fixed point “37358”
+973> /tmp/th12915/data.svx:74391: warning: Unused fixed point “37359”
+974> /tmp/th12915/data.svx:74464: warning: Unused fixed point “37431”
+975> /tmp/th12915/data.svx:74538: warning: Unused fixed point “37432”
+976> /tmp/th12915/data.svx:74564: warning: Unused fixed point “37444”
+977> 
+978> Survey contains 37444 survey stations, joined by 0 legs.
+979> There are 0 loops.
+980> Survey has 37444 connected components.
+981> Total length of survey legs =    0.00m (   0.00m adjusted)
+982> Total plan length of survey legs =    0.00m
+983> Total vertical length of survey legs =    0.00m
+984> Vertical range = 742.24m (from 298 at 737.36m to 941 at -4.88m)
+985> North-South range = 19135.78m (from 3757 at 463709.16m to 889 at 444573.38m)
+986> East-West range = 14049.05m (from 4015 at 270957.82m to 932 at 256908.77m)
+987> 37444 0-nodes.
+988> There were 974 warning(s).
+989> 
+######################### transcription ########################
+ 3> input:341 -- clearwater.th [6]
+ 3> 565 : camp5bridge_kd@
+ 4> input:582 -- clearwater.th [6]
+ 4> 882 : c_o_w_lower_ent@clearwater_master
+ 5> input:686 -- clearwater.th [6]
+ 5> 933 : 124@fruit_bat_cave.fruit_bat_cave_master
+ 6> input:708 -- clearwater.th [6]
+ 6> 969 : deer_cave_helipad_kd@southern_hills_surface_master
+ 7> input:794 -- clearwater.th [6]
+ 7> 1010 : 28@kenyalang_to_fruit_bat.southern_hills_surface_master
+ 8> input:826 -- clearwater.th [6]
+ 8> 1026 : 16@wild_boar_cave.wild_boar_cave_master
+ 9> input:943 -- clearwater.th [6]
+ 9> 1086 : 41@wild_boar_to_deer_gate.southern_hills_surface_master
+10> input:944 -- clearwater.th [6]
+10> 1087 : 78@wild_boar_to_deer_gate.southern_hills_surface_master
+11> input:989 -- clearwater.th [6]
+11> 1106 : 1@big_cave.big_cave_master
+12> input:1067 -- clearwater.th [6]
+12> 1143 : 39@big_cave_to_paku_crossing.southern_hills_surface_master
+13> input:1148 -- clearwater.th [6]
+13> 1183 : 11@deer_cave_surface.southern_hills_surface_master
+14> input:1158 -- clearwater.th [6]
+14> 1184 : 23@deer_cave_surface.southern_hills_surface_master
+15> input:1228 -- clearwater.th [6]
+15> 1218 : 60@daniels_cave_surface.southern_hills_surface_master
+16> input:1240 -- clearwater.th [6]
+16> 1224 : 7@pendant_cave_to_cliff_entrance.southern_hills_surface_master
+17> input:1268 -- clearwater.th [6]
+17> 1237 : 21@fern_rock_to_pendant_cave.southern_hills_surface_master
+18> input:1295 -- clearwater.th [6]
+18> 1252 : 75@fern_rock_area.southern_hills_surface_master
+19> input:1296 -- clearwater.th [6]
+19> 1253 : 68@fern_rock_area.southern_hills_surface_master
+20> input:1392 -- clearwater.th [6]
+20> 1298 : 75a@paku_bridge_to_park_heli_pad.southern_hills_surface_master
+21> input:1428 -- clearwater.th [6]
+21> 1325 : 28@deer_to_stone_horse.southern_hills_surface_master
+22> input:1541 -- clearwater.th [6]
+22> 1374 : 51@stone_horse_to_paku_bridge.southern_hills_surface_master
+23> input:1698 -- clearwater.th [6]
+23> 1451 : 78@surfrace_cave_fake.surfrace_cave_master
+24> input:1726 -- clearwater.th [6]
+24> 1463 : 1@stonehorse_resurvey_pete.stone_horse_cave_master
+25> input:1825 -- clearwater.th [6]
+25> 1511 : 24@stonehorse_resurvey.stone_horse_cave_master
+26> input:1973 -- clearwater.th [6]
+26> 1616 : 0@stone_horse_cave.stone_horse_cave_master
+27> input:2117 -- clearwater.th [6]
+27> 1658 : 1@snake_cave_fake.snake_cave_master
+28> input:2144 -- clearwater.th [6]
+28> 1666 : 70@porcupine_cave_fake.porcupine_cave_master
+29> input:2145 -- clearwater.th [6]
+29> 1667 : 13@porcupine_cave_fake.porcupine_cave_master
+30> input:2169 -- clearwater.th [6]
+30> 1681 : p51@paris_cave_to_stone_horse.paris_cave_master
+31> input:2215 -- clearwater.th [6]
+31> 1704 : 0@paris_cave_black_hands.paris_cave_master
+32> input:2282 -- clearwater.th [6]
+32> 1745 : 1@paris_cave_fake.paris_cave_master
+33> input:2342 -- clearwater.th [6]
+33> 1769 : 1@mayday_cave_resurvey.mayday_cave_master
+34> input:2361 -- clearwater.th [6]
+34> 1774 : 80@langs_cave_fake.langs_cave_master
+35> input:2432 -- clearwater.th [6]
+35> 1811 : 1@green_cave_fake.green_cave_master
+36> input:2473 -- clearwater.th [6]
+36> 1833 : 24@near_east_passages.fern_rock_cave_master
+37> input:2491 -- clearwater.th [6]
+37> 1841 : 0@hoover_entrance.fern_rock_cave_master
+38> input:2520 -- clearwater.th [6]
+38> 1855 : 13@fern_rock_resurvey.fern_rock_cave_master
+39> input:2643 -- clearwater.th [6]
+39> 1933 : 79@fern_rock_cave_fake.fern_rock_cave_master
+40> input:2650 -- clearwater.th [6]
+40> 1934 : 40@fern_rock_cave_fake.fern_rock_cave_master
+41> input:2704 -- clearwater.th [6]
+41> 1944 : 40@deer_water_fake.deer_water_cave_master
+42> input:2760 -- clearwater.th [6]
+42> 1968 : 1@deer_cave_fake.deer_cave_master
+43> input:2812 -- clearwater.th [6]
+43> 1994 : 1@daniels_cave_fake.daniels_cave_master
+44> input:2966 -- clearwater.th [6]
+44> 2070 : 0@waterfall_paku_crossing.southern_hills_surface_master
+45> input:2976 -- clearwater.th [6]
+45> 2075 : 14@bat_cave_fake.bat_cave_master
+46> input:3008 -- clearwater.th [6]
+46> 2091 : 16@what_resurgence
+47> input:3010 -- clearwater.th [6]
+47> 2092 : 2@headhunt3
+48> input:3316 -- clearwater.th [6]
+48> 2242 : 0@surface_survey_paradise
+49> input:3328 -- clearwater.th [6]
+49> 2248 : 11@glory_holes
+50> input:3386 -- clearwater.th [6]
+50> 2277 : 10@mo_town
+51> input:3489 -- clearwater.th [6]
+51> 2333 : 11@paradise
+52> input:3619 -- clearwater.th [6]
+52> 2409 : 43@river
+53> input:3683 -- clearwater.th [6]
+53> 2418 : 1@terikan_pooh
+54> input:3701 -- clearwater.th [6]
+54> 2427 : 10@penthouse
+55> input:3707 -- clearwater.th [6]
+55> 2430 : 1@rifticious
+56> input:3794 -- clearwater.th [6]
+56> 2471 : 17@evening
+57> input:3960 -- clearwater.th [6]
+57> 2553 : 0@go_on
+58> input:3984 -- clearwater.th [6]
+58> 2565 : 12@clayriv
+59> input:4036 -- clearwater.th [6]
+59> 2591 : 1@grumble_segment
+60> input:4187 -- clearwater.th [6]
+60> 2671 : e14@mustnt_grumble
+61> input:4216 -- clearwater.th [6]
+61> 2679 : 1aa@elevator_pt3
+62> input:4410 -- clearwater.th [6]
+62> 2773 : 57@elevator_pt1
+63> input:4432 -- clearwater.th [6]
+63> 2784 : 1b@elevator_pt2
+64> input:4467 -- clearwater.th [6]
+64> 2801 : 1@wilfordsouth2
+65> input:4531 -- clearwater.th [6]
+65> 2831 : 1@snailchamber
+66> input:4696 -- clearwater.th [6]
+66> 2931 : d24@wilfordsouth
+67> input:4741 -- clearwater.th [6]
+67> 2932 : 23@wilfordsouth
+68> input:5081 -- clearwater.th [6]
+68> 3092 : 1@faketerikan
+69> input:5155 -- clearwater.th [6]
+69> 3146 : terikan_camp@terikan_surface
+70> input:5168 -- clearwater.th [6]
+70> 3147 : 33@terikan_surface
+71> input:5179 -- clearwater.th [6]
+71> 3148 : 74@terikan_surface
+72> input:5261 -- clearwater.th [6]
+72> 3200 : 63@menagerie2
+73> input:5275 -- clearwater.th [6]
+73> 3201 : 19@menagerie2
+74> input:5278 -- clearwater.th [6]
+74> 3202 : 1@menagerie2
+75> input:5494 -- clearwater.th [6]
+75> 3308 : 43@mc.menagerie
+76> input:5517 -- clearwater.th [6]
+76> 3309 : 61@mc.menagerie
+77> input:5526 -- clearwater.th [6]
+77> 3310 : 51@mc.menagerie
+78> input:5527 -- clearwater.th [6]
+78> 3311 : 3@mc.menagerie
+79> input:5543 -- clearwater.th [6]
+79> 3312 : 21@mc.menagerie
+80> input:5579 -- clearwater.th [6]
+80> 3336 : 22thun@thunder_2
+81> input:5582 -- clearwater.th [6]
+81> 3337 : 18thun@thunder_2
+82> input:5585 -- clearwater.th [6]
+82> 3338 : 16thun@thunder_2
+83> input:5599 -- clearwater.th [6]
+83> 3339 : 6parang@thunder_2
+84> input:5657 -- clearwater.th [6]
+84> 3365 : 11@thunder
+85> input:5684 -- clearwater.th [6]
+85> 3377 : 14@eagle_2
+86> input:5761 -- clearwater.th [6]
+86> 3426 : 47@eagle
+87> input:5785 -- clearwater.th [6]
+87> 3427 : 50@eagle
+88> input:5806 -- clearwater.th [6]
+88> 3445 : 17@pooh
+89> input:5868 -- clearwater.th [6]
+89> 3476 : 3@parang
+90> input:5869 -- clearwater.th [6]
+90> 3477 : 18@parang
+91> input:5887 -- clearwater.th [6]
+91> 3478 : 41@parang
+92> input:5970 -- clearwater.th [6]
+92> 3520 : 3900cb@deception_1
+93> input:6042 -- clearwater.th [6]
+93> 3548 : 3900cb@deception_surface
+94> input:6164 -- clearwater.th [6]
+94> 3619 : dc94@david
+95> input:6433 -- clearwater.th [6]
+95> 3776 : 157@fakebluemoon
+96> input:6437 -- clearwater.th [6]
+96> 3777 : 132@fakebluemoon
+97> input:6517 -- clearwater.th [6]
+97> 3779 : 1_0@little_deliverance
+98> input:6525 -- clearwater.th [6]
+98> 3782 : 1_0@deliverance_surface
+99> input:6542 -- clearwater.th [6]
+99> 3793 : c4@deliverance_cab
+100> input:6543 -- clearwater.th [6]
+100> 3794 : cab15a@deliverance_cab
+101> input:6550 -- clearwater.th [6]
+101> 3795 : cab9a@deliverance_cab
+102> input:6552 -- clearwater.th [6]
+102> 3796 : cab8@deliverance_cab
+103> input:6559 -- clearwater.th [6]
+103> 3797 : cab5@deliverance_cab
+104> input:6589 -- clearwater.th [6]
+104> 3817 : c27@deliverance_ca
+105> input:6590 -- clearwater.th [6]
+105> 3818 : ca41a@deliverance_ca
+106> input:6598 -- clearwater.th [6]
+106> 3819 : ca34a@deliverance_ca
+107> input:6605 -- clearwater.th [6]
+107> 3820 : ca17a@deliverance_ca
+108> input:6611 -- clearwater.th [6]
+108> 3821 : ca17@deliverance_ca
+109> input:6614 -- clearwater.th [6]
+109> 3822 : ca9@deliverance_ca
+110> input:6619 -- clearwater.th [6]
+110> 3823 : ca12@deliverance_ca
+111> input:6636 -- clearwater.th [6]
+111> 3831 : cab6@deliverance_civets_tail
+112> input:6640 -- clearwater.th [6]
+112> 3833 : cx29@deliverance_erase_and_rewind
+113> input:6680 -- clearwater.th [6]
+113> 3872 : 2_17@deliverance_smack_my_pitch_up_and_paupers_pitch
+114> input:6720 -- clearwater.th [6]
+114> 3873 : 2_27@deliverance_smack_my_pitch_up_and_paupers_pitch
+115> input:6790 -- clearwater.th [6]
+115> 3905 : cab2@deliverance_cac
+116> input:6818 -- clearwater.th [6]
+116> 3919 : e6@deliverance_eg
+117> input:6904 -- clearwater.th [6]
+117> 3961 : c47@deliverance_cx
+118> input:6916 -- clearwater.th [6]
+118> 3972 : ca28a@deliverance_ca2
+119> input:6928 -- clearwater.th [6]
+119> 3973 : cab5@deliverance_ca2
+120> input:6936 -- clearwater.th [6]
+120> 3977 : c4@deliverance_c4
+121> input:6941 -- clearwater.th [6]
+121> 3981 : ca4a@deliverance_c
+122> input:6946 -- clearwater.th [6]
+122> 3982 : c13@deliverance_c
+123> input:7012 -- clearwater.th [6]
+123> 4032 : c28a@deliverance_abc
+124> input:7022 -- clearwater.th [6]
+124> 4033 : c6a@deliverance_abc
+125> input:7024 -- clearwater.th [6]
+125> 4034 : b12a@deliverance_abc
+126> input:7029 -- clearwater.th [6]
+126> 4035 : a8a@deliverance_abc
+127> input:7045 -- clearwater.th [6]
+127> 4036 : c19@deliverance_abc
+128> input:7080 -- clearwater.th [6]
+128> 4045 : e10a@deliverance_e
+129> input:7086 -- clearwater.th [6]
+129> 4046 : e5a@deliverance_e
+130> input:7092 -- clearwater.th [6]
+130> 4047 : c27@deliverance_e
+131> input:7102 -- clearwater.th [6]
+131> 4052 : ca9@deliverance_cad
+132> input:7120 -- clearwater.th [6]
+132> 4061 : b3@deliverance_g
+133> input:7143 -- clearwater.th [6]
+133> 4080 : c44a@deliverance_c29onwards
+134> input:7145 -- clearwater.th [6]
+134> 4081 : c47a@deliverance_c29onwards
+135> input:7147 -- clearwater.th [6]
+135> 4082 : c48a@deliverance_c29onwards
+136> input:7166 -- clearwater.th [6]
+136> 4083 : c28@deliverance_c29onwards
+137> input:7168 -- clearwater.th [6]
+137> 4085 : 2@half_moon_penguin_cave
+138> input:7185 -- clearwater.th [6]
+138> 4093 : 1@gardeners_world
+139> input:7233 -- clearwater.th [6]
+139> 4116 : 1@benarat_caverns_to_gardeners_world
+140> input:7251 -- clearwater.th [6]
+140> 4125 : 0@tiger_connection
+141> input:7313 -- clearwater.th [6]
+141> 4156 : 0@tasulink
+142> input:7576 -- clearwater.th [6]
+142> 4286 : mf16@main_passage_2
+143> input:7696 -- clearwater.th [6]
+143> 4346 : mf15@main_passage_1
+144> input:7841 -- clearwater.th [6]
+144> 4416 : 1@sakais_fake
+145> input:7944 -- clearwater.th [6]
+145> 4467 : 5@late_night_series
+146> input:7980 -- clearwater.th [6]
+146> 4485 : 18@cake_and_cheese
+147> input:7992 -- clearwater.th [6]
+147> 4491 : 7@disappointment_ramp
+148> input:8028 -- clearwater.th [6]
+148> 4509 : bm18@robbies_fantasy
+149> input:8056 -- clearwater.th [6]
+149> 4523 : 18@robbies_dream
+150> input:8200 -- clearwater.th [6]
+150> 4632 : 80@moonshadow
+151> input:8291 -- clearwater.th [6]
+151> 4643 : 18a@side_passages3
+152> input:8293 -- clearwater.th [6]
+152> 4644 : 19@side_passages3
+153> input:8303 -- clearwater.th [6]
+153> 4645 : 12@side_passages3
+154> input:8306 -- clearwater.th [6]
+154> 4646 : 7@side_passages3
+155> input:8343 -- clearwater.th [6]
+155> 4672 : 54a@side_passages2
+156> input:8351 -- clearwater.th [6]
+156> 4673 : 45@side_passages2
+157> input:8357 -- clearwater.th [6]
+157> 4674 : 42@side_passages2
+158> input:8419 -- clearwater.th [6]
+158> 4716 : 48aa@importance_of_being_idle_2
+159> input:8429 -- clearwater.th [6]
+159> 4717 : 42@importance_of_being_idle_2
+160> input:8459 -- clearwater.th [6]
+160> 4718 : 72a@importance_of_being_idle_2
+161> input:8475 -- clearwater.th [6]
+161> 4727 : 39@side_passages1
+162> input:8477 -- clearwater.th [6]
+162> 4728 : 25@side_passages1
+163> input:8478 -- clearwater.th [6]
+163> 4729 : 19@side_passages1
+164> input:8495 -- clearwater.th [6]
+164> 4733 : 0@roxbow
+165> input:8512 -- clearwater.th [6]
+165> 4741 : 40@flatline
+166> input:8592 -- clearwater.th [6]
+166> 4779 : 0@mainlinetoo
+167> input:8656 -- clearwater.th [6]
+167> 4814 : 10@importance_of_being_idle_1
+168> input:8793 -- clearwater.th [6]
+168> 4870 : 9@benerat_mainline
+169> input:8818 -- clearwater.th [6]
+169> 4878 : 9@hurricane_surface
+170> input:8858 -- clearwater.th [6]
+170> 4903 : 20@melinau_gorge
+171> input:8866 -- clearwater.th [6]
+171> 4904 : 1@melinau_gorge
+172> input:8919 -- clearwater.th [6]
+172> 4924 : 22@moon_to_sakais
+173> input:9100 -- clearwater.th [6]
+173> 5020 : 36@fakebenarat
+174> input:9160 -- clearwater.th [6]
+174> 5043 : 24@cobnew
+175> input:9239 -- clearwater.th [6]
+175> 5119 : 67a@cw28
+176> input:9318 -- clearwater.th [6]
+176> 5120 : 118@cw28
+177> input:9358 -- clearwater.th [6]
+177> 5149 : 1@samonolith
+178> input:9424 -- clearwater.th [6]
+178> 5188 : 88@jonah4
+179> input:9435 -- clearwater.th [6]
+179> 5189 : 105@jonah4
+180> input:9443 -- clearwater.th [6]
+180> 5190 : 93@jonah4
+181> input:9464 -- clearwater.th [6]
+181> 5191 : 91@jonah4
+182> input:9465 -- clearwater.th [6]
+182> 5192 : 1@jonah4
+183> input:9472 -- clearwater.th [6]
+183> 5193 : 85@jonah4
+184> input:9553 -- clearwater.th [6]
+184> 5226 : 74@jonah2
+185> input:9653 -- clearwater.th [6]
+185> 5289 : 66@jonah
+186> input:9699 -- clearwater.th [6]
+186> 5295 : 1@follyclimb
+187> input:9717 -- clearwater.th [6]
+187> 5304 : 1@folly
+188> input:9940 -- clearwater.th [6]
+188> 5408 : 1@indemnity
+189> input:9995 -- clearwater.th [6]
+189> 5452 : cw34_105@cw36
+190> input:10011 -- clearwater.th [6]
+190> 5453 : cw33_95@cw36
+191> input:10034 -- clearwater.th [6]
+191> 5454 : 96@cw36
+192> input:10138 -- clearwater.th [6]
+192> 5508 : d1@memlane
+193> input:10141 -- clearwater.th [6]
+193> 5509 : c0@memlane
+194> input:10154 -- clearwater.th [6]
+194> 5510 : a1@memlane
+195> input:10155 -- clearwater.th [6]
+195> 5511 : b0@memlane
+196> input:10158 -- clearwater.th [6]
+196> 5512 : b14@memlane
+197> input:10163 -- clearwater.th [6]
+197> 5513 : b3@memlane
+198> input:10245 -- clearwater.th [6]
+198> 5554 : 1@whither
+199> input:10443 -- clearwater.th [6]
+199> 5652 : 64a@cw39
+200> input:10535 -- clearwater.th [6]
+200> 5695 : 25@cw13
+201> input:10557 -- clearwater.th [6]
+201> 5706 : 67@cw38
+202> input:10601 -- clearwater.th [6]
+202> 5728 : 0@cw37
+203> input:10612 -- clearwater.th [6]
+203> 5734 : 3@cw35
+204> input:10615 -- clearwater.th [6]
+204> 5735 : 0@cw35
+205> input:10679 -- clearwater.th [6]
+205> 5766 : 100@cw34
+206> input:10713 -- clearwater.th [6]
+206> 5783 : 1@cw32
+207> input:10765 -- clearwater.th [6]
+207> 5815 : 32@cw27
+208> input:10783 -- clearwater.th [6]
+208> 5816 : 14@cw27
+209> input:10827 -- clearwater.th [6]
+209> 5842 : 227@cw31
+210> input:10838 -- clearwater.th [6]
+210> 5843 : 0@cw31
+211> input:10850 -- clearwater.th [6]
+211> 5851 : 1@cw30
+212> input:10856 -- clearwater.th [6]
+212> 5852 : 0@cw30
+213> input:10982 -- clearwater.th [6]
+213> 5918 : 117@cw26
+214> input:10990 -- clearwater.th [6]
+214> 5919 : 0@cw26
+215> input:11002 -- clearwater.th [6]
+215> 5920 : 118@cw26
+216> input:11191 -- clearwater.th [6]
+216> 6012 : 53@cw24
+217> input:11235 -- clearwater.th [6]
+217> 6043 : 1@cw23
+218> input:11283 -- clearwater.th [6]
+218> 6068 : 42@cw22
+219> input:11288 -- clearwater.th [6]
+219> 6069 : 0@cw22
+220> input:11312 -- clearwater.th [6]
+220> 6070 : 41@cw22
+221> input:11329 -- clearwater.th [6]
+221> 6078 : 0@cw21
+222> input:11335 -- clearwater.th [6]
+222> 6081 : 0@cw20
+223> input:11441 -- clearwater.th [6]
+223> 6133 : 0@cw19
+224> input:11617 -- clearwater.th [6]
+224> 6226 : 40@cw17
+225> input:11635 -- clearwater.th [6]
+225> 6227 : 17@cw17
+226> input:11667 -- clearwater.th [6]
+226> 6243 : 61@cw16
+227> input:11669 -- clearwater.th [6]
+227> 6244 : 0@cw16
+228> input:11675 -- clearwater.th [6]
+228> 6247 : 0@cw15
+229> input:11687 -- clearwater.th [6]
+229> 6253 : 0@cw14
+230> input:11733 -- clearwater.th [6]
+230> 6276 : 0@cw12
+231> input:11799 -- clearwater.th [6]
+231> 6316 : 0@cw10
+232> input:11902 -- clearwater.th [6]
+232> 6356 : 48@cw9
+233> input:11916 -- clearwater.th [6]
+233> 6363 : 2@cw8
+234> input:11920 -- clearwater.th [6]
+234> 6365 : 0@cw7
+235> input:11975 -- clearwater.th [6]
+235> 6394 : 23@cw6
+236> input:11976 -- clearwater.th [6]
+236> 6395 : 0@cw6
+237> input:11996 -- clearwater.th [6]
+237> 6399 : 1@cw5
+238> input:12045 -- clearwater.th [6]
+238> 6423 : 9@cw4
+239> input:12081 -- clearwater.th [6]
+239> 6441 : 1@cw3
+240> input:12120 -- clearwater.th [6]
+240> 6457 : 8@cw2
+241> input:12231 -- clearwater.th [6]
+241> 6517 : 63@cw1
+242> input:12239 -- clearwater.th [6]
+242> 6518 : 0@cw1
+243> input:12319 -- clearwater.th [6]
+243> 6572 : 28@cw0
+244> input:12326 -- clearwater.th [6]
+244> 6573 : 41tf00@cw0
+245> input:12370 -- clearwater.th [6]
+245> 6574 : 27@cw0
+246> input:12375 -- clearwater.th [6]
+246> 6575 : 0@bouldery_sink.bouldery_sink_master
+247> input:12389 -- clearwater.th [6]
+247> 6584 : 0@maypole_hole.maypole_hole_master
+248> input:12430 -- clearwater.th [6]
+248> 6626 : 0@low_country_traverse.gorge_surface_master
+249> input:12460 -- clearwater.th [6]
+249> 6627 : 31@low_country_traverse.gorge_surface_master
+250> input:12488 -- clearwater.th [6]
+250> 6641 : 2_8@doline_sink.doline_sink_master
+251> input:12584 -- clearwater.th [6]
+251> 6686 : 49@dolines_traverse.gorge_surface_master
+252> input:12596 -- clearwater.th [6]
+252> 6692 : 6@cairn_pot.cairn_master
+253> input:12608 -- clearwater.th [6]
+253> 6697 : 7@cairn_surface.gorge_surface_master
+254> input:12618 -- clearwater.th [6]
+254> 6702 : 0@pre_repast_cave.pre_repast_master
+255> input:12636 -- clearwater.th [6]
+255> 6710 : 1@2011_surface.gorge_surface_master
+256> input:12724 -- clearwater.th [6]
+256> 6791 : 12@redtipracerclimb.red_tip_racer_master
+257> input:12793 -- clearwater.th [6]
+257> 6792 : mb1@2013rtrclimb.red_tip_racer_master
+258> input:12811 -- clearwater.th [6]
+258> 6801 : 9@red_tip_racer_2.red_tip_racer_master
+259> input:13039 -- clearwater.th [6]
+259> 6912 : 11@frog_cave.frog_master
+260> input:13045 -- clearwater.th [6]
+260> 6915 : 2@tree_cave.tree_master
+261> input:13047 -- clearwater.th [6]
+261> 6916 : m13a@penan_pot_cave.penan_pot_master
+262> input:13360 -- clearwater.th [6]
+262> 7067 : 94@2007_surface.gorge_surface_master
+263> input:13362 -- clearwater.th [6]
+263> 7068 : m11@shatterbox.shatterbox_master
+264> input:13409 -- clearwater.th [6]
+264> 7091 : 0@bat_cave.bat_master
+265> input:13419 -- clearwater.th [6]
+265> 7096 : 16@no_country_surface.gorge_surface_master
+266> input:13445 -- clearwater.th [6]
+266> 7108 : 1@bouldery_sink_surface.gorge_surface_master
+267> input:13597 -- clearwater.th [6]
+267> 7179 : 28@2000_surface.gorge_surface_master
+268> input:13625 -- clearwater.th [6]
+268> 7193 : 14@white_rift_cave.white_rift_master
+269> input:13675 -- clearwater.th [6]
+269> 7217 : ent@rat_cave.rat_master
+270> input:13729 -- clearwater.th [6]
+270> 7255 : 0@pinnacle_cave.pinnacle_master
+271> input:13785 -- clearwater.th [6]
+271> 7271 : 17@pinnacle_cave_no2.pinnacle_no2_master
+272> input:14219 -- clearwater.th [6]
+272> 7646 : 98h@train_cave_south.train_master
+273> input:14667 -- clearwater.th [6]
+273> 7715 : 1@train_cave_north_2012.train_master
+274> input:14777 -- clearwater.th [6]
+274> 7794 : 44@train_cave_2012.train_master
+275> input:15066 -- clearwater.th [6]
+275> 7913 : 23s@red_leaf_monkey_cave_2.red_leaf_monkey_2_master
+276> input:15223 -- clearwater.th [6]
+276> 7991 : 0@red_leaf_monkey_cave_1.red_leaf_monkey_1_master
+277> input:15366 -- clearwater.th [6]
+277> 8062 : tw019@tiger_foot_caves.tiger_foot_master
+278> input:15425 -- clearwater.th [6]
+278> 8091 : 43@paku_surface.paku_valley_surface_master
+279> input:15722 -- clearwater.th [6]
+279> 8258 : 8@1.roof_shelf.nasib_bagus_master
+280> input:15853 -- clearwater.th [6]
+280> 8305 : 0@badgers_baptism.nasib_bagus_master
+281> input:15972 -- clearwater.th [6]
+281> 8362 : 1@nasib_bagus.nasib_bagus_master
+282> input:16125 -- clearwater.th [6]
+282> 8438 : 400@no_name.no_name_master
+283> input:16149 -- clearwater.th [6]
+283> 8459 : 61@no_name.hidden_valley_surface_master
+284> input:16384 -- clearwater.th [6]
+284> 8673 : 0@wonder_cave_2015.wonder_master
+285> input:17110 -- clearwater.th [6]
+285> 9031 : 0@11jrpa.sugar_were_going_down.wonder_master
+286> input:17337 -- clearwater.th [6]
+286> 9160 : 0@16lca.secret_affair.wonder_master
+287> input:17449 -- clearwater.th [6]
+287> 9210 : 0@16jrpa.secret_affair.wonder_master
+288> input:17450 -- clearwater.th [6]
+288> 9211 : 8@16jrpa.secret_affair.wonder_master
+289> input:18058 -- clearwater.th [6]
+289> 9515 : 0@16dn_a.secret_affair.wonder_master
+290> input:18084 -- clearwater.th [6]
+290> 9528 : 0@15dn_b.secret_affair.wonder_master
+291> input:18298 -- clearwater.th [6]
+291> 9633 : 0@15dn_a.secret_affair.wonder_master
+292> input:19534 -- clearwater.th [6]
+292> 10333 : 200@rhino_canyon.wonder_master
+293> input:19866 -- clearwater.th [6]
+293> 10428 : 0@17dn_a.rhino_canyon.wonder_master
+294> input:19973 -- clearwater.th [6]
+294> 10501 : 6n@11dn_a.rhino_canyon.wonder_master
+295> input:20014 -- clearwater.th [6]
+295> 10502 : 0@11dn_a.rhino_canyon.wonder_master
+296> input:20017 -- clearwater.th [6]
+296> 10503 : 13@11dn_a.rhino_canyon.wonder_master
+297> input:20256 -- clearwater.th [6]
+297> 10618 : 0@09reb.rhino_canyon.wonder_master
+298> input:20473 -- clearwater.th [6]
+298> 10719 : 0@09rea.rhino_canyon.wonder_master
+299> input:20474 -- clearwater.th [6]
+299> 10720 : 15@09rea.rhino_canyon.wonder_master
+300> input:20933 -- clearwater.th [6]
+300> 10945 : 0@05reb.rhino_canyon.wonder_master
+301> input:21350 -- clearwater.th [6]
+301> 11339 : 56@05dn_a.rhino_canyon.wonder_master
+302> input:21472 -- clearwater.th [6]
+302> 11340 : 39@05dn_a.rhino_canyon.wonder_master
+303> input:21697 -- clearwater.th [6]
+303> 11341 : 9@05dn_a.rhino_canyon.wonder_master
+304> input:21764 -- clearwater.th [6]
+304> 11342 : 0@05dn_a.rhino_canyon.wonder_master
+305> input:21858 -- clearwater.th [6]
+305> 11402 : 0@15cha.pinky_promise.wonder_master
+306> input:21951 -- clearwater.th [6]
+306> 11445 : 0@13jw_a.pinky_promise.wonder_master
+307> input:22005 -- clearwater.th [6]
+307> 11469 : 0@11chc.pinky_promise.wonder_master
+308> input:22430 -- clearwater.th [6]
+308> 11679 : 0@11chb.pinky_promise.wonder_master
+309> input:23076 -- clearwater.th [6]
+309> 11997 : 54@09dn_a.pinky_promise.wonder_master
+310> input:23483 -- clearwater.th [6]
+310> 12202 : 0@12rea.middle_pocket.wonder_master
+311> input:23614 -- clearwater.th [6]
+311> 12266 : 0@11cha.middle_pocket.wonder_master
+312> input:23789 -- clearwater.th [6]
+312> 12408 : 174@govenors_pleasure.wonder_master
+313> input:23917 -- clearwater.th [6]
+313> 12409 : 154@govenors_pleasure.wonder_master
+314> input:24183 -- clearwater.th [6]
+314> 12654 : 96@generation_gap.wonder_master
+315> input:24425 -- clearwater.th [6]
+315> 12655 : 53@generation_gap.wonder_master
+316> input:24537 -- clearwater.th [6]
+316> 12709 : 0@13dn_a.generation_gap.wonder_master
+317> input:25021 -- clearwater.th [6]
+317> 12964 : 0@10jpa.liberation.wonder_master
+318> input:25443 -- clearwater.th [6]
+318> 13171 : 0@10chb.liberation.wonder_master
+319> input:25578 -- clearwater.th [6]
+319> 13261 : 11e@10cha.liberation.wonder_master
+320> input:25637 -- clearwater.th [6]
+320> 13262 : 0@10cha.liberation.wonder_master
+321> input:25638 -- clearwater.th [6]
+321> 13263 : 2@10cha.liberation.wonder_master
+322> input:26126 -- clearwater.th [6]
+322> 13655 : 49@06dn_a.liberation.wonder_master
+323> input:26281 -- clearwater.th [6]
+323> 13656 : 24@06dn_a.liberation.wonder_master
+324> input:26911 -- clearwater.th [6]
+324> 13885 : 0@15jrpa.footsteps_in_time.wonder_master
+325> input:26982 -- clearwater.th [6]
+325> 13937 : 38@elephants_graveyard.wonder_master
+326> input:27019 -- clearwater.th [6]
+326> 13938 : 30@elephants_graveyard.wonder_master
+327> input:27850 -- clearwater.th [6]
+327> 14527 : 153@doing_time.wonder_master
+328> input:27954 -- clearwater.th [6]
+328> 14528 : 140@doing_time.wonder_master
+329> input:28165 -- clearwater.th [6]
+329> 14529 : 110@doing_time.wonder_master
+330> input:28244 -- clearwater.th [6]
+330> 14530 : 109@doing_time.wonder_master
+331> input:28260 -- clearwater.th [6]
+331> 14536 : 0@17reb.doing_time.wonder_master
+332> input:28290 -- clearwater.th [6]
+332> 14551 : 0@17rea.doing_time.wonder_master
+333> input:28888 -- clearwater.th [6]
+333> 14848 : 0@conviction.wonder_master
+334> input:29949 -- clearwater.th [6]
+334> 15377 : 0@06rea.catacombs.wonder_master
+335> input:29950 -- clearwater.th [6]
+335> 15378 : 3@06rea.catacombs.wonder_master
+336> input:30675 -- clearwater.th [6]
+336> 15738 : 0@06cha.catacombs.wonder_master
+337> input:32129 -- clearwater.th [6]
+337> 16465 : 34@golden_syrup_spoon_series.cloud_master
+338> input:32159 -- clearwater.th [6]
+338> 16480 : 4@crab_inlet.cloud_master
+339> input:32227 -- clearwater.th [6]
+339> 16542 : 92@kamakazi_passage.cloud_master
+340> input:32474 -- clearwater.th [6]
+340> 16644 : 150@tombraider_series.bridge_master
+341> input:32672 -- clearwater.th [6]
+341> 16742 : 7@earthquake_inlet_series.bridge_master
+342> input:32742 -- clearwater.th [6]
+342> 16776 : x84@twin_waterfalls_series.bridge_master
+343> input:32904 -- clearwater.th [6]
+343> 16856 : md39@white_cobra_north.bridge_master
+344> input:33085 -- clearwater.th [6]
+344> 16970 : x133@pipped_to_the_post.bridge_master
+345> input:33122 -- clearwater.th [6]
+345> 16971 : md34@pipped_to_the_post.bridge_master
+346> input:33350 -- clearwater.th [6]
+346> 17075 : md39@white_cobra_south.bridge_master
+347> input:33356 -- clearwater.th [6]
+347> 17076 : md28@white_cobra_south.bridge_master
+348> input:33559 -- clearwater.th [6]
+348> 17175 : 0@perseverance_1998.perseverance_master
+349> input:33670 -- clearwater.th [6]
+349> 17244 : 1p@perseverance_1996.perseverance_master
+350> input:33777 -- clearwater.th [6]
+350> 17280 : mk39@bridge_to_perseverance.hidden_valley_surface_master
+351> input:33823 -- clearwater.th [6]
+351> 17303 : cs0@damocles.damocles_master
+352> input:33837 -- clearwater.th [6]
+352> 17309 : 74@damocles_surface.hidden_valley_surface_master
+353> input:33950 -- clearwater.th [6]
+353> 17365 : 1@wonder_conviction_surface.hidden_valley_surface_master
+354> input:33980 -- clearwater.th [6]
+354> 17390 : 112@camp_to_wonder_cave.hidden_valley_surface_master
+355> input:34006 -- clearwater.th [6]
+355> 17391 : 138@camp_to_wonder_cave.hidden_valley_surface_master
+356> input:34030 -- clearwater.th [6]
+356> 17407 : s23@vipers_pit.arch_master
+357> input:34086 -- clearwater.th [6]
+357> 17434 : 56@swan_song.arch_master
+358> input:34104 -- clearwater.th [6]
+358> 17443 : 0@raw_deal.arch_master
+359> input:34170 -- clearwater.th [6]
+359> 17478 : 21@arch_entrance.arch_master
+360> input:34180 -- clearwater.th [6]
+360> 17479 : 39@arch_entrance.arch_master
+361> input:34389 -- clearwater.th [6]
+361> 17625 : 37@soup_dragon.moonmilk_master
+362> input:34699 -- clearwater.th [6]
+362> 17736 : 39@consolation_cave.consolation_master
+363> input:34733 -- clearwater.th [6]
+363> 17753 : 0@surprisingly_obvious_cave.surprisingly_obvious_master
+364> input:34738 -- clearwater.th [6]
+364> 17759 : c_o_w_lower_ent@racer_area_surface_master
+365> input:34739 -- clearwater.th [6]
+365> 17760 : hq_helipad_kd@racer_area_surface_master
+366> input:34757 -- clearwater.th [6]
+366> 17768 : 26@surprisingly_obvious_totjunction.racer_area_surface_master
+367> input:34796 -- clearwater.th [6]
+367> 17821 : 35@easter_lower.easter_master
+368> input:34810 -- clearwater.th [6]
+368> 17822 : 1@easter_lower.easter_master
+369> input:34880 -- clearwater.th [6]
+369> 17857 : 0@easter_pass_go.easter_master
+370> input:34962 -- clearwater.th [6]
+370> 17898 : 15@roadtonowhere.easter_master
+371> input:35056 -- clearwater.th [6]
+371> 17942 : 48@easter_canyon_north2.easter_master
+372> input:35123 -- clearwater.th [6]
+372> 17978 : 21@easter_re-survey.easter_master
+373> input:35184 -- clearwater.th [6]
+373> 18005 : 3310@stinky_pete.easter_master
+374> input:35201 -- clearwater.th [6]
+374> 18006 : 0@stinky_pete.easter_master
+375> input:35290 -- clearwater.th [6]
+375> 18061 : 25@canyon_the_sequel.easter_master
+376> input:35315 -- clearwater.th [6]
+376> 18062 : 5@canyon_the_sequel.easter_master
+377> input:35328 -- clearwater.th [6]
+377> 18068 : 119@easter_lower_five.easter_master
+378> input:35372 -- clearwater.th [6]
+378> 18095 : 114@easter_lower_three.easter_master
+379> input:35395 -- clearwater.th [6]
+379> 18096 : 13@easter_lower_three.easter_master
+380> input:35483 -- clearwater.th [6]
+380> 18140 : 20@easter_lower_se.easter_master
+381> input:35525 -- clearwater.th [6]
+381> 18161 : 517@easter_headhunters_contd.easter_master
+382> input:35561 -- clearwater.th [6]
+382> 18178 : 21@easter_headhunters.easter_master
+383> input:35601 -- clearwater.th [6]
+383> 18198 : 304@easter_canyon.easter_master
+384> input:35613 -- clearwater.th [6]
+384> 18203 : 26@canyon_climb.easter_master
+385> input:35685 -- clearwater.th [6]
+385> 18249 : 34@easter.easter_master
+386> input:35713 -- clearwater.th [6]
+386> 18250 : 23@easter.easter_master
+387> input:35785 -- clearwater.th [6]
+387> 18346 : 0@21.racerdigs.racer_master
+388> input:35811 -- clearwater.th [6]
+388> 18359 : 0@20.racerdigs.racer_master
+389> input:35832 -- clearwater.th [6]
+389> 18376 : 0@14.fatsnake.racer_master
+390> input:35840 -- clearwater.th [6]
+390> 18379 : 0@12.fatsnake.racer_master
+391> input:35846 -- clearwater.th [6]
+391> 18382 : 0@11.fatsnake.racer_master
+392> input:35869 -- clearwater.th [6]
+392> 18393 : 5@5.fatsnake.racer_master
+393> input:35887 -- clearwater.th [6]
+393> 18401 : 0@2.missed.racer_master
+394> input:35905 -- clearwater.th [6]
+394> 18413 : 7@4.boneyardsump.racer_master
+395> input:35919 -- clearwater.th [6]
+395> 18419 : 2@1.boneyardsump.racer_master
+396> input:35948 -- clearwater.th [6]
+396> 18432 : 668@connection.racer_master
+397> input:35955 -- clearwater.th [6]
+397> 18435 : 3@dgc.racer_master
+398> input:35979 -- clearwater.th [6]
+398> 18445 : 4@bens_climb.racer_master
+399> input:36021 -- clearwater.th [6]
+399> 18465 : 0@footprints_aven.racer_master
+400> input:36097 -- clearwater.th [6]
+400> 18522 : 34@racer_lower14.racer_master
+401> input:36379 -- clearwater.th [6]
+401> 18652 : 305a@easter-racer.racer_master
+402> input:36428 -- clearwater.th [6]
+402> 18660 : s93@sa.racer_master
+403> input:36442 -- clearwater.th [6]
+403> 18666 : s118@link91.racer_master
+404> input:36502 -- clearwater.th [6]
+404> 18696 : s50@dw91.racer_master
+405> input:36531 -- clearwater.th [6]
+405> 18708 : s209@wilsons.racer_master
+406> input:36559 -- clearwater.th [6]
+406> 18722 : s900@tubeatba.racer_master
+407> input:36567 -- clearwater.th [6]
+407> 18725 : s39@tube1.racer_master
+408> input:36573 -- clearwater.th [6]
+408> 18728 : s14@themushroom.racer_master
+409> input:36614 -- clearwater.th [6]
+409> 18759 : s8@mushroom.racer_master
+410> input:36646 -- clearwater.th [6]
+410> 18761 : s124@mezzanine.racer_master
+411> input:36648 -- clearwater.th [6]
+411> 18762 : s6@bottomless.racer_master
+412> input:36654 -- clearwater.th [6]
+412> 18765 : s211@parisway.racer_master
+413> input:36680 -- clearwater.th [6]
+413> 18776 : s112@mez3.racer_master
+414> input:36708 -- clearwater.th [6]
+414> 18790 : s00@lowerseries.racer_master
+415> input:36718 -- clearwater.th [6]
+415> 18795 : s126@endofmez.racer_master
+416> input:36720 -- clearwater.th [6]
+416> 18796 : s723@circleline.racer_master
+417> input:36724 -- clearwater.th [6]
+417> 18798 : s725@circ3.racer_master
+418> input:36736 -- clearwater.th [6]
+418> 18804 : s402@branchpassage.racer_master
+419> input:36740 -- clearwater.th [6]
+419> 18806 : s502@bensstu.racer_master
+420> input:36744 -- clearwater.th [6]
+420> 18808 : s500@bens3.racer_master
+421> input:36768 -- clearwater.th [6]
+421> 18818 : s308@bens2.racer_master
+422> input:36786 -- clearwater.th [6]
+422> 18826 : s50@toomuchroom.racer_master
+423> input:36796 -- clearwater.th [6]
+423> 18830 : s82@aspirins.racer_master
+424> input:36802 -- clearwater.th [6]
+424> 18833 : s84@asp3.racer_master
+425> input:36834 -- clearwater.th [6]
+425> 18847 : s70@asp2.racer_master
+426> input:36883 -- clearwater.th [6]
+426> 18874 : s39@whymper.racer_master
+427> input:36894 -- clearwater.th [6]
+427> 18875 : s50@whymper.racer_master
+428> input:36967 -- clearwater.th [6]
+428> 18910 : 18@racer89.racer_master
+429> input:37012 -- clearwater.th [6]
+429> 18932 : cairn@entrances.racer_master
+430> input:37211 -- clearwater.th [6]
+430> 19095 : 0@surfacemainent2fastlaneent.lagangs_master
+431> input:37212 -- clearwater.th [6]
+431> 19096 : 60@surfacemainent2fastlaneent.lagangs_master
+432> input:37220 -- clearwater.th [6]
+432> 19103 : 0@2.minaret.lagangs_master
+433> input:37238 -- clearwater.th [6]
+433> 19111 : 0@1.minaret.lagangs_master
+434> input:37296 -- clearwater.th [6]
+434> 19139 : 29@30.minaret.lagangs_master
+435> input:37528 -- clearwater.th [6]
+435> 19245 : 0@fastlane_entrance.lagangs_master
+436> input:37656 -- clearwater.th [6]
+436> 19267 : 0@withoutwellies.lagangs_master
+437> input:37678 -- clearwater.th [6]
+437> 19278 : 11@anniversary_surface_survey.lagangs_master
+438> input:37710 -- clearwater.th [6]
+438> 19294 : 220@anniversary_pitch.lagangs_master
+439> input:37715 -- clearwater.th [6]
+439> 19295 : 110@anniversary_pitch.lagangs_master
+440> input:37771 -- clearwater.th [6]
+440> 19323 : 50@anniversary_climb_chamber.lagangs_master
+441> input:37822 -- clearwater.th [6]
+441> 19348 : 1@anniversary_canyon_side_passage.lagangs_master
+442> input:37826 -- clearwater.th [6]
+442> 19350 : 35@andy_farrant_fastlane_cross_section_2.lagangs_master
+443> input:37828 -- clearwater.th [6]
+443> 19351 : 6_18d@andy_farrant_fastlane_cross_section_1.lagangs_master
+444> input:38114 -- clearwater.th [6]
+444> 19493 : 35@tubeways.lagangs_master
+445> input:38480 -- clearwater.th [6]
+445> 19674 : 25@anniversary_passage.lagangs_master
+446> input:38576 -- clearwater.th [6]
+446> 19722 : 6@fast_lane_aven.lagangs_master
+447> input:38711 -- clearwater.th [6]
+447> 19780 : 4_2@showcave2017.lagangs_master
+448> input:38712 -- clearwater.th [6]
+448> 19781 : 6_12@showcave2017.lagangs_master
+449> input:38713 -- clearwater.th [6]
+449> 19782 : 6_13@showcave2017.lagangs_master
+450> input:38714 -- clearwater.th [6]
+450> 19783 : 6_15@showcave2017.lagangs_master
+451> input:38715 -- clearwater.th [6]
+451> 19784 : 6_14@showcave2017.lagangs_master
+452> input:38716 -- clearwater.th [6]
+452> 19785 : 6_8@showcave2017.lagangs_master
+453> input:38836 -- clearwater.th [6]
+453> 19818 : 1@1.the_badger_hole.lagangs_master
+454> input:38895 -- clearwater.th [6]
+454> 19859 : 19@3.the_david_loop.lagangs_master
+455> input:39083 -- clearwater.th [6]
+455> 19946 : 0@2.the_david_loop.lagangs_master
+456> input:39421 -- clearwater.th [6]
+456> 20160 : 121@a_touch_of_the_donald.lagangs_master
+457> input:39505 -- clearwater.th [6]
+457> 20161 : 108@a_touch_of_the_donald.lagangs_master
+458> input:39558 -- clearwater.th [6]
+458> 20162 : 100@a_touch_of_the_donald.lagangs_master
+459> input:39740 -- clearwater.th [6]
+459> 20296 : 17g@white_tunnel.lagangs_master
+460> input:40116 -- clearwater.th [6]
+460> 20439 : 32@around_the_houses.lagangs_master
+461> input:40160 -- clearwater.th [6]
+461> 20461 : 0@andys_roof_tube.lagangs_master
+462> input:40228 -- clearwater.th [6]
+462> 20524 : 29@bat_passage.lagangs_master
+463> input:40581 -- clearwater.th [6]
+463> 20671 : 40@dean_hole.lagangs_master
+464> input:40625 -- clearwater.th [6]
+464> 20693 : 2@2.coral_aven.lagangs_master
+465> input:40791 -- clearwater.th [6]
+465> 20774 : 0@1.coral_aven.lagangs_master
+466> input:41812 -- clearwater.th [6]
+466> 21283 : 32@gert_lush.lagangs_master
+467> input:41883 -- clearwater.th [6]
+467> 21317 : 1_66@lagans_psurvey_main_psg.lagangs_master
+468> input:41963 -- clearwater.th [6]
+468> 21357 : 40@fastlane_aven.lagangs_master
+469> input:42038 -- clearwater.th [6]
+469> 21393 : 424@slow_lane.lagangs_master
+470> input:42064 -- clearwater.th [6]
+470> 21406 : 0@fastlanetosurface.lagangs_master
+471> input:42190 -- clearwater.th [6]
+471> 21466 : 6@lagans_wind_in_the_wallows.lagangs_master
+472> input:42222 -- clearwater.th [6]
+472> 21481 : 16@lagans_up_in_the_gods.lagangs_master
+473> input:42242 -- clearwater.th [6]
+473> 21491 : 11@lagans_a_bit_on_the_side_extension.lagangs_master
+474> input:42291 -- clearwater.th [6]
+474> 21515 : 17@lagans_dream_pool.lagangs_master
+475> input:42309 -- clearwater.th [6]
+475> 21523 : 10@lagans_dream_pool_connection.lagangs_master
+476> input:42345 -- clearwater.th [6]
+476> 21541 : 19@lagans_lonley_swift_passage.lagangs_master
+477> input:42389 -- clearwater.th [6]
+477> 21569 : 418@lagans_a_bit_on_the_side.lagangs_master
+478> input:42436 -- clearwater.th [6]
+478> 21584 : 0@lagans_muss_be_mistaken.lagangs_master
+479> input:42452 -- clearwater.th [6]
+479> 21592 : 9@lagans_thesis_mine.lagangs_master
+480> input:42482 -- clearwater.th [6]
+480> 21604 : 1@lagans_leopard_passage.lagangs_master
+481> input:42551 -- clearwater.th [6]
+481> 21664 : 1_77@main_passage.lagangs_master
+482> input:42552 -- clearwater.th [6]
+482> 21665 : 1_63@main_passage.lagangs_master
+483> input:42553 -- clearwater.th [6]
+483> 21666 : 1_35@main_passage.lagangs_master
+484> input:42574 -- clearwater.th [6]
+484> 21667 : 1_93@main_passage.lagangs_master
+485> input:42585 -- clearwater.th [6]
+485> 21668 : 1_87@main_passage.lagangs_master
+486> input:42592 -- clearwater.th [6]
+486> 21669 : 1_36@main_passage.lagangs_master
+487> input:42620 -- clearwater.th [6]
+487> 21670 : 1_70@main_passage.lagangs_master
+488> input:42647 -- clearwater.th [6]
+488> 21680 : 6_28@fastlane.lagangs_master
+489> input:42732 -- clearwater.th [6]
+489> 21727 : 4_14@lagans_entrance.lagangs_master
+490> input:42845 -- clearwater.th [6]
+490> 21775 : 0@surface_racertocowpete.racer_area_surface_master
+491> input:42896 -- clearwater.th [6]
+491> 21815 : 0@eastersurface.racer_area_surface_master
+492> input:42929 -- clearwater.th [6]
+492> 21816 : 34@eastersurface.racer_area_surface_master
+493> input:43124 -- clearwater.th [6]
+493> 21914 : 79@helipad_to_lagangs.racer_area_surface_master
+494> input:43220 -- clearwater.th [6]
+494> 21962 : 1@snakechim2entrance.clearwater_master
+495> input:43254 -- clearwater.th [6]
+495> 21979 : 1@chinashop.clearwater_master
+496> input:43286 -- clearwater.th [6]
+496> 21995 : 22@scientific_method_ii.clearwater_master
+497> input:43332 -- clearwater.th [6]
+497> 22016 : 1@scientific_method.clearwater_master
+498> input:43370 -- clearwater.th [6]
+498> 22035 : 0@hypothesis_south.clearwater_master
+499> input:43382 -- clearwater.th [6]
+499> 22040 : 206@east_passage.clearwater_master
+500> input:43414 -- clearwater.th [6]
+500> 22056 : 0@bloodsweatandfear.clearwater_master
+501> input:43444 -- clearwater.th [6]
+501> 22071 : 4@eureka_climb_revisited.clearwater_master
+502> input:43468 -- clearwater.th [6]
+502> 22083 : 1@eureka_crawl.clearwater_master
+503> input:43482 -- clearwater.th [6]
+503> 22089 : 7@eureka_climb.clearwater_master
+504> input:43544 -- clearwater.th [6]
+504> 22120 : 1@clearwater_centreline.clearwater_master
+505> input:43780 -- clearwater.th [6]
+505> 22237 : 3@cotw_centreline.clearwater_master
+506> input:43798 -- clearwater.th [6]
+506> 22245 : 0@skylight_pitch.clearwater_master
+507> input:43878 -- clearwater.th [6]
+507> 22285 : 1@cotw_entrance_redraw.clearwater_master
+508> input:43888 -- clearwater.th [6]
+508> 22290 : 1@quatermass_shaft.clearwater_master
+509> input:44024 -- clearwater.th [6]
+509> 22357 : 52@af_leap_in_time.clearwater_master
+510> input:44338 -- clearwater.th [6]
+510> 22513 : 12@20.smashing.clearwater_master
+511> input:44591 -- clearwater.th [6]
+511> 22682 : 108@eureka_matt.clearwater_master
+512> input:44666 -- clearwater.th [6]
+512> 22683 : 4414@eureka_matt.clearwater_master
+513> input:44832 -- clearwater.th [6]
+513> 22748 : 14@surface_cotw_to_clearwater.clearwater_master
+514> input:44834 -- clearwater.th [6]
+514> 22749 : 71@surface_cotw_to_clearwater.clearwater_master
+515> input:44899 -- clearwater.th [6]
+515> 22750 : 1@surface_cotw_to_clearwater.clearwater_master
+516> input:46513 -- clearwater.th [6]
+516> 23555 : 25@clay_hall_2_streamway.clearwater_master
+517> input:46520 -- clearwater.th [6]
+517> 23559 : 0@5.wind_cave.clearwater_master
+518> input:46565 -- clearwater.th [6]
+518> 23579 : 45@4.wind_cave.clearwater_master
+519> input:46586 -- clearwater.th [6]
+519> 23594 : 1j@strobe_pit.clearwater_master
+520> input:46604 -- clearwater.th [6]
+520> 23595 : 0@strobe_pit.clearwater_master
+521> input:46677 -- clearwater.th [6]
+521> 23635 : 20@ibun.clearwater_master
+522> input:46903 -- clearwater.th [6]
+522> 23742 : 11@crucible_hopper.clearwater_master
+523> input:47028 -- clearwater.th [6]
+523> 23804 : 10@hall_of_the_three.clearwater_master
+524> input:47275 -- clearwater.th [6]
+524> 23926 : 20@baba_yaga.clearwater_master
+525> input:47304 -- clearwater.th [6]
+525> 23938 : 15@crucibleslopes.clearwater_master
+526> input:47316 -- clearwater.th [6]
+526> 23944 : 0@quatermass.clearwater_master
+527> input:47322 -- clearwater.th [6]
+527> 23945 : 6@quatermass.clearwater_master
+528> input:47336 -- clearwater.th [6]
+528> 23952 : 5@hospitalramp.clearwater_master
+529> input:47348 -- clearwater.th [6]
+529> 23958 : 1@leftovers.clearwater_master
+530> input:48455 -- clearwater.th [6]
+530> 24519 : 111@jetstream.clearwater_master
+531> input:48499 -- clearwater.th [6]
+531> 24520 : 287@jetstream.clearwater_master
+532> input:48539 -- clearwater.th [6]
+532> 24540 : 5c@bodiceripper.clearwater_master
+533> input:48559 -- clearwater.th [6]
+533> 24550 : 0@dadsarmy.clearwater_master
+534> input:48589 -- clearwater.th [6]
+534> 24565 : 0@ginpalace.clearwater_master
+535> input:48654 -- clearwater.th [6]
+535> 24596 : 350@jetstream_chandelier.clearwater_master
+536> input:49304 -- clearwater.th [6]
+536> 24919 : 0@orange_icing_complete.clearwater_master
+537> input:49330 -- clearwater.th [6]
+537> 24939 : 4@rampy_mcrampface.clearwater_master
+538> input:49412 -- clearwater.th [6]
+538> 24997 : 230@tight_ripper2.clearwater_master
+539> input:49582 -- clearwater.th [6]
+539> 25105 : 254@tight_ripper.clearwater_master
+540> input:49696 -- clearwater.th [6]
+540> 25108 : 0@franksfolly.clearwater_master
+541> input:49704 -- clearwater.th [6]
+541> 25112 : 0@creedencesiderift.clearwater_master
+542> input:50791 -- clearwater.th [6]
+542> 25654 : 7@eastern.clearwater_master
+543> input:50867 -- clearwater.th [6]
+543> 25691 : 257@queenofthesouth.clearwater_master
+544> input:51021 -- clearwater.th [6]
+544> 25838 : 26@highandmighty.clearwater_master
+545> input:51211 -- clearwater.th [6]
+545> 25859 : m0@strapless.clearwater_master
+546> input:51255 -- clearwater.th [6]
+546> 25881 : 20@snakechimney.clearwater_master
+547> input:51273 -- clearwater.th [6]
+547> 25890 : 9@fally.clearwater_master
+548> input:51283 -- clearwater.th [6]
+548> 25895 : 16s4@cowarchclimb.clearwater_master
+549> input:51691 -- clearwater.th [6]
+549> 26099 : 0@lost_in_translation.clearwater_master
+550> input:52115 -- clearwater.th [6]
+550> 26306 : 286@high_noon.clearwater_master
+551> input:52144 -- clearwater.th [6]
+551> 26319 : 263@crucible_offset.clearwater_master
+552> input:52731 -- clearwater.th [6]
+552> 26608 : 214@and_finally.clearwater_master
+553> input:52741 -- clearwater.th [6]
+553> 26613 : 5@helic.clearwater_master
+554> input:52827 -- clearwater.th [6]
+554> 26664 : 6@downdraught.clearwater_master
+555> input:53238 -- clearwater.th [6]
+555> 26854 : 50@c_o_w_ent_to_scumring_mainline_2.clearwater_master
+556> input:53448 -- clearwater.th [6]
+556> 27027 : 15@c_o_w_ent_to_scumring_mainline_1.clearwater_master
+557> input:53647 -- clearwater.th [6]
+557> 27028 : 0@c_o_w_ent_to_scumring_mainline_1.clearwater_master
+558> input:53847 -- clearwater.th [6]
+558> 27135 : 0a@nesters.clearwater_master
+559> input:54199 -- clearwater.th [6]
+559> 27315 : 1@quattro_formaggio.clearwater_master
+560> input:54235 -- clearwater.th [6]
+560> 27316 : 106@quattro_formaggio.clearwater_master
+561> input:54417 -- clearwater.th [6]
+561> 27403 : 45@upskirt_lower.clearwater_master
+562> input:54418 -- clearwater.th [6]
+562> 27404 : 30@upskirt_lower.clearwater_master
+563> input:54800 -- clearwater.th [6]
+563> 27596 : 144@upskirt.clearwater_master
+564> input:54807 -- clearwater.th [6]
+564> 27597 : 44@upskirt.clearwater_master
+565> input:55031 -- clearwater.th [6]
+565> 27708 : 329@berangs_to_inflation.clearwater_master
+566> input:55137 -- clearwater.th [6]
+566> 27759 : 6@snaketrack_resurvey.clearwater_master
+567> input:55997 -- clearwater.th [6]
+567> 28417 : 504@clearwater_cave_fake.clearwater_master
+568> input:56472 -- clearwater.th [6]
+568> 28418 : 0@clearwater_cave_fake.clearwater_master
+569> input:56915 -- clearwater.th [6]
+569> 28619 : 315@the_cairn_farm.clearwater_master
+570> input:57043 -- clearwater.th [6]
+570> 28674 : 408@far_from_home.clearwater_master
+571> input:57192 -- clearwater.th [6]
+571> 28751 : 383@the_big_uee.clearwater_master
+572> input:57383 -- clearwater.th [6]
+572> 28840 : c27@alans_clearwater_5.clearwater_master
+573> input:57470 -- clearwater.th [6]
+573> 28917 : ta31@edwins_long_cut.clearwater_master
+574> input:57642 -- clearwater.th [6]
+574> 28966 : 15@clearwater_5.clearwater_master
+575> input:57690 -- clearwater.th [6]
+575> 28987 : cw4@rampage.clearwater_master
+576> input:57748 -- clearwater.th [6]
+576> 29016 : 19@alexandra_palace.clearwater_master
+577> input:57835 -- clearwater.th [6]
+577> 29071 : 321@armistice_south.clearwater_master
+578> input:57861 -- clearwater.th [6]
+578> 29072 : 372@armistice_south.clearwater_master
+579> input:58051 -- clearwater.th [6]
+579> 29174 : 334@armistice_north.clearwater_master
+580> input:58066 -- clearwater.th [6]
+580> 29175 : 100@armistice_north.clearwater_master
+581> input:58165 -- clearwater.th [6]
+581> 29221 : 27@snow_slopes.clearwater_master
+582> input:58173 -- clearwater.th [6]
+582> 29222 : 1@snow_slopes.clearwater_master
+583> input:58515 -- clearwater.th [6]
+583> 29750 : 53@gone_with_the_wind.whiterock_master
+584> input:58516 -- clearwater.th [6]
+584> 29751 : 48@gone_with_the_wind.whiterock_master
+585> input:58567 -- clearwater.th [6]
+585> 29752 : 0@gone_with_the_wind.whiterock_master
+586> input:58599 -- clearwater.th [6]
+586> 29768 : 17@spiderpig.whiterock_master
+587> input:58629 -- clearwater.th [6]
+587> 29780 : 3a@animal_track_south.whiterock_master
+588> input:58639 -- clearwater.th [6]
+588> 29785 : 0@dr_disto_tie_in.whiterock_master
+589> input:58657 -- clearwater.th [6]
+589> 29794 : 7@ancestor_chamber.whiterock_master
+590> input:58745 -- clearwater.th [6]
+590> 29838 : 24@dancing_queen.whiterock_master
+591> input:58799 -- clearwater.th [6]
+591> 29879 : 39@overlook.whiterock_master
+592> input:58830 -- clearwater.th [6]
+592> 29880 : 0@overlook.whiterock_master
+593> input:58868 -- clearwater.th [6]
+593> 29896 : 13@gone_in_60_metres.whiterock_master
+594> input:58967 -- clearwater.th [6]
+594> 29942 : 0@unexpected_view.whiterock_master
+595> input:59071 -- clearwater.th [6]
+595> 29992 : 0@tons_pitch.whiterock_master
+596> input:59080 -- clearwater.th [6]
+596> 29993 : 9@tons_pitch.whiterock_master
+597> input:59116 -- clearwater.th [6]
+597> 30011 : 0@overture.whiterock_master
+598> input:59188 -- clearwater.th [6]
+598> 30047 : 0@uncharted_engineers.whiterock_master
+599> input:59212 -- clearwater.th [6]
+599> 30059 : 12@roaring_crawl.whiterock_master
+600> input:59228 -- clearwater.th [6]
+600> 30067 : 8@youth_of_today.whiterock_master
+601> input:59356 -- clearwater.th [6]
+601> 30131 : 0@phreas_a_bird.whiterock_master
+602> input:59429 -- clearwater.th [6]
+602> 30175 : 45@filthy_derbyshire_habits.whiterock_master
+603> input:59461 -- clearwater.th [6]
+603> 30185 : 0@6th_last_chance.whiterock_master
+604> input:59470 -- clearwater.th [6]
+604> 30186 : 12@6th_last_chance.whiterock_master
+605> input:59480 -- clearwater.th [6]
+605> 30191 : 0@5th_last_chance.whiterock_master
+606> input:59492 -- clearwater.th [6]
+606> 30197 : 6@4th_last_chance.whiterock_master
+607> input:59542 -- clearwater.th [6]
+607> 30222 : 29@3rd_last_chance.whiterock_master
+608> input:59548 -- clearwater.th [6]
+608> 30225 : 0@2nd_last_chance.whiterock_master
+609> input:59622 -- clearwater.th [6]
+609> 30270 : 17@centurion.whiterock_master
+610> input:59706 -- clearwater.th [6]
+610> 30302 : 0@troubling_appendix_pls.whiterock_master
+611> input:59717 -- clearwater.th [6]
+611> 30308 : 8@graveyard.whiterock_master
+612> input:59719 -- clearwater.th [6]
+612> 30309 : 7@graveyard.whiterock_master
+613> input:59773 -- clearwater.th [6]
+613> 30336 : 28@skeleton_lower.whiterock_master
+614> input:59809 -- clearwater.th [6]
+614> 30360 : 1@skeleton.whiterock_master
+615> input:59823 -- clearwater.th [6]
+615> 30361 : 16@skeleton.whiterock_master
+616> input:59874 -- clearwater.th [6]
+616> 30405 : 41@medusa_2.whiterock_master
+617> input:59915 -- clearwater.th [6]
+617> 30406 : 0@medusa_2.whiterock_master
+618> input:59929 -- clearwater.th [6]
+618> 30413 : 0@medusa_1.whiterock_master
+619> input:60028 -- clearwater.th [6]
+619> 30465 : 1@5th_dirty_little_secret.whiterock_master
+620> input:60090 -- clearwater.th [6]
+620> 30501 : 45@4th_dirty_little_secret.whiterock_master
+621> input:60137 -- clearwater.th [6]
+621> 30510 : 11@2nd_dirty_little_secret.whiterock_master
+622> input:60149 -- clearwater.th [6]
+622> 30516 : 6@1st_dirty_little_secret.whiterock_master
+623> input:60278 -- clearwater.th [6]
+623> 30578 : 63@swift_progressupper.whiterock_master
+624> input:60305 -- clearwater.th [6]
+624> 30601 : 210@swift_progressnorthern.whiterock_master
+625> input:60360 -- clearwater.th [6]
+625> 30617 : 41@swift_progresslower.whiterock_master
+626> input:60863 -- clearwater.th [6]
+626> 31081 : 95@swift_progress.whiterock_master
+627> input:61071 -- clearwater.th [6]
+627> 31082 : 74@swift_progress.whiterock_master
+628> input:61081 -- clearwater.th [6]
+628> 31083 : 73@swift_progress.whiterock_master
+629> input:61151 -- clearwater.th [6]
+629> 31084 : 64@swift_progress.whiterock_master
+630> input:61224 -- clearwater.th [6]
+630> 31085 : 57@swift_progress.whiterock_master
+631> input:61238 -- clearwater.th [6]
+631> 31086 : 56@swift_progress.whiterock_master
+632> input:61310 -- clearwater.th [6]
+632> 31087 : 35@swift_progress.whiterock_master
+633> input:61354 -- clearwater.th [6]
+633> 31100 : 0@black_and_tan.whiterock_master
+634> input:61372 -- clearwater.th [6]
+634> 31109 : 0@green_feather.whiterock_master
+635> input:61373 -- clearwater.th [6]
+635> 31110 : 48@green_feather.whiterock_master
+636> input:61422 -- clearwater.th [6]
+636> 31132 : 0@swiftwater_oxbow.whiterock_master
+637> input:61458 -- clearwater.th [6]
+637> 31150 : 110@swiftwater_sidepassage_extensions.whiterock_master
+638> input:61508 -- clearwater.th [6]
+638> 31173 : 0@swiftwater_inlet.whiterock_master
+639> input:61554 -- clearwater.th [6]
+639> 31196 : 0@snowboard_tuesday_inlet.whiterock_master
+640> input:61576 -- clearwater.th [6]
+640> 31207 : 0@pretty_painfull.whiterock_master
+641> input:61600 -- clearwater.th [6]
+641> 31219 : 28@pointless_boulder_chamber.whiterock_master
+642> input:61612 -- clearwater.th [6]
+642> 31224 : 1@eastern_climb_passage.whiterock_master
+643> input:61654 -- clearwater.th [6]
+643> 31245 : 10@no_hope_passage.whiterock_master
+644> input:61686 -- clearwater.th [6]
+644> 31260 : 16@no_hope.whiterock_master
+645> input:61740 -- clearwater.th [6]
+645> 31287 : 1@mysterious_minstrel.whiterock_master
+646> input:61768 -- clearwater.th [6]
+646> 31301 : 0@mudslide_monday.whiterock_master
+647> input:61858 -- clearwater.th [6]
+647> 31346 : 0a@midnight_express.whiterock_master
+648> input:61920 -- clearwater.th [6]
+648> 31377 : 20@frilly_knickers.whiterock_master
+649> input:61996 -- clearwater.th [6]
+649> 31414 : 39@1954_garden_extension.whiterock_master
+650> input:62051 -- clearwater.th [6]
+650> 31455 : 1_9@exodus_series_nile_river.whiterock_master
+651> input:62351 -- clearwater.th [6]
+651> 31683 : 39_0@exodus_series.whiterock_master
+652> input:62355 -- clearwater.th [6]
+652> 31684 : 40_0@exodus_series.whiterock_master
+653> input:62362 -- clearwater.th [6]
+653> 31685 : 38_0@exodus_series.whiterock_master
+654> input:62373 -- clearwater.th [6]
+654> 31686 : 37_0@exodus_series.whiterock_master
+655> input:62381 -- clearwater.th [6]
+655> 31687 : 6_0@exodus_series.whiterock_master
+656> input:62384 -- clearwater.th [6]
+656> 31688 : 36_0@exodus_series.whiterock_master
+657> input:62387 -- clearwater.th [6]
+657> 31689 : 35_0@exodus_series.whiterock_master
+658> input:62389 -- clearwater.th [6]
+658> 31690 : 34_0@exodus_series.whiterock_master
+659> input:62394 -- clearwater.th [6]
+659> 31691 : 32_0@exodus_series.whiterock_master
+660> input:62404 -- clearwater.th [6]
+660> 31692 : 31_0@exodus_series.whiterock_master
+661> input:62409 -- clearwater.th [6]
+661> 31693 : 30_0@exodus_series.whiterock_master
+662> input:62422 -- clearwater.th [6]
+662> 31694 : 29_0@exodus_series.whiterock_master
+663> input:62434 -- clearwater.th [6]
+663> 31695 : 26_0@exodus_series.whiterock_master
+664> input:62436 -- clearwater.th [6]
+664> 31696 : 25_0@exodus_series.whiterock_master
+665> input:62438 -- clearwater.th [6]
+665> 31697 : 24_0@exodus_series.whiterock_master
+666> input:62450 -- clearwater.th [6]
+666> 31698 : 23_0@exodus_series.whiterock_master
+667> input:62453 -- clearwater.th [6]
+667> 31699 : 22_0@exodus_series.whiterock_master
+668> input:62458 -- clearwater.th [6]
+668> 31700 : 21_0@exodus_series.whiterock_master
+669> input:62466 -- clearwater.th [6]
+669> 31701 : 19_0@exodus_series.whiterock_master
+670> input:62469 -- clearwater.th [6]
+670> 31702 : 18_0@exodus_series.whiterock_master
+671> input:62475 -- clearwater.th [6]
+671> 31703 : 17_0@exodus_series.whiterock_master
+672> input:62483 -- clearwater.th [6]
+672> 31704 : 16_6@exodus_series.whiterock_master
+673> input:62486 -- clearwater.th [6]
+673> 31705 : 15_0@exodus_series.whiterock_master
+674> input:62492 -- clearwater.th [6]
+674> 31706 : 13_0@exodus_series.whiterock_master
+675> input:62504 -- clearwater.th [6]
+675> 31707 : 12_0@exodus_series.whiterock_master
+676> input:62524 -- clearwater.th [6]
+676> 31708 : 8_0@exodus_series.whiterock_master
+677> input:62538 -- clearwater.th [6]
+677> 31709 : 5_0@exodus_series.whiterock_master
+678> input:62541 -- clearwater.th [6]
+678> 31710 : 4_0@exodus_series.whiterock_master
+679> input:62546 -- clearwater.th [6]
+679> 31711 : 3_0@exodus_series.whiterock_master
+680> input:62552 -- clearwater.th [6]
+680> 31712 : 2_0@exodus_series.whiterock_master
+681> input:62571 -- clearwater.th [6]
+681> 31713 : 14_8@exodus_series.whiterock_master
+682> input:62584 -- clearwater.th [6]
+682> 31714 : 28_1@exodus_series.whiterock_master
+683> input:62587 -- clearwater.th [6]
+683> 31715 : 1@exodus_series.whiterock_master
+684> input:62595 -- clearwater.th [6]
+684> 31716 : 9@exodus_series.whiterock_master
+685> input:62596 -- clearwater.th [6]
+685> 31717 : 1_0@exodus_series.whiterock_master
+686> input:62600 -- clearwater.th [6]
+686> 31718 : 7_3@exodus_series.whiterock_master
+687> input:62607 -- clearwater.th [6]
+687> 31719 : 9_6@exodus_series.whiterock_master
+688> input:62609 -- clearwater.th [6]
+688> 31720 : 10_1@exodus_series.whiterock_master
+689> input:62613 -- clearwater.th [6]
+689> 31721 : 11_3@exodus_series.whiterock_master
+690> input:62642 -- clearwater.th [6]
+690> 31741 : 0@series10.exodus_chamber_ramp.whiterock_master
+691> input:62644 -- clearwater.th [6]
+691> 31742 : 0@splay4.exodus_chamber_ramp.whiterock_master
+692> input:62646 -- clearwater.th [6]
+692> 31743 : 0@splay3.exodus_chamber_ramp.whiterock_master
+693> input:62648 -- clearwater.th [6]
+693> 31744 : 0@splay2.exodus_chamber_ramp.whiterock_master
+694> input:62667 -- clearwater.th [6]
+694> 31762 : 20@series6.exodus_chamber_ramp.whiterock_master
+695> input:62687 -- clearwater.th [6]
+695> 31763 : 0@series6.exodus_chamber_ramp.whiterock_master
+696> input:62708 -- clearwater.th [6]
+696> 31773 : 0@series5.exodus_chamber_ramp.whiterock_master
+697> input:62718 -- clearwater.th [6]
+697> 31778 : 0@series4.exodus_chamber_ramp.whiterock_master
+698> input:62726 -- clearwater.th [6]
+698> 31782 : 0@series3.exodus_chamber_ramp.whiterock_master
+699> input:62750 -- clearwater.th [6]
+699> 31792 : 9@series14.exodus_chamber_ramp.whiterock_master
+700> input:62766 -- clearwater.th [6]
+700> 31800 : 8@cascade_inlet.whiterock_master
+701> input:62786 -- clearwater.th [6]
+701> 31810 : 9@balcony_climb.whiterock_master
+702> input:62794 -- clearwater.th [6]
+702> 31814 : 0@api_ending_side_route.whiterock_master
+703> input:62821 -- clearwater.th [6]
+703> 31826 : 2@api_ending.whiterock_master
+704> input:62945 -- clearwater.th [6]
+704> 31885 : 12s@api_birthday_south.whiterock_master
+705> input:62961 -- clearwater.th [6]
+705> 31893 : 0@api_dreams.whiterock_master
+706> input:63158 -- clearwater.th [6]
+706> 32023 : 166@1954.whiterock_master
+707> input:63331 -- clearwater.th [6]
+707> 32067 : 1@shane_warnes_incredible_secret_chinaman.whiterock_master
+708> input:63419 -- clearwater.th [6]
+708> 32111 : 20@secret_sump.whiterock_master
+709> input:63575 -- clearwater.th [6]
+709> 32187 : 1@no_inclination.whiterock_master
+710> input:63629 -- clearwater.th [6]
+710> 32213 : 8@zahara_dessert_2.whiterock_master
+711> input:63685 -- clearwater.th [6]
+711> 32240 : 27@hopeless.whiterock_master
+712> input:63697 -- clearwater.th [6]
+712> 32246 : 14@gww_oxbow.whiterock_master
+713> input:63713 -- clearwater.th [6]
+713> 32253 : 17@gone_with_the_wind_rift.whiterock_master
+714> input:63733 -- clearwater.th [6]
+714> 32263 : 11@animal_track_north.whiterock_master
+715> input:63759 -- clearwater.th [6]
+715> 32275 : 1@snowboard_tuesday.whiterock_master
+716> input:63856 -- clearwater.th [6]
+716> 32335 : 102@downhill_racer.whiterock_master
+717> input:63935 -- clearwater.th [6]
+717> 32364 : 22@perfect_mulu_manners.whiterock_master
+718> input:63948 -- clearwater.th [6]
+718> 32365 : 6@perfect_mulu_manners.whiterock_master
+719> input:63977 -- clearwater.th [6]
+719> 32382 : 14@zahara_dessert.whiterock_master
+720> input:63991 -- clearwater.th [6]
+720> 32383 : 602@zahara_dessert.whiterock_master
+721> input:63993 -- clearwater.th [6]
+721> 32384 : 2@zahara_dessert.whiterock_master
+722> input:64029 -- clearwater.th [6]
+722> 32400 : 7@out_of_africa_2.whiterock_master
+723> input:64030 -- clearwater.th [6]
+723> 32401 : 6@out_of_africa_2.whiterock_master
+724> input:64074 -- clearwater.th [6]
+724> 32422 : 40@whose_ramp_part_2.whiterock_master
+725> input:64209 -- clearwater.th [6]
+725> 32488 : 54@whiterock_river_south_2011.whiterock_master
+726> input:64251 -- clearwater.th [6]
+726> 32508 : 22@pointless_east.whiterock_master
+727> input:64291 -- clearwater.th [6]
+727> 32528 : 12@pointless_north.whiterock_master
+728> input:64337 -- clearwater.th [6]
+728> 32551 : 1@makita_ramp.whiterock_master
+729> input:64369 -- clearwater.th [6]
+729> 32567 : 0@night_garden.whiterock_master
+730> input:64411 -- clearwater.th [6]
+730> 32588 : 0@a65_highway_to_the_dales.whiterock_master
+731> input:64482 -- clearwater.th [6]
+731> 32646 : 7b@dirty_yorkshire_habits.whiterock_master
+732> input:64530 -- clearwater.th [6]
+732> 32647 : 45@dirty_yorkshire_habits.whiterock_master
+733> input:64550 -- clearwater.th [6]
+733> 32657 : 49@animal_track.whiterock_master
+734> input:64654 -- clearwater.th [6]
+734> 32705 : 0@whiterock_river.whiterock_master
+735> input:64770 -- clearwater.th [6]
+735> 32758 : 54@whiterock_river_downstream.whiterock_master
+736> input:64800 -- clearwater.th [6]
+736> 32773 : 16@nothing_to_be_proud_of.whiterock_master
+737> input:64812 -- clearwater.th [6]
+737> 32783 : 62@shampoo.whiterock_master
+738> input:64823 -- clearwater.th [6]
+738> 32784 : 51@shampoo.whiterock_master
+739> input:64847 -- clearwater.th [6]
+739> 32804 : 93@mysterious_ways.whiterock_master
+740> input:64867 -- clearwater.th [6]
+740> 32805 : 1@mysterious_ways.whiterock_master
+741> input:64891 -- clearwater.th [6]
+741> 32817 : 108@1954_up_ramp.whiterock_master
+742> input:64920 -- clearwater.th [6]
+742> 32835 : 203@1954_ramps.whiterock_master
+743> input:64929 -- clearwater.th [6]
+743> 32836 : 209m@1954_ramps.whiterock_master
+744> input:64933 -- clearwater.th [6]
+744> 32837 : 209i@1954_ramps.whiterock_master
+745> input:64989 -- clearwater.th [6]
+745> 32865 : 0@paint_it_black.whiterock_master
+746> input:65011 -- clearwater.th [6]
+746> 32876 : 5a@api_birthday_north_09.whiterock_master
+747> input:65055 -- clearwater.th [6]
+747> 32895 : 16@api_birthday_north.whiterock_master
+748> input:65090 -- clearwater.th [6]
+748> 32919 : 24@grounds_for_divorce.whiterock_master
+749> input:65106 -- clearwater.th [6]
+749> 32920 : 0@grounds_for_divorce.whiterock_master
+750> input:65170 -- clearwater.th [6]
+750> 32952 : 0@silly_mid_off.whiterock_master
+751> input:65188 -- clearwater.th [6]
+751> 32961 : 0@silly_mid_on.whiterock_master
+752> input:65301 -- clearwater.th [6]
+752> 33038 : 0@thirsty_ferret.whiterock_master
+753> input:65361 -- clearwater.th [6]
+753> 33049 : 34@janets_way_lower.whiterock_master
+754> input:65368 -- clearwater.th [6]
+754> 33050 : 40@janets_way_lower.whiterock_master
+755> input:65390 -- clearwater.th [6]
+755> 33061 : 200@gruffalo.whiterock_master
+756> input:65437 -- clearwater.th [6]
+756> 33098 : 300@pushmepullyou.whiterock_master
+757> input:65467 -- clearwater.th [6]
+757> 33099 : 80@pushmepullyou.whiterock_master
+758> input:65479 -- clearwater.th [6]
+758> 33109 : 120@poppets_2.whiterock_master
+759> input:65497 -- clearwater.th [6]
+759> 33113 : 1@poppets_oxbow.whiterock_master
+760> input:65576 -- clearwater.th [6]
+760> 33152 : 1@pompom_passage.whiterock_master
+761> input:65580 -- clearwater.th [6]
+761> 33153 : 46@wild_moose_chase.whiterock_master
+762> input:65612 -- clearwater.th [6]
+762> 33169 : 17@dr_disto.whiterock_master
+763> input:65626 -- clearwater.th [6]
+763> 33176 : 67@rifty_business.whiterock_master
+764> input:65628 -- clearwater.th [6]
+764> 33177 : 60@big_issue_oxbow.whiterock_master
+765> input:65675 -- clearwater.th [6]
+765> 33206 : 14@broken_chain.whiterock_master
+766> input:65689 -- clearwater.th [6]
+766> 33207 : 0@broken_chain.whiterock_master
+767> input:65695 -- clearwater.th [6]
+767> 33210 : 9@swift_shadow4.whiterock_master
+768> input:65703 -- clearwater.th [6]
+768> 33214 : 0@swift_shadow3.whiterock_master
+769> input:65725 -- clearwater.th [6]
+769> 33225 : 20@api_birthday_ramps.whiterock_master
+770> input:65831 -- clearwater.th [6]
+770> 33303 : t0@reluctant_explorers.whiterock_master
+771> input:65869 -- clearwater.th [6]
+771> 33304 : 31c@reluctant_explorers.whiterock_master
+772> input:65924 -- clearwater.th [6]
+772> 33321 : 0@uncharted_waters.whiterock_master
+773> input:65954 -- clearwater.th [6]
+773> 33336 : 27a@cream_cheese.whiterock_master
+774> input:66079 -- clearwater.th [6]
+774> 33418 : 27@borderline.whiterock_master
+775> input:66122 -- clearwater.th [6]
+775> 33419 : 0@borderline.whiterock_master
+776> input:66142 -- clearwater.th [6]
+776> 33425 : 118@gaping_grotto.whiterock_master
+777> input:66198 -- clearwater.th [6]
+777> 33453 : l8a@parsnip.whiterock_master
+778> input:66243 -- clearwater.th [6]
+778> 33482 : 0@soapmine.whiterock_master
+779> input:66343 -- clearwater.th [6]
+779> 33520 : 0@swift_shadow2.whiterock_master
+780> input:66344 -- clearwater.th [6]
+780> 33521 : 19@swift_shadow2.whiterock_master
+781> input:66390 -- clearwater.th [6]
+781> 33550 : 89@big_issue.whiterock_master
+782> input:66421 -- clearwater.th [6]
+782> 33557 : 30@api_daze.whiterock_master
+783> input:66431 -- clearwater.th [6]
+783> 33562 : 0@wait_of_expectation.whiterock_master
+784> input:66462 -- clearwater.th [6]
+784> 33577 : 1@api_birthday_south_top.whiterock_master
+785> input:66578 -- clearwater.th [6]
+785> 33636 : 1@swift_shadow.whiterock_master
+786> input:66582 -- clearwater.th [6]
+786> 33637 : 67@swift_shadow.whiterock_master
+787> input:66622 -- clearwater.th [6]
+787> 33654 : 5@under_out_of.whiterock_master
+788> input:66630 -- clearwater.th [6]
+788> 33655 : ta112@under_out_of.whiterock_master
+789> input:66632 -- clearwater.th [6]
+789> 33656 : 1@under_out_of.whiterock_master
+790> input:66633 -- clearwater.th [6]
+790> 33657 : 21@under_out_of.whiterock_master
+791> input:66645 -- clearwater.th [6]
+791> 33662 : 7@poppets_passage.whiterock_master
+792> input:66646 -- clearwater.th [6]
+792> 33663 : 18@poppets_passage.whiterock_master
+793> input:66700 -- clearwater.th [6]
+793> 33686 : 114@matrimony.whiterock_master
+794> input:66730 -- clearwater.th [6]
+794> 33701 : 1@pamphlet.whiterock_master
+795> input:66785 -- clearwater.th [6]
+795> 33737 : 41@upwind.whiterock_master
+796> input:66786 -- clearwater.th [6]
+796> 33738 : 13@upwind.whiterock_master
+797> input:66831 -- clearwater.th [6]
+797> 33753 : 16@harley_delightful.whiterock_master
+798> input:66842 -- clearwater.th [6]
+798> 33754 : 122@harley_delightful.whiterock_master
+799> input:66865 -- clearwater.th [6]
+799> 33763 : 25@northern_line_lake_district2.whiterock_master
+800> input:67093 -- clearwater.th [6]
+800> 33908 : 133@northern_line.whiterock_master
+801> input:67107 -- clearwater.th [6]
+801> 33909 : 30@northern_line.whiterock_master
+802> input:67174 -- clearwater.th [6]
+802> 33910 : 85@northern_line.whiterock_master
+803> input:67225 -- clearwater.th [6]
+803> 33933 : 1@northern_line_lake_district1.whiterock_master
+804> input:67251 -- clearwater.th [6]
+804> 33946 : 32@lima_puluh.whiterock_master
+805> input:67368 -- clearwater.th [6]
+805> 33998 : 13@black_joke2.whiterock_master
+806> input:67392 -- clearwater.th [6]
+806> 34009 : 1@black_joke.whiterock_master
+807> input:67589 -- clearwater.th [6]
+807> 34130 : 111@strong_hint_of_bigness.whiterock_master
+808> input:67602 -- clearwater.th [6]
+808> 34131 : 77@strong_hint_of_bigness.whiterock_master
+809> input:67609 -- clearwater.th [6]
+809> 34132 : 90@strong_hint_of_bigness.whiterock_master
+810> input:67613 -- clearwater.th [6]
+810> 34133 : 118@strong_hint_of_bigness.whiterock_master
+811> input:67633 -- clearwater.th [6]
+811> 34134 : 29@strong_hint_of_bigness.whiterock_master
+812> input:67681 -- clearwater.th [6]
+812> 34151 : 53@green_wing.whiterock_master
+813> input:67699 -- clearwater.th [6]
+813> 34152 : 4@green_wing.whiterock_master
+814> input:67745 -- clearwater.th [6]
+814> 34173 : 47@upper2.whiterock_master
+815> input:67813 -- clearwater.th [6]
+815> 34213 : 13@upper.whiterock_master
+816> input:67992 -- clearwater.th [6]
+816> 34295 : 12@up_and_running.whiterock_master
+817> input:68000 -- clearwater.th [6]
+817> 34296 : 112@up_and_running.whiterock_master
+818> input:68012 -- clearwater.th [6]
+818> 34297 : 0@up_and_running.whiterock_master
+819> input:68037 -- clearwater.th [6]
+819> 34307 : 0@sweetdreams.whiterock_master
+820> input:68055 -- clearwater.th [6]
+820> 34316 : 41@sick_note.whiterock_master
+821> input:68157 -- clearwater.th [6]
+821> 34384 : 13@out_of_africa.whiterock_master
+822> input:68162 -- clearwater.th [6]
+822> 34385 : ta61@out_of_africa.whiterock_master
+823> input:68163 -- clearwater.th [6]
+823> 34386 : ta112@out_of_africa.whiterock_master
+824> input:68286 -- clearwater.th [6]
+824> 34434 : start@oldfallhall.whiterock_master
+825> input:68302 -- clearwater.th [6]
+825> 34435 : 48@oldfallhall.whiterock_master
+826> input:68314 -- clearwater.th [6]
+826> 34438 : 3@lowsidep.whiterock_master
+827> input:68366 -- clearwater.th [6]
+827> 34465 : 0@highland.whiterock_master
+828> input:68380 -- clearwater.th [6]
+828> 34467 : 4@downunder2.whiterock_master
+829> input:68383 -- clearwater.th [6]
+829> 34468 : 0@downunder2.whiterock_master
+830> input:68399 -- clearwater.th [6]
+830> 34476 : 21@dicksdefeat.whiterock_master
+831> input:68498 -- clearwater.th [6]
+831> 34543 : 73@daydream_believer.whiterock_master
+832> input:68515 -- clearwater.th [6]
+832> 34544 : 106@daydream_believer.whiterock_master
+833> input:68556 -- clearwater.th [6]
+833> 34548 : 21@camp_passage.whiterock_master
+834> input:68576 -- clearwater.th [6]
+834> 34561 : 0@api_chamber_east.whiterock_master
+835> input:68587 -- clearwater.th [6]
+835> 34562 : 16@api_chamber_east.whiterock_master
+836> input:68608 -- clearwater.th [6]
+836> 34576 : 16@api_birthday.whiterock_master
+837> input:68610 -- clearwater.th [6]
+837> 34577 : 18@api_birthday.whiterock_master
+838> input:68622 -- clearwater.th [6]
+838> 34578 : 0@api_birthday.whiterock_master
+839> input:68712 -- clearwater.th [6]
+839> 34621 : 39@aah_disto.whiterock_master
+840> input:68829 -- clearwater.th [6]
+840> 34687 : 41@zebra_passage.whiterock_master
+841> input:68846 -- clearwater.th [6]
+841> 34688 : 50@zebra_passage.whiterock_master
+842> input:68869 -- clearwater.th [6]
+842> 34693 : 3@whiterock_entrance.whiterock_master
+843> input:68983 -- clearwater.th [6]
+843> 34753 : 50@metric_cave.metric_master
+844> input:69028 -- clearwater.th [6]
+844> 34773 : 73@metric_to_leopard_surface.metric_master
+845> input:69038 -- clearwater.th [6]
+845> 34778 : 51@northern_exit_surface.metric_master
+846> input:69186 -- clearwater.th [6]
+846> 34851 : 71@leopard_cave_fake.leopard_master
+847> input:69224 -- clearwater.th [6]
+847> 34870 : 1@imperial_cave.imperial_master
+848> input:69348 -- clearwater.th [6]
+848> 34968 : 8a@petes_peccadillo_2009.blackrock_master
+849> input:69366 -- clearwater.th [6]
+849> 34977 : 0@purgatory_91.blackrock_master
+850> input:69406 -- clearwater.th [6]
+850> 34997 : 142@caves_is_where_you_find_them.blackrock_master
+851> input:69465 -- clearwater.th [6]
+851> 35035 : dg0@no_justice.blackrock_master
+852> input:69480 -- clearwater.th [6]
+852> 35036 : 153@no_justice.blackrock_master
+853> input:69549 -- clearwater.th [6]
+853> 35067 : 220@flower_shop_lead.blackrock_master
+854> input:69641 -- clearwater.th [6]
+854> 35113 : 3@black_silk.blackrock_master
+855> input:69813 -- clearwater.th [6]
+855> 35197 : 40@phoenix_south.blackrock_master
+856> input:69897 -- clearwater.th [6]
+856> 35239 : 40@phoenix_north.blackrock_master
+857> input:70025 -- clearwater.th [6]
+857> 35301 : 01@ramparts.blackrock_master
+858> input:70089 -- clearwater.th [6]
+858> 35332 : 72@crinkley_bits.blackrock_master
+859> input:70236 -- clearwater.th [6]
+859> 35404 : 180@slippery_when_wet_2.blackrock_master
+860> input:70282 -- clearwater.th [6]
+860> 35427 : 93@slippery_when_wet_1.blackrock_master
+861> input:70362 -- clearwater.th [6]
+861> 35467 : 47@old_holborn.blackrock_master
+862> input:70634 -- clearwater.th [6]
+862> 35620 : f332@racer_series.blackrock_master
+863> input:70838 -- clearwater.th [6]
+863> 35719 : f364@firecracker.blackrock_master
+864> input:70909 -- clearwater.th [6]
+864> 35735 : 17@rudang_sump.blackrock_master
+865> input:70993 -- clearwater.th [6]
+865> 35776 : 112@black_magic.blackrock_master
+866> input:71031 -- clearwater.th [6]
+866> 35805 : dg34@rudang_gallery_north.blackrock_master
+867> input:71059 -- clearwater.th [6]
+867> 35806 : dg6@rudang_gallery_north.blackrock_master
+868> input:71089 -- clearwater.th [6]
+868> 35832 : 112@rudang_gallery_south.blackrock_master
+869> input:71138 -- clearwater.th [6]
+869> 35844 : 106@quarry_bypass.blackrock_master
+870> input:71270 -- clearwater.th [6]
+870> 35916 : 47@milliways_to_quarry.blackrock_master
+871> input:71289 -- clearwater.th [6]
+871> 35917 : 108@milliways_to_quarry.blackrock_master
+872> input:71367 -- clearwater.th [6]
+872> 35952 : 37@dapa_series.blackrock_master
+873> input:71494 -- clearwater.th [6]
+873> 36014 : 47@centipede_to_milliways.blackrock_master
+874> input:71503 -- clearwater.th [6]
+874> 36017 : 0@pendant_cave_surface.southern_hills_surface_master
+875> input:71630 -- clearwater.th [6]
+875> 36081 : 70@garden_of_eden_to_deer_cave_gate.southern_hills_surface_master
+876> input:71753 -- clearwater.th [6]
+876> 36137 : 1@green_cave_garden_of_eden.southern_hills_surface_master
+877> input:71849 -- clearwater.th [6]
+877> 36184 : 149@snake_cave_to_deer_cave.southern_hills_surface_master
+878> input:71857 -- clearwater.th [6]
+878> 36187 : 0@waterfall_track_to_hoover_ent.southern_hills_surface_master
+879> input:72028 -- clearwater.th [6]
+879> 36268 : 1@fern_rock_to_plankwalk.southern_hills_surface_master
+880> input:72159 -- clearwater.th [6]
+880> 36372 : 100@headhunt1
+881> input:72248 -- clearwater.th [6]
+881> 36373 : ent@single_leg
+882> input:72266 -- clearwater.th [6]
+882> 36381 : 7@cobsurf
+883> input:72270 -- clearwater.th [6]
+883> 36382 : hh43a@headhunt4
+884> input:72274 -- clearwater.th [6]
+884> 36383 : 1@rifticious2
+885> input:72292 -- clearwater.th [6]
+885> 36391 : 1@clayconn
+886> input:72318 -- clearwater.th [6]
+886> 36403 : 13@darkside
+887> input:72474 -- clearwater.th [6]
+887> 36480 : 1@c5_to_melinau_view
+888> input:72507 -- clearwater.th [6]
+888> 36501 : 24@catfish
+889> input:72532 -- clearwater.th [6]
+889> 36510 : 51@cw11
+890> input:72543 -- clearwater.th [6]
+890> 36511 : 0@cw11
+891> input:72557 -- clearwater.th [6]
+891> 36517 : 6@mysterious_ways_leg_2011.gorge_surface_master
+892> input:72622 -- clearwater.th [6]
+892> 36549 : 39@cloud_to_bridge.hidden_valley_surface_master
+893> input:72625 -- clearwater.th [6]
+893> 36550 : 935@cloud_to_bridge.hidden_valley_surface_master
+894> input:72642 -- clearwater.th [6]
+894> 36565 : 112@camp_to_prediction.hidden_valley_surface_master
+895> input:72659 -- clearwater.th [6]
+895> 36566 : 217@camp_to_prediction.hidden_valley_surface_master
+896> input:72670 -- clearwater.th [6]
+896> 36576 : 0@perseverance_to_arch.hidden_valley_surface_master
+897> input:72682 -- clearwater.th [6]
+897> 36577 : 15@perseverance_to_arch.hidden_valley_surface_master
+898> input:72856 -- clearwater.th [6]
+898> 36672 : 99@arch_to_heli_pad.hidden_valley_surface_master
+899> input:72908 -- clearwater.th [6]
+899> 36685 : 51@moonmilk_cave.moonmilk_master
+900> input:72909 -- clearwater.th [6]
+900> 36686 : 50@moonmilk_cave.moonmilk_master
+901> input:72910 -- clearwater.th [6]
+901> 36687 : 49@moonmilk_cave.moonmilk_master
+902> input:72911 -- clearwater.th [6]
+902> 36688 : 48@moonmilk_cave.moonmilk_master
+903> input:72912 -- clearwater.th [6]
+903> 36689 : 47@moonmilk_cave.moonmilk_master
+904> input:72913 -- clearwater.th [6]
+904> 36690 : 46@moonmilk_cave.moonmilk_master
+905> input:72914 -- clearwater.th [6]
+905> 36691 : 45@moonmilk_cave.moonmilk_master
+906> input:72915 -- clearwater.th [6]
+906> 36692 : 44@moonmilk_cave.moonmilk_master
+907> input:72916 -- clearwater.th [6]
+907> 36693 : 43@moonmilk_cave.moonmilk_master
+908> input:72917 -- clearwater.th [6]
+908> 36694 : 42@moonmilk_cave.moonmilk_master
+909> input:72918 -- clearwater.th [6]
+909> 36695 : 41@moonmilk_cave.moonmilk_master
+910> input:72919 -- clearwater.th [6]
+910> 36696 : 40@moonmilk_cave.moonmilk_master
+911> input:72923 -- clearwater.th [6]
+911> 36698 : s39@passaget.racer_master
+912> input:72928 -- clearwater.th [6]
+912> 36699 : s404@passaget.racer_master
+913> input:72998 -- clearwater.th [6]
+913> 36731 : s39@circ2.racer_master
+914> input:73007 -- clearwater.th [6]
+914> 36739 : 10@3.missed.racer_master
+915> input:73017 -- clearwater.th [6]
+915> 36740 : 0@3.missed.racer_master
+916> input:73035 -- clearwater.th [6]
+916> 36747 : 0@1.missed.racer_master
+917> input:73043 -- clearwater.th [6]
+917> 36750 : 0@13.fatsnake.racer_master
+918> input:73046 -- clearwater.th [6]
+918> 36752 : 0@3.boneyardsump.racer_master
+919> input:73050 -- clearwater.th [6]
+919> 36753 : 4@3.boneyardsump.racer_master
+920> input:73064 -- clearwater.th [6]
+920> 36759 : 7@2.boneyardsump.racer_master
+921> input:73090 -- clearwater.th [6]
+921> 36781 : s602@eyeholes.racer_master
+922> input:73135 -- clearwater.th [6]
+922> 36793 : s39@mez2.racer_master
+923> input:73141 -- clearwater.th [6]
+923> 36798 : 1_41@lagans_ssurvey_main_psg.lagangs_master
+924> input:73148 -- clearwater.th [6]
+924> 36799 : 4_24@lagans_ssurvey_main_psg.lagangs_master
+925> input:73235 -- clearwater.th [6]
+925> 36862 : 82@racertotjunction.racer_area_surface_master
+926> input:73291 -- clearwater.th [6]
+926> 36863 : 0@racertotjunction.racer_area_surface_master
+927> input:73340 -- clearwater.th [6]
+927> 36885 : m15@elevationsurveycheck3.clearwater_master
+928> input:73377 -- clearwater.th [6]
+928> 36902 : v18@elevationsurveycheck4.clearwater_master
+929> input:73381 -- clearwater.th [6]
+929> 36903 : g3@elevationsurveycheck5.clearwater_master
+930> input:73421 -- clearwater.th [6]
+930> 36922 : r13@elevationsurveycheck6.clearwater_master
+931> input:73439 -- clearwater.th [6]
+931> 36929 : r22@elevationsurveycheck7.clearwater_master
+932> input:73483 -- clearwater.th [6]
+932> 36952 : r11@elevationsurveycheck2.clearwater_master
+933> input:73489 -- clearwater.th [6]
+933> 36953 : d1@elevationsurveycheck2.clearwater_master
+934> input:73496 -- clearwater.th [6]
+934> 36957 : 105@downdraughtsnowslope.clearwater_master
+935> input:73508 -- clearwater.th [6]
+935> 36963 : 9@squeezy_bypass.clearwater_master
+936> input:73516 -- clearwater.th [6]
+936> 36964 : 1@squeezy_bypass.clearwater_master
+937> input:73527 -- clearwater.th [6]
+937> 36972 : 12@series2.exodus_chamber_ramp.whiterock_master
+938> input:73539 -- clearwater.th [6]
+938> 36973 : 0@series2.exodus_chamber_ramp.whiterock_master
+939> input:73560 -- clearwater.th [6]
+939> 36987 : 21@janets_way.whiterock_master
+940> input:73596 -- clearwater.th [6]
+940> 37006 : 80@unnamed_bypass.whiterock_master
+941> input:73617 -- clearwater.th [6]
+941> 37007 : 15a@unnamed_bypass.whiterock_master
+942> input:73707 -- clearwater.th [6]
+942> 37043 : 13@bigness_south.whiterock_master
+943> input:73734 -- clearwater.th [6]
+943> 37066 : 24@101.whiterock_master
+944> input:73783 -- clearwater.th [6]
+944> 37077 : 12@ruse_of_the_valkyrie.whiterock_master
+945> input:73801 -- clearwater.th [6]
+945> 37085 : 9@3rd_dirty_little_secret.whiterock_master
+946> input:73808 -- clearwater.th [6]
+946> 37091 : 8@technical_underpants_side_loop.whiterock_master
+947> input:73816 -- clearwater.th [6]
+947> 37092 : 0@technical_underpants_side_loop.whiterock_master
+948> input:73820 -- clearwater.th [6]
+948> 37095 : 4@better_late_than_never.whiterock_master
+949> input:73846 -- clearwater.th [6]
+949> 37116 : 1@chance_encounter.whiterock_master
+950> input:73869 -- clearwater.th [6]
+950> 37117 : 24@chance_encounter.whiterock_master
+951> input:73875 -- clearwater.th [6]
+951> 37122 : 109@1954-endloop.whiterock_master
+952> input:73882 -- clearwater.th [6]
+952> 37123 : 15@1954-endloop.whiterock_master
+953> input:73890 -- clearwater.th [6]
+953> 37130 : 68@into_out_of.whiterock_master
+954> input:73899 -- clearwater.th [6]
+954> 37131 : 20@into_out_of.whiterock_master
+955> input:73907 -- clearwater.th [6]
+955> 37138 : 28@ancestor_passage.whiterock_master
+956> input:73916 -- clearwater.th [6]
+956> 37139 : 9@ancestor_passage.whiterock_master
+957> input:73956 -- clearwater.th [6]
+957> 37157 : 20@ancestor2.whiterock_master
+958> input:73968 -- clearwater.th [6]
+958> 37168 : 13@apartheid.whiterock_master
+959> input:73981 -- clearwater.th [6]
+959> 37169 : 0@apartheid.whiterock_master
+960> input:73999 -- clearwater.th [6]
+960> 37177 : 91@oxbow.whiterock_master
+961> input:74009 -- clearwater.th [6]
+961> 37184 : 1@whose_ramp.whiterock_master
+962> input:74018 -- clearwater.th [6]
+962> 37185 : 10@whose_ramp.whiterock_master
+963> input:74028 -- clearwater.th [6]
+963> 37192 : 4@api_chamber_west.whiterock_master
+964> input:74029 -- clearwater.th [6]
+964> 37193 : 1@api_chamber_west.whiterock_master
+965> input:74051 -- clearwater.th [6]
+965> 37206 : 49@importance_of_being_active.whiterock_master
+966> input:74066 -- clearwater.th [6]
+966> 37207 : 15@importance_of_being_active.whiterock_master
+967> input:74116 -- clearwater.th [6]
+967> 37231 : 31@lowland.whiterock_master
+968> input:74128 -- clearwater.th [6]
+968> 37232 : 19@lowland.whiterock_master
+969> input:74152 -- clearwater.th [6]
+969> 37243 : 13@eagleramp.whiterock_master
+970> input:74166 -- clearwater.th [6]
+970> 37249 : 0@downunder.whiterock_master
+971> input:74237 -- clearwater.th [6]
+971> 37285 : 1@whiterock_surface.whiterock_master
+972> input:74314 -- clearwater.th [6]
+972> 37358 : 1@centipede_to_leopard_surface.blackrock_master
+973> input:74391 -- clearwater.th [6]
+973> 37359 : 78@centipede_to_leopard_surface.blackrock_master
+974> input:74464 -- clearwater.th [6]
+974> 37431 : 74@centipede_to_racer_surface.blackrock_master
+975> input:74538 -- clearwater.th [6]
+975> 37432 : mk15@centipede_to_racer_surface.blackrock_master
+976> input:74564 -- clearwater.th [6]
+976> 37444 : dg34@slartis_revenge.blackrock_master
+978> 37444 : dg34@slartis_revenge.blackrock_master
+980> 37444 : dg34@slartis_revenge.blackrock_master
+984> 298 : 0d@conviction.wonder_master -- 941 : 1@waterfall_track_to_hoover_ent.southern_hills_surface_master
+985> 3757 : 105@fakebluemoon -- 889 : 13@kenyalang_cave.kenyalang_cave_master
+986> 4015 : a7@deliverance_abc -- 932 : 100@fruit_bat_cave.fruit_bat_cave_master
+987> 37444 : dg34@slartis_revenge.blackrock_master
+988> 974 : 34@kenyalang_to_fruit_bat.southern_hills_surface_master
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... 
+therion: warning -- thconfig [53] -- object not found -- "clearwaterPlan"
+done
+processing projection plan ... done
+average distortion: 2.04%
+writing output/clearwater.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 2.000 (TeX Live 2017/Debian) (kpathsea version 6.2.3)  23 DEC 2019 17:14
+**data.mp
+(/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
+(/usr/share/texlive/texmf-dist/metapost/base/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp [4001] [4002] [4003]
+[4004] [4005] [4006] [4007] [4008] [4009] [4010] [4011] [4012] [4013]
+[1] [2] [3] [4] [5]
+[Warning: scrap outline intersects itself in scrap goldwater_s1@clearwater_mast
+er] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+[Warning: text scaled down to fit the path in scrap snake_track_s1@clearwater_m
+aster]
+[Warning: text scaled down to fit the path in scrap snake_track_s1@clearwater_m
+aster]
+[Warning: text scaled down to fit the path in scrap snake_track_s1@clearwater_m
+aster]
+[Warning: text scaled down to fit the path in scrap snake_track_s1@clearwater_m
+aster]
+[Warning: text scaled down to fit the path in scrap snake_track_s1@clearwater_m
+aster] [15] [16] [17] [18]
+[Warning: text scaled down to fit the path in scrap clearwater_7_s1@clearwater_
+master]
+[Warning: text scaled down to fit the path in scrap clearwater_7_s1@clearwater_
+master]
+[Warning: text scaled down to fit the path in scrap clearwater_7_s1@clearwater_
+master] [19] [20] [21] [22] [23] [24] [25] [26] [27] [28] [29]
+[Warning: text scaled down to fit the path in scrap clearwater_III_s1@clearwate
+r_master]
+[Warning: text scaled down to fit the path in scrap clearwater_III_s1@clearwate
+r_master] [30] [31] [32] [33] [34] [35] [36] [37] [38] [39] [40] [41] [42]
+[43] [44]
+[Warning: text scaled down to fit the path in scrap clearwater_river_s2@clearwa
+ter_master] [45] [46] [47] [48] [49] [50] [51] [52] [53]
+[Warning: scrap outline intersects itself in scrap clearwater_6_s1@clearwater_m
+aster] [54] [55]
+[Warning: text scaled down to fit the path in scrap clearwater_6_s1@clearwater_
+master]
+[Warning: text scaled down to fit the path in scrap clearwater_6_s1@clearwater_
+master]
+[Warning: text scaled down to fit the path in scrap clearwater_6_s1@clearwater_
+master] [56] [57]
+[Warning: scrap outline intersects itself in scrap alans_clearwater_5_s1@clearw
+ater_master] [58] [59] [60] [61] [62] [63] [64] [65]
+[Warning: text scaled down to fit the path in scrap greatwall_s1@clearwater_mas
+ter]
+[Warning: text scaled down to fit the path in scrap greatwall_s1@clearwater_mas
+ter]
+[Warning: text scaled down to fit the path in scrap greatwall_s1@clearwater_mas
+ter]
+[Warning: text scaled down to fit the path in scrap greatwall_s1@clearwater_mas
+ter] [66] [67] [68] [69] [70] [71] [72]
+[Warning: text scaled down to fit the path in scrap dune_s1@clearwater_master]
+[73] [74] [75] [76] [77] [78] [79] [80] [81] [82] [83] [84]
+[Warning: text scaled down to fit the path in scrap volcano_s3@clearwater_maste
+r] [85] [86]
+[Warning: scrap outline intersects itself in scrap volcano_s1@clearwater_master
+] [87] [88]
+[Warning: text scaled down to fit the path in scrap volcano_s1@clearwater_maste
+r]
+[Warning: text scaled down to fit the path in scrap volcano_s1@clearwater_maste
+r] [89] [90] [91] [92] [93] [94] [95] [96] [97] [98] [99] [100] [101] [102]
+[Warning: text scaled down to fit the path in scrap revival_s4@clearwater_maste
+r]
+[Warning: text scaled down to fit the path in scrap revival_s4@clearwater_maste
+r]
+[Warning: text scaled down to fit the path in scrap revival_s4@clearwater_maste
+r]
+[Warning: text scaled down to fit the path in scrap revival_s4@clearwater_maste
+r] [103] [104] [105] [106] [107] [108] [109] [110]
+[Warning: text scaled down to fit the path in scrap revival_s1@clearwater_maste
+r] [111] [112] [113] [114]
+[Warning: text scaled down to fit the path in scrap gnome_s1@clearwater_master]
+[115] [116]
+[Warning: scrap outline intersects itself in scrap troll_s3@clearwater_master]
+[117] [118] [119] [120] [121] [122] [123] [124]
+[Warning: text scaled down to fit the path in scrap troll_s1@clearwater_master]
+[Warning: text scaled down to fit the path in scrap troll_s1@clearwater_master]
+[Warning: text scaled down to fit the path in scrap troll_s1@clearwater_master]
+[125] [126] [127] [128] [129] [130] [131] [132] [133] [134] [135] [136] [137]
+[138] [139] [140]
+[Warning: scrap outline intersects itself in scrap upper_series_s3@clearwater_m
+aster] [141] [142] [143] [144] [145]
+[Warning: text scaled down to fit the path in scrap upper_series_s4@clearwater_
+master] [146] [147] [148] [149]
+[Warning: text scaled down to fit the path in scrap upper_series_s2@clearwater_
+master]
+[Warning: text scaled down to fit the path in scrap upper_series_s2@clearwater_
+master] [150] [151] [152] [153] [154] [155] [156]
+[Warning: text scaled down to fit the path in scrap upper_series_s7@clearwater_
+master] [157] [158] [159] [160] [161] [162] [163]
+[Warning: text scaled down to fit the path in scrap edwins_long_cut_s4@clearwat
+er_master] [164] [165] [166] [167]
+[Warning: text scaled down to fit the path in scrap edwins_long_cut_s3@clearwat
+er_master] [168] [169] [170] [171]
+[Warning: text scaled down to fit the path in scrap edwins_long_cut_s2@clearwat
+er_master]
+[Warning: text scaled down to fit the path in scrap edwins_long_cut_s2@clearwat
+er_master]
+[Warning: text scaled down to fit the path in scrap edwins_long_cut_s2@clearwat
+er_master]
+[Warning: text scaled down to fit the path in scrap edwins_long_cut_s2@clearwat
+er_master]
+[Warning: text scaled down to fit the path in scrap edwins_long_cut_s2@clearwat
+er_master] [172] [173] [174] [175]
+[Warning: text scaled down to fit the path in scrap edwins_long_cut_s1@clearwat
+er_master]
+[Warning: text scaled down to fit the path in scrap edwins_long_cut_s1@clearwat
+er_master] [176] [177]
+[Warning: scrap outline intersects itself in scrap ronnies_delight_s1@clearwate
+r_master] [178] [179]
+[Warning: text scaled down to fit the path in scrap ronnies_delight_s1@clearwat
+er_master]
+[Warning: text scaled down to fit the path in scrap ronnies_delight_s1@clearwat
+er_master]
+[Warning: text scaled down to fit the path in scrap ronnies_delight_s1@clearwat
+er_master] [180] [181] [182] [183] [184] [185] [186]
+[Warning: text scaled down to fit the path in scrap rampage_s2@clearwater_maste
+r]
+[Warning: text scaled down to fit the path in scrap rampage_s2@clearwater_maste
+r] [187] [188] [189] [190] [191] [192] [193]
+[Warning: text scaled down to fit the path in scrap quattro_formaggio_s2@clearw
+ater_master] [194] [195] [196] [197] [198] [199] [200]
+[Warning: text scaled down to fit the path in scrap quattro_formaggio_s1@clearw
+ater_master] [201] [202] [203] [204]
+[Warning: text scaled down to fit the path in scrap quattro-formaggio_s4@clearw
+ater_master]
+[Warning: text scaled down to fit the path in scrap quattro-formaggio_s4@clearw
+ater_master]
+[Warning: text scaled down to fit the path in scrap quattro-formaggio_s4@clearw
+ater_master] [205] [206] [207] [208] [209] [210] [211]
+[Warning: text scaled down to fit the path in scrap far_from_home_s1@clearwater
+_master] [212] [213] [214] [215] [216] [217] [218]
+[Warning: text scaled down to fit the path in scrap cairn_farm_s1@clearwater_ma
+ster]
+[Warning: text scaled down to fit the path in scrap cairn_farm_s1@clearwater_ma
+ster] [219] [220] [221] [222] [223] [224] [225] [226] [227] [228]
+[Warning: text scaled down to fit the path in scrap snow_slopes_s1@clearwater_m
+aster] [229] [230] [231] [232] [233] [234] [235]
+[Warning: text scaled down to fit the path in scrap nesters_s5@clearwater_maste
+r] [236] [237] [238] [239] [240]
+[Warning: scrap outline intersects itself in scrap nesters_s3@clearwater_master
+] [241] [242] [243]
+[Warning: scrap outline intersects itself in scrap nesters_s2@clearwater_master
+] [244] [245] [246] [247] [248]
+[Warning: text scaled down to fit the path in scrap nesters_s1@clearwater_maste
+r] [249] [250] [251] [252] [253] [254] [255] [256] [257] [258]
+[Warning: text scaled down to fit the path in scrap armistice_s2@clearwater_mas
+ter] [259] [260] [261] [262]
+[Warning: text scaled down to fit the path in scrap armistice_s1@clearwater_mas
+ter]
+[Warning: text scaled down to fit the path in scrap armistice_s1@clearwater_mas
+ter] [263] [264] [265] [266]
+[Warning: text scaled down to fit the path in scrap boom_boom_s3@clearwater_mas
+ter] [267] [268] [269] [270]
+[Warning: text scaled down to fit the path in scrap boom_boom_s2@clearwater_mas
+ter]
+[Warning: text scaled down to fit the path in scrap boom_boom_s2@clearwater_mas
+ter] [271] [272] [273] [274]
+[Warning: text scaled down to fit the path in scrap boom_boom_s1@clearwater_mas
+ter] [275] [276] [277] [278]
+[Warning: text scaled down to fit the path in scrap upskirt_lower_s2@clearwater
+_master]
+[Warning: text scaled down to fit the path in scrap upskirt_lower_s2@clearwater
+_master]
+[Warning: text scaled down to fit the path in scrap upskirt_lower_s2@clearwater
+_master]
+[Warning: text scaled down to fit the path in scrap upskirt_lower_s2@clearwater
+_master] [279] [280] [281] [282]
+[Warning: text scaled down to fit the path in scrap upskirt_lower_s1@clearwater
+_master] [283] [284] [285] [286] [287]
+[Warning: scrap outline intersects itself in scrap upskirt_s1@clearwater_master
+] [288] [289]
+[Warning: text scaled down to fit the path in scrap upskirt_s1@clearwater_maste
+r]
+[Warning: text scaled down to fit the path in scrap upskirt_s1@clearwater_maste
+r]
+[Warning: text scaled down to fit the path in scrap upskirt_s1@clearwater_maste
+r]
+[Warning: text scaled down to fit the path in scrap upskirt_s1@clearwater_maste
+r]
+[Warning: text scaled down to fit the path in scrap upskirt_s1@clearwater_maste
+r]
+[Warning: text scaled down to fit the path in scrap upskirt_s1@clearwater_maste
+r] [290] [291] [292] [293] [294] [295] [296] [297] [298] [299] [300] [301]
+[302]
+[Warning: text scaled down to fit the path in scrap creedence_s3@clearwater_mas
+ter] [303] [304] [305] [306]
+[Warning: text scaled down to fit the path in scrap creedence_s4@clearwater_mas
+ter]
+[Warning: text scaled down to fit the path in scrap creedence_s4@clearwater_mas
+ter] [307] [308] [309] [310] [311] [312] [313]
+[Warning: text scaled down to fit the path in scrap creedence_s1@clearwater_mas
+ter] [314] [315] [316] [317] [318] [319] [320] [321] [322] [323]
+[Warning: text scaled down to fit the path in scrap jetstream_s5@clearwater_mas
+ter] [324] [325] [326] [327] [328] [329] [330]
+[Warning: text scaled down to fit the path in scrap jetstream_s3@clearwater_mas
+ter] [331] [332] [333] [334] [335] [336] [337] [338] [339] [340] [341] [342]
+[343] [344] [345] [346] [347]
+[Warning: scrap outline intersects itself in scrap and_finally_s1@clearwater_ma
+ster] [348] [349]
+[Warning: text scaled down to fit the path in scrap and_finally_s1@clearwater_m
+aster]
+[Warning: text scaled down to fit the path in scrap and_finally_s1@clearwater_m
+aster]
+[Warning: text scaled down to fit the path in scrap and_finally_s1@clearwater_m
+aster] [350] [351]
+[Warning: scrap outline intersects itself in scrap crucible_offset_s1@clearwate
+r_master] [352] [353]
+[Warning: text scaled down to fit the path in scrap crucible_offset_s1@clearwat
+er_master] [354] [355]
+[Warning: scrap outline intersects itself in scrap high_noon_s3@clearwater_mast
+er] [356] [357] [358] [359] [360] [361] [362] [363]
+[Warning: text scaled down to fit the path in scrap high_noon_s2@clearwater_mas
+ter]
+[Warning: text scaled down to fit the path in scrap high_noon_s2@clearwater_mas
+ter] [364] [365]
+[Warning: scrap outline intersects itself in scrap high_noon_s1@clearwater_mast
+er] [366] [367]
+[Warning: text scaled down to fit the path in scrap high_noon_s1@clearwater_mas
+ter] [368] [369] [370] (./mptextmp.mp) [371] )
+ 
+Here is how much of MetaPost's memory you used:
+ 345282 strings using 8396104 characters
+ 19483360 bytes of node memory
+ 1608 symbolic tokens
+ 11i,81n,16p,448b,5f stack positions out of 16i,96n,17p,487b,6f
+384 output files written: data.1 .. data.4013
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdfetex 2019.12.12)  23 DEC 2019 17:14
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
+(./th_fontdef.tex{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map})
+(./th_formdef.tex
+Normal \count register pool exhausted, switching to extended pool.)
+(./th_pagedef.tex (./th_legendcolor.tex)) (./th_pages.tex)
+ 253 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 750 strings out of 495042
+ 7691 string characters out of 6159509
+ 963992 words of memory out of 5000000
+ 2342 multiletter control sequences out of 15000+600000
+ 21229 words of font info for 66 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 10i,5n,9p,684b,76s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
+Output written on data.pdf (1 page, 3326384 bytes).
+PDF statistics:
+ 1079 PDF objects out of 1200 (max. 8388607)
+ 553 compressed objects within 6 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 3205 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+writing xtherion file ... done
+compilation time: 28 sec
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+   5.17%  100.00%  armistice_s2@clearwater_master
+   6.27%  100.00%  jetstream_s4@clearwater_master
+  15.13%   74.10%  armistice_s3@clearwater_master
+  14.00%   73.75%  nesters_s3@clearwater_master
+   5.53%   73.27%  snow_slopes_s1@clearwater_master
+   3.69%   69.77%  rampage_s2@clearwater_master
+   3.99%   69.06%  clearwater_5_s1@clearwater_master
+   2.83%   65.52%  revival_s4@clearwater_master
+   1.30%   65.51%  cairn_farm_s1@clearwater_master
+  11.24%   64.18%  revival_s1@clearwater_master
+   6.08%   62.07%  upper_series_s2@clearwater_master
+   3.51%   54.36%  clearwater_6_s1@clearwater_master
+   2.39%   52.99%  ronnies_delight_s1@clearwater_master
+   4.39%   52.04%  boom_boom_s1@clearwater_master
+   3.23%   49.48%  clearwater_river_s1@clearwater_master
+   0.12%   48.90%  creedence_s1@clearwater_master
+   7.76%   47.17%  armistice_s5@clearwater_master
+   9.68%   45.76%  snake_track_s1@clearwater_master
+  10.69%   44.53%  revival_s3@clearwater_master
+   2.11%   38.34%  and_finally_s1@clearwater_master
+   7.58%   37.51%  upper_series_s1@clearwater_master
+   0.52%   37.41%  alans_clearwater_5_s1@clearwater_master
+   1.24%   37.11%  volcano_s1@clearwater_master
+   1.16%   36.54%  boom_boom_s2@clearwater_master
+   8.59%   31.66%  clearwater_6_s2@clearwater_master
+   3.21%   31.23%  snake_track_s2@clearwater_master
+   5.26%   30.80%  upper_series_s4@clearwater_master
+  20.06%   30.00%  snow_slopes_s2@clearwater_master
+   5.47%   29.43%  rampage_s1@clearwater_master
+   2.42%   28.14%  cairn_farm_s3@clearwater_master
+   0.30%   27.21%  clearwater_III_s2@clearwater_master
+   0.90%   26.95%  high_noon_s2@clearwater_master
+   2.34%   25.07%  nesters_s1@clearwater_master
+   1.15%   22.39%  quattro_formaggio_s2@clearwater_master
+   1.50%   22.08%  clearwater_river_s2@clearwater_master
+   3.72%   21.99%  clearwater_II_s2@clearwater_master
+   2.68%   21.38%  clearwater_II_s4@clearwater_master
+   4.28%   20.57%  upper_series_s9@clearwater_master
+   0.97%   20.16%  quattro_formaggio_s1@clearwater_master
+   4.20%   19.16%  upper_series_s11@clearwater_master
+   0.98%   19.00%  upper_series_s8@clearwater_master
+   0.85%   18.23%  upskirt_s1@clearwater_master
+   2.13%   16.80%  quattro_formaggio_s3@clearwater_master
+   2.18%   16.69%  far_from_home_s1@clearwater_master
+   0.26%   16.22%  greatwall_s1@clearwater_master
+   1.32%   15.76%  nesters_s2@clearwater_master
+   2.41%   15.31%  revival_s2@clearwater_master
+   1.13%   14.51%  nesters_s4@clearwater_master
+   1.07%   13.25%  armistice_s1@clearwater_master
+   9.82%   13.21%  rampage_s3@clearwater_master
+   1.57%   13.04%  quattro-formaggio_s4@clearwater_master
+   0.36%   11.10%  troll_s1@clearwater_master
+   0.98%   10.68%  clearwater_II_s1@clearwater_master
+   0.97%   10.34%  nesters_s5@clearwater_master
+   2.69%    9.86%  goldwater_s1@clearwater_master
+   1.18%    9.74%  clearwater_river_s3@clearwater_master
+   0.42%    9.63%  clearwater_7_s1@clearwater_master
+   0.46%    9.17%  boom_boom_s3@clearwater_master
+   1.33%    8.56%  upper_series_s3@clearwater_master
+   0.92%    8.04%  dune_s2@clearwater_master
+   0.04%    7.91%  jetstream_s3@clearwater_master
+   1.02%    7.58%  edwins_long_cut_s2@clearwater_master
+   1.78%    7.44%  upper_series_s12@clearwater_master
+   0.30%    7.12%  upskirt_lower_s2@clearwater_master
+   0.90%    7.09%  balcony_s1@clearwater_master
+   0.53%    6.59%  clearwater_II_s3@clearwater_master
+   0.02%    6.21%  nesters_s6@clearwater_master
+   0.32%    5.79%  upper_series_s7@clearwater_master
+   0.24%    5.62%  upskirt_lower_s1@clearwater_master
+   1.77%    4.34%  edwins_long_cut_s3@clearwater_master
+   0.10%    3.64%  cairn_farm_s2@clearwater_master
+   0.32%    2.49%  upper_series_s6@clearwater_master
+   0.56%    2.43%  edwins_long_cut_s4@clearwater_master
+   0.87%    1.60%  armistice_s4@clearwater_master
+   0.38%    1.19%  quattro_formaggio_s5@clearwater_master
+   0.31%    0.76%  edwins_long_cut_s1@clearwater_master
+   0.09%    0.67%  creedence_s5@clearwater_master
+   0.12%    0.59%  high_noon_s3@clearwater_master
+   0.02%    0.50%  and_finally_s2@clearwater_master
+   0.02%    0.42%  creedence_s3@clearwater_master
+   0.03%    0.40%  creedence_s4@clearwater_master
+   0.02%    0.38%  crucible_offset_s1@clearwater_master
+   0.04%    0.35%  high_noon_s1@clearwater_master
+   0.04%    0.27%  helic_s1@clearwater_master
+   0.02%    0.21%  jetstream_s0@clearwater_master
+   0.05%    0.21%  jetstream_s1@clearwater_master
+   0.01%    0.20%  jetstream_s6@clearwater_master
+   0.01%    0.17%  creedence_s2@clearwater_master
+   0.02%    0.15%  jetstream_s5@clearwater_master
+   0.03%    0.14%  creedence_s7@clearwater_master
+   0.02%    0.11%  jetstream_s2@clearwater_master
+   0.00%    0.04%  troll_s3@clearwater_master
+   0.00%    0.04%  dune_s1@clearwater_master
+   0.00%    0.03%  bladerunner_s1@clearwater_master
+   0.00%    0.02%  clearwater_III_s1@clearwater_master
+   0.00%    0.01%  volcano_s2@clearwater_master
+   0.00%    0.01%  and_finally_s4@clearwater_master
+   0.00%    0.01%  clearwater_II_s5@clearwater_master
+   0.00%    0.01%  volcano_s3@clearwater_master
+   0.00%    0.00%  greatwall_s2@clearwater_master
+   0.00%    0.00%  and_finally_s3@clearwater_master
+   0.00%    0.00%  gnome_s1@clearwater_master
+   0.00%    0.00%  creedence_s6@clearwater_master
+   0.00%    0.00%  cleartop_s1@clearwater_master
+   0.00%    0.00%  high_noon_s4@clearwater_master
+   0.00%    0.00%  surface@clearwater_master
+   0.00%    0.00%  rmaf_s1@clearwater_master
+   0.00%    0.00%  troll_s2@clearwater_master
+   0.00%    0.00%  upper_series_s5@clearwater_master
+################### end of scrap distortions ###################

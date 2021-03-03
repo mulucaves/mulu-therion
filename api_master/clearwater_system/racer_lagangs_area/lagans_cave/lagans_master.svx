@@ -1,0 +1,169 @@
+*begin lagangs_master
+*export showcave2017.3
+
+; dave clucas revised data added jan 2015
+	; nb clucas stations are labelled 1.35 in cave not 1_35 as here an artefact of survex incapacity to take 6.0 as survey station name. now 6_0 used here. pls jan 2017
+;fjt 16/4/17 clucas points labeled 4/26 in the cave, generally black marker on red pvc tape, attached to rope of hand rails.
+
+*include lagans_entrance
+*include fastlane
+*include main_passage
+
+;2012 stuff
+*include lagans_leopard_passage
+*include lagans_thesis_mine
+*include lagans_muss_be_mistaken
+*include lagans_a_bit_on_the_side
+*include lagans_lonley_swift_passage
+*include lagans_dream_pool
+*include lagans_up_in_the_gods
+*include lagans_a_bit_on_the_side_extension
+*include lagans_dream_pool_connection
+*include lagans_wind_in_the_wallows
+*include lagans_fastlane_sidepsg
+
+;2014 stuff
+*include disappointmentpassage
+*include fastlanetosurface
+*include slow_lane
+*include balcony_pitch
+*include fastlane_aven
+
+;2015 stuff
+*include lagans_psurvey_main_psg
+*include lagans_lsurvey_main_psg
+*include lagans_ssurvey_main_psg
+
+;2017 stuff
+*include showcave2017
+*include gert_lush
+*include crab_aven
+*include coral_aven
+*include dean_hole
+*include bat_passage
+*include andys_roof_tube
+*include around_the_houses
+*include white_tunnel
+*include a_touch_of_the_donald
+*include the_david_loop
+*include the_badger_hole
+*include fast_lane_aven
+*include anniversary_passage
+*include tubeways
+*include andy_farrant_fastlane_cross_section_1
+*include andy_farrant_fastlane_cross_section_2
+
+;include 2019
+*include anniversary_pitch
+*include anniversary_canyon_side_passage
+*include anniversary_climb_chamber
+*include anniversary_surface_survey
+*include withoutwellies
+*include fastlane_entrance
+*include minaret
+
+;experiment to add helipad surface survey
+;*include ..acer_area_surface;*include ..acer_area_surface*include surfacemainent2fastlaneent	;2017
+
+; to compare fake data to clucas data
+;*include lagans_fake
+; nb significant geometric and directional differences not corrected by tieing at entrances eg fast lane junctn still wrong!
+
+
+;pls version of clucas equates. these give a sensible tie up of his points and are confirmed by agreement with s surveyloop pls jan 2017
+;*equate main_passage.1_35 fastlane.6_35
+;*equate main_passage.1_35 lagans_entrance.1_35
+*equate lagans_entrance.6_28 fastlane.6_28
+;*equate main_passage.1_36 fastlane.6_28
+*equate main_passage.1_35 showcave2017.35
+
+;2012 equates
+*equate lagans_thesis_mine.9 lagans_leopard_passage.10
+*equate lagans_muss_be_mistaken.0 lagans_leopard_passage.1
+;*equate lagans_muss_be_mistaken.421 lagans_entrance.4_21	;not used by clucas why? appears to be a very poor closure pls 12/16
+*equate lagans_a_bit_on_the_side.57 lagans_muss_be_mistaken.0	; muss is hanging from this point unconnected at other end (4.21) pls 12/16
+*equate lagans_lonley_swift_passage.19 lagans_leopard_passage.8
+*equate lagans_a_bit_on_the_side.418 showcave2017.4_18 ;fjt 16/4/17 was tied into clucas lagans_entrance.4_18
+;*equate lagans_a_bit_on_the_side.413 showcave2017.4_13 ;fjt 16/4/17 was tied into clucas lagans_entrance.4_13
+;*equate lagans_dream_pool.26 lagans_entrance.4_3
+*equate lagans_dream_pool_connection.10 showcave2017.4_5 	;stn number not recorded in survey notes only 'clucas stn' clucas therion file is source of equate at 4-6, but 4-5 seems more likley as allows a leg along psg pls 12/16
+*equate lagans_dream_pool_connection.1 lagans_dream_pool.17 	;at dream pool entrance 17 in original survex file pls 8/12/16
+*equate lagans_up_in_the_gods.16 lagans_leopard_passage.6
+*equate lagans_a_bit_on_the_side_extension.11 lagans_a_bit_on_the_side.52
+*equate lagans_wind_in_the_wallows.6 lagans_up_in_the_gods.0
+*equate lagans_fastlane_sidepsg.614 showcave2017.6_14 ;fjt 16/4/17 was connected to fastlane.6_14
+;*equate lagans_fastlane_sidepsg.615 showcave2017.6_15 ;fjt 16/4/17 was connected to fastlane.6_15
+
+;2014 stuff
+*equate disappointmentpassage.618 showcave2017.6_8
+*equate fastlanetosurface.0 showcave2017.6_12
+*equate slow_lane.424 showcave2017.4_24 ;fjt 16/4/17 was connected to legans_entrance.4_24
+*equate balcony_pitch.167 main_passage.1_87		; there are issues here only one of these is correct  notes say 1.67 marked as ? faded and is almost certainly 1_87 pls jan 2015
+*equate balcony_pitch.15 main_passage.1_77
+;*equate fastlane_aven.619 fastlane.6_19; unsure of tie in for this bit les 12.05.14 big closure error 31 mh 0.4 m v pls12/116
+;*equate fastlane_aven.67 showcave2017.6_7	; unsure of tie in for this bit les 12.05.14. dont think it was formall closed to a station only the boarwalk seen pls jan 2017
+;fjt 16/4/17 was connected to fastlane.6_7
+
+;2015 stuff
+*equate lagans_psurvey_main_psg.1_66 main_passage.1_66
+*equate lagans_lsurvey_main_psg.1_63 main_passage.1_63
+*equate lagans_lsurvey_main_psg.1_71 main_passage.1_70
+; notes say could be 1_71 or 1_70 or the station marker has been moved. currently best equate is likley 1_70
+*equate lagans_ssurvey_main_psg.1_41 main_passage.1_41	;critical check on the configuration of clucas links at fl junctiion pls jan 2017
+*equate lagans_ssurvey_main_psg.4_24  showcave2017.4_24 ;fjt 16/4/17 was connected to lagans_entrance.4_24
+
+;2017 stuff
+*equate fastlane.6_28 main_passage.1_36
+*equate gert_lush.32 showcave2017.4_2
+*equate crab_aven.0 showcave2017.4_2
+*equate crab_aven.21 lagans_entrance.4_14
+*equate coral_aven.1.0 showcave2017.6_14
+*equate dean_hole.0 showcave2017.6_15 ;fjt 16/4/17 was connected to fastlane.6_15
+*equate bat_passage.0 showcave2017.6_13 ;fjt 16/4/17 was connected to fastlane.6_13
+*equate andys_roof_tube.0 showcave2017.6_14 ;fjt 16/4/17 was connected to fastlane.6_14
+
+;*equate around_the_houses.0 fastlane_aven.38
+*equate around_the_houses.32 showcave2017.6_12
+;*equate around_the_houses.17 a_touch_of_the_donald.107
+*equate white_tunnel.0 a_touch_of_the_donald.108
+*equate a_touch_of_the_donald.100 coral_aven.1.21
+*equate the_david_loop.2.35 main_passage.1_93
+*equate fastlane_aven.40 disappointmentpassage.13
+*equate the_badger_hole.1.1 showcave2017.6_18a
+*equate fast_lane_aven.6 showcave2017.25
+*equate coral_aven.2.1 anniversary_passage.25
+*equate tubeways.35 showcave2017.4_2
+*equate andy_farrant_fastlane_cross_section_1.6_18d showcave2017.6_18d
+*equate andy_farrant_fastlane_cross_section_2.35 showcave2017.35
+
+;2019
+*equate anniversary_pitch.110 anniversary_passage.1
+*equate anniversary_canyon_side_passage.1 anniversary_passage.7
+*equate anniversary_climb_chamber.50 anniversary_pitch.114
+*equate anniversary_surface_survey.11 anniversary_pitch.119
+*equate withoutwellies.0 tubeways.1
+*equate fastlane_entrance.0 showcave2017.3
+*equate minaret.30.29 surfacemainent2fastlaneent.44
+*equate fastlane_entrance.105 showcave2017.6_12
+
+;surface survey
+;*equate helipad_to_lagangs.79 fastlane.6_0
+;*equate surface_survey_hq_helipad_to_lagans.200 helipad_to_lagangs.78t
+*equate surfacemainent2fastlaneent.60 showcave2017.3
+*equate surfacemainent2fastlaneent.0 showcave2017.4_2
+
+; fake equates
+;*equate lagans_fake.54 fastlane.6_0 			;fast lane entrance
+;*equate lagans_fake.22 main_passage.1_79		;rear entrance
+;*equate lagans_fake.1 lagans_entrance.4_0a		;main entrance
+;*equate lagans_fake.59 lagans_dream_pool.17		;dream pool entrance
+
+
+;fixes to be removed as in main racer area surface files
+;*fix lagans_entrance.4_2a 258626 447660 33.3 	; fix for lagans main entrance based on 2014 surface survey (originallly placed at 4-0a but this is probably more correct pls 7/1/17).
+
+	;nb if using the area master the surface leg equivalence will need editing to 4_2a from 4_0a ps 12/16
+
+;*fix fastlane.6_0 258431 447988 39.8 		; fix for fast lane entrance based on 2014 surface survey.
+
+*end lagangs_master

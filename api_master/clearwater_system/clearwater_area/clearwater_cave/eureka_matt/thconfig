@@ -1,0 +1,5 @@
+source eureka_matt.th
+
+export model -o eureka_matt.3d
+export model -o eureka_matt.lox
+export map -o eureka_matt.pdf

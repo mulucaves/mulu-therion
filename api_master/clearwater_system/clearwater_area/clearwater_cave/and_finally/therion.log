@@ -1,0 +1,137 @@
+therion 5.4.4+4cb2921 (2020-04-05)
+initialization file: /home/ben/.therion/therion.ini
+reading ... done
+checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... OK
+checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... OK
+configuration file: thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.2.43
+ 2> Copyright © 1990-2020 Olly Betts
+ 3> Survey has no fixed points. Therefore I’ve fixed 1 at (0,0,0)
+ 4> 
+ 5> Survey contains 103 survey stations, joined by 102 legs.
+ 6> There is 1 loop.
+ 7> Survey has 2 connected components.
+ 8> Total length of survey legs =  248.01m ( 248.01m adjusted)
+ 9> Total plan length of survey legs =  211.87m
+10> Total vertical length of survey legs =  104.45m
+11> Vertical range = 58.68m (from 19 at 31.77m to 78 at -26.91m)
+12> North-South range = 28.29m (from 101 at 7.41m to 12 at -20.88m)
+13> East-West range = 194.41m (from 100 at 184.02m to 3 at -10.39m)
+14>   86 1-nodes.
+15>    1 4-node.
+16>    1 5-node.
+17>    9 6-nodes.
+18>    2 7-nodes.
+19>    1 8-node.
+20>    1 9-node.
+21>    2 12-nodes.
+22> 
+######################### transcription ########################
+ 3> 1 : 214@and_finally
+ 5> 103 : -@and_finally -- 102 : -@and_finally
+ 6> 1 : 214@and_finally
+ 7> 2 : -@and_finally
+11> 19 : 405@and_finally -- 78 : -@and_finally
+12> 101 : 420@and_finally -- 12 : -@and_finally
+13> 100 : 419@and_finally -- 3 : -@and_finally
+14> 86 : -@and_finally
+15> 1 : 214@and_finally
+16> 1 : 214@and_finally
+17> 9 : -@and_finally
+18> 2 : -@and_finally
+19> 1 : 214@and_finally
+20> 1 : 214@and_finally
+21> 2 : -@and_finally
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+writing and_finally.3d ... done
+processing projection plan ... done
+average distortion: 0.02%
+
+
+############### export maps & scraps selection #################
+M    -7.81 andFinallyPlan@and_finally ()
+S    11.01  and_finally_s1@and_finally ()
+S   -12.28  and_finally_s2@and_finally ()
+S   -20.46  and_finally_s3@and_finally ()
+S    -9.53  and_finally_s4@and_finally ()
+########## end of export maps & scraps selection ###############
+writing and_finally.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 2.000 (TeX Live 2017/Debian) (kpathsea version 6.2.3)  11 APR 2020 18:25
+**data.mp
+(/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
+(/usr/share/texlive/texmf-dist/metapost/base/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010] [4011] [
+4012] [4013] [4014]
+[1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] (./mptextmp.mp)
+[15] )
+ 
+Here is how much of MetaPost's memory you used:
+ 9991 strings using 246099 characters
+ 3385160 bytes of node memory
+ 1666 symbolic tokens
+ 11i,81n,14p,459b,5f stack positions out of 16i,96n,17p,487b,6f
+29 output files written: data.1 .. data.4014
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdfetex 2019.12.12)  11 APR 2020 18:25
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
+(./th_fontdef.tex{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map})
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 66 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 263 strings out of 495042
+ 2712 string characters out of 6159509
+ 69890 words of memory out of 5000000
+ 1858 multiletter control sequences out of 15000+600000
+ 20080 words of font info for 63 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 9i,5n,8p,276b,58s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
+Output written on data.pdf (1 page, 64970 bytes).
+PDF statistics:
+ 68 PDF objects out of 1000 (max. 8388607)
+ 38 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 157 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+compilation time: 1 sec
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+   0.02%    0.29%  and_finally_s2@and_finally
+   0.02%    0.13%  and_finally_s1@and_finally
+   0.00%    0.01%  and_finally_s4@and_finally
+   0.00%    0.00%  and_finally_s3@and_finally
+################### end of scrap distortions ###################

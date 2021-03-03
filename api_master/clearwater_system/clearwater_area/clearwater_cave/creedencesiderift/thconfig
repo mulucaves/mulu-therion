@@ -1,0 +1,5 @@
+source creedencesiderift.th
+
+export model -o creedencesiderift.3d
+export model -o creedencesiderift.lox
+export map -o creedencesiderift.pdf

@@ -1,0 +1,5 @@
+source dadsarmy.th
+
+export model -o dadsarmy.3d
+export model -o dadsarmy.lox
+export map -o dadsarmy.pdf

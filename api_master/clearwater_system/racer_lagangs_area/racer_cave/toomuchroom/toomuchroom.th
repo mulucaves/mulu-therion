@@ -1,0 +1,31 @@
+survey toomuchroom
+ centerline
+##export s50 s308
+units tape feet
+date 1990.08.26
+#team rw
+#team aw
+#team sl tape
+data normal from to tape compass  clino ignoreall
+s50	s300	34.12	275	0.5
+s300	s301	84.32	223	10.5
+s301	s302	85.3	210	-32.5
+s302	s303	100.07	199	24.5
+s303	s304	95.8	151	35.5
+s304	s305	83.99	240	-3.5
+s305	s306	61.68	218	18.5
+s306	s307	44.95	265	6.5
+s307	s308	68.57	322	-22.5
+data dimensions station left up down right
+s50	82.02	82.02	6.56	65.62
+s300	82.02	82.02	6.56	49.21
+s301	39.37	65.62	6.56	32.81
+s302	39.37	26.25	6.56	32.81
+s303	49.21	19.68	6.56	65.62
+s304	29.53	9.84	6.56	0
+s305	19.68	3.28	6.56	32.81
+s306	98.43	3.28	6.56	19.68
+s307	52.49	9.84	6.56	42.65
+s308	49.21	49.21	6.56	3.28
+endcenterline
+  endsurvey

@@ -1,0 +1,3 @@
+source baba_yaga.th
+
+export model -o baba_yaga.3d

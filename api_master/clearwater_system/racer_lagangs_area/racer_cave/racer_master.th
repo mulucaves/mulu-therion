@@ -1,0 +1,87 @@
+survey racer_master
+##export easter-racer.53
+##export racer_lower14.1
+input entrances/entrances.th
+input racer89/racer89.th
+input asp2/asp2.th
+input asp3/asp3.th
+input asprins/asprins.th
+input bens2/bens2.th
+input bens3/bens3.th
+input bensstu/bensstu.th
+input branchpassage/branchpassage.th
+input circ2/circ2.th
+input circ3/circ3.th
+input circleline/circleline.th
+input endofmez/endofmez.th
+input eyeholes/eyeholes.th
+input lowerseries/lowerseries.th
+input mez3/mez3.th
+input parisway/parisway.th
+input passaget/passaget.th
+input bottomless/bottomless.th
+input mez2/mez2.th
+input mezzanine/mezzanine.th
+input mushroom/mushroom.th
+input themushroom/themushroom.th
+input whymper/whymper.th
+input toomuchroom/toomuchroom.th
+input tube1/tube1.th
+input tubeatba/tubeatba.th
+input wilsons/wilsons.th
+input dw91/dw91.th
+input link91/link91.th
+input sa/sa.th
+input easter-racer/easter-racer.th
+input racer_lower14/racer_lower14.th
+input footprints_aven/footprints_aven.th
+input bens_climb/bens_climb.th
+input dgc/dgc.th
+input connection/connection.th
+input boneyardsump/boneyardsump.th
+input missed/missed.th
+input fatsnake/fatsnake.th
+
+equate cairn@entrances cairn@racer89
+equate s00@lowerseries 18@racer89
+equate s6@bottomless s6@mushroom
+equate s39@whymper s39@mushroom
+equate s14@themushroom s14@mushroom
+equate s39@mez2 s39@mushroom
+equate s112@mez3 s112@mez2
+equate s124@mezzanine s124@mez3
+equate s50@whymper s50@wilsons
+equate s211@parisway s211@wilsons
+equate s70@asp2 s70@whymper
+equate s84@asp3 s84@asp2
+equate s82@aspirins s82@asp2
+equate s50@toomuchroom s50@whymper
+equate s39@passaget s39@mushroom
+equate s402@branchpassage s402@passaget
+equate s308@bens2 s308@toomuchroom
+equate s500@bens3 s500@bens2
+equate s502@bensstu s502@bens2
+equate s404@circ2 s404@passaget
+equate s39@circ2 s39@mushroom
+equate s725@circ3 s725@circ2
+equate s723@circleline s723@circ2
+equate s39@tube1 s39@mushroom
+equate s900@tubeatba s900@tube1
+equate s126@endofmez s126@mezzanine
+equate s8@mushroom 56@racer_lower14
+equate s93@sa s93@aspirins
+equate s50@dw91 s50@whymper
+equate s118@link91 s118@mez3
+equate s602@eyeholes s602@link91
+equate 56@racer_lower14 305a@easter-racer
+equate 4@bens_climb 0@footprints_aven
+equate 4@bens_climb 51@racer_lower14
+equate 3@dgc 54@racer_lower14
+equate 668@connection 13@bens_climb
+equate 28@racer_lower14 18@racer89
+equate 211@easter-racer s209@wilsons
+equate 34@racer_lower14 1fake@boneyardsump
+equate 4@3.boneyardsump 13@5.fatsnake
+equate 10@3.missed 10@5.fatsnake
+equate 0@1.missed 4@13.fatsnake
+endsurvey

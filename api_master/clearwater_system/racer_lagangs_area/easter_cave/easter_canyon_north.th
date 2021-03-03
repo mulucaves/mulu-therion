@@ -1,0 +1,29 @@
+survey easter_canyon_north
+ centerline
+##export 16
+date 2017.04.17
+#team "frank tully"
+units tape meters
+units compass degrees
+units clino degrees
+#calibrate declination 0.00 deg
+#alias station - ..
+data normal from to tape compass clino
+1	2   11.23 64.7 19.3
+2	3   5.31 61.5 5.3
+3	4   14.58 99.3 -6.3
+4	5   9.68 127.5 2.1
+5	6   5.79 153.1 9.3
+6	7   8.05 124.8 27.7
+7	6   8.07 304.7 -28.1
+7	8   12.06 133.3 31.8
+8	9   7.42 99.7 38.5
+9	10   6.46 132.6 33.7
+10	11   3.68 223.2 37.1
+11	12   9.06 220.4 21.5
+12	13   2.51 223.8 40.5
+3	14   13.26 209.3 52.3
+14	15   9.78 222.4 66.2
+15	16   2.57 156.9 9.3
+endcenterline
+  endsurvey

@@ -1,0 +1,5 @@
+source downdraughtsnowslope.th
+
+export model -o downdraughtsnowslope.3d
+export model -o downdraughtsnowslope.lox
+export map -o downdraughtsnowslope.pdf

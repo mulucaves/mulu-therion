@@ -1,0 +1,5 @@
+source highandmighty.th
+
+export model -o highandmighty.3d
+export model -o highandmighty.lox
+export map -o highandmighty.pdf

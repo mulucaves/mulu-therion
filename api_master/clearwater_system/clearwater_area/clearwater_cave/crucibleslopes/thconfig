@@ -1,0 +1,5 @@
+source crucibleslopes.th
+
+export model -o crucibleslopes.3d
+export model -o crucibleslopes.lox
+export map -o crucibleslopes.pdf

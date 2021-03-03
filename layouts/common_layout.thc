@@ -1,0 +1,363 @@
+encoding  utf-8
+# This file contains the settings used for the layout that ahould be common for the
+# whole data set.
+# The help with each command,comes from the Therion Book issued with v0.3.10
+
+input layoutscales.thc
+input layoutstatisticsreporting.thc
+
+layout water-blue
+  code metapost
+  def a_water (expr p) =
+    T:=identity;
+    thfill p withcolor (0.0, 0.5, 1.0);
+  enddef;  
+endlayout
+
+layout greyscale
+  colour map-fg 100
+  colour map-bg 85
+endlayout
+
+layout common
+  copy LayoutScale500
+
+  copy water-blue
+  rotate 0
+  scale 1 500
+  base-scale 1 500
+
+  units metric
+
+  symbol-set BCRA
+  symbol-assign line gradient BCRA
+
+  symbol-hide group cave-centreline
+  symbol-show point cave-station
+
+  transparency on
+
+  opacity 60
+
+  #surface <top/bottom/off>
+  #surface-opacity <value>
+  
+  layers on
+
+  legend on
+  #colour-legend on
+  legend-columns 2
+
+  map-header 0 -20 nw
+  #colour map-fg altitude
+  #colour map-fg [40 50 10]
+  #  colour map-bg [15 50 25]
+  colour map-bg transparent
+
+  #statistics carto number
+  doc-author "Mulu Caves Project"
+
+  code metapost
+    def l_contour(expr P)(text txt) =
+     T:=identity;
+     pickup PenD;
+     thdraw P withcolor (0.5, 0 ,0);
+     for pnt=txt:
+     if (pnt=-2) or (pnt=-1):
+       mark_(P,arctime(arclength(P)/2) of P, 0.2u);
+     elseif pnt>=0:
+       mark_(P,pnt,0.2*u);
+     fi;
+     exitif pnt<0;
+     endfor;
+    enddef;
+
+     def p_u_gradient (expr P,R,S,A)=
+     tmplength:=0.3u;
+     if known ATTR_length: if ATTR_length="big": tmplength:=.4u;
+     elseif ATTR_length="small": tmplength:=0.2u; fi;
+     fi;
+     U:=(.2u,.6u);
+     T:=identity aligned A rotated R scaled S shifted P;
+     thfill (-.1u,-tmplength)--(0,tmplength)--(.1u,-tmplength)--cycle;
+    enddef;
+    initsymbol("p_u");    
+
+    def l_u_path  (expr P) =
+    T:=identity;
+    cas := 0;
+    dlzka := arclength P;
+    mojkrok := adjust_step(dlzka, 0.25u);
+    pickup PenD;
+    forever:
+      t := arctime cas of P;
+      thdraw ((point t of P) + 0.2 * u * unitvector(thdir(P,t) rotated 90)) --
+      ((point t of P) - 0.2 * u * unitvector(thdir(P,t) rotated 90) );
+    cas := cas + mojkrok;
+    exitif cas > dlzka + (mojkrok/3);  % for rounding errors
+    endfor;
+    pickup PenC;
+    %thdraw P; %draw path
+    enddef;
+    initsymbol("l_u_path");
+    
+    def l_u_cliff  (expr P) =
+    T:=identity;
+    cas := 0;
+    dlzka := arclength P;
+    mojkrok := adjust_step(dlzka, 0.8u);
+    pickup PenD;
+    forever:
+      t := arctime cas of P;
+      thdraw ((point t of P) + 0.4 * u * unitvector(thdir(P,t) rotated 75)) --
+      ((point t of P) - 0.4 * u * unitvector(thdir(P,t) rotated 75) );
+    cas := cas + mojkrok;
+    exitif cas > dlzka + (mojkrok/3);  % for rounding errors
+    endfor;
+    pickup PenA;
+    thdraw P; %draw path
+    enddef;
+    initsymbol("l_u_cliff");
+    
+    def a_u_river (expr p) =
+    T:=identity;
+    thclean p;
+    thfill p withcolor (0.0, 1.0, 1.0);
+    enddef;  
+    initsymbol("a_u_river");
+
+  #def PenXXL = pencircle scaled (2.4*u/10) enddef;
+
+  vardef getdistance(expr A,B) =
+   dx := xpart A - xpart B;
+   dy := ypart A - ypart B;
+   sqrt((dx,dy) dotprod (dx,dy))
+  enddef;
+
+  def l_u_river (expr Path) =
+    T:=identity;
+    pickup PenXXL;
+    draw Path withcolor (0.0, 1.0, 1.0);
+  enddef;
+  initsymbol("l_u_river");
+ 
+  def l_u_pot (expr P) = 
+   T:=identity;
+
+   if cycle(P):
+     pickup PenXXL;
+    thdraw P;
+    thclean P;
+    pickup PenX;
+    thdraw P;
+    pickup PenC;
+     thdraw P withcolor background;
+     laenge:= arclength P;
+    symsize:=0.5u;
+     triangle_width:=symsize/2;
+
+     pair l_triangle;
+     pair f_triangle;
+     pair test;
+     path triangle;
+     path draw_triangle;
+     triangle:= (-triangle_width/2,0) -- (triangle_width/2,0) --
+           (0,symsize/2) -- cycle;
+     cur:=(symsize);
+
+     t := arctime (cur) of P;
+     f_triangle := (point t of P +.05u*unitvector(thdir(P,t) rotated 90));
+     thfill triangle rotated angle thdir(P,t) shifted f_triangle ;
+     l_triangle := f_triangle;
+
+     for cur=(symsize) step 0.1 until laenge:
+       t := arctime (cur) of P;
+       test := (point t of P +.05u*unitvector(thdir(P,t) rotated 90));
+       my_dist := getdistance(test,l_triangle);
+      if abs(my_dist-symsize) < 0.05u:
+        draw_triangle:=triangle rotated angle thdir(P,t) shifted test;
+        if xpart (draw_triangle intersectiontimes P) < 0:
+          thfill triangle rotated angle thdir(P,t) shifted test;
+          l_triangle:= test;
+        fi;
+      fi;
+    endfor;
+
+   else: %path is not a cycle
+     laenge:= arclength P;
+     pickup PenC;
+     pair pts[];
+     path par;
+     npts:=laenge/0.01u;
+     for i = 0 upto npts:
+      pts[i]=( 
+         (point (arctime i/npts*laenge of P) of P) 
+         + 0.125u*unitvector(thdir(P,(arctime i/npts*laenge of P)) rotated 90)
+        );
+    endfor;
+
+     par = pts0
+     for i = 0 upto npts:
+      ..pts[i]
+     endfor;
+
+     thdraw par;
+     laenge:= arclength par;
+     symsize:=adjust_symbolsize(laenge,0.5u);
+     symsize:=0.5u;
+     triangle_width:=symsize/2;
+     cur:=(symsize-triangle_width)/2;
+
+     t1 := arctime (cur) of par;
+     forever:
+
+       t  := arctime (cur + triangle_width/2) of par;
+       t2 := arctime (cur + triangle_width) of par;
+       thfill (subpath (t1,t2) of par) -- 
+       ((point t of par) + symsize/2 * unitvector(thdir(par,t) rotated 90)) -- 
+       cycle;
+       cur := cur + symsize;
+       t1 := arctime (cur) of par;
+       exitif cur >= laenge; % for rounding errors
+     endfor;
+
+     pickup PenA;
+     thdraw P;
+   fi;
+
+  enddef;
+
+  def l_u_doline (expr P) =
+    T:=identity;
+    cas := 0;
+    dlzka := arclength P;
+    mojkrok:=adjust_step(dlzka, 2u);
+    pickup PenD;  
+    forever:
+    t := arctime cas of P;
+    mark_ (P,t,2u);
+    cas := cas + mojkrok;
+    exitif cas > dlzka + (mojkrok / 3); % for rounding errors
+    endfor;
+    pickup PenC;  
+    thdraw P withcolor (0.5, 0, 0);
+  enddef;
+
+  def l_contour(expr P)(text txt) =
+    T:=identity;
+    pickup PenD;
+    thdraw P withcolor (0.5, 0, 0);
+    for pnt=txt:
+    if pnt=-2:
+      mark_(P,arctime(arclength(P)/2) of P, 0.2u);
+    elseif pnt>=0:
+      mark_(P,pnt,0.2*u);
+    fi;
+    exitif pnt<0;
+    endfor;
+  enddef;
+  def p_u_mud (expr pos,theta,sc,al)=
+    U:=(.45u,.1u);
+    T:=identity aligned al rotated theta scaled sc shifted pos;
+    pickup PenC;
+    p := ((-.15*u,0)--(.15*u,0));
+    thdraw p shifted (.3u,-.1u);
+    thdraw p shifted (-.3u,-.1u);
+    thdraw p shifted (0,.1u);
+  enddef;
+
+  def l_u_mud (expr P) = 
+    T:=identity;
+    cas := 0;
+    dlzka := arclength P;
+    mojkrok:=adjust_step(dlzka, .5u);
+    pickup PenC;
+    q := (-0.15u,0){up}..{down}origin..{up}(0.15u,0);
+    forever:
+    t := arctime (cas + mojkrok/2) of P;
+    thdraw q shifted (point t of P + .25u * unitvector(thdir(P,t) rotated -90));
+    cas := cas + mojkrok;
+    exitif cas > dlzka - (2*mojkrok/3); % for rounding errors
+    endfor;
+    pickup PenA;  
+    thdraw P;
+  enddef;
+  def a_u_mud (expr p) =
+    T:=identity;
+    pickup PenC;
+    path q, qq; q = bbox p;
+    picture tmp_pic; 
+    tmp_pic := image(
+    for i = xpart llcorner q step 2u until xpart urcorner q:
+      for j = ypart llcorner q step 2u until ypart urcorner q:
+      qq := ((-.15*u,0)--(.15*u,0)) randomized (u/30)
+         shifted ((i,j) randomized 1.0u);
+      if xpart (p intersectiontimes qq) < 0:
+        thdraw qq;
+
+        %thdraw qq shifted (.3u,-.1u);
+        %thdraw qq shifted (-.3u,-.1u);
+        %thdraw qq shifted (0,.1u);
+      fi;
+      endfor;  
+    endfor;
+    );
+    clip tmp_pic to p;
+    draw tmp_pic;
+  enddef;
+  initsymbol("p_u_mud");
+  initsymbol("l_u_mud");
+  initsymbol("a_u_mud");
+  initsymbol("l_u_contour");
+  initsymbol("l_u_doline");
+
+  code tex-map
+    \legendcontent={%
+    \hsize=\legendwidth
+    \ifnortharrow\vbox to 0pt{\line{\hfil\northarrow}\vss}\fi
+    \edef\tmp{\the\cavename} \ifx\tmp\empty \else
+    {\size[26]\the\cavename} \vskip1cm
+    \fi
+    \ifscalebar\scalebar\vskip1cm\fi
+    {\rightskip=0pt plus 3em\parskip=3bp
+    \edef\tmp{\the\comment} 
+    \ifx\tmp\empty \else
+    {\size[12]\the\comment} \par\medskip
+    \fi
+    \everypar{\hangindent=2em\hangafter=1}   
+    \edef\tmp{\the\cavelength} 
+    \ifx\tmp\empty \else
+    %{\size[12]\si\the\cavelengthtitle: \ss\the\cavelength\par}
+    \fi
+    \edef\tmp{\the\cavedepth} \ifx\tmp\empty \else
+    %{\size[12]\si\the\cavedepthtitle: \ss\the\cavedepth\par}
+    \fi
+    \edef\tmp{\the\exploteam} 
+    \ifx\tmp\empty \else
+    {\size[12]\si\the\explotitle:
+    \ss\the\exploteam\quad\si\the\explodate\par}
+    \fi
+    \edef\tmp{\the\topoteam} 
+    \ifx\tmp\empty \else
+     {\size[12]\si\the\topotitle: \ss\the\topoteam\quad\si\the\topodate\par}
+    \fi
+    \edef\tmp{\the\cartoteam} 
+    \ifx\tmp\empty \else
+    {\size[12]\si\the\cartotitle:
+    \ss\the\cartoteam\quad\si\the\cartodate\par}
+    \fi
+    \edef\tmp{\the\copyrights} \ifx\tmp\empty \else
+    {\size[12]\ss\the\copyrights\par}
+    \fi
+    }
+    %\formattedlegend 
+  }
+endlayout
+
+text en "point u:gradient" "gradient"
+text en "line u:path" "plankwalk"
+text en "line u:river" "surface river"
+text en "line u:doline" "doline"
+text en "line u:cliff" "cliff"
+text en "point u:mud" "mud"
+

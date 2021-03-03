@@ -1,0 +1,18 @@
+therion 5.4.4+19919fc (2020-10-19)
+  - using Proj 6.3.1, compiled against 6.3.1
+initialization file: /home/ben/.therion/therion.ini
+reading ... done
+checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... OK
+checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... OK
+configuration file: thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+processing survey data ... no data.
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... 
+therion: error -- dune.th2 [117] -- survey does not exist -- clearwater_cave_fake -- station does not exist -- 375@clearwater_cave_fake

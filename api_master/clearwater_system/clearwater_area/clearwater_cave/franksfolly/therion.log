@@ -1,0 +1,108 @@
+therion 5.4.4+4cb2921 (2020-04-05)
+initialization file: /home/ben/.therion/therion.ini
+reading ... done
+checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... OK
+checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... OK
+configuration file: thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.2.43
+ 2> Copyright © 1990-2020 Olly Betts
+ 3> Survey has no fixed points. Therefore I’ve fixed 1 at (0,0,0)
+ 4> 
+ 5> Survey contains 4 survey stations, joined by 3 legs.
+ 6> There are 0 loops.
+ 7> Total length of survey legs =   29.27m (  29.27m adjusted)
+ 8> Total plan length of survey legs =   25.81m
+ 9> Total vertical length of survey legs =   11.82m
+10> Vertical range = 11.82m (from 4 at 11.82m to 1 at 0.00m)
+11> North-South range = 23.02m (from 1 at 0.00m to 4 at -23.02m)
+12> East-West range = 9.43m (from 1 at 0.00m to 4 at -9.43m)
+13>    2 1-nodes.
+14>    2 2-nodes.
+15> 
+######################### transcription ########################
+ 3> 1 : 0@franksfolly
+ 5> 4 : 3@franksfolly -- 3 : 2@franksfolly
+10> 4 : 3@franksfolly -- 1 : 0@franksfolly
+11> 1 : 0@franksfolly -- 4 : 3@franksfolly
+12> 1 : 0@franksfolly -- 4 : 3@franksfolly
+13> 2 : 1@franksfolly
+14> 2 : 1@franksfolly
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+writing franksfolly.3d ... done
+writing franksfolly.lox ...
+processing projection plan ... done
+ done
+
+
+############### export maps & scraps selection #################
+S      nan  @ ()
+########## end of export maps & scraps selection ###############
+writing franksfolly.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 2.000 (TeX Live 2017/Debian) (kpathsea version 6.2.3)  12 APR 2020 13:43
+**data.mp
+(/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
+(/usr/share/texlive/texmf-dist/metapost/base/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010] [4011] [
+4012] [4013] [4014]
+[1] [2] (./mptextmp.mp) [3] )
+ 
+Here is how much of MetaPost's memory you used:
+ 1374 strings using 32072 characters
+ 3100280 bytes of node memory
+ 1657 symbolic tokens
+ 8i,81n,11p,312b,4f stack positions out of 16i,96n,12p,312b,6f
+17 output files written: data.1 .. data.4014
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdfetex 2019.12.12)  12 APR 2020 13:43
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
+(./th_fontdef.tex{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map})
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 50 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 247 strings out of 495042
+ 2540 string characters out of 6159509
+ 17872 words of memory out of 5000000
+ 1842 multiletter control sequences out of 15000+600000
+ 18931 words of font info for 60 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 9i,5n,8p,238b,58s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
+Output written on data.pdf (1 page, 22068 bytes).
+PDF statistics:
+ 36 PDF objects out of 1000 (max. 8388607)
+ 22 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+compilation time: 1 sec

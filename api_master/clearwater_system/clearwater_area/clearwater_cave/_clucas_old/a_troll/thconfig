@@ -1,0 +1,12 @@
+encoding  utf-8
+source troll.th
+input ../../common_layout.th
+layout layout
+  copy common
+  scale 1 2000
+  scale-bar 250 metres
+endlayout
+
+select troll_m
+
+export map -o ../output/troll.pdf -layout layout -layout water-blue

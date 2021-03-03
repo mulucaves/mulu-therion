@@ -1,0 +1,40 @@
+survey easter_master
+##export easter.0
+input easter.th
+input canyon_climb.th
+input easter_canyon
+input easter_headhunters.th
+input easter_headhunters_contd.th
+input easter_lower.th
+input easter_lower_se.th
+input easter_lower_three.th
+input easter_lower_four.th
+input easter_lower_five.th
+input canyon_the_sequel.th
+input stinky_pete.th
+input easter_re-survey
+input easter_canyon_north
+input easter_canyon_north2
+input roadtonowhere.th
+input easter_pass_go.th
+equate 13@easter_lower_three 20@easter_re-survey
+equate 12@easter_lower 21@easter_re-survey
+equate 1@easter_lower 34@easter_re-survey
+equate 35@easter_lower 25@easter
+equate stal@easter_lower_three 34@easter
+equate 20@easter_lower_three 20@easter_lower_se
+equate 21@easter_lower_three 21@easter_headhunters
+equate 517@easter_headhunters 517@easter_headhunters_contd
+equate 114@easter_lower_three 114@easter_lower_four
+equate 119@easter_lower_three 119@easter_lower_five
+equate 3@easter_re-survey 26@canyon_climb
+equate 304@canyon_climb 304@easter_canyon
+equate 23@easter 30@easter_re-survey
+equate 25@canyon_the_sequel 6@easter_re-survey
+equate 5@canyon_the_sequel 4@easter_re-survey
+equate 3310@stinky_pete 6@easter_re-survey
+equate 0@stinky_pete 16@easter_canyon_north
+equate 5@stinky_pete 48@easter_canyon_north2
+equate 15@roadtonowhere 148@easter_lower_four
+equate 114@easter_lower_three 0@easter_pass_go
+endsurvey

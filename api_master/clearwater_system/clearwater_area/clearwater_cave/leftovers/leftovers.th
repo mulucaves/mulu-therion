@@ -1,0 +1,24 @@
+survey leftovers
+ centerline
+##export 1
+title "leftovers"
+date 2017.04.18
+data normal from to tape compass clino ignoreall
+1	2	27.67	325	-11.5
+2	3	7.06	345	20.9
+3	4	14.54	325	6.6
+4	5	7.56	350	5
+2	6	8.97	091	-27
+6	7	15.27	036	-28.3
+data dimensions station left right up down
+1	11	5	6.7	2.5
+2	1.5	8	11.3	2.5
+3	5.3	2	8.2	2
+4	3.3	1.7	4.3	2
+5	6	1	4.5	2
+data dimensions station left right up down
+2	8	3	6	3
+6	6.8	7.4	6.3	2.5
+7	2	1	0.5	0.5
+endcenterline
+  endsurvey

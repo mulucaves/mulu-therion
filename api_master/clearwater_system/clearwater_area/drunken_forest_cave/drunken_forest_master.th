@@ -1,0 +1,14 @@
+survey drunken_forest_master
+input drunkenforest_cave_fake.th
+
+centerline
+fix 1@drunkenforest_cave_fake 0261877 0449888 81
+ endcenterline
+ 
+map drunken_forest_master_m
+    DrunkenForestSP1@drunkenforest_cave_fake
+    DrunkenForestSP2@drunkenforest_cave_fake
+    DrunkenForestSP3@drunkenforest_cave_fake
+endmap
+
+endsurvey

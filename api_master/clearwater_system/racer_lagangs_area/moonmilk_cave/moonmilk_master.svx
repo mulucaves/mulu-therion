@@ -1,0 +1,10 @@
+*begin moonmilk_master
+*export moonmilk_cave.40
+*export moonmilk_cave.51
+
+*include moonmilk_cave.svx
+*include soup_dragon.svx
+
+*equate soup_dragon.37 moonmilk_cave.40
+
+*end moonmilk_master

@@ -1,0 +1,14 @@
+input Inflation.th2
+input InfiniteImprobabilityDrive.th2
+input Hyperspace.th2
+
+map clearwater_maindrag_m
+    IIDSP1
+    IIDSP2
+    InflationSP1
+    break
+    HyperspaceSP1
+    break
+    ConnectionToLowerSP1
+    KingSethsMazeSP1
+    endmap

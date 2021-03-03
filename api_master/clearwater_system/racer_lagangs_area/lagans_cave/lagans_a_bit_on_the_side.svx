@@ -1,0 +1,56 @@
+*begin lagans_a_bit_on_the_side
+
+*export 57
+*export 413
+*export	418
+*export 52	;link to bots extension stn 11
+
+*date 2012.04.14
+*team dick willis dave checkley
+
+50	51	19.5	215	1
+51	52	9.2	203	-5
+
+;original notes have 51>53 not 52> 53  here as enetered by clucas and this was how it was originally drawn. revert to original as clucas error pls 5/12/15
+51	53	17.4	133	-2
+53	54	17.8	141	-38
+54	55	20.4	173	-3
+55	56	18.0	050	-4
+56	57	10.7	011	-1
+
+52	60	9.6	203	-5
+
+*flags duplicate
+60	61	11.4	223	+5
+61	62	16.1	255	-5
+62	63	13.2	242	-35
+
+*flags not duplicate
+60	64	18.1	334	+23
+64	65	7.5	252	+1
+65	66	10	288	+11
+66	67	7.3	234	-18
+67	68	5.9	253	-37
+68	69	3.5	204	+4
+69	413	46.3	304	-20 	;stn number recorded in notes and links correct pls 12/16
+
+;fjt 17/4/17 station 413 is believed to roughly corrospond to legans_entrance.4_13 (the more accurate re-survey showcave2017.svx did not find station.4_13) the closure error is 7.23m, this signifecently distorts the main passage survey.
+; the opinion of fjt is that there is a leg missing, backwards or a junction mis-connected, this loop; therfore has not ben connected in survex and need re-surveying.
+
+68	70	4.7	050	+17
+70	71	9.2	356	+2
+71	72	11.4	058	+14
+72	73	16.8	045	+3
+73	74	17.8	029	-7
+74	75	12.9	336	-16
+75	418	7.2	352	-26
+
+74	76	6.6	48	0 	;74 as entered to survex & drawn & used by clucas, changed to 418 as recorded in notes as 418>76 but from sketch could be 74. position of muss much better using 7d as bots closure. pls 12/16
+
+76	77	12.8	150	+17
+77	78	16.1	153	-1
+78	79	9	096	-12
+79	80	13.9	165	-9
+80	52	39.6	218	-2
+
+*end lagans_a_bit_on_the_side

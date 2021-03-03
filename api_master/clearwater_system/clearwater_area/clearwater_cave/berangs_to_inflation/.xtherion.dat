@@ -1,0 +1,11 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 3101.55m (surface 0.00m, duplicated 0.00m)\nvertical range: 106.04m (from 208@berangs_to_inflation at 53.22m to 330@berangs_to_inflation at -52.82m)\nnorth-south range: 910.44m (from 312a@berangs_to_inflation at 910.44m to 0@berangs_to_inflation at 0.00m)\neast-west range: 774.01m (from 53@berangs_to_inflation at 391.48m to 330@berangs_to_inflation at -382.53m)\nnumber of shots: 112\nnumber of stations: 113"
+xth_cp_data_tree_insert 24 1 1 berangs_to_inflation berangs_to_inflation "" "" "length: 3101.55m (surface 0.00m, duplicated 0.00m)\nvertical range: 106.04m (from 208@berangs_to_inflation at 53.22m to 330@berangs_to_inflation at -52.82m)\nnorth-south range: 910.44m (from 312a@berangs_to_inflation at 910.44m to 0@berangs_to_inflation at 0.00m)\neast-west range: 774.01m (from 53@berangs_to_inflation at 391.48m to 330@berangs_to_inflation at -382.53m)\nnumber of shots: 112\nnumber of stations: 113"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_create
+xth_cp_comp_stat 3102 6
+set xth(th_exit_state) 1
+set xth(th_exit_number) 1586735490
+

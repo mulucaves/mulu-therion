@@ -1,0 +1,5 @@
+source nesters.th
+
+export model -o nesters.3d
+export model -o nesters.lox
+export map -o nesters.pdf

@@ -1,0 +1,5 @@
+source clearwater_centreline.th
+
+export model -o clearwater_centreline.3d
+export model -o clearwater_centreline.lox
+export map -o clearwater_centreline.pdf

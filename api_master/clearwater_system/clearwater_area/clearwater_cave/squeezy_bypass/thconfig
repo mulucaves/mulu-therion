@@ -1,0 +1,5 @@
+source squeezy_bypass.th
+
+export model -o squeezy_bypass.3d
+export model -o squeezy_bypass.lox
+export map -o squeezy_bypass.pdf

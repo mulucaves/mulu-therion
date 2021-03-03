@@ -1,0 +1,5 @@
+source rampy_mcrampface.th
+
+export model -o rampy_mcrampface.3d
+export model -o rampy_mcrampface.lox
+export map -o rampy_mcrampface.pdf

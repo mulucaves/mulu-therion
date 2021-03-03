@@ -1,0 +1,182 @@
+therion 5.4.4+4cb2921 (2020-04-05)
+initialization file: /home/ben/.therion/therion.ini
+reading ... done
+checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... OK
+checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... OK
+configuration file: thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+average loop error: 0.51%
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.2.43
+ 2> Copyright © 1990-2020 Olly Betts
+ 3> Survey has no fixed points. Therefore I’ve fixed 1 at (0,0,0)
+ 4> 
+ 5> Survey contains 73 survey stations, joined by 139 legs.
+ 6> There are 67 loops.
+ 7> Total length of survey legs =    0.00m (   0.00m adjusted)
+ 8> Total plan length of survey legs =    0.00m
+ 9> Total vertical length of survey legs =    0.00m
+10>    3 1-nodes.
+11>    3 2-nodes.
+12>    1 3-node.
+13>   64 4-nodes.
+14>    2 5-nodes.
+15> 
+######################### transcription ########################
+ 3> 1 : 0@surface_cotw_to_clearwater
+ 5> 73 : 71@surface_cotw_to_clearwater
+ 6> 67 : 65@surface_cotw_to_clearwater
+10> 3 : 2@surface_cotw_to_clearwater
+11> 3 : 2@surface_cotw_to_clearwater
+12> 1 : 0@surface_cotw_to_clearwater
+13> 64 : 62@surface_cotw_to_clearwater
+14> 2 : 1@surface_cotw_to_clearwater
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+writing surface_cotw_to_clearwater.3d ... done
+writing surface_cotw_to_clearwater.lox ...
+processing projection plan ... done
+ done
+
+
+############### export maps & scraps selection #################
+S      nan  @ ()
+########## end of export maps & scraps selection ###############
+writing surface_cotw_to_clearwater.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 2.000 (TeX Live 2017/Debian) (kpathsea version 6.2.3)  12 APR 2020 14:55
+**data.mp
+(/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
+(/usr/share/texlive/texmf-dist/metapost/base/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010] [4011] [
+4012] [4013] [4014]
+[1] [2] (./mptextmp.mp) [3] )
+ 
+Here is how much of MetaPost's memory you used:
+ 1374 strings using 32072 characters
+ 3411048 bytes of node memory
+ 1657 symbolic tokens
+ 8i,81n,11p,312b,4f stack positions out of 16i,96n,12p,312b,6f
+17 output files written: data.1 .. data.4014
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdfetex 2019.12.12)  12 APR 2020 14:55
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
+(./th_fontdef.tex{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map})
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 50 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 247 strings out of 495042
+ 2540 string characters out of 6159509
+ 73365 words of memory out of 5000000
+ 1842 multiletter control sequences out of 15000+600000
+ 18931 words of font info for 60 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 9i,5n,8p,238b,58s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
+Output written on data.pdf (1 page, 32738 bytes).
+PDF statistics:
+ 36 PDF objects out of 1000 (max. 8388607)
+ 22 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+compilation time: 1 sec
+
+
+######################### loop errors ##########################
+REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
+  2.48%    0.6m   22.5m   2   -0.3m   -0.5m    0.1m [67@surface_cotw_to_clearwater - 68 - 67]
+  2.23%    0.6m   26.3m   2    0.1m   -0.6m    0.0m [65@surface_cotw_to_clearwater - 66 - 65]
+  1.92%    0.3m   17.8m   2   -0.3m    0.1m    0.0m [66@surface_cotw_to_clearwater - 67 - 66]
+  1.67%    0.3m   15.9m   2    0.2m   -0.1m   -0.0m [64@surface_cotw_to_clearwater - 65 - 64]
+  1.20%    0.2m   12.5m   2    0.1m    0.0m    0.1m [14@surface_cotw_to_clearwater - 17 - 14]
+  1.09%    0.2m   17.3m   2    0.1m   -0.1m    0.0m [13@surface_cotw_to_clearwater - 14 - 13]
+  0.97%    0.1m    8.3m   2    0.1m   -0.0m    0.0m [30@surface_cotw_to_clearwater - 31 - 30]
+  0.88%    0.2m   19.6m   2    0.1m   -0.1m    0.1m [38@surface_cotw_to_clearwater - 39 - 38]
+  0.87%    0.2m   24.5m   2    0.1m   -0.2m    0.0m [60@surface_cotw_to_clearwater - 61 - 60]
+  0.84%    0.1m    9.1m   2   -0.1m   -0.0m   -0.0m [47@surface_cotw_to_clearwater - 48 - 47]
+  0.77%    0.1m   11.7m   2   -0.1m   -0.0m    0.0m [53@surface_cotw_to_clearwater - 54 - 53]
+  0.72%    0.1m   15.8m   2    0.1m   -0.0m    0.0m [42@surface_cotw_to_clearwater - 43 - 42]
+  0.70%    0.1m   13.5m   2   -0.1m   -0.0m    0.0m [17@surface_cotw_to_clearwater - 18 - 17]
+  0.69%    0.2m   25.4m   2    0.1m   -0.1m   -0.0m [58@surface_cotw_to_clearwater - 59 - 58]
+  0.68%    0.2m   22.3m   2   -0.1m    0.0m   -0.1m [11@surface_cotw_to_clearwater - 12 - 11]
+  0.67%    0.1m   19.3m   2    0.1m   -0.1m    0.0m [40@surface_cotw_to_clearwater - 41 - 40]
+  0.63%    0.2m   24.8m   2    0.1m   -0.1m   -0.0m [59@surface_cotw_to_clearwater - 60 - 59]
+  0.62%    0.1m   12.2m   2    0.1m    0.0m   -0.0m [69@surface_cotw_to_clearwater - 70 - 69]
+  0.60%    0.1m   17.0m   2    0.1m   -0.0m    0.0m [5@surface_cotw_to_clearwater - 6 - 5]
+  0.56%    0.0m    7.1m   2   -0.0m   -0.0m    0.0m [48@surface_cotw_to_clearwater - 49 - 48]
+  0.52%    0.1m   16.7m   2   -0.1m   -0.0m   -0.1m [63@surface_cotw_to_clearwater - 64 - 63]
+  0.52%    0.1m   13.4m   2   -0.1m   -0.0m   -0.0m [3@surface_cotw_to_clearwater - 4 - 3]
+  0.49%    0.1m   16.0m   2    0.1m   -0.0m   -0.0m [26@surface_cotw_to_clearwater - 27 - 26]
+  0.48%    0.0m    6.7m   2    0.0m   -0.0m   -0.0m [52@surface_cotw_to_clearwater - 53 - 52]
+  0.47%    0.1m   13.8m   2   -0.1m   -0.0m   -0.0m [45@surface_cotw_to_clearwater - 46 - 45]
+  0.47%    0.1m   21.5m   2   -0.0m    0.0m   -0.1m [62@surface_cotw_to_clearwater - 63 - 62]
+  0.46%    0.1m   13.4m   2    0.0m   -0.0m   -0.0m [50@surface_cotw_to_clearwater - 51 - 50]
+  0.44%    0.1m   20.2m   2    0.1m   -0.0m   -0.0m [44@surface_cotw_to_clearwater - 45 - 44]
+  0.42%    0.1m   18.7m   2   -0.1m   -0.0m   -0.0m [9@surface_cotw_to_clearwater - 10 - 9]
+  0.41%    0.1m   17.8m   2    0.1m    0.0m    0.0m [29@surface_cotw_to_clearwater - 30 - 29]
+  0.41%    0.0m    9.4m   2   -0.0m    0.0m    0.0m [46@surface_cotw_to_clearwater - 47 - 46]
+  0.40%    0.1m   24.8m   2    0.1m   -0.1m   -0.0m [57@surface_cotw_to_clearwater - 58 - 57]
+  0.40%    0.1m   30.0m   2   -0.1m    0.0m    0.0m [19@surface_cotw_to_clearwater - 20 - 19]
+  0.39%    0.1m   26.2m   2   -0.1m   -0.1m    0.0m [33@surface_cotw_to_clearwater - 34 - 33]
+  0.37%    0.1m   15.8m   2    0.1m   -0.0m   -0.0m [8@surface_cotw_to_clearwater - 9 - 8]
+  0.35%    0.0m    8.7m   2    0.0m   -0.0m    0.0m [70@surface_cotw_to_clearwater - 71 - 70]
+  0.35%    0.0m   12.6m   2    0.0m   -0.0m    0.0m [20@surface_cotw_to_clearwater - 21 - 20]
+  0.34%    0.1m   24.0m   2    0.1m   -0.0m    0.1m [24@surface_cotw_to_clearwater - 25 - 24]
+  0.34%    0.1m   16.8m   2   -0.0m   -0.0m   -0.0m [0@surface_cotw_to_clearwater - 2 - 0]
+  0.34%    0.0m   10.0m   2   -0.0m   -0.0m   -0.0m [2@surface_cotw_to_clearwater - 3 - 2]
+  0.32%    0.1m   23.1m   2    0.1m    0.0m   -0.0m [6@surface_cotw_to_clearwater - 7 - 6]
+  0.32%    0.1m   25.9m   2   -0.1m   -0.0m    0.0m [35@surface_cotw_to_clearwater - 37 - 35]
+  0.31%    0.0m   14.2m   2    0.0m    0.0m   -0.0m [7@surface_cotw_to_clearwater - 8 - 7]
+  0.30%    0.0m   12.1m   2   -0.0m    0.0m    0.0m [54@surface_cotw_to_clearwater - 55 - 54]
+  0.30%    0.0m   12.7m   2   -0.0m    0.0m    0.0m [51@surface_cotw_to_clearwater - 52 - 51]
+  0.29%    0.1m   19.7m   2   -0.1m    0.0m    0.0m [23@surface_cotw_to_clearwater - 24 - 23]
+  0.26%    0.0m   16.8m   2   -0.0m   -0.0m    0.0m [12@surface_cotw_to_clearwater - 13 - 12]
+  0.24%    0.0m   15.9m   2    0.0m   -0.0m    0.0m [22@surface_cotw_to_clearwater - 23 - 22]
+  0.23%    0.1m   27.3m   2    0.0m    0.0m    0.0m [34@surface_cotw_to_clearwater - 35 - 34]
+  0.21%    0.0m   18.3m   2   -0.0m    0.0m    0.0m [25@surface_cotw_to_clearwater - 26 - 25]
+  0.18%    0.0m   20.2m   2   -0.0m    0.0m    0.0m [68@surface_cotw_to_clearwater - 69 - 68]
+  0.17%    0.0m   12.1m   2   -0.0m    0.0m   -0.0m [49@surface_cotw_to_clearwater - 50 - 49]
+  0.17%    0.0m   17.7m   2   -0.0m    0.0m   -0.0m [55@surface_cotw_to_clearwater - 56 - 55]
+  0.17%    0.0m   23.2m   2    0.0m    0.0m    0.0m [39@surface_cotw_to_clearwater - 40 - 39]
+  0.16%    0.0m   17.4m   2   -0.0m   -0.0m   -0.0m [61@surface_cotw_to_clearwater - 62 - 61]
+  0.16%    0.0m   10.1m   2   -0.0m   -0.0m    0.0m [41@surface_cotw_to_clearwater - 42 - 41]
+  0.15%    0.0m   19.6m   2   -0.0m    0.0m    0.0m [32@surface_cotw_to_clearwater - 33 - 32]
+  0.15%    0.0m   12.4m   2    0.0m   -0.0m    0.0m [31@surface_cotw_to_clearwater - 32 - 31]
+  0.14%    0.0m   27.9m   2    0.0m    0.0m   -0.0m [10@surface_cotw_to_clearwater - 11 - 10]
+  0.13%    0.0m   27.9m   2   -0.0m   -0.0m    0.0m [27@surface_cotw_to_clearwater - 28 - 27]
+  0.13%    0.0m   14.7m   2    0.0m    0.0m    0.0m [4@surface_cotw_to_clearwater - 5 - 4]
+  0.12%    0.0m   14.6m   2   -0.0m   -0.0m   -0.0m [18@surface_cotw_to_clearwater - 19 - 18]
+  0.11%    0.0m   18.8m   2   -0.0m   -0.0m    0.0m [21@surface_cotw_to_clearwater - 22 - 21]
+  0.11%    0.0m   31.1m   2   -0.0m   -0.0m   -0.0m [56@surface_cotw_to_clearwater - 57 - 56]
+  0.10%    0.0m   23.5m   2    0.0m   -0.0m    0.0m [37@surface_cotw_to_clearwater - 38 - 37]
+  0.05%    0.0m   16.2m   2    0.0m   -0.0m   -0.0m [43@surface_cotw_to_clearwater - 44 - 43]
+  0.04%    0.0m   14.8m   2   -0.0m    0.0m    0.0m [28@surface_cotw_to_clearwater - 29 - 28]
+##################### end of loop errors #######################

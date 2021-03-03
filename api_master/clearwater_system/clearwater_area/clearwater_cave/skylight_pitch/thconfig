@@ -1,0 +1,5 @@
+source skylight_pitch.th
+
+export model -o skylight_pitch.3d
+export model -o skylight_pitch.lox
+export map -o skylight_pitch.pdf

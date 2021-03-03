@@ -1,0 +1,5 @@
+source hall_of_the_three.th
+
+export model -o hall_of_the_three.3d
+export model -o hall_of_the_three.lox
+export map -o hall_of_the_three.pdf

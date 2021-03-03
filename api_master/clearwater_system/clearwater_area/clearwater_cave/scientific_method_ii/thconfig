@@ -1,0 +1,5 @@
+source scientific_method_ii.th
+
+export model -o scientific_method_ii.3d
+export model -o scientific_method_ii.lox
+export map -o scientific_method_ii.pdf

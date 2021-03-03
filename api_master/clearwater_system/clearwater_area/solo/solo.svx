@@ -1,0 +1,31 @@
+*begin solo
+*export 0
+
+*title "passage name"
+*date 2006.03.03
+*team "person" notes
+*team "person" insts
+*team "person" tape
+;*calibrate declination
+;*calibrate tape
+;surveying in, looking in
+; inst cucc set #6
+;calibration
+;post to tree
+;269 +7
+;tree to post
+;89 -7
+
+*data normal from to tape compass clino ignoreall
+0	1	1	10	-1
+1	2	150	-	down
+2	3	150	270	-45
+3	4	60	270	-45
+*entrance 0
+;station information
+;station left right up down discription
+
+;enter left right up down here
+
+*end solo
+

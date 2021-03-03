@@ -1,0 +1,8 @@
+input ../../../../../layouts/mulu_layouts.thc
+
+source af_camp_to_clearwater.th
+
+export model -o af_camp_to_clearwater.3d
+export model -o af_camp_to_clearwater.lox
+export map -o af_camp_to_clearwater.pdf
+

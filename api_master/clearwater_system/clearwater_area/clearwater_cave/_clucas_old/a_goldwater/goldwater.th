@@ -1,0 +1,4 @@
+input goldwater.th2
+map goldwater_m -title "Goldwater"
+ goldwater_s1
+endmap

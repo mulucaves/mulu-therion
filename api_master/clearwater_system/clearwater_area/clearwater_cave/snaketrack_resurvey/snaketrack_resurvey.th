@@ -1,0 +1,59 @@
+survey snaketrack_resurvey
+
+map snake_track_resurvey_m
+    snake_track_s1
+endmap
+
+	centreline
+		date 2007.01.17
+		team "Tim Fogg" notes
+		team "Pam Fogg" instruments 
+		team "David Scott" tape
+		#fix 1 0260926 0451338 52
+		#fix snake 0260802 0451367 48	
+		data normal from to tape compass clino ignoreall
+		flags surface
+		1	2	7.2	15	46
+		2	3	18.6	106	38
+		3	4	17.4	109	36
+		4	5	23.6	127	36
+		5	6	3.1	144	-24
+		flags not surface
+		station 6 entrance
+		6	7	4.5	108	-23
+		7	8	3.5	62	18
+		8	9	2.8	165	-22
+		9	10	1.3	86	-18
+		10	11	25.8	61	-6
+		11	12	7.1	53	-4
+		12	13	38.5	0	1
+		13	14	15.2	359	-10
+		14	15	19.5	25	-5
+		15	16	36.1	53	-3
+		16	17	40.2	33	1
+		17	18	32.6	54	-1
+		18	19	27.2	36	-3
+		19	20	19.1	50	5
+		20	21	25.8	32	-3
+		21	22	38.6	24	-2
+		22	23	28.9	13	-4
+		23	24	14.4	87	5
+		24	25	21.6	118	-5
+		25	26	29.8	116	-3
+		26	27	28.1	41	4
+		27	28	25.3	26	8
+		28	29	19.6	53	-5
+		29	30	34.1	83	0
+		30	31	35.8	105	-4
+		31	32	25.2	73	2
+		32	33	38.4	97	1
+		33	34	26.9	105	-4
+		34	35	27.9	71	2
+		35	36	26.8	84	-1
+		36	37	26.2	46	27
+		37	38	17.7	61	40
+		38	39	17.5	69	46
+		39	40	19.5	124	30
+	endcentreline
+	input snake_track_resurvey.th2
+endsurvey

@@ -1,0 +1,49 @@
+*begin lagans_dream_pool
+
+*export 25 	; lagangs main gate 26 originally exported by appears to be in the cave
+*export 26
+*export 17	; 17 is top of entrance boulder slope survey looks like it ties to 'booulder in middle' at base of slope which is 16
+*export 16
+
+*date 2012.4.7
+*team tony white, fran white, mike bertenshaw, dick willis
+
+*entrance 17
+
+1	2	15.2	096	5
+2	3	21.7	082	6
+3	4	8.5	083	3
+4	5	15.3	110	0
+5	6	30.5	075	0
+6	7	17.0	116	7
+7	8	7.1	093	40
+8	9	5.1	160	-63
+9	10	4.7	120	-35
+10	11	5.6	190	-60
+11	12	3.9	185	-80
+12	13	1.9	100	-45
+13	14	14.1	090	0
+
+1	15	20.5	260	-19
+15	16	39.4	269	-1
+16	17	13.8	258	27
+
+*flags surface
+17	18	20.9	298	-8
+18	19	14.3	344	1
+19	20	16.7	003	2
+20	21	7.5	348	11
+21	22	12.7	330	-18
+22	23	17.6	336	12
+23	24	18.0	002	5
+24	25	33.3	043	2 ; s25 is lagangs gate 20 cm outside of the lock.the little sketch shows the gate (closed and open) with s25 in mid-air on the daylight side of the gate but near the lock. so you just need an offset 20 cm in and then half the width of the gate to get to your station (from tony white). i havent bothered with such a small correction..
+
+;fjt 17/4/17 station 25 is believed to roughly corrospond to the entrance marked showcave2017.4_2 (or the less earlier legans_entrance.4_2) the closure error is 13.95 m, this signifecently distorts the main passage survey.
+; the opinion of fjt is that there is a leg missing or backwards, this loop; dreampool through to dreampool connection therfore has not ben connected in survex and need re-surveying.
+
+*flags not surface
+*flags duplicate
+25	26	21.6	057	-1
+
+*end lagans_dream_pool
+

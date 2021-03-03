@@ -1,0 +1,5 @@
+source surface_cotw_to_clearwater.th
+
+export model -o surface_cotw_to_clearwater.3d
+export model -o surface_cotw_to_clearwater.lox
+export map -o surface_cotw_to_clearwater.pdf

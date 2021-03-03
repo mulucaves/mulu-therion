@@ -1,0 +1,87 @@
+therion 5.4.4+19919fc (2020-10-19)
+  - using Proj 6.3.1, compiled against 6.3.1
+initialization file: /home/ben/.therion/therion.ini
+reading ... done
+checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... OK
+checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... OK
+configuration file: thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.2.42
+ 2> Copyright © 1990-2018 Olly Betts
+ 3> Survey has no fixed points. Therefore I’ve fixed 1 at (0,0,0)
+ 4> 
+ 5> Survey contains 193 survey stations, joined by 192 legs.
+ 6> There are 0 loops.
+ 7> Total length of survey legs = 2952.74m (2952.74m adjusted)
+ 8> Total plan length of survey legs = 2882.32m
+ 9> Total vertical length of survey legs =  418.66m
+10> Vertical range = 91.49m (from 146 at 4.72m to 118 at -86.76m)
+11> North-South range = 1545.41m (from 1 at 0.00m to 126 at -1545.41m)
+12> East-West range = 1794.36m (from 1 at 0.00m to 142 at -1794.36m)
+13>   53 1-nodes.
+14>  129 2-nodes.
+15>    5 3-nodes.
+16>    2 4-nodes.
+17>    2 9-nodes.
+18>    1 12-node.
+19>    1 20-node.
+20> 
+######################### transcription ########################
+ 3> 1 : 0@c_o_w_ent_to_scumring_mainline_2
+ 5> 193 : -@c_o_w_ent_to_scumring_mainline_2 -- 192 : -@c_o_w_ent_to_scumring_mainline_2
+10> 146 : -@c_o_w_ent_to_scumring_mainline_2 -- 118 : 116@c_o_w_ent_to_scumring_mainline_2
+11> 1 : 0@c_o_w_ent_to_scumring_mainline_2 -- 126 : 124@c_o_w_ent_to_scumring_mainline_2
+12> 1 : 0@c_o_w_ent_to_scumring_mainline_2 -- 142 : 141@c_o_w_ent_to_scumring_mainline_2
+13> 53 : 51@c_o_w_ent_to_scumring_mainline_2
+14> 129 : 127@c_o_w_ent_to_scumring_mainline_2
+15> 5 : 4@c_o_w_ent_to_scumring_mainline_2
+16> 2 : 1@c_o_w_ent_to_scumring_mainline_2
+17> 2 : 1@c_o_w_ent_to_scumring_mainline_2
+18> 1 : 0@c_o_w_ent_to_scumring_mainline_2
+19> 1 : 0@c_o_w_ent_to_scumring_mainline_2
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+writing c_o_w_ent_to_scumring_mainline_2.lox ...
+processing projection plan ... done
+ done
+writing c_o_w_ent_to_scumring_mainline_2.3d ... done
+
+
+############### export maps & scraps selection #################
+S      nan  @ ()
+########## end of export maps & scraps selection ###############
+writing c_o_w_ent_to_scumring_mainline_2.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 2.00 (TeX Live 2019/Debian) (kpathsea version 6.3.1)  14 DEC 2020 18:09
+**data.mp
+(/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
+(/usr/share/texlive/texmf-dist/metapost/base/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010] [4011] [
+4012] [4013] [4014]
+[1] [2] (./mptextmp.mp) [3] )
+ 
+Here is how much of MetaPost's memory you used:
+ 1374 strings using 32072 characters
+ 3414600 bytes of node memory
+ 1659 symbolic tokens
+ 8i,82n,11p,312b,4f stack positions out of 16i,98n,12p,312b,6f
+17 output files written: data.1 .. data.4014
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... therion: error -- Map is too large for PDF format. Try smaller scale!
+writing xtherion file ... done

@@ -1,0 +1,106 @@
+survey lagangs_master
+##export showcave2017.3
+
+input lagans_entrance
+input fastlane
+input main_passage
+input lagans_leopard_passage
+input lagans_thesis_mine
+input lagans_muss_be_mistaken
+input lagans_a_bit_on_the_side
+input lagans_lonley_swift_passage
+input lagans_dream_pool
+input lagans_up_in_the_gods
+input lagans_a_bit_on_the_side_extension
+input lagans_dream_pool_connection
+input lagans_wind_in_the_wallows
+input lagans_fastlane_sidepsg
+input disappointmentpassage
+input fastlanetosurface
+input slow_lane
+input balcony_pitch
+input fastlane_aven
+input lagans_psurvey_main_psg
+input lagans_lsurvey_main_psg
+input lagans_ssurvey_main_psg
+input showcave2017
+input gert_lush
+input crab_aven
+input coral_aven
+input dean_hole
+input bat_passage
+input andys_roof_tube
+input around_the_houses
+input white_tunnel
+input a_touch_of_the_donald
+input the_david_loop
+input the_badger_hole
+input fast_lane_aven
+input anniversary_passage
+input tubeways
+input andy_farrant_fastlane_cross_section_1
+input andy_farrant_fastlane_cross_section_2
+input anniversary_pitch
+input anniversary_canyon_side_passage
+input anniversary_climb_chamber
+input anniversary_surface_survey
+input withoutwellies
+input fastlane_entrance
+input minaret
+#input racer_area_surface
+#input racer_area_surface
+input surfacemainent2fastlaneent
+equate 6_28@lagans_entrance 6_28@fastlane
+equate 1_35@main_passage 35@showcave2017
+equate 9@lagans_thesis_mine 10@lagans_leopard_passage
+equate 0@lagans_muss_be_mistaken 1@lagans_leopard_passage
+equate 57@lagans_a_bit_on_the_side 0@lagans_muss_be_mistaken
+equate 19@lagans_lonley_swift_passage 8@lagans_leopard_passage
+equate 418@lagans_a_bit_on_the_side 4_18@showcave2017
+equate 10@lagans_dream_pool_connection 4_5@showcave2017
+equate 1@lagans_dream_pool_connection 17@lagans_dream_pool
+equate 16@lagans_up_in_the_gods 6@lagans_leopard_passage
+equate 11@lagans_a_bit_on_the_side_extension 52@lagans_a_bit_on_the_side
+equate 6@lagans_wind_in_the_wallows 0@lagans_up_in_the_gods
+equate 614@lagans_fastlane_sidepsg 6_14@showcave2017
+equate 618@disappointmentpassage 6_8@showcave2017
+equate 0@fastlanetosurface 6_12@showcave2017
+equate 424@slow_lane 4_24@showcave2017
+equate 167@balcony_pitch 1_87@main_passage
+equate 15@balcony_pitch 1_77@main_passage
+equate 1_66@lagans_psurvey_main_psg 1_66@main_passage
+equate 1_63@lagans_lsurvey_main_psg 1_63@main_passage
+equate 1_71@lagans_lsurvey_main_psg 1_70@main_passage
+equate 1_41@lagans_ssurvey_main_psg 1_41@main_passage
+equate 4_24@lagans_ssurvey_main_psg 4_24@showcave2017
+equate 6_28@fastlane 1_36@main_passage
+equate 32@gert_lush 4_2@showcave2017
+equate 0@crab_aven 4_2@showcave2017
+equate 21@crab_aven 4_14@lagans_entrance
+equate 0@1.coral_aven 6_14@showcave2017
+equate 0@dean_hole 6_15@showcave2017
+equate 0@bat_passage 6_13@showcave2017
+equate 0@andys_roof_tube 6_14@showcave2017
+equate 32@around_the_houses 6_12@showcave2017
+equate 0@white_tunnel 108@a_touch_of_the_donald
+equate 100@a_touch_of_the_donald 21@1.coral_aven
+equate 35@2.the_david_loop 1_93@main_passage
+equate 40@fastlane_aven 13@disappointmentpassage
+equate 1@1.the_badger_hole 6_18a@showcave2017
+equate 6@fast_lane_aven 25@showcave2017
+equate 1@2.coral_aven 25@anniversary_passage
+equate 35@tubeways 4_2@showcave2017
+equate 6_18d@andy_farrant_fastlane_cross_section_1 6_18d@showcave2017
+equate 35@andy_farrant_fastlane_cross_section_2 35@showcave2017
+equate 110@anniversary_pitch 1@anniversary_passage
+equate 1@anniversary_canyon_side_passage 7@anniversary_passage
+equate 50@anniversary_climb_chamber 114@anniversary_pitch
+equate 11@anniversary_surface_survey 119@anniversary_pitch
+equate 0@withoutwellies 1@tubeways
+equate 0@fastlane_entrance 3@showcave2017
+equate 29@30.minaret 44@surfacemainent2fastlaneent
+equate 105@fastlane_entrance 6_12@showcave2017
+equate 60@surfacemainent2fastlaneent 3@showcave2017
+equate 0@surfacemainent2fastlaneent 4_2@showcave2017
+
+endsurvey

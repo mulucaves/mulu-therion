@@ -1,0 +1,5 @@
+source downdraught.th
+
+export model -o downdraught.lox
+export model -o downdraught.3d
+export map -o downdraught.pdf

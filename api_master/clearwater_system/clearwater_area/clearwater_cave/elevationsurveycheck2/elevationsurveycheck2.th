@@ -1,0 +1,33 @@
+survey elevationsurveycheck2
+	centreline
+		date 2009.2.15
+		data normal from to tape compass clino ignoreall
+		#adam and dave h from scumring to st r11 above
+		d1	d2	46.2	082	22
+		d2	d3	17.8	130	-9	# was written as 30 but changed by mk to fit original plan
+		d3	d4	34.8	056	-13
+		d4	d5	12.3	124	-7
+		d5	d6	26	075	-4
+		d6	d7	36.1	101	19
+		d7	d8	15.6	144	24
+		d8	d9	20.3	181	9
+		d9	d10	15.6	135	-1
+		d10	d11	44.3	068	-3
+		d11	d12	21.5	069	5
+		d12	d13	12.4	018	7
+		d13	d14	21.4	030	-0.5
+		d14	d15	39.7	058	-2
+		d15	d16	12	067	0
+		d16	d17	23.8	062	2
+		d17	d18	17.4	066	14
+		d18	d19	34	060	-6
+		d19	d20	21.4	051	-4
+		d20	d21	31.1	080	1
+		d21	d22	9.9	051	3
+		d22	d23	14.2	130	14
+		d23	d24	10.2	056	-2
+		d24	d25	22.6	048	-1
+		d25	d26	16.1	065	-8
+		d26	r11	13.9	134	-7
+	endcentreline
+endsurvey

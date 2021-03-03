@@ -1,0 +1,31 @@
+;*include Blackrock_Cave/Blackrock_Master.svx
+;*include Campfire_Cave/Campfire_Master.svx
+;*include Clearwater_Cave/Clearwater_Master.svx
+;*include Drunken_Forest_Cave/Drunken_Forest_Master.svx
+;*include Imperial_Cave/Imperial_Master.svx
+;*include Lagans_Cave/Lagans_Master.svx
+;*include Leopard_Cave/Leopard_Master.svx
+;*include Metric_Cave/Metric_Master.svx
+;*include Racer_Cave/Racer_Master.svx
+;*include Whiterock_Cave/Whiterock_Master.svx
+;*include Sago_Palm_Cave/Sago_Palm_Master.svx; currently not used as not sure of position
+;*include Ipois_Cave/Ipois_Master.svx
+;*include Solo/Solo_Master.svx
+
+;*equate Metric_to_Leopard_Surface.73 Centipede_to_Leopard_Surface.70
+;*equate Rudang_Gallery_South.112 Eagleramp.1
+;*equate Firecracker.f339 Downunder2.4
+;*equate Clearwater_fake.431 No_Justice.DG0
+;*equate Centipede_to_Leopard_Surface.40 Imperial.1 
+;*equate Leopard_fake.1 Centipede_to_Leopard_Surface.78
+;*equate Leopard_fake.71 No_Justice.fake
+;*equate Lagans.1 Clearwater_fake.1070			;originally used to fix Lagans entrance
+;*equate Entrances.1 Clearwater_fake.1060		;originally used to fix Racer entrance
+;*equate Northern_Exit_Surface.56 Clearwaterfake.443	;same point but not tied, not used
+
+;*fix Camp5 0266216 0457549 122
+
+*include Blackrock_and_Whiterock_Area/Blackrock_and_Whiterock_Area_Master.svx
+*include Clearwater_Area/Clearwater_Area_Master.svx
+
+*equate Clearwater_Cave_fake.431 No_Justice.DG0

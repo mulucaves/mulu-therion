@@ -1,0 +1,4 @@
+input cleartop.th2    
+map cleartop_m
+  cleartop_s1
+endmap

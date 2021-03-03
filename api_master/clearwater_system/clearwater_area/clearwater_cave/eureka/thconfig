@@ -1,0 +1,5 @@
+source eureka.th
+
+export model -o eureka.3d
+export model -o eureka.lox
+export map -o eureka.pdf

@@ -1,0 +1,26 @@
+survey nilongs_cave_fake
+input nilongs_cave.th2
+
+ centerline
+##export 845
+station 825 entrance
+station 835 entrance
+station 845 entrance
+units dx dy 6.024 metres
+units dz 1.0 metres
+data cartesian from	to	dy	dx	dz
+flags surface
+817	825	-6	30	4
+flags not surface
+825	826	2	2	0
+826	827	-3	5	26
+827	828	1	6	13
+828	829	1	4	11
+829	830	7	4	20
+830	831	4	1	2
+831	832	5	-1	5
+830	835	0	0	22
+831	840	-1	9	8
+827	845	-5	-3	-4
+endcenterline
+  endsurvey

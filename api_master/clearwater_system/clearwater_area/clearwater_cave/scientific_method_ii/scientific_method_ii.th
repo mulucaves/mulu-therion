@@ -1,0 +1,61 @@
+survey scientific_method_ii
+
+map scientific_method_ii_m
+    SciMethodIISP2
+    SciMethodIISP1
+endmap
+
+input scientific_method_ii.th2
+ centerline
+  date 2019.05.01
+  #team "hazel barton, derek bristol, ben kent, elaine oliver"
+  units tape meters
+  units compass degrees
+  units clino degrees
+	##export 22
+  flags not splay
+  data normal from to tape compass clino
+    22 23   31.69 23.0 -20.8
+    23 24   10.08 15.3 -19.8
+    24 25   12.85 32.9 14.2
+    25 26   9.07 355.0 17.7
+    26 27   2.20 48.5 -12.5
+    27 28   7.16 288.4 -55.1
+    28 29   18.00 241.6 41.0
+    23 30   12.00 264.7 -25.4
+    30 31   7.62 221.3 -7.9
+    31 32   11.21 349.1 20.1
+    32 33   5.95 49.4 47.5
+    33 34   1.90 300.2 24.7
+    34 35   10.97 92.4 45.1
+    35 36   3.02 344.7 -6.3
+    36 37   10.43 359.9 -2.5
+    37 38   15.41 52.2 -28.7
+units left meters
+units right meters
+units up meters
+units down meters
+data dimensions station left right up down
+23  11.98 5.53 7.72 5.96
+22  6.08 6.37 1.15 8.30
+data dimensions station left right up down
+23  12.77 5.64 7.72 5.96
+24  1.84 0.87 0.61 1.59
+25  7.72 10.29 15.23 6.34
+26  1.36 1.61 1.72 1.33
+27  8.85 0.48 10.54 7.35
+28  10.20 4.95 16.30 1.74
+29  0.00 0.00 0.00 0.00
+data dimensions station left right up down
+23  1.56 10.23 7.72 5.96
+30  3.28 3.28 2.27 1.02
+31  3.01 1.95 6.66 0.74
+32  3.97 6.14 7.38 1.23
+33  0.63 3.49 1.55 1.04
+34  0.11 1.66 3.46 0.84
+35  1.03 1.42 1.12 1.13
+36  1.37 1.73 1.32 0.98
+37  0.73 1.56 2.37 1.12
+38  0.00 0.00 0.00 0.00
+endcenterline
+  endsurvey

@@ -1,0 +1,45 @@
+survey eureka_climb_revisited
+ centerline
+  date 2019.04.21
+  #team "derek bristol, ben kent"
+  units tape meters
+  units compass degrees
+  units clino degrees
+  #alias station - ..
+  ##export 4
+  flags not splay
+  data normal from to tape compass clino
+    4 8   13.03 278.9 51.1
+    8 9   9.22 344.8 35.8
+    9 10   5.61 217.2 -11.3
+    10 11   7.77 192.7 28.4
+    11 12   11.10 191.3 12.9
+    12 13   5.31 176.9 24.5
+    13 14   2.00 90.8 22.8
+    14 15   4.07 96.7 42.1
+    15 16   2.87 176.8 30.0
+    16 17   4.91 96.1 47.2
+    17 18   2.18 72.6 39.6
+    18 19   3.22 129.9 50.1
+    19 20   3.04 156.4 30.5
+    12 21   14.28 213.9 7.
+    21 22   5.10 197.8 4.2
+  data dimensions station left right up down
+4	 3.30	 6.58	 4.37	 0.68
+8	 0.65	 4.94	 4.26	 0.75
+9	 4.88	 2.60	 4.71	 2.24
+10	 1.71	 2.46	 0.67	 0.52
+11	 2.67	 2.49	 1.63	 0.78
+12	 2.97	 7.44	 1.15	 1.23
+13	 6.15	 1.99	 0.82	 0.64
+14	 1.09	 0.62	 0.60	 0.18
+15	 0.51	 1.57	 0.86	 1.05
+16	 0.43	 0.26	 0.40	 0.89
+17	 0.00	 0.66	 3.48	 0.00
+18	 0.33	 1.91	 0.51	 0.25
+19	 0.66	 0.15	 0.19	 0.26
+data dimensions station left right up down
+12	 4.52	 5.34	 1.15	 1.23
+21	 3.62	 1.61	 2.01	 1.00
+endcenterline
+  endsurvey

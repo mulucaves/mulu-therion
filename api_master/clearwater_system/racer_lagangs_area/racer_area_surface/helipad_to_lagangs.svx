@@ -1,0 +1,154 @@
+*begin helipad_to_lagangs
+
+*export 0 ; hq heli pad
+*export 55 ; lagangs track junctn
+*export 71 ; fast lane junctn
+*export 79 ; lagangs fast lane entrance
+*export 99 ; main entrance (more or less)
+*export 78t ;for lagans master
+
+
+;pls,jn,gn  mulu distox on tripod, target on staff 1.276 m high, held at target position for fixed stations, but for ground surface at helipad, readings checked for all legs
+
+
+*date 2014.05.15
+
+*sd tape 0.03 metres
+*sd compass 0.3 degrees
+*sd clino 0.3 degrees
+*sd dx 0.05 metres
+*sd dy 0.05 metres
+*sd dz 0.02 metres
+
+*flags surface
+0	1	1.276	0	+90
+;to convert from ground to staff target height
+2t	1	32.03	78.7	+0.1
+2t	3	54.43	254	-0.2
+4t	3	44.45	157.2	-0.9
+4t	5	46	333.2	+0.1
+6t	5	30.93	166.8	+0.9
+6t	7	39.15	334.6	+0.2
+;6t boat repair workshop
+8t	7	32.1	158.6	+1.6
+8t	9	34.2	335.3	+0.5
+10t	9	36.6	159.7	+0.1
+10t	11	56.2	1.1	+0.5
+12t	11	43.4	194	+0.4
+12t	13	22.34	16.9	+0.5
+14t	13	33.4	215.6	+0.5
+14t	15	43.7	35.8	+1.1
+16t	15	31	216.2	+0.2
+16t	17	23.35	37.9	0
+18t	17	32.6	210.3	+0.1
+18t	19	51.15	29.4	+1.2
+20t	19	36.47	215.9	+1.2
+; point of sign to night walk looop
+20t	21	48.76	31.0	+0.4
+22t	21	41.65	212.2	+0.5
+22t	23	41.46	32.2	+0.5
+24t	23	41.73	208.4	+0.3
+24t	25	43.59	23.2	+1.3
+26t	25	42.19	206.6	+2
+26t	27	43.49	23.5	+0.8
+28t	27	40.75	217.2	+0.3
+28t	29	49.48	35.9	+0.5
+30t	29	41.6	223.7	-0.1
+;second bridge
+30t	31	47.11	42.4	+0.4
+32t	31	43.96	225.7	+0.4
+32t	33	45.34	41.9	+0.2
+34t	33	39.92	227.5	+0.5
+34t	35	50.42	42.1	+0.8
+36t	35	39.98	236.8	-0.1
+36t	37	41.28	66.5	+0.7
+38t	37	19.87	246	+0.5
+38t	39	33.04	68.4	+0.4
+40t	39	23.25	246.5	+0.2
+40t	41	47.8	86.6	+0.5
+42t	41	51.34	258.4	+0.4
+42t	43	31.59	93.7	+0.1
+44t	43	39.16	278.4	+0.3
+44t	45	41.42	82.3	+0.6
+46t	45	50.89	266.2	+0.4
+46t	47	45.02	82.7	+0.7
+48t	47	46.99	263	+0.6
+48t	49	47.17	73.9	+0.6
+;49=lagangs landing junction at ground surface
+50t	49	43.73	166.5	+0.2
+50t	51	14.38	334.6	-3.0
+52t	51	11.02	140.7	+2.2
+52t	53	4.66	339.8	-28.0
+;water level at lagangs landing
+
+54t	49	27.95	254.3	0
+54t	55	37.52	71.7	+0.5
+;point of sign to paku wf at lagangs track junctn
+
+56t	55	18.9	317.7	+2.7
+56t	57	16.74	147.5	+1.1
+58t	57	17.69	318.8	+1.5
+58t	59	21.47	180.7	+0.6
+60t	59	13.07	327.9	+0.5
+60t	61	16.43	178.9	-0.6
+62t	61	17.76	17.5	+0.2
+62t	63	13.34	150.7	+1.3
+64t	63	27.74	282.8	+0.6
+64t	65	39.75	151.3	+0.8
+66t	65	21.67	337.6	+0.8
+66t	67	26.99	182	+0.1
+68t	67	24.59	334.8	+1.1
+68t	69	31.86	172	+0.9
+70t	69	37.96	336.8	+0.6
+70t	71	43.92	153.4	+0.1
+; north east (acute) angle of junction on wood rail
+
+72t	71	30.5	275.1	+0.6
+72t	73	25.34	125.9	+0.4
+74t	73	35.88	291.2	0
+;base of steps
+74t	75	20.58	72.1	+35
+76t	75	8.25	7.8	-30.7
+76t	77	5.69	159.1	+3.7
+78t	77	10.39	269.2	+19.1
+78t	79	0.92	24.1	-10.1
+;79 dave clucas survey point at fast lane entrance 28/12
+
+80t	71	42.82	332.9	+0.8
+80t	81	38.07	177.6	+0.4
+82t	81	22.42	320.1	-0.1
+82t	83	37.73	126.9	+0.8
+84t	83	8.73	321	-1.3
+84t	85	29.58	161.8	-1.2
+86t	85	35.84	325.3	+0.7
+86t	87	36.3	158.7	+1.1
+88t	87	21.75	322.5	-8.8
+88t	89	29.87	160.5	+0.2
+90t	89	42.23	315.8	+1
+90t	91	17.26	142.4	-1.5
+92t	91	12.43	265.4	-0.6
+92t	93	42.24	130.3	-0.9
+94t	93	31.99	339.7	-0.4
+94t	95	13.37	149.2	-0.2
+96t	95	25.65	281.1	-0.3
+;96 = base of steps to main ent lagangs
+96t	97	20.4	94.2	+15.1 ; this was entered at -15.1 as in the notes but should be +15.1 pls 24/10/14
+98t	97	12.54	256.3	+3
+98t	99	14.26	43.7	-2.3
+;99 point on diamond in center of gate (cant find clucas stn)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*end helipad_to_lagangs

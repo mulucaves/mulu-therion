@@ -1,0 +1,5 @@
+input ronnies_delight.th2
+
+map ronnies_delight_m
+    ronnies_delight_s1
+endmap

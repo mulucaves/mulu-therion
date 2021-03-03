@@ -1,0 +1,2 @@
+source racer_master.th
+export model -o racer_master.3d

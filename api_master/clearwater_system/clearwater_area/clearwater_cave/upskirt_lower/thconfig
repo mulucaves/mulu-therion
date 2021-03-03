@@ -1,0 +1,5 @@
+source upskirt_lower.th
+
+export model -o upskirt_lower.3d
+export model -o upskirt_lower.lox
+export map -o upskirt_lower.pdf

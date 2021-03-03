@@ -1,0 +1,61 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust 0 0 256 256
+##XTHERION## xth_me_area_zoom_to 100
+
+survey snakechimney
+
+map snakechimney_m
+    SnakeChimneySP1
+    SnakeChimneySP2
+endmap
+
+input snakechimney.th2
+
+	centreline
+#		*export 19
+		team "Hugh St /Lawrence"
+		team "Frank Pearson"
+		date 2015.10.08
+		data normal from to tape compass clino ignoreall
+		1	1a	5.0	045	35	;leg into end choke
+		1	2	30.0	210	-15
+		2	3	34.0	175	10
+		3	4	14	180	15
+		4	5	13	223	-13
+		5	6	17	224	-5	
+		6	6a	4	149	4
+		6a	6b	10.3	121	35
+		6	7	6.3	226	4
+		7	8	4.2	302	0
+		8	9	5.3	287	-19
+		9	10	8	350 	-35
+		10	11	6.3	338	-33
+		11	12	8.7	011	-9
+		12	13	3.6	291	33
+		13	14	2	359	-40	
+		14	15	12.6	-	down
+		16	15	4.2	190	36
+		16	17	3.4	005	-39
+		17	18	3.3	274	-26
+		18	19	5.3	051	-48
+		19	20	4	009	-22
+		data dimensions station left right up down
+		1	2.2	3.7	2	1
+		2	4.7	0	3.6	1.8
+		3	3.2	5.1	6.1	1.5
+		4	3.3	2.7	1.7	1.5
+		5	3	5.6	2.7	1.5
+		6	4.6	2	0.3	0.6
+		6a	1	2	0.3	0.6
+		6b	2.5 	1	0.4	0.4
+		7	6.3	8.2 	1.7	1.4
+		8	7.6	6.8	0.7	0.5
+		9	1.3	13	0.8	1.8
+		10	1.4	11.1	0.3	0.7
+		11	1.6	7	0.6	0.4
+		13	2	-	2	3
+		16	0.8	0.4	0.7	0.8
+		17	2.6	1.6	1	1
+		18	1.3	3	1.8	1.5
+	endcentreline
+endsurvey

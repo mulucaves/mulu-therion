@@ -1,0 +1,40 @@
+; 2017.04.17 created by topodroid v 3.3.1d
+; easter_canyon_north - start is bottom of pitch
+; instrument: distox2 2610 - sm-n9005
+
+*begin easter_canyon_north
+*export 16
+*date 2017.04.17
+*team "frank tully"
+*units tape meters
+*units compass degrees
+*units clino degrees
+*calibrate declination 0.00
+*alias station - ..
+*data normal from to tape compass clino
+1	2   11.23 64.7 19.3  ; 1, rd on rock overlooking sump. 2 rd on boulder near base of pitch.
+2	3   5.31 61.5 5.3
+3	4   14.58 99.3 -6.3
+4	5   9.68 127.5 2.1  ; rd on boulder
+5	6   5.79 153.1 9.3  ; rd on edge of deep pool
+6	7   8.05 124.8 27.7  ; rd on boulder on ramp
+7	6   8.07 304.7 -28.1  ; backsight calibration check
+7	8   12.06 133.3 31.8
+8	9   7.42 99.7 38.5
+9	10   6.46 132.6 33.7  ; rd on edge of boulder
+10	11   3.68 223.2 37.1  ; rd on tip of boulder, marked 11
+11	12   9.06 220.4 21.5  ; rd on pendant off boulder
+12	13   2.51 223.8 40.5  ; 13, is cross pencil numbered 501
+3	14   13.26 209.3 52.3  ; 14, rd at base of eye hole on pitch.
+14	15   9.78 222.4 66.2  ; rd on rhs wall above head height, at edge of pitch.
+15	16   2.57 156.9 9.3  ; 16, white dot 1/0 canyon north
+;40	41   7.96 138.6 -30.4  ; 40 rd on boulder, quick and dirty survey to give a location before we de-rig,no marked points,
+;41	42   4.09 80.6 -15.2
+;42	43   3.67 22.0 20.5
+;43	44   7.13 136.1 -16.7
+;44	45   6.54 37.0 27.2
+;45	46   2.23 133.7 14.1
+;46	47   7.51 106.7 3.6
+;47	48   3.55 112.9 -3.8 ; rd on wall, 2/0, 1/5
+
+*end easter_canyon_north

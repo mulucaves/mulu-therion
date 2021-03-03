@@ -1,0 +1,31 @@
+join clearwater_river_s2 balcony_s1
+join clearwater_river_s2 clearwater_II_s2
+join clearwater_II_s3 clearwater_III_s2
+join alans_clearwater_5_s1 clearwater_6_s1 -count 2
+join alans_clearwater_5_s1 clearwater_6_s2
+#join clearwater_5_s1 ronnies_delight_s1 
+join clearwater_5_s1 rampage_s2
+join clearwater_5_s1 alans_clearwater_5_s1  
+join clearwater_6_s1 clearwater_7_s1
+join jetstream_s4 and_finally_s1 -count 2
+join clearwater_II_s1 upper_series_s1    
+#join dune_s1 revival_s4
+join revival_s4 ronnies_delight_s1
+join ronnies_delight_s1 snow_slopes_s1   
+join dune_s2 revival_s2    
+join greatwall_s1 troll_s1
+join high_noon_s2 creedence_s1   
+#join no_justice_s1 greatwall_s1    
+join rampage_s2 far_from_home_s1 -smooth on  
+join revival_s4 volcano_s1    
+join revival_s4 ronnies_delight_s1    
+join snake_track_s1 revival_s4    
+#join snow_slopes_s1 armistice_s8 -count 3 -smooth on
+#join snow_slopes_s1 ronnies_delight_s1    
+join snow_slopes_s1 far_from_home_s1    
+join troll_s1 greatwall_s1    
+#join upper_series_s1 wind_s6    
+#join upper_series_s11 lower_s4    
+join upper_series_s9 volcano_s1    
+join quattro_formaggio_s3 boom_boom_s1
+join quattro_formaggio_s1 boom_boom_s2

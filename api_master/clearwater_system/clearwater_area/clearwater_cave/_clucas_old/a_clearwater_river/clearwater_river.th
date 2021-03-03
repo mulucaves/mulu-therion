@@ -1,0 +1,38 @@
+input clearwater_river.th2
+input ../clearwater_5/clearwater_5.th
+input ../clearwater_2/clearwater_II.th
+input ../clearwater_3/clearwater_III.th
+input goldwater/goldwater.th
+input ../clearwater_6/clearwater_6.th
+input ../clearwater_7/clearwater_7.th
+
+
+#join clearwater_II_s2 clearwater_river_s2
+#join clearwater_II_s1 clearwater_II_s2
+#join clearwater_II_s2 clearwater_II_s4
+#join clearwater_II_s4 clearwater_II_s3
+join clearwater_7_s1 clearwater_6_s1
+join clearwater_III_s2 clearwater_II_s3
+join clearwater_river_s2 clearwater_II_s2
+join clearwater_V_s1 clearwater_6_s2
+join clearwater_V_s1 clearwater_6_s1
+join clearwater_river_s2 balcony_s1
+#join c2s2l bs1l
+#join c2s2r bs1r
+
+map clearwater_I_m -title "Clearwater River - Entrance Section"
+ clearwater_river_s1
+ clearwater_river_s2
+# clearwater_river_s3
+ balcony_s1
+endmap
+
+map clearwater_river_m -title "Clearwater River"
+ clearwater_7_m
+ clearwater_6_m
+ clearwater_v_m
+ clearwater_III_m
+ clearwater_II_m
+ clearwater_I_m
+ goldwater_m
+endmap

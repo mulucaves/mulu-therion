@@ -1,0 +1,5 @@
+source east_passage.th
+
+export model -o east_passage.3d
+export model -o east_passage.lox
+export map -o east_passage.pdf

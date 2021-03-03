@@ -1,0 +1,2 @@
+source ipois_master.th
+export model -o ipois_master.3d

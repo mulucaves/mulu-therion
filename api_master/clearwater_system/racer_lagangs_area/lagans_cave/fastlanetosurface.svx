@@ -1,0 +1,50 @@
+*begin fastlanetosurface
+*export 0
+
+*entrance 11
+*title "lagangs boardwalk to surface through choke"
+*date 2014.04.28
+*team "dave gough" notes
+*team "hugh st. lawrence" insts
+*team "dave gough" target
+;surveying in, looking in
+
+;both calibrated with pda at hq
+
+
+*data normal from to tape compass clino ignoreall
+
+0	1	8.03	100.5	12.3
+2	1	14.87	351.7	-35.5
+2	3	8.58	238.5	31
+3	4	7.46	151.3	24
+4	5	13.05	199.7	31.9
+5	6	1.46	260	0.7
+6	7	12.45	285.5	52.6
+7	8	13.5	205	26.4
+8	9	4.5	293.7	7.6
+9	10	6.12	151.2	18.5
+10	11	13.28	179.1	59.7
+100	9	5.37	95.2	-22.9
+100	101	15.37	257.5	10.9
+
+*data passage station left right up down ignoreall
+1	5	9	2.8	1.8
+3	6.5	5	0	1.5
+4	5.4	4.5	2	1
+;5
+;6
+7	4.7	8.7	0	2
+8	3	7	1.6	2.5
+;9
+;10
+;11
+
+*data passage station left right up down ignoreall
+;9
+;100	2	3	10	1.5
+;101
+
+;100	9	7.8	3	2  ;101???
+
+*end fastlanetosurface

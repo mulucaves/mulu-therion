@@ -1,0 +1,2 @@
+source lagans_fake_master.th
+export model -o lagans_fake_master.3d

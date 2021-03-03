@@ -1,0 +1,17 @@
+*begin lagans_thesis_mine
+
+*export 9	;link to leoprad psg 10
+
+*date 2012.4.14
+*team les jason
+
+2	1	5.84	173	+2
+2	3	4.86	233	+16
+4	3	2.9	057	+9
+4	5	7.89	309	-20
+6	5	7.49	135	-3
+6	7	2.75	249	+8
+8	7	25.24	164	+2
+8	9	3.95	068	+10
+
+*end lagans_thesis_mine

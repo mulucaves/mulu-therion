@@ -1,0 +1,2 @@
+source clearwater_master.th
+export model -o clearwater_master.3d

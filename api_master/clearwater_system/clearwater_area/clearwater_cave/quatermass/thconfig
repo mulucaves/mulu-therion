@@ -1,0 +1,5 @@
+source quatermass.th
+
+export model -o quatermass.3d
+export model -o quatermass.lox
+export map -o quatermass.pdf

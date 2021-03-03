@@ -1,0 +1,24 @@
+centerline
+#cs utm50n
+ endcenterline
+
+centerline
+#cs out utm50n
+ endcenterline
+
+input racer_area_surface/racer_area_surface_master.th
+input lagans_cave/lagans_master.th
+input racer_cave/racer_master.th
+input easter_cave/easter_master.th
+input surprisingly_obvious_cave/surprisingly_obvious_master.th
+input consolation_cave/consolation_master.th
+input sago_palm_cave/sago_palm_master.th
+input ipois_cave/ipois_master.th
+input moonmilk_cave/moonmilk_master.th
+equate 79@helipad_to_lagangs.racer_area_surface_master 3@showcave2017.lagangs_master
+equate 34@eastersurface.racer_area_surface_master 0@easter.easter_master
+equate 0@surface_racertocowpete.racer_area_surface_master 1@racer_lower14.racer_master
+equate 40@racertotjunction.racer_area_surface_master 40@moonmilk_cave.moonmilk_master
+equate 51@racertotjunction.racer_area_surface_master 51@moonmilk_cave.moonmilk_master
+equate 0@surprisingly_obvious_totjunction.racer_area_surface_master 0@surprisingly_obvious_cave.surprisingly_obvious_master
+equate 55@helipad_to_lagangs.racer_area_surface_master 39@consolation_cave.consolation_master

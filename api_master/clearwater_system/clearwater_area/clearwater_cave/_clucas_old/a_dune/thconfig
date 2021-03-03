@@ -1,0 +1,7 @@
+encoding  utf-8
+source dune.th
+#input ../../../common_layout.th
+select dune_m
+text en "point u:gradient" "gradient"
+export map -o ../output/dune.pdf
+#-layout layout -layout water-blue

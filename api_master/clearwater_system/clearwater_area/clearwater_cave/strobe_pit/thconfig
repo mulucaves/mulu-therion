@@ -1,0 +1,5 @@
+source strobe_pit.th
+
+export model -o strobe_pit.3d
+export model -o strobe_pit.lox
+export map -o strobe_pit.pdf

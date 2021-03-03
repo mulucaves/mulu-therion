@@ -1,0 +1,50 @@
+*begin scd
+*export s00 scd39
+*units tape feet
+*date 1989.1.28
+*team "colin boothroyd"
+*team "dick willis"
+*team "simon lagang"
+
+*data normal from to tape compass clino
+scd1 scd2 27.23 206 13
+scd2 scd3 23.29 259 25
+scd3 scd4 17.06 235 9
+scd4 scd5 44.62 281 -2
+scd5 scd6 100.07 220 -7
+scd6 scd7 101.71 255 -1 ;|l;
+scd7 scd8 83.33 288 5 ;|l;
+scd8 scd9 81.36 243 3 ;|l;
+scd9 scd10 73.16 273 -9 ;|l;
+scd10 scd11 87.93 334 3 ;|l;
+scd11 scd12 80.71 242 10 ;|l;
+scd12 scd13 69.55 305 33 ;|l;
+scd13 scd14 100.07 296 -2 ;|l;
+scd14 scd15 90.88 250 -9 ;|l;
+scd15 scd16 100.07 234 -23 ;|l;
+scd16 scd17 100.07 267 -1 ;|l;
+scd17 s00 100.07 245 10 ;|l;
+s00 scd19 196.85 9 -3
+s00 scd20 100.07 236 1
+scd20 scd21 100.07 265 -5
+scd21 scd22 100.07 207 2
+scd22 scd23 100.07 236 2
+scd23 scd24 38.71 225 20
+scd24 scd25 93.5 193 -4
+scd25 scd26 37.4 231 -10
+scd26 scd27 11.15 257 -10
+scd27 scd28 30.51 313 -3
+scd28 scd29 23.95 273 16
+scd29 scd30 14.76 290 -1
+scd30 scd31 34.78 252 2
+scd31 scd32 100.07 330 -8
+scd32 scd33 100.07 274 0
+scd33 scd34 73.16 268 -1
+scd34 scd35 100.07 0 0
+scd35 scd36 39.7 310 6
+scd36 scd37 42.32 352 -32
+scd37 scd38 49.87 356 22
+scd38 scd39 100.07 291 2 ;the distance of this leg does not match the clucas
+;data. this leg needs checking.
+
+*end scd

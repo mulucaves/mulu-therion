@@ -1,0 +1,16 @@
+*begin parisway
+*export s211 s211c
+*units tape feet
+*date 1990.08.25
+*team srg
+*team aw
+*team paris
+*entrance s211c
+*data normal from to tape compass  clino ignoreall
+s211	s211a	64.3	110	14.5
+s211a	s211b	98.43	180.5	9.5
+s211b	s211c	15.42	187	22.5
+*data passage station left up down right
+s211b	6.56	16.4	3.28	9.84
+s211c	3.28	16.4	4.92	3.28
+*end parisway

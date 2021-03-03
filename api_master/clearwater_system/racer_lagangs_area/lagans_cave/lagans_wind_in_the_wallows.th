@@ -1,0 +1,12 @@
+survey lagans_wind_in_the_wallows
+ centerline
+##export 6
+date 2012.4.20
+#team mike bertenshaw
+1	2	8.0	150	+40
+2	3	8.7	223	-40
+3	4	3.4	235	0
+4	5	3.2	180	+12
+5	6	11.5	200	-10
+endcenterline
+  endsurvey

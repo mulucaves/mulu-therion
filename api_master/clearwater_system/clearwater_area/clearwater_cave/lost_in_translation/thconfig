@@ -1,0 +1,5 @@
+source lost_in_translation.th
+
+export model -o lost_in_translation.lox
+export model -o lost_in_translation.3d
+export map -o lost_in_translation.pdf

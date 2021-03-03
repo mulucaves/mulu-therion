@@ -1,0 +1,172 @@
+encoding  utf-8
+#FILENAME: LayoutScales.thc
+#=======================
+
+#Component File created Bruce Mutton 5 February 2009 
+#Edited  
+
+layout LayoutScale500 
+#---------------------
+#layout settings suited to 2d outputs at 1:500 scale 
+  
+  scale 1 500        
+  #base-scale 1 500   
+    # use base-scale only if outputs to be photo enlarged 
+    # or reduced or to scale fonts and symbols
+  
+  scale-bar 100 m  
+  grid-size 100 100 100 metres  # coordinate grid
+  
+  code metapost
+  fonts_setup(6,8,10,12,16); 
+  #these fonts look good unscaled
+  
+endlayout LayoutScale500
+
+layout LayoutScale1000 
+#---------------------
+#layout settings suited to 2d outputs at 1:1000 scale 
+  
+  scale 1 1000        # Adopted default = 1000
+  #base-scale 1 1500   
+    # use base-scale only if outputs to be photo enlarged 
+    # or reduced or to scale fonts and symbols
+  
+  scale-bar 100 m  
+  grid-size 100 100 100 metres  # coordinate grid
+  
+  code metapost
+  fonts_setup(6,8,10,12,16); 
+  #these fonts look good unscaled
+  
+  #code metapost
+  #fonts_setup(4,5,7,8,11); 
+  #these fonts approx same as above if scaled x1.5 using basescale
+
+endlayout LayoutScale1000
+
+layout LayoutScale2000 
+#---------------------
+#layout settings suited to 2d outputs at 1:2000 scale 
+  
+  scale 1 2000        
+  base-scale 1 4000   
+    # use base-scale only if outputs to be photo enlarged 
+    # or reduced or to scale fonts and symbols
+  
+  scale-bar 200 m  
+  grid-size 200 200 100 metres  # coordinate grid
+  
+  #code metapost
+  #fonts_setup(0.01,0.01,0.01,6,8); 
+  ##font size 0.01 is invisible, but text still adds kilobytes to file size  
+  ##these fonts look OK unscaled
+  
+  code metapost
+  fonts_setup(0.01,8,9,12,16); 
+  #font size 0.01 is invisible, but text still adds kilobytes to file size  
+  #these fonts look OK scaled half size,but 8,9 a bit small  
+
+  #CAVE APPEARANCE
+    
+
+  #symbol-hide group all  #hides ALL except passage infill colour
+  #symbol-show line wall # gives definition if colour by altitude or map is used
+  
+  #Survey lines
+  #---------   
+  symbol-hide group cave-centreline     #hides passage not yet drawn
+  symbol-hide group surface-centreline  #hides morphed sketches as well??
+  symbol-show point cave-station 
+      
+  #labels
+  symbol-show point label    
+  symbol-show line label
+
+  symbol-show line arrow  #showing arrow can look funny if smaller text hidden
+  symbol-hide point altitude
+  symbol-hide point wall-altitude 
+  symbol-hide point station-name #specific station name points
+  symbol-show point flag:continuation  #this only has effect if text scale medium is visible
+  
+  
+  #hide sections
+  symbol-hide point section  #cross section locations
+  symbol-hide line section   #cross section cutting planes
+         
+         
+  #blackout passage
+  #colour map-fg [0 0 0] #black    # Shading in cave passage, <colour>, <altitude>, <scrap>, <map>
+    
+endlayout LayoutScale2000
+
+layout LayoutScale5000 
+#---------------------
+#layout settings suited to 2d outputs at 1:5000 scale 
+  
+  scale 1 5000       
+  #base-scale 1 5000   
+    # use base-scale only if outputs to be photo enlarged 
+    # or reduced or to scale fonts and symbols
+  
+  scale-bar 500 m  
+  grid-size 500 500 100 metres  # coordinate grid
+  
+  code metapost
+  fonts_setup(0.01,0.01,0.01,0.01,4); 
+  #font size 0.01 is invisible, but text still adds kilobytes to file size
+  
+  #CAVE APPEARANCE
+    
+  symbol-hide group all  #hides ALL except passage infill colour
+  symbol-show line wall # gives definition if colour by altitude or map is used
+  
+  #Survey lines
+  #---------   
+  #symbol-show group surface-centreline  #hides morphed sketches as well??
+  #symbol-show point cave-station 
+      
+  #labels
+  symbol-show point label    
+  symbol-show line label
+  #symbol-show point station-name #specific station name points
+  #symbol-show point flag:continuation
+   
+  #blackout passage
+  #colour map-fg [0 0 0] #black    # Shading in cave passage, <colour>, <altitude>, <scrap>, <map>
+
+endlayout LayoutScale5000
+
+layout LayoutScale10000 
+#---------------------
+#layout settings suited to 2d outputs at 1:10,000 scale 
+  
+  scale 1 10000       
+  #base-scale 1 10000   
+    # use base-scale only if outputs to be photo enlarged 
+    # or reduced or to scale fonts and symbols
+  
+  scale-bar 1000 m  
+  grid-size 1000 1000 500 metres  # coordinate grid
+  
+  code metapost
+  fonts_setup(0.01,0.01,0.01,0.01,0.01); 
+  #ie make as small as possible
+  
+  #CAVE APPEARANCE
+    
+  symbol-hide group all  #hides ALL except passage infill colour
+  #symbol-show line wall # don't use at very small scales as it blurs the outline
+  
+  #symbol-show group surface-centreline  #hides morphed sketches as well??
+      
+  #symbol-show point label    
+  #symbol-show line label
+   
+  #blackout passage
+  colour map-fg [0 0 0] #black    # Shading in cave passage, <colour>, <altitude>, <scrap>, <map>
+
+endlayout LayoutScale10000
+
+#END
+

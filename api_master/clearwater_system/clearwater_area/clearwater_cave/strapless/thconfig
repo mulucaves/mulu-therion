@@ -1,0 +1,6 @@
+encoding  utf-8
+source strapless.th
+
+export model -o strapless.3d
+export model -o strapless.lox
+export map -o strapless.pdf

@@ -1,0 +1,5 @@
+source eureka_climb_revisited.th
+
+export model -o eureka_climb_revisited.3d
+export model -o eureka_climb_revisited.lox
+export map -o eureka_climb_revisited.pdf

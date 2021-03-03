@@ -1,0 +1,112 @@
+*begin fastlane_aven
+
+*export 40	; link to disappointment passage
+*export 38
+*export 619 	; link to dave clucas fast lane survey but not used as uncertain
+*export 67	; link to dave clucas fast lane survey alo apparently uncertain, only 67 is used in master
+
+*title "fastlane_aven"
+*date 2014.05.11
+*team "carl clark" notes
+*team "les williams" instruments
+
+;final legs added to tie in to dissapointment passage
+
+*date 2017.04.04
+*team "les williams" notes
+*team "david cooke" instruments
+*team "david gough" stations
+
+
+*data normal from to tape compass clino ignoreall
+
+*flags duplicate
+619	0	12.2	255.9	02.2
+0	1	6.4	295.4	-03.1	;clino in notes is 0.31 so a possible transcription typo but all clino readings are to 1 decimal place so it may have just been writtenc with the decimal point in the wrong place
+38	41	11.47	351.8	36.4
+*flags not duplicate
+
+1	2	20.28	315.5	66.1
+2	3	14.51	291.5	49.4
+4	3	2.25	254.6	40.8
+4	5	9.72	024.1	-26.5
+5	6	9.47	305.4	-29.1
+6	7	11.16	266.4	-12.2
+7	8	7.46	300.4	50.0
+8	9	3.14	270.8	03.9	;clino in notes is 0.39 so a possible transcription typo but all clino readings are to 1 decimal place so it may have just been writtenc with the decimal point in the wrong place
+9	10	7.59	202.7	-42.2
+10	11	10.24	226.5	16.6
+11	12	4.92	258.0	4.0
+12	13	8.42	224.5	-14.5
+14	13	1.57	254.7	-8.5
+14	15	9.98	203.6	2.7
+
+7	20	4.68	289.6	19.7
+20	21	7.48	323.4	40.6
+21	22	7.18	303.7	-10.8
+22	23	3.54	324.5	-0.7
+23	24	11.99	292.2	-33.4
+24	25	4.22	221.2	6.2
+25	26	7.48	329.1	27.9
+26	27	18.49	311.3	-6.6
+27	28	9.88	322.0	38.9
+28	29	9.80	296.7	-7.6
+29	30	17.11	006.4	-0.8
+30	31	17.88	249.5	-32.1
+31	32	7.56	327.6	-28.1
+32	33	5.90	344.8	-49.7
+33	34	5.49	242.5	2.0
+34	35	8.42	303.7	12.0
+35	36	1.74	275.9	36.4
+36	37	7.82	299.7	-38.4
+37	38	6.49	256.7	-27.3
+38	39	34.22	348.9	+44.0
+39	40	20.86	337.7	-2.1
+
+42	38	8.0	0	90
+42	67	4.53	212.4	39.3
+
+
+;619	lagans main cave survey station
+;0	;lagans survey on plank walk
+;1	;station on plank walk
+;2	;first station up aven
+;3	;second station up aven
+;4	;third station up aven
+
+*data passage station left right up down ignoreall
+5	1	1	2.5	2
+6	3	2	4	1.5
+7	2	0	2	1
+8	0.3	1.5	1.3	2
+9	0.5	0.5	6	7
+10	2.5	0.5	5	4
+11	1.5	1.5	2	0
+12	0.3	2.5	8	1
+13	3	2	7	1
+14	0	2	1	2
+15	0	2	1	2
+
+*data passage station left right up down ignoreall
+20	1	0.3	5	3
+21	2	0.5	1	2
+22	1	2	1	0.5
+23	1	1	1.5	2
+24	2	0	3	1
+25	0	5	7	1
+26	1	1	4	1
+27	1	2.5	4	0.5
+28	1	1	0	0.5
+29	0	2	2	1
+30	3	0	2	2
+31	0	3	4	3
+32	2	0.5	5	5
+33	3	0.5	5	1
+34	0	3	2	1
+35	2	1	4	0
+36	2	2	4	4
+37	2	1.5	2.5	3
+38	0.5	4	5	0
+41	1	1	4	0
+
+*end fastlane_aven

@@ -1,0 +1,39 @@
+*begin surface_c_o_w_upper_to_lower
+*export 0 ; moose ens station 141
+* export 11; probably the gps point but why did he also export 10? the gps point is tied in to 11.
+
+*title "helic"
+*team "mark brown" pda notes
+*team "hugh st lawrence" target
+*team "carl clark" distox2 38
+
+;calibration
+;distox 0.4
+
+;surveying in, looking in
+;instruments leica disto x2 38 (mulu number 2)
+*date 2014.05.03
+
+*flags surface
+0	1	14.62	 27.50	 -3.91 ; moose end station 141?
+1	0	14.72	215.68	  4.94
+1	2	 8.40	281.64	-15.92
+2	3	 4.66	351.59	-34.50
+3	4	 4.44	 18.53	-14.14
+4	5	26.68	 16.16	-13.37
+5	6	30.07	354.90	-12.66
+6	7	10.81	333.30	-12.83
+7	8	10.03	310.45	-20.92
+
+10	11	12.77	 75.64	  9.74 ; 11 is the gps fix point?
+10	12	10.03	297.93	 -5.82
+12	13	 8.09	291.94	 -1.46
+13	14	27.87	 21.52	 -1.55
+14	15	23.02	  8.51	 -4.31
+15	16	22.92	  8.57	 -4.45
+17	16	18.96	207.14	 -5.17
+18	17	33.70	196.12	 -4.72
+18	8	 6.82	 16.16	 -2.71
+*flags not surface
+
+*end surface_c_o_w_upper_to_lower

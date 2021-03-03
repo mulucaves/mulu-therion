@@ -1,0 +1,64 @@
+encoding  utf-8
+#FILENAME: LayoutStatisticsReporting.thc
+#=======================
+
+#Component File created Bruce Mutton 28 January 2009 
+#Edited  Bruce Mutton 26 May 2012 add LayoutHideLengthDepth, LayoutStatisticsTop10
+
+layout LayoutStatisticsNone 
+#-----------------------  
+  statistics explo off        # all/off/number    # names of explorers, or 'number' most significant explorers
+  statistics explo-length off # on/off           # adds each persons exploration length
+  statistics topo off         # all/off/number    # names of survey team members 
+  statistics topo-length off   # on/off          # adds each persons survey length
+  statistics carto off         # all/off/number   # names of authors  
+  statistics copyright off     # all/off/number   # names of copyrights   
+endlayout LayoutStatisticsNone
+
+layout LayoutHideLengthDepth
+#-----------------------  Removes length and depth form map header
+   code tex-map
+    \cavelength={} %empty
+    \cavedepth={}  %empty
+   endcode
+endlayout LayoutHideLengthDepth
+
+layout LayoutStatisticsNormal 
+#-----------------------  
+  statistics explo all        # all/off/number    # names of explorers, or 'number' most significant explorers
+  statistics explo-length off # on/off           # adds each persons exploration length
+  statistics topo all         # all/off/number    # names of survey team members 
+  statistics topo-length off   # on/off          # adds each persons survey length
+  statistics carto all         # all/off/number   # names of authors  
+  statistics copyright all     # all/off/number   # names of copyrights   
+endlayout LayoutStatisticsNormal
+
+layout LayoutStatisticsTop10 
+#-----------------------  Limit lists of participants to 10 people
+  statistics explo 10        # all/off/number    # names of explorers, or 'number' most significant explorers
+  statistics explo-length off # on/off           # adds each persons exploration length
+  statistics topo 10         # all/off/number    # names of survey team members 
+  statistics topo-length off   # on/off          # adds each persons survey length
+  statistics carto 10         # all/off/number   # names of authors  
+  statistics copyright all     # all/off/number   # names of copyrights   
+endlayout LayoutStatisticsTop10
+
+layout LayoutStatisticsVerbose 
+#-----------------------  
+  statistics explo all        # all/off/number    # names of explorers, or 'number' most significant explorers
+  statistics explo-length on # on/off           # adds each persons exploration length
+  statistics topo all         # all/off/number    # names of survey team members 
+  statistics topo-length on   # on/off          # adds each persons survey length
+  statistics carto all         # all/off/number   # names of authors  
+  statistics copyright all     # all/off/number   # names of copyrights   
+endlayout LayoutStatisticsVerbose
+
+layout LayoutStatisticsDrawn 
+#-----------------------  
+  statistics carto all         # all/off/number   # names of authors  
+endlayout LayoutStatisticsDrawn
+
+layout LayoutStatisticsCopyright 
+#-----------------------  
+  statistics copyright all     # all/off/number   # names of copyrights   
+endlayout LayoutStatisticsCopyright

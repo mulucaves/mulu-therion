@@ -1,0 +1,130 @@
+therion 5.4.4+4cb2921 (2020-04-05)
+initialization file: /home/ben/.therion/therion.ini
+reading ... done
+checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... OK
+checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... OK
+configuration file: thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.2.43
+ 2> Copyright © 1990-2020 Olly Betts
+ 3> Survey has no fixed points. Therefore I’ve fixed 1 at (0,0,0)
+ 4> 
+ 5> Survey contains 126 survey stations, joined by 125 legs.
+ 6> There are 0 loops.
+ 7> Total length of survey legs =  804.30m ( 804.30m adjusted)
+ 8> Total plan length of survey legs =  739.62m
+ 9> Total vertical length of survey legs =  274.08m
+10> Vertical range = 151.97m (from 93 at 51.04m to 122 at -100.93m)
+11> North-South range = 393.22m (from 97 at 206.12m to 43 at -187.10m)
+12> East-West range = 152.80m (from 22 at 10.33m to 39 at -142.47m)
+13>   85 1-nodes.
+14>   29 2-nodes.
+15>    6 7-nodes.
+16>    2 8-nodes.
+17>    2 11-nodes.
+18>    1 12-node.
+19>    1 15-node.
+20> 
+######################### transcription ########################
+ 3> 1 : 0@bladerunner
+ 5> 126 : -@bladerunner -- 125 : -@bladerunner
+10> 93 : -@bladerunner -- 122 : -@bladerunner
+11> 97 : -@bladerunner -- 43 : 42@bladerunner
+12> 22 : 21@bladerunner -- 39 : 38@bladerunner
+13> 85 : -@bladerunner
+14> 29 : 28@bladerunner
+15> 6 : 5@bladerunner
+16> 2 : 1@bladerunner
+17> 2 : 1@bladerunner
+18> 1 : 0@bladerunner
+19> 1 : 0@bladerunner
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+writing bladerunner.lox ...
+processing projection plan ... done
+average distortion: 0.00%
+. done
+writing bladerunner.3d ... done
+
+
+############### export maps & scraps selection #################
+S      nan  bladerunner_s1@bladerunner ()
+########## end of export maps & scraps selection ###############
+writing bladerunner.pdf ...
+processing projection none ... done
+####################### metapost log file ########################
+This is MetaPost, version 2.000 (TeX Live 2017/Debian) (kpathsea version 6.2.3)  11 APR 2020 19:06
+**data.mp
+(/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
+(/usr/share/texlive/texmf-dist/metapost/base/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010] [4011] [
+4012] [4013] [4014]
+[1]
+[Warning: scrap outline intersects itself in scrap bladerunner_s1@bladerunner]
+[2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18]
+[19] (./mptextmp.mp) [20] )
+ 
+Here is how much of MetaPost's memory you used:
+ 31370 strings using 860235 characters
+ 3467392 bytes of node memory
+ 1667 symbolic tokens
+ 10i,81n,16p,1231b,5f stack positions out of 16i,96n,20p,1483b,6f
+34 output files written: data.1 .. data.4014
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdfetex 2019.12.12)  11 APR 2020 19:06
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
+(./th_fontdef.tex{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map})
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 74 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 269 strings out of 495042
+ 2786 string characters out of 6159509
+ 104116 words of memory out of 5000000
+ 1866 multiletter control sequences out of 15000+600000
+ 17652 words of font info for 57 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 8i,5n,8p,238b,45s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb>
+
+Output written on data.pdf (1 page, 97788 bytes).
+PDF statistics:
+ 79 PDF objects out of 1000 (max. 8388607)
+ 43 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 205 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+compilation time: 1 sec
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+   0.00%    0.03%  bladerunner_s1@bladerunner
+################### end of scrap distortions ###################

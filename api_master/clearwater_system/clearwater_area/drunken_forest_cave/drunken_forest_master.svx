@@ -1,0 +1,7 @@
+*begin drunken_forest_master
+
+*include drunkenforest_cave_fake.svx
+
+*fix drunkenforest_cave_fake.1 0261877 0449888 81
+
+*end drunken_forest_master

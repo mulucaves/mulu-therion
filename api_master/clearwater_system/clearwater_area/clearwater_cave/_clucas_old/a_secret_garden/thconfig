@@ -1,0 +1,43 @@
+encoding  utf-8
+######################################## Input  ################################################
+
+source surveyName.th
+input /Users/daveclucas/Documents/caving/surveys/common_layout.th
+input /Users/daveclucas/Documents/caving/surveys/therionLayouts/layoutscales.thc
+
+######################################## Layouts  ################################################
+
+layout layout
+  copy common
+  copy LayoutScale2000
+  map-header 0 0 off
+  rotate 60
+endlayout
+layout images
+  map-image 0 100 sw ../output/componentElevations/surveyName_elev300.pdf
+  map-header 0 0 nw
+endlayout
+layout xviScale
+	scale 1 1000
+endlayout
+layout debug
+  colour map-fg altitude
+  symbol-show point station
+  debug station-names
+endlayout
+
+######################################## Output  ################################################
+
+export model -o ../output/componentModels/surveyName.lox
+export model -o ../output/componentModels/surveyName.3d
+#export model -o ..output/componentModels/surveyName.kml	#requires a fixed station in survey
+#export map -o ../output/componentModels/surveyName.kml	#requires a fixed station in survey
+
+export map -o ../output/componentModels/surveyName.xvi -layout xviScale
+export map -o ../output/componentModels/surveyName_e300.xvi -layout xviScale -proj [elevation 300]
+
+#export map -o ../output/componentElevations/surveyName_elev300.pdf -proj [elevation 300] -layout layout -layout LayoutScale1000
+#select surveyNamePlan
+#export map -o ../output/componentPlans/surveyName.pdf -layout layout -layout LayoutScale1000 #-layout images
+
+#################################################################################################

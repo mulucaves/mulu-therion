@@ -1,0 +1,7 @@
+encoding  utf-8
+source rampage.th
+input ../layoutscales.thc
+
+export model -o rampage.3d
+export model -o rampage.lox
+export map -o rampage.pdf -layout LayoutScale5000

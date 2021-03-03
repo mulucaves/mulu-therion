@@ -1,0 +1,27 @@
+survey lowerseries
+ centerline
+##export s1 s00
+units tape feet
+date 1990.08.25
+#team rw
+#team aw
+#team paris
+data normal from to tape compass clino
+ flags duplicate
+s1 s013 51.18 251.5 0
+s013 s012 65.62 285 -0.5
+s012 s011 98.43 249.5 -1
+s011 s010 36.09 271 -6
+s010 s09 19.68 251.5 -0.5
+s09 s08 59.06 279 -4
+s08 s07 43.31 318 -4.5
+s07 s06 98.43 289.5 19.5
+s06 s05 51.18 278 23
+s05 s04 90.88 297.5 -4
+s04 s03 80.38 255 -11
+s03 s02 98.43 243 -20
+s02 s01 98.43 256.5 -6.5
+s01 s00 98.43 241.5 -2
+ flags not  duplicate
+endcenterline
+  endsurvey

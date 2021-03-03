@@ -1,0 +1,19 @@
+survey branchpassage
+ centerline
+##export s402
+units tape feet
+date 1990.08.26
+#team aw
+#team rw
+#team sl
+data normal from to tape compass  clino ignoreall
+s402	s410	21.98	176	42.5
+s410	s411	31.5	258	41.5
+s411	s412	99.08	170	26.5
+s412	s413	31.17	134	30.5
+s413	s414	43.31	76	1
+s414	s39	88.25	26	-28.5
+data dimensions station left up down right
+s413	13.12	16.4	3.28	16.4
+endcenterline
+  endsurvey

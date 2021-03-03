@@ -1,0 +1,17 @@
+survey franksfolly
+
+ centerline
+##export 0
+title "franksfolly"
+date 2017.04.14
+data normal from to tape compass clino ignoreall
+0	1	8.11	229	38.1
+1	2	11.82	191	7.5
+2	3	9.34	198	34.4
+data dimensions station left right up down
+0	2.5	2.5	4	0.5
+1	1.5	1.5	2.5	1.7
+2	1	1	4.5	1.2
+3	1.5	1.7	4.5	1.5
+endcenterline
+  endsurvey

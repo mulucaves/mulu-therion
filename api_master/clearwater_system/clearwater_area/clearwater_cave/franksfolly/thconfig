@@ -1,0 +1,5 @@
+source franksfolly.th
+
+export model -o franksfolly.3d
+export model -o franksfolly.lox
+export map -o franksfolly.pdf

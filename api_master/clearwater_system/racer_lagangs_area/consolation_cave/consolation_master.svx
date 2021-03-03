@@ -1,0 +1,4 @@
+*begin consolation_master
+*export consolation_cave.39
+*include consolation_cave.svx
+*end consolation_master

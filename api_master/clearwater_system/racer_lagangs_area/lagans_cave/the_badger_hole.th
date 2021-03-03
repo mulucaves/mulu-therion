@@ -1,0 +1,69 @@
+survey the_badger_hole
+ centerline
+##export 1.1
+endcenterline
+survey 1
+ centerline
+##export 1
+title "the badger hole"
+date 2017.04.19
+#team "david cooke" pda
+#team "les williams" disto (dgc1)
+#team "david gough"
+flags duplicate
+1	0	 5.77	262.19	 -2.93
+0	1	 5.78	 84.59	  3.44
+2	1	22.55	237.86	  1.16
+flags not duplicate
+flags splay
+2	2a	23.04	173.73	  3.63
+2	2b	11.22	343.95	  2.73
+2	2c	 4.29	287.47	 71.67
+flags not splay
+2	3	10.24	313.28	 55.57
+flags splay
+3	3a	 3.00	123.95	  0.72
+3	3b	 0.90	 40.01	 -1.46
+3	3c	 0.78	320.62	  3.41
+3	3d	 4.15	 97.44	 -0.57
+3	3e	 1.17	187.88	  5.76
+3	3f	 3.85	 57.67	 80.29
+3	3g	 2.31	 89.23	-78.61
+flags not splay
+3	4	12.03	329.22	 48.83
+flags splay
+4	4a	 1.68	109.14	 -3.89
+4	4b	 0.44	197.36	  4.25
+4	4c	 1.63	275.73	  5.75
+4	4d	 0.53	 16.22	 -3.24
+4	4e	 0.84	 58.51	-84.53
+4	4f	 0.96	107.65	 59.17
+flags not splay
+4	5	 7.87	289.08	 37.46
+flags splay
+5	5a	 0.53	183.92	  2.08
+5	5b	 1.09	  8.03	  0.24
+5	5c	 3.53	346.29	 78.15
+5	5d	 0.96	 90.93	-73.41
+5	5e	 2.24	313.74	 16.38
+5	5f	 1.47	270.17	 22.81
+5	5g	 2.05	109.76	 -0.48
+5	5h	 4.64	 94.08	 -4.30
+5	5i	 2.76	 84.19	 -1.61
+5	5j	 2.74	 72.80	  0.28
+5	5k	 2.40	 88.13	 26.11
+5	5l	 1.69	113.78	 39.35
+5	5m	 2.69	 89.37	 57.47
+flags not splay
+data dimensions station left right up down
+2	 4.72	 0.00	 4.07	 0.00
+1	 0.00	 0.00	 0.00	 0.00
+0	 0.00	 0.00	 0.00	 0.00
+data dimensions station left right up down
+2	 0.00	 4.72	 4.07	 0.00
+3	 0.84	 2.87	 3.80	 2.27
+4	 0.90	 0.57	 0.83	 0.84
+5	 0.51	 1.62	 3.46	 0.92
+endcenterline
+  endsurvey
+endsurvey

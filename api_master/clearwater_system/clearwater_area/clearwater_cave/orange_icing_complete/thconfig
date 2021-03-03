@@ -1,0 +1,5 @@
+source orange_icing_complete.th
+
+export model -o orange_icing.3d
+export model -o orange_icing.lox
+export map -o orange_icing.pdf

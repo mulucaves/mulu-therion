@@ -1,0 +1,26 @@
+%!PS
+%%BoundingBox: -1 -1 1 1 
+%%HiResBoundingBox: -0.03502 -0.03502 0.91002 0.91002 
+%%Creator: MetaPost 1.209
+%%CreationDate: 2018.11.21:2243
+%%Pages: 1
+%%BeginProlog
+%%EndProlog
+%%Page: 1 1
+ 0 0 0 setrgbcolor
+newpath -0.03502 -0.03502 moveto
+0.03502 -0.03502 lineto
+0.03502 0.03502 lineto
+0.03502 0.91002 lineto
+-0.03502 0.91002 lineto
+-0.03502 0.83998 lineto
+ closepath fill
+newpath -0.03502 0.03502 moveto
+-0.03502 -0.03502 lineto
+0.03502 -0.03502 lineto
+0.91002 -0.03502 lineto
+0.91002 0.03502 lineto
+0.83998 0.03502 lineto
+ closepath fill
+showpage
+%%EOF

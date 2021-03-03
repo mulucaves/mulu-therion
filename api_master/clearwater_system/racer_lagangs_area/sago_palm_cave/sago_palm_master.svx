@@ -1,0 +1,9 @@
+*begin sago_palm_master
+*include sago_palm_cave.svx
+
+;*fix sago_palm_cave.37 259156 448954 150; this is a made up position and level, needs gps'ing
+
+
+*fix sago_palm_cave.37 258835 447957 230; pls andys gps 29-4-14 needs barometric elevation checked versus easter above lagans entrance gps on same day pls may be 20 mlower?
+
+*end sago_palm_master

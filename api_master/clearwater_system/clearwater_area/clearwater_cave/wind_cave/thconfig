@@ -1,0 +1,6 @@
+encoding  utf-8
+source wind_cave.th
+
+export model -o wind_cave.3d
+export model -o wind_cave.lox
+export map -o wind_cave.pdf

@@ -1,0 +1,20 @@
+survey lagans_psurvey_main_psg
+ centerline
+##export 1_66
+date 2015.10.17
+#team peter smart
+flags duplicate
+1_66	p1	27.7	159	-8.3
+p1	p2	31.1	224	+1.0
+p2	p3	19.5	198	+0.5
+p4	p3	27.8	24.0 	-3.5
+flags not duplicate
+p5	p4	10.9	343	-2.7
+p5	p6	26.7	90.5	-11.8
+p6	p7	41.8	164	+36
+p6	p8	29.3	083	+0.5
+p8	p9	19	163	+36
+p8	p10	26	079	+15
+data dimensions station left right up down ignoreall
+endcenterline
+  endsurvey

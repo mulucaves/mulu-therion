@@ -1,0 +1,5 @@
+source jetstream_chandelier.th
+
+export model -o jetstream_chandelier.3d
+export model -o jetstream_chandelier.lox
+export map -o jetstream_chandelier.pdf

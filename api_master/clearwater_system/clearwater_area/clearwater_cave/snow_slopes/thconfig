@@ -1,0 +1,7 @@
+encoding  utf-8
+source snow_slopes.th
+input ../layoutscales.thc
+
+export model -o snow_slopes.3d
+export model -o snow_slopes.lox
+export map -o snow_slopes.pdf -layout LayoutScale5000

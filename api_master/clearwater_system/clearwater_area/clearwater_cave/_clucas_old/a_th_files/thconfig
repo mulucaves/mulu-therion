@@ -1,0 +1,56 @@
+encoding  utf-8
+source clearwater.th
+#input /Users/daveclucas/Documents/caving/surveys/common_layout.th
+#input /Users/daveclucas/Documents/caving/surveys/therionLayouts/layoutscales.thc
+#input "C:/Users/Ben_2/Documents/Caving/Therion Templates/layoutscales.thc"
+#input "C:/Users/Ben_2/Documents/Caving/Therion Templates/layoutstandards.thc"
+#input "C:/Users/Ben_2/Documents/Caving/Therion Templates/common_layout2.th"
+input "../../common_layout.th"
+######################################## Layouts  ################################################
+
+layout layout
+  copy common
+  copy LayoutScale2000
+  copy water-blue
+  
+  scale 1 2000
+  base-scale 1 1000
+  rotate 60
+  layers on
+  symbol-show group centreline
+   code tex-map
+     \cavename={Clearwater Cave}
+    \topotitle={Surveyed by}
+    \cartotitle={Drawn by}
+    \explotitle={Explored by}
+    code metapost
+     def l_survey_cave (expr p) =
+       draw p withpen PenD withcolor (1.0, 0.0, 0.0);
+     enddef;
+   endcode
+   colour map-fg altitude
+#debug station-names
+#debug scrap-names
+map-header 0 0 sw
+legend off
+endlayout
+#layout xviScale
+ # scale 1 1000
+
+# endlayout
+ 
+layout muluHeader
+ code tex-map
+  \def\loadpicture#1{\pdfximage{#1}\pdfrefximage\pdflastximage} 
+
+  \def\maplayout{
+ #   \legendbox{0}{100}{NE}{\the\legendcontent}
+    #\legendbox{90}{0}{SE}{\loadpicture{/Users/daveclucas/Documents/caving/surveys/Sarawak/Mulu/resources/sarawakCavesLogo.png}}        %%% pdf, png, jpg supported
+      \legendbox{0}{-10}{NW}{\northarrow}
+      \legendbox{0}{-20}{NW}{\scalebar}      
+  }
+endlayout
+select clearwaterPlan
+#export map -o output/clearwaterMap.3d
+#export map -o output/componentModels/clearwater_cave_fake.xvi -layout xviScale
+export map -o output/clearwater.pdf -layout layout

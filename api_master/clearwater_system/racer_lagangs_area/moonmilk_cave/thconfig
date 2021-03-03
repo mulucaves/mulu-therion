@@ -1,0 +1,2 @@
+source moonmilk_master.th
+export model -o moonmilk_master.3d

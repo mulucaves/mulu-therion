@@ -1,0 +1,6 @@
+encoding  utf-8
+source upskirt.th
+
+export model -o upskirt.3d
+export model -o upskirt.lox
+export map -o upskirt.pdf

@@ -1,0 +1,7 @@
+*begin solo_master
+
+*include solo.svx
+
+*fix solo.0 0261380 0451788 536
+
+*end solo_master

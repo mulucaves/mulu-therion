@@ -1,0 +1,84 @@
+*begin sago_palm_cave
+*export 37
+
+*title "sago palm cave"
+
+;*date 27/10/1991
+;retyped data from original 1989 instrument readings. matt kirby
+; survey by tim allen matt kirby bagley lang edwin abang robert gani
+;*calibrate declination
+;*calibrate tape
+;surveying in, looking in
+; inst cucc set #
+;calibration
+;post to tree
+;
+;tree to post
+;
+
+*data normal from to tape compass clino ignoreall
+*entrance 37
+37	36	20	27	-10
+36	35	30.7	30	-4
+35	34	30.7	18	-28
+34	33	19.6	15	-38
+33	32	20.7	265	-17
+32	31	13.4	330	-47
+31	30	6.2	26	-12
+30	29	13.5	61	-19
+29	28	10.6	94	5
+28	27	10.6	141	2
+27	26	26.7	115	-15
+26	25	30.7	85	0
+25	0	29	247	-23
+0	1	6	282	-44
+1	2	25.9	255	-30
+2	3	14.4	258	-22
+3	4	13.7	222	-20
+4	5	30.7	264	-21
+5	6	20.3	222	4
+6	7	8.9	198	22
+7	8	14.7	195	17
+8	9	12	114	33
+9	10	30.7	106	20
+10	11	30.7	80	29
+11	12	30.7	65	30
+
+12	20	6	48	9
+20	21	8	37	25
+21	22	27	54	17
+22	23	13	71	-36
+23	24	15	37	5
+24	25	28	320	-22
+
+12	13	30.7	85	29
+13	14	23.2	93	39
+14	15	20	42	13
+15	16	13.2	105	29
+16	17	8	43	29
+*entrance 17
+
+10	a	13.6	17	12
+a	b	8.6	352	-7
+b	c	13.5	304	-27
+c	d	8.5	259	-22
+d	e	9.7	233	-18
+e	f	11.2	290	-23
+f	g	4	270	-40
+
+25	x	16.5	35	33
+x	y	10.7	24	-25
+y	z	30	66	22
+
+x	w	30	64	35
+*entrance w
+
+;station information
+;station left right up down discription
+
+
+
+
+
+
+*end sago_palm_cave

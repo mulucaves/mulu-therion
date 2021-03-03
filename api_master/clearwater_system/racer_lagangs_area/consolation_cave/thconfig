@@ -1,0 +1,2 @@
+source consolation_master.th
+export model -o consolation_master.3d

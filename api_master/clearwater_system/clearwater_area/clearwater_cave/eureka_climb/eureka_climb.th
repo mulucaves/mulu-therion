@@ -1,0 +1,22 @@
+survey eureka_climb
+ centerline
+date 2019.04.21
+##export 7 3
+0	1	 7.33	200.83	  4.91
+0	2	23.45	 28.31	 -1.03
+2	3	 6.67	 24.75	 -3.51
+3	4	 5.87	 47.76	 16.16
+4	5	 7.06	 69.52	 -3.50
+5	6	 2.99	 95.90	 20.43
+flags duplicate
+6	7	29.35	 89.26	-57.05
+flags not duplicate
+data dimensions station left right up down
+0	 3.86	 4.33	 0.84	 1.05
+2	 2.38	 9.88	 0.98	 1.16
+3	 7.66	10.18	 3.27	 1.72
+4	 2.91	13.14	 1.90	 2.68
+5	 1.64	 5.79	 1.01	 0.38
+6	 3.24	 4.77	 0.64	 1.83
+endcenterline
+  endsurvey

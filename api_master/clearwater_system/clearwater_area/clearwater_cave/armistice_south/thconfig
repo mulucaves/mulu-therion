@@ -1,0 +1,6 @@
+encoding  utf-8
+source armistice_south.th
+
+export model -o armistice_south.3d
+export model -o armistice_south.lox
+export map -o armistice_south.pdf

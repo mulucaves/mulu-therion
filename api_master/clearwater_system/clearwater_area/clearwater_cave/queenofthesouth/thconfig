@@ -1,0 +1,5 @@
+source queenofthesouth.th
+
+export model -o queenofthesouth.3d
+export model -o queenofthesouth.lox
+export map -o queenofthesouth.pdf

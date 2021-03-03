@@ -1,0 +1,16 @@
+survey bensstu
+ centerline
+##export s502
+units tape feet
+date 1990.9.6
+#team ajb
+#team njt
+data normal from to tape compass  clino ignoreall
+s502	s503	20.34	355	0.5
+s503	s504	12.47	337.5	-17.5
+data dimensions station left up down right
+s502	4	10	1.5	2
+s503	3	8	1.5	2
+s504	0	8	1.5	5
+endcenterline
+  endsurvey

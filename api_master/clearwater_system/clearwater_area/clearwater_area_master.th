@@ -1,0 +1,17 @@
+input clearwater_cave/clearwater_master.th
+input drunken_forest_cave/drunken_forest_master.th
+input nilongs_cave/nilongs_master.th
+input solo/solo_master.th
+   
+map clearwater_small_caves_m
+    solo_m@solo_master
+    break
+    nilongs_m@nilongs_master
+    break
+    drunken_forest_master_m@drunken_forest_master
+    endmap
+
+map clearwater_m
+    Clearwater_m@clearwater_master
+    COTW_m@clearwater_master
+    endmap

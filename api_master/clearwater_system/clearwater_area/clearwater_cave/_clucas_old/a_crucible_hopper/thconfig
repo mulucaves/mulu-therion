@@ -1,0 +1,5 @@
+source crucible_hopper.th
+
+export model -o crucible_hopper.lox
+export model -o crucible_hopper.3d
+export map -o crucible_hopper.pdf

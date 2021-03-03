@@ -1,0 +1,5 @@
+source fally.th
+
+export model -o fally.3d
+export model -o fally.lox
+export map -o fally.pdf

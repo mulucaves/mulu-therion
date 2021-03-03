@@ -1,0 +1,16 @@
+encoding  utf-8
+source clearwater_river.th
+input ../../common_layout.th
+layout layout
+  copy common
+#  scale 1 20000
+#  scale-bar 200 metres
+#  map-header 80 90 nw
+#  rotate 60
+#  debug station-names
+endlayout
+
+export model -o output/clearwater_river.lox
+
+#export map -o output.therion/clearwater_river_p.pdf -layout layout -layout water-blue
+#export map -o output.therion/clearwater_river_grey.pdf -layout layout -layout greyscale -layout water-blue

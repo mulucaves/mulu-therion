@@ -1,0 +1,32 @@
+encoding  utf-8
+input cotw-fake.th2
+input cotw-fake2.th2
+input wan-way-street.th2
+input clayhallarea.th2
+
+#join COTWSP1 COTWSP2
+#join COTWSP2 COTWSP3
+#join COTWSP3 COTWSP4
+join COTWSP3 WanWaySP1
+
+map cotw_fake_river_m
+  ClayHallSP3
+  break
+  WindCaveRiverSP1
+  WindCaveRiverSP2
+  WindCaveRiverSP3
+  endmap
+
+map cotw_fake_m
+  COTWSP4
+  break
+  COTWSP1
+  COTWSP2
+  COTWSP3
+  break
+  WanWaySP1
+  break
+  ClayHallSP1
+  ClayHallSP2
+endmap
+

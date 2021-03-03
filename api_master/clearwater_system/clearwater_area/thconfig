@@ -1,0 +1,11 @@
+encoding  utf-8
+input ../../../layouts/mulu_layouts.thc
+
+source clearwater_area_master.th
+
+select clearwater_m
+select clearwater_small_caves_m
+
+export model -o clearwater_area_master.3d
+export model -o clearwater_area_master.lox
+export map -o clearwater_area_master.pdf -layout MuluLarge

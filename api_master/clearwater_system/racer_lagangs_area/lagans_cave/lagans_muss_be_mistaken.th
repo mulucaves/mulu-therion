@@ -1,0 +1,25 @@
+survey lagans_muss_be_mistaken
+ centerline
+##export 421
+##export 0
+date 2012.4.13
+#team fran white jason lin junhan
+1	0	35.46	210	0
+
+1	2	27.9	030	0
+2	3	8.14	355	-8
+3	4	20.13	313	4
+4	5	8.09	328	5
+5	6	4	091	-10
+6	7	6.14	013	-63
+7	8	8.55	044	-20
+5	9	10.26	344	-5
+9	10	15.98	024	-5
+10	11	6.16	345	45
+flags duplicate
+11	12	13.53	044	-4
+12	13	5.0	005	5.5
+13	14	17.6	001	-2
+14	421	16.3	043	-10
+endcenterline
+  endsurvey

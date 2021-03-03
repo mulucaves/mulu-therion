@@ -1,0 +1,7 @@
+source creedence.th
+
+export model -o creedence.lox
+export model -o creedence.3d
+
+select creedencePlan
+export map -o creedence.pdf

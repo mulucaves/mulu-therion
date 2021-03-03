@@ -1,0 +1,5 @@
+source quattro_formaggio.th
+
+export model -o quattro_formaggio.3d
+export model -o quattro_formaggio.lox
+export map -o quattro_formaggio.pdf

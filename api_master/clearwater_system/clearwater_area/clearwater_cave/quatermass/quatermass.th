@@ -1,0 +1,31 @@
+survey quatermass
+ centerline
+##export 0 6 8
+title "quatermass"
+date 2017.04.22
+data normal from to tape compass clino ignoreall
+flags duplicate
+0	1	25.6	302	-26.4
+flags not duplicate
+1	2	8.18	025	-11.7
+2	3	6.77	354	-33
+3	4	3.14	020	-2.6
+4	5	22.12	048	25.4
+5	6	3.49	042	5.3
+6	10	5	-	down
+4	7	4.89	258	0.4
+7	8	6.67	265	32.1
+8	9	20	-	down
+data dimensions station left right up down
+1	8.2	1	7.5	1.5
+2	1.4	.6	1.2	1.5
+3	1.2	1.6	2.2	.7
+4	2.4	1.5	3.5	.7
+5	1	2.8	2	1.5
+6	3	2	3	2
+data dimensions station left right up down
+4	2	2	2	1.5
+7	2	0	1.6	1.8
+8	.5	4	4	.5
+endcenterline
+  endsurvey

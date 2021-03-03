@@ -1,0 +1,8 @@
+encoding  utf-8
+
+source clearwater_5.th
+input ../layoutscales.thc
+
+export model -o clearwater_5.3d
+export model -o clearwater_5.lox
+export map -o clearwater_5.pdf -layout LayoutScale10000

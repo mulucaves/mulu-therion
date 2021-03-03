@@ -1,0 +1,2 @@
+source sago_palm_master.th
+export model -o sago_palm_master.3d

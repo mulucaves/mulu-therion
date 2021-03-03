@@ -1,0 +1,3 @@
+source solo_master.th
+export map -o solo_master.pdf
+export model -o solo_master.3d

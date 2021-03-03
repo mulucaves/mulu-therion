@@ -1,0 +1,118 @@
+therion 5.4.4+4cb2921 (2020-04-05)
+initialization file: /home/ben/.therion/therion.ini
+reading ... done
+checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... OK
+checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... OK
+configuration file: thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.2.43
+ 2> Copyright © 1990-2020 Olly Betts
+ 3> Survey has no fixed points. Therefore I’ve fixed 1 at (0,0,0)
+ 4> 
+ 5> Survey contains 50 survey stations, joined by 49 legs.
+ 6> There are 0 loops.
+ 7> Total length of survey legs = 1317.40m (1317.40m adjusted)
+ 8> Total plan length of survey legs = 1206.03m
+ 9> Total vertical length of survey legs =  157.96m
+10> Vertical range = 118.85m (from 50 at 97.67m to 39 at -21.17m)
+11> North-South range = 971.56m (from 49 at 946.55m to 4 at -25.01m)
+12> East-West range = 302.40m (from 42 at 273.30m to 4 at -29.10m)
+13>    3 1-nodes.
+14>   46 2-nodes.
+15>    1 3-node.
+16> 
+######################### transcription ########################
+ 3> 1 : 15@clearwater_5
+ 5> 50 : x@clearwater_5 -- 49 : 800@clearwater_5
+10> 50 : x@clearwater_5 -- 39 : 810@clearwater_5
+11> 49 : 800@clearwater_5 -- 4 : 845@clearwater_5
+12> 42 : 807@clearwater_5 -- 4 : 845@clearwater_5
+13> 3 : 846@clearwater_5
+14> 46 : 803@clearwater_5
+15> 1 : 15@clearwater_5
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+writing clearwater_5.3d ... done
+writing clearwater_5.lox ...
+processing projection plan ... done
+average distortion: 3.83%
+. done
+
+
+############### export maps & scraps selection #################
+S   -15.94  clearwater_5_s1@clearwater_5 ()
+########## end of export maps & scraps selection ###############
+writing clearwater_5.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 2.000 (TeX Live 2017/Debian) (kpathsea version 6.2.3)  13 APR 2020 01:15
+**data.mp
+(/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
+(/usr/share/texlive/texmf-dist/metapost/base/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010] [4011] [
+4012] [4013] [4014]
+[1] [2] (./mptextmp.mp) [3] )
+ 
+Here is how much of MetaPost's memory you used:
+ 4528 strings using 99632 characters
+ 3359240 bytes of node memory
+ 1657 symbolic tokens
+ 8i,81n,11p,312b,4f stack positions out of 16i,96n,12p,312b,6f
+17 output files written: data.1 .. data.4014
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdfetex 2019.12.12)  13 APR 2020 01:15
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
+(./th_fontdef.tex{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map})
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 51 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 248 strings out of 495042
+ 2551 string characters out of 6159509
+ 22472 words of memory out of 5000000
+ 1843 multiletter control sequences out of 15000+600000
+ 20080 words of font info for 63 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 9i,5n,8p,276b,58s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
+Output written on data.pdf (1 page, 31291 bytes).
+PDF statistics:
+ 38 PDF objects out of 1000 (max. 8388607)
+ 23 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 67 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+compilation time: 3 sec
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+   3.83%   69.02%  clearwater_5_s1@clearwater_5
+################### end of scrap distortions ###################

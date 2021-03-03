@@ -1,0 +1,5 @@
+source scientific_method.th
+
+export model -o scientific_method.3d
+export model -o scientific_method.lox
+export map -o scientific_method.pdf

@@ -1,0 +1,26 @@
+survey skylight_pitch
+ centerline
+date 2018.01.14
+##export 0
+0	1	 5.78	355.69	 23.78
+1	2	12.46	346.20	 12.97
+2	3	20.93	130.72	 40.43
+flags splay
+3	3a	 4.99	111.46	 30.00
+flags not splay
+3	4	 9.62	106.82	 37.97
+4	5	 3.13	 16.26	 29.44
+5	6	 4.59	  1.57	  6.93
+flags splay
+6	6a	 8.30	 46.16	-43.43
+flags not splay
+data dimensions station left right up down
+0	 0.00	 0.00	 0.00	 0.00
+1	 0.00	 0.00	 0.00	 0.00
+2	 0.00	 0.00	 0.00	 0.00
+3	 0.00	 0.00	 2.49	 0.00
+4	 0.00	 0.00	 0.00	 0.00
+5	 0.00	 0.00	 0.00	 0.00
+6	 0.00	 4.23	 0.00	 5.71
+endcenterline
+  endsurvey

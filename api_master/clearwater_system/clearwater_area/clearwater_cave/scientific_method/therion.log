@@ -1,0 +1,158 @@
+therion 5.4.4+4cb2921 (2020-04-05)
+initialization file: /home/ben/.therion/therion.ini
+reading ... done
+checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... OK
+checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... OK
+configuration file: thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+average loop error: 0.10%
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.2.43
+ 2> Copyright © 1990-2020 Olly Betts
+ 3> Survey has no fixed points. Therefore I’ve fixed 1 at (0,0,0)
+ 4> 
+ 5> Survey contains 24 survey stations, joined by 23 legs.
+ 6> There are 0 loops.
+ 7> Total length of survey legs =  227.75m ( 227.75m adjusted)
+ 8> Total plan length of survey legs =  210.17m
+ 9> Total vertical length of survey legs =   75.89m
+10> Vertical range = 27.34m (from 20 at 2.39m to 13 at -24.95m)
+11> North-South range = 62.02m (from 23 at 27.51m to 17 at -34.52m)
+12> East-West range = 85.02m (from 23 at 85.02m to 1 at 0.00m)
+13>    4 1-nodes.
+14>   18 2-nodes.
+15>    2 3-nodes.
+16> 
+######################### transcription ########################
+ 3> 1 : 1@scientific_method
+ 5> 24 : 23@scientific_method -- 23 : 22@scientific_method
+10> 20 : 19@scientific_method -- 13 : 13@scientific_method
+11> 23 : 22@scientific_method -- 17 : 16@scientific_method
+12> 23 : 22@scientific_method -- 1 : 1@scientific_method
+13> 4 : 4@scientific_method
+14> 18 : 17@scientific_method
+15> 2 : 2@scientific_method
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+writing scientific_method.3d ... done
+writing scientific_method.lox ...
+processing projection plan ... done
+average distortion: 0.19%
+... done
+
+
+############### export maps & scraps selection #################
+S     0.15  EastInletSP1@scientific_method ()
+S    -7.91  HypothesisNorthSP1@scientific_method ()
+S   -13.04  ScientificMethodSP1@scientific_method ()
+########## end of export maps & scraps selection ###############
+writing scientific_method.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 2.000 (TeX Live 2017/Debian) (kpathsea version 6.2.3)  13 APR 2020 13:34
+**data.mp
+(/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
+(/usr/share/texlive/texmf-dist/metapost/base/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010] [4011] [
+4012] [4013] [4014]
+[Error: area borders l21-1186--534 and l67-652--758 don't intersect in scrap Sc
+ientificMethodSP1@scientific_method (file scientific_method.th2 [273])]
+[Error: area borders l20-501--796 and l21-1186--534 don't intersect in scrap Sc
+ientificMethodSP1@scientific_method (file scientific_method.th2 [273])]
+[Error: area borders l24-1349--1108 and l20-501--796 don't intersect in scrap S
+cientificMethodSP1@scientific_method (file scientific_method.th2 [273])]
+[Error: area borders l69-1116--1020 and l24-1349--1108 don't intersect in scrap
+ ScientificMethodSP1@scientific_method (file scientific_method.th2 [273])]
+[Error: area borders l68-1090--890 and l69-1116--1020 don't intersect in scrap 
+ScientificMethodSP1@scientific_method (file scientific_method.th2 [273])]
+[Error: area borders l70-986--812 and l68-1090--890 don't intersect in scrap Sc
+ientificMethodSP1@scientific_method (file scientific_method.th2 [273])]
+[Error: area borders l66-800--746 and l70-986--812 don't intersect in scrap Sci
+entificMethodSP1@scientific_method (file scientific_method.th2 [273])]
+[Error: area borders l67-652--758 and l66-800--746 don't intersect in scrap Sci
+entificMethodSP1@scientific_method (file scientific_method.th2 [273])]
+[Error: area borders l21-1186--534 and l20-501--796 don't intersect in scrap Sc
+ientificMethodSP1@scientific_method (file scientific_method.th2 [268])]
+[Error: area borders l20-501--796 and l21-1186--534 don't intersect in scrap Sc
+ientificMethodSP1@scientific_method (file scientific_method.th2 [268])] [1]
+[2] [3]
+[Error: area borders l56-1280--1230 and l96-1664--1044 don't intersect in scrap
+ HypothesisNorthSP1@scientific_method (file scientific_method.th2 [634])] [4]
+[5] [6] [7]
+[Error: area borders l8-368--691 and l6-325--837 don't intersect in scrap EastI
+nletSP1@scientific_method (file scientific_method.th2 [50])] [8] [9] [10] [11]
+[12] (./mptextmp.mp) [13] )
+ 
+Here is how much of MetaPost's memory you used:
+ 6936 strings using 165333 characters
+ 4008488 bytes of node memory
+ 1662 symbolic tokens
+ 11i,81n,16p,331b,5f stack positions out of 16i,96n,17p,390b,6f
+27 output files written: data.1 .. data.4014
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdfetex 2019.12.12)  13 APR 2020 13:34
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
+(./th_fontdef.tex{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map})
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 64 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 261 strings out of 495042
+ 2684 string characters out of 6159509
+ 189689 words of memory out of 5000000
+ 1856 multiletter control sequences out of 15000+600000
+ 20080 words of font info for 63 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 9i,5n,8p,238b,58s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
+Output written on data.pdf (1 page, 99130 bytes).
+PDF statistics:
+ 67 PDF objects out of 1000 (max. 8388607)
+ 37 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 155 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+compilation time: 1 sec
+
+
+######################### loop errors ##########################
+REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
+  0.17%    0.0m    7.6m   2   -0.0m   -0.0m    0.0m [6@scientific_method - 5 - 6]
+  0.12%    0.0m   19.6m   2    0.0m   -0.0m   -0.0m [21@scientific_method - 20 - 21]
+  0.10%    0.0m   19.6m   2    0.0m    0.0m   -0.0m [20@scientific_method - 21 - 20]
+  0.00%    0.0m    7.6m   2    0.0m    0.0m    0.0m [5@scientific_method - 6 - 5]
+##################### end of loop errors #######################
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+   0.22%    2.50%  HypothesisNorthSP1@scientific_method
+   0.20%    1.89%  ScientificMethodSP1@scientific_method
+   0.02%    0.23%  EastInletSP1@scientific_method
+################### end of scrap distortions ###################

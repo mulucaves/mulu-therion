@@ -1,0 +1,263 @@
+encoding  utf-8
+#FILENAME: thconfig-TemplateComprehensive.thc
+
+#!<CAVENAME> CAVE SURVEY: MAP & 3D MODEL COMPILATION
+#=====================================================
+#Edited Bruce Mutton 19 Mar 2012 Improve self documentation
+
+#INSTRUCTIONS
+#============
+#This is a template you can use as a basis for Therion thconfig (compilation) script.
+#This one is somewhat comprehensive and is intended for a cave that is say over 10km long or has
+# many detailed drawings in multiple projections.
+#Use your text editors 'Find and Replace' to replace all instances of <CAVENAME> with the name of 
+# the cave or system. This file is best viewed with a plain text editor that can 'style' the fonts
+# based on the syntax - makes the syntax stand out from the comments...
+#Comment or uncomment particular lines by adding or removing the # symbol.
+
+#SOURCE DATA FILES
+#=================
+# These are the files that contain or point to the survey network, map objects and surfaces
+# ./ = current folder  ../ = parent of current folder
+	source clearwater_cave.th	        #survey
+	#source INDEX<CAVENAME>Plan.th	    #plan drawings
+	#source INDEX<CAVENAME>Elev290.th	#drawings looking magnetic west
+	#source INDEX<CAVENAME>Elev020.th	#drawings looking magnetic north
+	#source ../../Surface/Surface<CAVENAME>Area.th   #terrain image and model
+
+
+#SELECT SURVEYS AND OR MAP OBJECTS
+#=================================
+# List the specific surveys and or map objects that you wish to export.
+# If no surveys are selected, then 'survey type exports' will include ALL surveys in 'sources'.
+# If no map objects are selected, then 'map object type exports' will include ALL map objects in 
+# 'sources'.
+# Surveys and map object selections are independant, the selections and outputs of one type have 
+# NO EFFECT on the other (ver 5.3.6), so there is no need to comment out plans if you only want 
+# elevations
+# For this reason, unless all (or no) maps and surveys are selected, reported statistics for the 
+# different outputs almost always differ from each other.
+
+##PLANS    
+    select clearwater_fake_l3_m@clearwater_cave_fake
+    select clearwater_fake_l2_m@clearwater_cave_fake
+    select clearwater_fake_l1_m@clearwater_cave_fake
+ 
+#INPUT FILES  
+#===========
+# make other files, generally layouts, available as though typed herein...  use relative paths
+# Layouts affect 2D outputs only
+
+input layoutstandards.thc        #generic settings to be consistent across all outputs
+input layoutatlaspapersizes.thc  #pre-defined landscape and portrait page setups
+input layoutscales.thc           #pre-defined settings to suit output scales
+input layoutstatisticsreporting.thc
+
+#SPECIFY OUTPUT COORDINATE SYSTEM
+#=================================
+# Recommended if you have one or more coordinate systems defined in source surveys or surfaces
+# Often required if you also export to atlas
+# Choose coordinate systems that are relevant to the cave locations!
+ 
+#EXPORTS
+#=======
+# This is where you define what TYPE of output you want
+# 'Titles' of map objects and or surveys, if specified, are often included in outputs 
+# Textural outputs are fast to export and less sensitive to data errors, so produce these first.
+# Models without drawing outlines are next, then maps.
+
+# (Deactivate/Activate the following outputs by 
+# commenting/uncommenting lines below as appropriate)
+
+# see end of file for common export options
+
+ #TEXT/DATA OUTPUTS
+#=================+
+# Text outputs reflect selected SURVEYS, NOT selected map objects (although continuation points in 
+# maps are pulled back to the survey, rather than reflecting any map objects that may be selected) 
+# The outputs here are placed in their own folder.  If the Output folder does not exist ERROR CP01
+
+#!SURVEY LIST EXPORT 
+
+#!CONTINUATION LIST EXPORT
+export continuation-list \
+	-attributes on \
+	-filter off \
+	-output ../Output/<CAVENAME>Continuations.html
+	
+#!CAVE LIST EXPORT
+export cave-list \
+    -location on \
+	-surveys off \
+	-output ../Output/<CAVENAME>Caves.html \
+   
+#!DATABASE EXPORT
+export database -output ../Output/<CAVENAME>Database.sql
+
+##Beyond here you should comment out exports you don't need.  Some are very time consuming...
+
+#MAP/ATLAS 2D IMAGE OUTPUTS
+#=======================
+# 2D outputs reflect selected MAP objects NOT selected surveys
+# Statistics in maps reflect ONLY centreline objects that are partly or completely included in 
+# scraps within the map object
+# xvi outputs reflect selected SURVEY objects however
+
+# Maintain multiple output variants (ie A3, A4 atlas etc) with 
+# multiple 'input' layout files entered above, rather than making
+# edits below
+
+# If there is a unique top level map object 'title' (or otherwise survey 'title')
+# it is printed on the map output or atlas output 
+
+## Options for producing xvi's
+   export map   -projection [elevation 290 deg] \
+	-layout-scale 1 500 \
+	-layout-grid-size 1 1 1 metres \
+	-output ./Sketches/<AA-SurveyName>Elev290.xvi  #for example
+ 
+##Maps
+    export map -projection plan \
+    -layout LayoutMapThisCave   \
+    -layout LayoutMapThisCavePlan   \
+    -output ../Output/<CAVENAME>Plan.pdf
+	 
+    # -output ./Output/<SMALLPART01>Plan.pdf	 
+	 
+ 
+    export map   -projection [elevation 290 deg] \
+    -layout LayoutMapThisCave    \
+    -layout LayoutMapThisCaveElev290 \  
+    -output ../Output/<CAVENAME>Elev290.pdf 
+
+  
+	export map   -projection [elevation 020 deg] \
+	-layout LayoutMapThisCave    \
+	-layout LayoutMapThisCaveElev020 \ 
+	-output ../Output/<CAVENAME>Elev020.pdf 	
+	
+	#Can do above maps in .svg, but no transparency, fonts are a bit odd and no titles or legends
+
+##Atlas
+	export atlas -projection plan   \
+	 -layout LayoutAtlasThisCave   \	
+	 -layout LayoutAtlasThisCavePlan   \	 
+	 -output ../Output/<CAVENAME>PlanAtlas.pdf   
+
+
+	export atlas   -projection [elevation 020 deg] \
+	 -layout LayoutAtlasThisCave    \
+	 -layout LayoutAtlasThisCaveElev020 \  
+	 -output ../Output/<CAVENAME>Elev020Atlas.pdf   
+	  
+#!BOUNDING BOX EXPORT
+	export map -output ../Output/<CAVENAME>-bbox.bbox
+	
+#GIS MAP
+#=======
+# Only the outline shape file is of immediate use, the others are not symbolised
+
+	export map -projection plan \
+    -output ../Output/GISPLAN/<CAVENAME>Plan.esri  \
+	-format esri  # required else pdf is produced with .esri extension!! A bug.      	
+	
+#!3D MODEL OUTPUT
+#================
+#3D model outputs reflect selected selected surveys NOT selected map objects
+
+#Includes wall outlines if wall-source is maps (the default I think). 
+#Surface is very fast to export, but adds to file size, 
+#Uses Loch (Therion viewer), comprehensive if a little clunky
+#Tip: create seperate models, one with surface only, one with caves only.  
+#Resulting files are smaller, more versatile and can be imported into Loch allowing
+#simultaneous viewing
+	export model -output ../Output/<CAVENAME>3DModel.lox  \ 
+	 -enable surface
+
+#No walls, no surface, fast to compile, small file size.  
+#Requires Survex to view, slick, allows interogation of model	 
+	export model  -output ../Output/<CAVENAME>3DModel.3d  
+	
+
+#!3D GIS MODEL OUTPUT
+#====================
+	export model -output ../Output/GISMODEL/<CAVENAME>Model.esri \
+	-format esri
+
+	 
+#GOOGLE EARTH OUTPUTS
+#====================
+# model line trace on ground surface (or hanging in space). Exports fast
+	export model \
+	  -output ../Output/<CAVENAME>3DModel.kml 
+	  
+# shaded map on ground surface.  Exports very slowly if wall-source is maps (the default I think)
+    export map -projection plan          \
+      -output ../Output/<CAVENAME>Plan.kml
+ 
+ 
+  
+
+
+######################################################################
+# EXPORT SYNTAX GUIDANCE ONLY BELOW HERE
+# COMMON EXPORT OPTIONS
+#----------------------
+# -output <filename> Can infer fmt from filemname.extension (except for esri)
+# 
+# -enable/disable <walls/[cave/surface-]centerline/surface/all>
+# -wall-source <maps/centerline/all>
+
+# SURVEY LIST EXPORT OPTIONS
+#----------------------
+#       Text  Web Database 
+# -fmt [text/html /dbf]
+#       .txt/.html/.dbf  
+
+# CONTINUATION LIST EXPORT OPTIONS
+#----------------------
+#       Text  Web Database 
+# -fmt [text/html /dbf]
+#       .txt/.html/.dbf  
+# -filter     [(on)/off] ## if on, hides continuations without comments
+# -attributes [on/(off)] ## if off,hides user defined attributes
+
+# CAVE LIST EXPORT OPTIONS
+#----------------------
+#       Text  Web Database 
+# -fmt [text/html /dbf]
+#       .txt/.html/.dbf  
+# -location [on/(off)] ## includes or hides cave entrance coordinates
+# -surveys  [on/(off)] ## if on, shows survey hierachy with aggregated statistics
+
+# DATABASE LIST EXPORT OPTIONS
+#----------------------
+#      Database 
+# -fmt sql
+#      .sql
+
+# 2D MAP EXPORT OPTIONS
+#----------------------
+#Not all layout features are available in all formats
+#       Adobe      Web   Survex CAD  GIS   Google Earth Therion bounding box
+# -fmt [pdf /svg /xhtml /survex/dxf /esri /kml        /xvi     /bbox]
+#       .pdf/.svg/.xhtml/.3d   /.dxf/.esri/.kml       /.xvi    /.bbox
+# -projection plan [elevation xxx deg] extended
+# -layout <id>
+# -layout-xxx For example  -layout-page-grid off  # 'on' to show how atlas pages are cut, only for Map
+
+# 2D ATLAS EXPORT OPTIONS
+#----------------------
+#      Adobe      
+# -fmt pdf 
+#      .pdf
+# -projection
+# -layout <id>
+
+# 3D MODEL EXPORT OPTIONS
+#----------------------
+#       Loch  Compass Survex CAD  GIS  Google Earth
+# -fmt [loch/compass/survex/dxf /esri /vrml /3dmf /kml ]
+#       .lox/.plt   /.3d   /.dxf/.esri/.vrml/.3dmf/.kml
+
+#!END

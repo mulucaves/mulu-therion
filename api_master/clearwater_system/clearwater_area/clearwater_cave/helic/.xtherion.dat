@@ -1,0 +1,11 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 29.16m (surface 0.00m, duplicated 0.00m)\nvertical range: 11.86m (from 5@helic at 8.95m to 2@helic at -2.91m)\nnorth-south range: 11.35m (from 4@helic at 6.61m to 2@helic at -4.74m)\neast-west range: 14.68m (from 5@helic at 12.60m to 1@helic at -2.08m)\nnumber of shots: 29\nnumber of stations: 30"
+xth_cp_data_tree_insert 23 1 1 helic helic "" "" "length: 29.16m (surface 0.00m, duplicated 0.00m)\nvertical range: 11.86m (from 5@helic at 8.95m to 2@helic at -2.91m)\nnorth-south range: 11.35m (from 4@helic at 6.61m to 2@helic at -4.74m)\neast-west range: 14.68m (from 5@helic at 12.60m to 1@helic at -2.08m)\nnumber of shots: 29\nnumber of stations: 30"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_create
+xth_cp_comp_stat 29 1
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1429798073
+

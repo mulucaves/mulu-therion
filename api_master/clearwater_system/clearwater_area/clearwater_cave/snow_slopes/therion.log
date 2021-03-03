@@ -1,0 +1,125 @@
+therion 5.4.4+4cb2921 (2020-04-05)
+initialization file: /home/ben/.therion/therion.ini
+reading ... done
+checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... OK
+checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... OK
+configuration file: thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.2.43
+ 2> Copyright © 1990-2020 Olly Betts
+ 3> Survey has no fixed points. Therefore I’ve fixed 1 at (0,0,0)
+ 4> 
+ 5> Survey contains 52 survey stations, joined by 51 legs.
+ 6> There are 0 loops.
+ 7> Total length of survey legs = 1093.90m (1093.90m adjusted)
+ 8> Total plan length of survey legs = 1043.23m
+ 9> Total vertical length of survey legs =  218.59m
+10> Vertical range = 39.88m (from 32 at 28.69m to 38 at -11.19m)
+11> North-South range = 179.55m (from 25 at 81.07m to 51 at -98.47m)
+12> East-West range = 609.63m (from 33 at 609.63m to 1 at 0.00m)
+13>    6 1-nodes.
+14>   42 2-nodes.
+15>    4 3-nodes.
+16> 
+######################### transcription ########################
+ 3> 1 : 1@snow_slopes
+ 5> 52 : x@snow_slopes -- 51 : 52@snow_slopes
+10> 32 : 32@snow_slopes -- 38 : 39@snow_slopes
+11> 25 : 25@snow_slopes -- 51 : 52@snow_slopes
+12> 33 : 33@snow_slopes -- 1 : 1@snow_slopes
+13> 6 : 6@snow_slopes
+14> 42 : 43@snow_slopes
+15> 4 : 4@snow_slopes
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+writing snow_slopes.3d ... done
+writing snow_slopes.lox ...
+processing projection plan ... done
+average distortion: 4.93%
+.
+therion: warning -- snow_slopes_s1@snow_slopes -- multiple scrap outer outlines not supported yet
+. done
+
+
+############### export maps & scraps selection #################
+M    11.83 snow_slopes_m@snow_slopes (Snow Slopes)
+S    14.89  snow_slopes_s1@snow_slopes ()
+S     8.77  snow_slopes_s2@snow_slopes ()
+########## end of export maps & scraps selection ###############
+writing snow_slopes.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 2.000 (TeX Live 2017/Debian) (kpathsea version 6.2.3)  13 APR 2020 14:37
+**data.mp
+(/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
+(/usr/share/texlive/texmf-dist/metapost/base/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010] [4011] [
+4012] [4013] [4014]
+[1] [2]
+[Warning: scrap outline intersects itself in scrap snow_slopes_s1@snow_slopes]
+[3] [4] [5] [6] (./mptextmp.mp) [7] )
+ 
+Here is how much of MetaPost's memory you used:
+ 6621 strings using 154129 characters
+ 3256992 bytes of node memory
+ 1659 symbolic tokens
+ 10i,81n,13p,312b,5f stack positions out of 16i,96n,16p,312b,6f
+21 output files written: data.1 .. data.4014
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdfetex 2019.12.12)  13 APR 2020 14:37
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
+(./th_fontdef.tex{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map})
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 56 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 253 strings out of 495042
+ 2606 string characters out of 6159509
+ 21812 words of memory out of 5000000
+ 1848 multiletter control sequences out of 15000+600000
+ 20080 words of font info for 63 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 9i,5n,8p,238b,58s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
+Output written on data.pdf (1 page, 39012 bytes).
+PDF statistics:
+ 50 PDF objects out of 1000 (max. 8388607)
+ 29 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 103 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+compilation time: 1 sec
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+   5.16%   53.03%  snow_slopes_s1@snow_slopes
+   0.88%    6.16%  snow_slopes_s2@snow_slopes
+################### end of scrap distortions ###################

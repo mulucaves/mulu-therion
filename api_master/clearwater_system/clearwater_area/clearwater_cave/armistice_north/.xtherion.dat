@@ -1,0 +1,11 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 2185.40m (surface 0.00m, duplicated 0.00m)\nvertical range: 124.31m (from 107@armistice_north at 101.85m to 71@armistice_north at -22.46m)\nnorth-south range: 957.33m (from 70@armistice_north at 867.82m to 321@armistice_north at -89.51m)\neast-west range: 424.71m (from 114@armistice_north at 392.89m to 332@armistice_north at -31.82m)\nnumber of shots: 107\nnumber of stations: 108"
+xth_cp_data_tree_insert 24 1 1 armistice_north armistice_north "" "" "length: 2185.40m (surface 0.00m, duplicated 0.00m)\nvertical range: 124.31m (from 107@armistice_north at 101.85m to 71@armistice_north at -22.46m)\nnorth-south range: 957.33m (from 70@armistice_north at 867.82m to 321@armistice_north at -89.51m)\neast-west range: 424.71m (from 114@armistice_north at 392.89m to 332@armistice_north at -31.82m)\nnumber of shots: 107\nnumber of stations: 108"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_create
+xth_cp_comp_stat 2185 4
+set xth(th_exit_state) 1
+set xth(th_exit_number) 1586722248
+

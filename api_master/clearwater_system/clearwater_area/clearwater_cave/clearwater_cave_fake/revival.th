@@ -1,0 +1,23 @@
+input revival.th2
+join revival_s1 revival_s2
+join revival_s1 revival_s3
+join SheerDelightSP1 revival_s2
+join BeckoningFingerSP1 revival_s4
+
+map beckoning_finger_m
+    BeckoningFingerSP1
+    endmap
+
+map revival_m -title "Revival"
+  revival_s1
+  break
+  break
+  revival_s4
+  break
+  revival_s3
+endmap
+
+map sheer_delight_m
+  revival_s2
+  SheerDelightSP1
+  endmap

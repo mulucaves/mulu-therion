@@ -1,0 +1,8 @@
+encoding  utf-8
+
+source bladerunner.th
+
+export model -o bladerunner.lox
+export model -o bladerunner.3d
+export map -o bladerunner.pdf
+

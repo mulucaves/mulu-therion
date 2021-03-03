@@ -1,0 +1,9 @@
+input volcano.th2
+join volcano_s1 volcano_s2
+map volcano_m -title "Volcano"
+  volcano_s1
+  break
+  volcano_s2
+  break
+  rmaf_s1
+endmap

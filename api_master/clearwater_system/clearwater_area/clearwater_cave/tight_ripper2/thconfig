@@ -1,0 +1,5 @@
+source tight_ripper2.th
+
+export model -o tight_ripper2.3d
+export model -o tight_ripper2.lox
+export map -o tight_ripper2.pdf

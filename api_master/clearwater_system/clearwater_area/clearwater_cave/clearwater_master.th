@@ -1,0 +1,324 @@
+encoding  utf-8
+
+survey clearwater_master
+##export clearwater_cave_fake.431
+input snow_slopes/snow_slopes.th
+input armistice_north/armistice_north.th
+input armistice_south/armistice_south.th
+input the_big_uee/the_big_uee.th
+input rampage/rampage.th
+input alexandra_palace/alexandra_palace.th
+input clearwater_5/clearwater_5.th
+input edwins_long_cut/edwins_long_cut.th
+input alans_clearwater_5/alans_clearwater_5.th
+input clearwater_6_7/clearwater_6_7.th
+input clearwater_cave_fake/clearwater_cave_fake.th
+input far_from_home/far_from_home.th
+input the_cairn_farm/the_cairn_farm.th
+input snaketrack_resurvey/snaketrack_resurvey.th
+input elevationsurveycheck1/elevationsurveycheck1.th
+input elevationsurveycheck2/elevationsurveycheck2.th
+input elevationsurveycheck3/elevationsurveycheck3.th
+input elevationsurveycheck4/elevationsurveycheck4.th
+input elevationsurveycheck5/elevationsurveycheck5.th
+input elevationsurveycheck6/elevationsurveycheck6.th
+input elevationsurveycheck7/elevationsurveycheck7.th
+input berangs_to_inflation/berangs_to_inflation.th
+
+input upskirt/upskirt.th
+input upskirt_lower/upskirt_lower.th
+input quattro_formaggio/quattro_formaggio.th
+input boom_boom/boom_boom.th
+input jetstream/jetstream.th
+input nesters/nesters.th
+input c_o_w_ent_to_scumring_mainline_1/c_o_w_ent_to_scumring_mainline_1.th
+input c_o_w_ent_to_scumring_mainline_2/c_o_w_ent_to_scumring_mainline_2.th
+input downdraught/downdraught.th
+input helic/helic.th
+input squeezy_bypass/squeezy_bypass.th
+input and_finally/and_finally.th
+input creedence/creedence.th
+input crucible_offset/crucible_offset.th
+input high_noon/high_noon.th
+input bladerunner/bladerunner.th
+#input downdraughtsnowslope/downdraughtsnowslope.th
+input lost_in_translation/lost_in_translation.th
+input cowarchclimb/cowarchclimb.th
+input fally/fally.th
+input snakechimney/snakechimney.th
+input snakechim2entrance/snakechim2entrance.th
+input strapless/strapless.th
+
+input highandmighty/highandmighty.th
+input queenofthesouth/queenofthesouth.th
+input eastern/eastern.th
+input creedencesiderift/creedencesiderift.th
+input crucibleslopes/crucibleslopes.th
+input franksfolly/franksfolly.th
+input tight_ripper/tight_ripper.th
+input tight_ripper2/tight_ripper2.th
+input rampy_mcrampface/rampy_mcrampface.th
+input orange_icing_complete/orange_icing_complete.th
+input jetstream_chandelier/jetstream_chandelier.th
+input ginpalace/ginpalace.th
+input dadsarmy/dadsarmy.th
+input bodiceripper/bodiceripper.th
+input leftovers/leftovers.th
+input hospitalramp/hospitalramp.th
+input quatermass/quatermass.th
+input baba_yaga/baba_yaga.th
+input hall_of_the_three/hall_of_the_three.th
+input crucible_hopper/crucible_hopper.th
+input ibun/ibun.th
+input strobe_pit/strobe_pit.th
+input wind_cave/wind_cave.th
+input clay_hall_2_streamway/clay_hall_2_streamway.th
+
+input eureka_matt/eureka_matt.th
+input clearwater_stream_to_sump_1/clearwater_stream_to_sump_1.th
+input surface_cotw_to_clearwater/surface_cotw_to_clearwater.th
+input smashing/smashing.th
+input af_camp_to_clearwater/af_camp_to_clearwater.th
+input af_leap_in_time/af_leap_in_time.th
+input quatermass2/quatermass2.th
+input quatermass_shaft/quatermass_shaft.th
+input cotw_entrance_redraw/cotw_entrance_redraw.th
+input skylight_pitch/skylight_pitch.th
+input cotw_centreline/cotw_centreline.th
+input cotw_surface_tie_in/cotw_surface_tie_in.th
+input clearwater_centreline/clearwater_centreline.th
+
+input eureka_climb/eureka_climb.th
+input eureka_crawl/eureka_crawl.th
+input eureka_climb_revisited/eureka_climb_revisited.th
+input bloodsweatandfear/bloodsweatandfear.th
+input east_passage/east_passage.th
+input scientific_method/scientific_method.th
+input hypothesis_south/hypothesis_south.th
+input scientific_method_ii/scientific_method_ii.th
+input chinashop/chinashop.th
+
+centerline
+equate 27@snow_slopes 334@armistice_north
+equate 321@armistice_north 321@armistice_south
+equate 372@armistice_south 372@the_big_uee
+equate 383@the_big_uee 01@rampage
+equate 19@rampage 19@alexandra_palace
+equate 15@rampage 15@clearwater_5
+equate 100@armistice_north 100@edwins_long_cut
+equate c27@edwins_long_cut c27@alans_clearwater_5
+equate ta31@edwins_long_cut ta31@clearwater_6_7
+equate cw4@rampage 915@clearwater_cave_fake
+equate 408@far_from_home 408@the_big_uee
+equate 315@the_cairn_farm 315@armistice_north
+equate 6@snaketrack_resurvey 314@clearwater_cave_fake
+equate 27@snow_slopes r9@elevationsurveycheck1
+equate r11@elevationsurveycheck1 r11@elevationsurveycheck2
+equate d1@elevationsurveycheck2 d1@elevationsurveycheck3
+equate m15@elevationsurveycheck3 m15@elevationsurveycheck4
+equate v18@elevationsurveycheck4 v18@elevationsurveycheck5
+equate g3@elevationsurveycheck5 g3@elevationsurveycheck6
+equate r13@elevationsurveycheck6 r13@elevationsurveycheck7
+equate d1@elevationsurveycheck3 504@clearwater_cave_fake
+equate d1@elevationsurveycheck2 504@clearwater_cave_fake
+equate 1@snow_slopes 504@clearwater_cave_fake
+equate r22@elevationsurveycheck7 596@clearwater_cave_fake
+equate r14@elevationsurveycheck7 329@berangs_to_inflation
+
+equate 1@quattro_formaggio 504@clearwater_cave_fake
+equate 44@upskirt_lower 44@upskirt
+equate 106@quattro_formaggio 0@boom_boom
+equate 30@upskirt_lower 30@boom_boom
+equate 111@jetstream 111@upskirt
+equate 51@c_o_w_ent_to_scumring_mainline_2 0a@nesters
+equate 0@c_o_w_ent_to_scumring_mainline_1 0@c_o_w_ent_to_scumring_mainline_2
+equate 22@downdraught 45@upskirt_lower
+equate 5@helic 69@upskirt_lower
+equate 1@squeezy_bypass 43@boom_boom
+equate 9@squeezy_bypass 14@quattro_formaggio
+equate 214@and_finally 214@jetstream
+equate 287@creedence 287@jetstream
+equate 263@crucible_offset 263@jetstream
+equate 286@high_noon 286@jetstream
+equate 15@c_o_w_ent_to_scumring_mainline_1 1@snow_slopes
+equate d1@elevationsurveycheck2 15@c_o_w_ent_to_scumring_mainline_1
+equate 1@quattro_formaggio 15@c_o_w_ent_to_scumring_mainline_1
+equate 0@bladerunner 144@upskirt
+# WHAT IS DOWNDRAUGHSNOWSLOPE
+#equate 100@downdraughtsnowslope 6@downdraught
+#equate 105@downdraughtsnowslope d7@elevationsurveycheck2
+equate 20@snakechimney 3@clearwater_cave_fake
+equate 0@lost_in_translation 63@clearwater_cave_fake
+equate 9@fally 15@clearwater_cave_fake
+equate 16s4@cowarchclimb 15@clearwater_cave_fake
+equate 20@snakechimney 1@snakechim2entrance
+equate 47@snakechim2entrance 0@clearwater_cave_fake #c_o_w_lower_ent
+equate m0@strapless 16@clearwater_cave_fake
+
+equate 26@highandmighty 302@creedence
+equate 257@jetstream 257@queenofthesouth
+equate 7@eastern 6@highandmighty
+equate 0@creedencesiderift 282@jetstream
+equate 15@crucibleslopes 276@jetstream
+equate 0@franksfolly 400@crucible_offset
+equate 254@tight_ripper 254@jetstream
+equate 230@tight_ripper2 251@jetstream
+equate 4@rampy_mcrampface 208@jetstream
+equate 0@orange_icing_complete 185@jetstream
+equate 350@jetstream_chandelier 172@jetstream
+equate 0@ginpalace 183@jetstream
+equate 0@dadsarmy 13@crucibleslopes
+equate 5c@bodiceripper 415@and_finally
+equate 1@leftovers 218@jetstream
+equate 5@hospitalramp 13@snow_slopes
+equate 0@quatermass 8@snow_slopes
+equate 20@baba_yaga 20@crucibleslopes
+equate 10@hall_of_the_three 14@bladerunner
+equate 11@crucible_hopper 276@jetstream
+equate 20@ibun 392@high_noon
+equate 0@strobe_pit 25@highandmighty
+equate 0@clearwater_cave_fake 45@4.wind_cave
+equate 24@4.wind_cave 25@clay_hall_2_streamway
+equate 14@clay_hall_2_streamway 4414@eureka_matt
+equate 71@clearwater_stream_to_sump_1 71@surface_cotw_to_clearwater
+
+equate 12@20.smashing 9930@eureka_matt
+equate 1@af_camp_to_clearwater 50@c_o_w_ent_to_scumring_mainline_2
+equate 52@af_leap_in_time 50@c_o_w_ent_to_scumring_mainline_2
+equate 1@surface_cotw_to_clearwater 0@clearwater_cave_fake
+equate 6@quatermass 1@quatermass2
+equate 8@quatermass 1@quatermass_shaft
+equate 23@eureka_matt 7@eureka_climb
+equate 5535@eureka_matt 1@eureka_crawl
+equate 3@eureka_climb 4@eureka_climb_revisited
+equate 7755@eureka_matt 0@bloodsweatandfear
+
+equate 206@east_passage 482@clearwater_cave_fake
+equate 200@east_passage 1@scientific_method
+equate 100@scientific_method 0@hypothesis_south
+equate 22@scientific_method_ii 22@scientific_method
+equate 418@clearwater_cave_fake 1@chinashop
+equate 0@cotw_surface_tie_in 14@surface_cotw_to_clearwater
+equate 10@cotw_surface_tie_in 1@cotw_entrance_redraw
+equate 3@cotw_centreline 1@cotw_entrance_redraw
+equate 0@skylight_pitch 25@cotw_centreline
+equate 0@cotw_surface_tie_in 14@surface_cotw_to_clearwater
+equate 1@clearwater_centreline 69@surface_cotw_to_clearwater
+
+fix clearwater_cave_fake.0 259115.520 449172.917 28.336
+endcenterline
+
+## Joins
+
+
+## Maps
+# Cave of the Winds
+map cotw_real_m
+  eureka_matt_m@eureka_matt
+  break
+  cotw_entrance_redraw_m@cotw_entrance_redraw
+  snakechimney_m@snakechimney
+endmap
+ 
+join COTWEntranceSP1@cotw_entrance_redraw COTWSP1@clearwater_cave_fake
+join WindCaveRiverSP3@clearwater_cave_fake COTWSP1@clearwater_cave_fake
+
+join ClayHallSP1@clearwater_cave_fake ClayHallSP1@eureka_matt
+
+join quattro_formaggio_s3@quattro_formaggio boom_boom_s1@boom_boom
+join quattro_formaggio_s1@quattro_formaggio boom_boom_s2@boom_boom
+join jetstream_s4@jetstream and_finally_s1@and_finally -count 2
+
+join ArmisticeSouthSP1@armistice_south BigUEESP1@the_big_uee
+join BigUEESP1@the_big_uee RampageSP1@rampage
+join RampageSP1@rampage AlexandraPalaceSP1@alexandra_palace
+
+map COTW_m
+  eureka_matt_m@eureka_matt
+  break
+  cotw_fake_m@clearwater_cave_fake
+  cotw_entrance_redraw_m@cotw_entrance_redraw
+  snakechimney_m@snakechimney
+  endmap
+  
+# Clearwater
+
+map creedence_m
+  highNoonPlan@high_noon
+  jetstreamPlan@jetstream
+  andFinallyPlan@and_finally
+  crucibleOffsetPlan@crucible_offset
+  creedencePlan@creedence
+  quattroFormaggioPlan@quattro_formaggio
+  break
+  upskirt_m@upskirt
+  break
+  upskirtLowerPlan@upskirt_lower
+  helicPlan@helic
+  break
+  boom_boom_m@boom_boom
+endmap
+
+map Clearwater_l1_m
+    eureka_sump_map@eureka_matt
+    cowarchclimb_m@cowarchclimb
+    fally_m@fally
+    snakechimney_m@snakechimney
+    clearwater_fake_l1_m@clearwater_cave_fake
+    clearwater_5_m@clearwater_5
+    alans_clearwater_5_m@alans_clearwater_5
+    clearwater_6_7_m@clearwater_6_7
+    the_cairn_farm_m@the_cairn_farm
+    rampage_m@rampage
+    alexandra_palace_m@alexandra_palace
+    endmap
+    
+map Clearwater_l2_m
+    scientific_method_ii_m@scientific_method_ii
+    scientific_method_m@scientific_method
+    hypothesis_south_m@hypothesis_south
+    chinashop_m@chinashop
+
+    far_from_home_m@far_from_home
+    the_big_uee_m@the_big_uee
+    armistice_north_m@armistice_north
+    armistice_south_m@armistice_south
+    edwins_long_cut_m@edwins_long_cut
+    snow_slopes_m@snow_slopes
+    
+    bloodsweatandfear_m@bloodsweatandfear
+    eureka_main_map@eureka_matt
+    
+    break
+    
+    clay_hall_map@eureka_matt
+
+    cotw_entrance_redraw_m@cotw_entrance_redraw
+    clearwater_fake_l2_m@clearwater_cave_fake
+    lost_in_translation_m@lost_in_translation
+endmap
+
+map Clearwater_l3_m
+    creedence_m
+    nesters_m@nesters
+    eureka_hl_map@eureka_matt
+    clearwater_fake_l3_m@clearwater_cave_fake
+endmap
+
+map Clearwater_l4_m
+    rmaf_m@clearwater_cave_fake
+    cleartop_m@clearwater_cave_fake
+    endmap
+
+map Clearwater_m
+    Clearwater_l4_m
+    break
+    Clearwater_l3_m
+    break
+    Clearwater_l2_m
+    break
+    Clearwater_l1_m
+endmap
+
+endsurvey
+

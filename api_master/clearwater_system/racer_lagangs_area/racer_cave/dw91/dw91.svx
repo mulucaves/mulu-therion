@@ -1,0 +1,38 @@
+*begin dw91
+*export s50
+*units tape feet
+*date 1991.10.20
+*team "dick willis"
+*team "pete smart"
+*data normal from to tape compass clino
+	s50 dw1 8.2 0 -90 ;from south mezzanine.
+	dw1 dw2 56.76 302 -35
+	dw2 dw3 31.82 16 -59
+	dw3 dw4 55.12 34 -38
+	dw4 dw5 50.85 317 -47
+	dw5 dw6 4.27 255 0
+	dw6 dw10 24.61 299 -26
+	dw10 dw11 40.68 236 16
+	dw11 dw12 35.76 192 22
+	dw12 dw13 40.03 250 -46
+	dw13 dw14 13.45 156 -20
+	dw14 dw15 31.82 178 22
+	dw15 dw16 60.04 294 -30
+	dw16 dw17 10.17 317 -42
+	dw17 dw18 32.48 259 -28
+	dw18 dw19 79.4 17 -23
+	dw19 dw20 20.34 83 9
+	dw20 dw21 15.42 119 51
+	dw19 dw19a 26.25 230 -22
+	dw19a dw19b 49.21 349 -46
+	dw18 dw30 23.29 228 5
+	dw30 dw31 7.55 333 28
+	dw31 dw32 34.78 222 4
+	dw32 dw33 24.28 235 6
+	dw33 dw34 30.84 136 25
+	dw34 dw35 8.86 233 -32
+	dw35 dw36 59.38 198 3
+	dw36 dw37 36.42 118 31
+	dw1 dw1a 100.07 82 14
+	dw1a dw1b 39.37 0 -90
+*end dw91

@@ -1,0 +1,17 @@
+encoding  utf-8
+#input clearwater_fossil.th2
+#input upper_series.th2
+#input upper.th2
+input UpperSeries.th2
+
+map clearwater_upper_m
+    HeavensGateSP1
+    break
+    SecretGardenSP1
+    break
+    SecretGardenSP2
+    break
+    DonutSP2
+    break
+    UpperSeriesConnectionSP1
+endmap

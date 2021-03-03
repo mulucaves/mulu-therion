@@ -1,0 +1,26 @@
+*begin link91
+*export s118 s602
+*units tape feet
+*date 1991.08.26
+*team rw
+*team aw
+*team paris
+*team robert
+
+*data normal from to tape compass  clino ignoreall
+s118	s600	98.43	178	-9.5
+s600	s601	49.21	199	-19.5
+s601	s602	37.07	231	-52
+s602	s630	38.39	189	21
+s630	s631	14.76	275.5	61
+s631	s632	98.43	352	-19
+s632	s23	14.76	349.5	0.5
+
+*data passage station left up down right
+s600	8.2	8.2	4.92	6.56
+s601	16.4	19.68	4.92	6.56
+s602	6.56	49.21	4.92	9.84
+s630	32.81	26.25	4.92	49.21
+s631	9.84	13.12	1.64	13.12
+
+*end link91

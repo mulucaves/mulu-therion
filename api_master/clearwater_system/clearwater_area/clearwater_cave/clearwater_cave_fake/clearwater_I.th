@@ -1,0 +1,34 @@
+encoding  utf-8
+input goldwater.th2
+input clearwater_river.th2
+input clearwater_I.th2
+input richards_passage.th2
+
+join goldwater_s1 clearwater_river_s1
+join clearwater_river_s2 ClearwaterOneSP5
+join balcony_s1 clearwater_river_s1
+join richards_passage_s1 clearwater_river_s2
+
+map clearwater_I_m
+    balcony_s1
+    clearwater_river_s4
+    richards_passage_s1
+    break
+    goldwater_s1
+    clearwater_river_s1
+    clearwater_river_s2
+    clearwater_river_s3
+    ClearwaterOneSP5
+endmap
+
+#input clearwater_I.th2
+#join goldwater_s1 ClearwaterOneSP1
+
+#map clearwater_I_m
+#  ClearwaterOneSP4
+#  break
+#  goldwater_s1
+#  ClearwaterOneSP1
+#  ClearwaterOneSP2
+#  ClearwaterOneSP3
+#endmap

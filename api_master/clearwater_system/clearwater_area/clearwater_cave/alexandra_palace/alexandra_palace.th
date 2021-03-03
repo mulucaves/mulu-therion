@@ -1,0 +1,43 @@
+survey alexandra_palace
+ centerline
+title "alexandra palace"
+date 1989.11
+data normal from to tape compass clino ignoreall
+19	164	16.6	105	-12
+164	163	7.9	100	-51
+163	162	7.2	135	-36
+162	161	10	157	-6
+161	160	8.8	207	0
+160	159	11.2	185	0
+159	158	9.7	51	24
+158	157	11.6	49	-12
+157	156	12.7	161	-7
+156	155	18.4	178	32
+155	154	2.8	98	-15
+154	153	2.6	90	-7
+153	152	9.6	39	16
+152	151	6.1	106	14
+151	150	6.3	52	18
+150	39	3.6	24	9
+39	38	6	338	-1
+38	37	7.2	1	-7
+37	35	10.6	357	-33
+35	36	11.2	278	-25
+35	34	21.5	58	39
+34	33	9.3	94	4
+33	32	10.4	74	-10
+32	31	18	98	1
+31	30	15.5	117	17
+30	29	16	167	-5
+29	28	30	177	0
+28	27	8.6	177	-10
+27	26	10	223	-2
+endcenterline
+
+input alexandra_palace.th2
+
+map alexandra_palace_m -projection plan
+    AlexandraPalaceSP1
+    endmap
+
+  endsurvey

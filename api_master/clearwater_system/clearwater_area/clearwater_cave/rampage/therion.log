@@ -1,0 +1,127 @@
+therion 5.4.4+4cb2921 (2020-04-05)
+initialization file: /home/ben/.therion/therion.ini
+reading ... done
+checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... OK
+checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... OK
+configuration file: thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.2.43
+ 2> Copyright © 1990-2020 Olly Betts
+ 3> Survey has no fixed points. Therefore I’ve fixed 1 at (0,0,0)
+ 4> 
+ 5> Survey contains 25 survey stations, joined by 24 legs.
+ 6> There are 0 loops.
+ 7> Total length of survey legs =  638.20m ( 638.20m adjusted)
+ 8> Total plan length of survey legs =  604.50m
+ 9> Total vertical length of survey legs =  151.93m
+10> Vertical range = 96.14m (from 1 at 0.00m to 25 at -96.14m)
+11> North-South range = 341.04m (from 15 at 59.41m to 25 at -281.63m)
+12> East-West range = 248.44m (from 1 at 0.00m to 25 at -248.44m)
+13>    5 1-nodes.
+14>   18 2-nodes.
+15>    1 3-node.
+16>    1 4-node.
+17> 
+######################### transcription ########################
+ 3> 1 : 01@rampage
+ 5> 25 : cw4@rampage -- 24 : 24@rampage
+10> 1 : 01@rampage -- 25 : cw4@rampage
+11> 15 : 15@rampage -- 25 : cw4@rampage
+12> 1 : 01@rampage -- 25 : cw4@rampage
+13> 5 : 05@rampage
+14> 18 : 18@rampage
+15> 1 : 01@rampage
+16> 1 : 01@rampage
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+writing rampage.3d ... done
+writing rampage.lox ...
+processing projection plan ... done
+average distortion: 0.00%
+..
+therion: warning -- rampage_s2@rampage -- multiple scrap outer outlines not supported yet
+. done
+
+
+############### export maps & scraps selection #################
+M   -40.62 rampage_m@rampage (Rampage)
+S   -40.62  rampage_s3@rampage ()
+S   -40.62  rampage_s1@rampage ()
+S   -40.62  rampage_s2@rampage ()
+########## end of export maps & scraps selection ###############
+writing rampage.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 2.000 (TeX Live 2017/Debian) (kpathsea version 6.2.3)  19 APR 2020 22:46
+**data.mp
+(/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
+(/usr/share/texlive/texmf-dist/metapost/base/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010] [4011] [
+4012] [4013] [4014]
+[1] [2] [3] [4] [5] [6] [7] [8] [9] [10] (./mptextmp.mp) [11] )
+ 
+Here is how much of MetaPost's memory you used:
+ 10923 strings using 239973 characters
+ 3385160 bytes of node memory
+ 1664 symbolic tokens
+ 10i,81n,13p,312b,5f stack positions out of 16i,96n,16p,312b,6f
+25 output files written: data.1 .. data.4014
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdfetex 2019.12.12)  19 APR 2020 22:46
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
+(./th_fontdef.tex{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map})
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 61 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 258 strings out of 495042
+ 2661 string characters out of 6159509
+ 27013 words of memory out of 5000000
+ 1853 multiletter control sequences out of 15000+600000
+ 20080 words of font info for 63 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 9i,5n,8p,238b,58s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
+Output written on data.pdf (1 page, 49740 bytes).
+PDF statistics:
+ 62 PDF objects out of 1000 (max. 8388607)
+ 35 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 139 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+compilation time: 1 sec
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+   0.00%    0.12%  rampage_s2@rampage
+   0.00%    0.01%  rampage_s1@rampage
+   0.00%    0.00%  rampage_s3@rampage
+################### end of scrap distortions ###################

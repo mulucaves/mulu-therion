@@ -1,0 +1,5 @@
+source elevationsurveycheck3.th
+
+export model -o elevationsurveycheck3.lox
+export model -o elevationsurveycheck3.3d
+export map -o elevationsurveycheck3.pdf

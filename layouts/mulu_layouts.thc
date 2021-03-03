@@ -1,0 +1,35 @@
+## Mulu Layouts
+
+input layoutstandards.thc        #generic settings to be consistent across all outputs
+input layoutatlaspapersizes.thc  #pre-defined landscape and portrait page setups
+input layoutscales.thc           #pre-defined settings to suit output scales
+input layoutstatisticsreporting.thc
+input common_layout.thc
+
+layout MuluSmall
+    copy common
+    copy LayoutStandard 
+    copy LayoutScale1000 
+    copy LayoutStatisticsNormal
+endlayout
+
+layout MuluMedium
+    copy common
+    copy LayoutStandard 
+    copy LayoutScale5000 
+    copy LayoutStatisticsNormal
+endlayout
+
+layout MuluLarge
+    copy common
+    copy LayoutStandard 
+    copy LayoutScale10000 
+    copy LayoutStatisticsNormal
+endlayout
+
+layout MuluXLarge
+    copy common
+    copy LayoutStandard 
+    copy LayoutScale20000 
+    copy LayoutStatisticsNormal
+endlayout

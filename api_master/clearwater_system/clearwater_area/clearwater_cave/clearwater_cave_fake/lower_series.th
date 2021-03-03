@@ -1,0 +1,19 @@
+encoding  utf-8
+input LowerSeries.th2
+
+join LowerSeriesSP6 LowerSeriesSP5
+join LowerSeriesSP2 LowerSeriesSP5
+join LowerSeriesSP1 LowerSeriesSP2 -count 2
+join LowerSeriesSP2 LowerSeriesSP3 -count 2
+
+map lower_series_m
+  LowerSeriesSP1
+  LowerSeriesSP4
+  LowerSeriesSP6
+  break
+  LowerSeriesSP3
+  LowerSeriesSP5
+  break
+  LowerSeriesSP2
+  endmap
+

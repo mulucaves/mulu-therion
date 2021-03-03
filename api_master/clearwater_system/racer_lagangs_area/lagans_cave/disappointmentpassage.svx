@@ -1,0 +1,73 @@
+*begin disappointmentpassage
+*export 618 41 36 26 31 13
+*title "lagangs first entrance to disappointment passage"
+*date 2014.04.28
+*entrance 41
+; *entrance 20  	;was originally 36 in my survex file but hst l suggests should be 20. is so its wrong side of mian line for entrance as drawn in survey. needs sorting pls1/1/17
+*entrance 26
+*entrance 31
+*team "tony radmall" notes
+*team "dave gough" insts
+*team "hugh st lawrence" target
+;surveying in, looking in
+; inst tony radmall distox
+;both calibrated with pda at hq
+
+
+
+*data normal from to tape compass clino ignoreall
+618	1	10.29	56.9	-2.1
+1	2	6.37	17.9	50
+2	3	1.67	33	15.6
+3	4	3.36	292	21
+4	5	3.5	327	31
+5	6	3.15	24	66
+6	7	2	0	90
+7	8	8.7	320	47.2
+8	9	5.21	46	35
+
+8	10	2.5	348	20
+
+8	11	4.5	330	25
+11	12	12	300	23
+12	13	12.15	310	30
+13	14	17.5	353	6
+14	15	17.4	298	-3
+15	16	12.2	211	0
+16	17	20.7	255	-2
+17	18	4.85	266	6
+18	19	3.6	230	12
+18	20	2.7	31	16.4
+
+19	21	16.8	12	0
+21	22	24.7	329	-3
+22	23	10.7	300	2
+23	24	15.65	207	8.6
+24	25	9.7	257	-16
+25	26	10	230	30	;postulated data, tony, please advise here
+
+25	27	8.61	68	-37
+27	28	2.42	301	-9	;poor loop closure back to 23, but forced to close h st l
+28	29	7.42	290	-17
+29	30	8.3	306	0
+30	31	4.6	291	-7	;31 = entrance
+
+29	33	2.83	99	-10
+33	34	7.2	74	-8
+34	23	8.97	72.3	-1
+
+16	35	7.82	191	23.4	;drawn survey uses 16 not 18 as recorded in my survex file for this psg pls 1/1/17
+35	36	16.73	216	7.5
+
+13	38	28.06	204	1.8
+38	39	20.63	203	-1.5
+39	40	22.7	174	4
+40	41	14.6	196	-11
+40	42	25.83	133	0
+
+
+
+*data passage station left right up down ignoreall
+
+
+*end disappointmentpassage

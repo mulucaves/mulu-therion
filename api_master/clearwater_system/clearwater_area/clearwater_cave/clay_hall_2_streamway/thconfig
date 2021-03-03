@@ -1,0 +1,5 @@
+source clay_hall_2_streamway.th
+
+export model -o clay_hall_2_streamway.3d
+export model -o clay_hall_2_streamway.lox
+export map -o clay_hall_2_streamway.pdf

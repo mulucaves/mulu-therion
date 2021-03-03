@@ -1,0 +1,17 @@
+survey snakechim2entrance
+	centreline
+		date 2014.05.08
+		data normal from to tape compass clino ignoreall
+		1	2	42.037    9.42    2.43	; start of snakechimney
+		2	3	29.732  324.35    5.63
+		3	4	12.844  308.66   11.75
+		4	5	15.172  348.86  -12.43
+		5	6	27.597  307.17   -1.61
+		6	7	35.098  288.02    0.04
+		7	8	10.316  281.21   11.81
+		8	9	25.756  287.89    1.84
+		9	10	40.583  269.46   -1.63
+		10	11	7.223  178.13   12.14
+		11	47	20.06	  1.51	 -6.95	; stn 47 kevin's fixed gps
+	endcentreline
+endsurvey

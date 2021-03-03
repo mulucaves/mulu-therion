@@ -1,0 +1,6 @@
+source drunken_forest_master.th
+
+select drunken_forest_master_m@drunken_forest_master
+
+export model -o drunken_forest_master.3d
+export map -o drunken_forest_master.pdf

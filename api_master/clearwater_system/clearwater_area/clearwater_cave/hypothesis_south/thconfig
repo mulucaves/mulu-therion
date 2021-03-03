@@ -1,0 +1,5 @@
+source hypothesis_south.th
+
+export model -o hypothesis_south.3d
+export model -o hypothesis_south.lox
+export map -o hypothesis_south.pdf

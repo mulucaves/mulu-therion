@@ -1,0 +1,7 @@
+survey sago_palm_master
+input sago_palm_cave.th
+centerline
+fix sago_palm_cave.37 258835 447957 230
+ endcenterline
+
+endsurvey

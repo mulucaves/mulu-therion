@@ -1,0 +1,14 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -128.0 -128.0 5876.031496062991 6978.3937007874
+##XTHERION## xth_me_area_zoom_to 25
+##XTHERION## xth_me_image_insert {3518.622047244094 1 1.0} {2275.984251968504 1.286} High_Noon.th_p.xvi 0 {}
+
+
+
+scrap high_noon_s1 -author 2014 "Dave Clucas" -station-names "" "@high_noon" -copyright 2014 "Mulu Caves Project" -scale [-128.0 -128.0 5876.031496062991 -128.0 0.0 0.0 152.50239999999997 0.0 m]
+
+point 4577.442047244094 2237.754251968504 station -name 1.380
+
+endscrap
+
+

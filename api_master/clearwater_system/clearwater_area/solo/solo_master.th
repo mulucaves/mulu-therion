@@ -1,0 +1,12 @@
+survey solo_master
+input solo.th
+
+map solo_m
+  SoloSP1@solo
+endmap
+
+centerline
+fix 0@solo 0261380 0451788 536
+ endcenterline
+
+endsurvey

@@ -1,0 +1,2 @@
+source racer_lagangs_master.th
+export model -o racer_lagangs_master.3d

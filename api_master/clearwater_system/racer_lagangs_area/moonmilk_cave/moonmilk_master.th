@@ -1,0 +1,7 @@
+survey moonmilk_master
+##export moonmilk_cave.40
+##export moonmilk_cave.51
+input moonmilk_cave.th
+input soup_dragon.th
+equate 37@soup_dragon 40@moonmilk_cave
+endsurvey

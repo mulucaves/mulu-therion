@@ -1,0 +1,5 @@
+source snakechim2entrance.th
+
+export model -o snakechim2entrance.3d
+export model -o snakechim2entrance.lox
+export map -o snakechim2entrance.pdf

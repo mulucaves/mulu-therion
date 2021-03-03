@@ -1,0 +1,125 @@
+*begin racer_master
+*export easter-racer.53
+*export racer_lower14.1
+;data from 1989, original data
+*include entrances.svx
+*include racer89.svx
+
+;data from alan weight's api 90 compass software from dave gill. converted to survex and unpacked in 2014. mb ft
+*include asp2.svx
+*include asp3.svx
+*include asprins.svx
+*include bens2.svx
+*include bens3.svx
+*include bensstu.svx
+*include branchpassage.svx
+*include circ2.svx
+*include circ3.svx
+*include circleline.svx
+*include endofmez.svx
+*include eyeholes.svx
+*include lowerseries.svx
+*include mez3.svx
+*include parisway.svx
+*include passaget.svx
+*include bottomless.svx
+*include mez2.svx
+*include mezzanine.svx
+*include mushroom.svx
+*include themushroom.svx
+*include whymper.svx
+*include toomuchroom.svx
+*include tube1.svx
+*include tubeatba.svx
+*include wilsons.svx
+;*include ms.svx; this is the entrances from 89, entrances.svx
+;*include scd.svx; this is the renamed 89 survey of the main passage racer89.svx
+
+;1991
+*include dw91.svx
+*include link91.svx
+
+;1992 vaughan & lynn thomas
+*include sa.svx
+
+
+;2014 data
+*include easter-racer.svx
+*include racer_lower14.svx	; resurvey 2014 pls
+
+;2017 data
+*include footprints_aven
+*include bens_climb
+*include dgc
+*include connection
+
+;2019 data
+*include boneyardsump
+*include missed
+*include fatsnake
+
+;equates*************************************************************************************************************************
+
+;data from 1989, original data
+*equate entrances.cairn racer89.cairn
+*equate lowerseries.s00 racer89.18
+
+;data from alan weight's api 90 compass software from dave gill. converted to survex and unpacked in 2014. mb ft
+*equate bottomless.s6 mushroom.s6
+*equate whymper.s39 mushroom.s39
+*equate themushroom.s14 mushroom.s14
+*equate mez2.s39 mushroom.s39
+*equate mez3.s112 mez2.s112
+*equate mezzanine.s124 mez3.s124
+*equate whymper.s50 wilsons.s50
+*equate parisway.s211 wilsons.s211
+*equate asp2.s70 whymper.s70
+*equate asp3.s84 asp2.s84
+*equate aspirins.s82 asp2.s82
+*equate toomuchroom.s50 whymper.s50
+*equate passaget.s39 mushroom.s39
+*equate branchpassage.s402 passaget.s402
+*equate bens2.s308 toomuchroom.s308
+*equate bens3.s500 bens2.s500
+*equate bensstu.s502 bens2.s502
+*equate circ2.s404 passaget.s404
+*equate circ2.s39 mushroom.s39
+*equate circ3.s725 circ2.s725
+*equate circleline.s723 circ2.s723
+*equate tube1.s39 mushroom.s39
+*equate tubeatba.s900 tube1.s900
+*equate endofmez.s126 mezzanine.s126
+;*equate lowerseries.s1 mushroom.s1
+*equate mushroom.s8 racer_lower14.56;added
+*equate sa.s93 aspirins.s93
+
+;*equate endofmez.s8 mushroom.s8 ;equating here seems to cause too much distortion
+;*equate scd.s00 lowerseries.s00
+;*equate ms.scd39 scd.scd39
+
+;from 1991
+*equate dw91.s50 whymper.s50
+*equate link91.s118 mez3.s118
+*equate eyeholes.s602 link91.s602
+
+;2014 data
+*equate racer_lower14.56 easter-racer.305a ;top of pitch
+
+;2017 data
+*equate bens_climb.4 footprints_aven.0
+*equate bens_climb.4 racer_lower14.51
+*equate dgc.3 racer_lower14.54
+*equate connection.668 bens_climb.13
+
+;matt equates
+
+*equate racer_lower14.28 racer89.18
+*equate easter-racer.211 wilsons.s209
+
+;2019 data
+*equate racer_lower14.34 boneyardsump.1fake ;fake leg to connect with head to pjs head-to-head survey -franktully
+*equate boneyardsump.3.4 fatsnake.5.13
+*equate missed.3.10 fatsnake.5.10
+*equate missed.1.0 fatsnake.13.4
+
+*end racer_master

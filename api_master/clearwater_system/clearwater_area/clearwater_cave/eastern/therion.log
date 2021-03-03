@@ -1,0 +1,134 @@
+therion 5.4.4+4cb2921 (2020-04-05)
+initialization file: /home/ben/.therion/therion.ini
+reading ... done
+checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... OK
+checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... OK
+configuration file: thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+average loop error: 1.63%
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.2.43
+ 2> Copyright © 1990-2020 Olly Betts
+ 3> Survey has no fixed points. Therefore I’ve fixed 1 at (0,0,0)
+ 4> 
+ 5> Survey contains 547 survey stations, joined by 547 legs.
+ 6> There are 2 loops.
+ 7> Survey has 2 connected components.
+ 8> Total length of survey legs = 1441.49m (1441.37m adjusted)
+ 9> Total plan length of survey legs = 1291.82m
+10> Total vertical length of survey legs =  514.03m
+11> Vertical range = 113.24m (from 11 at 10.48m to 179 at -102.76m)
+12> North-South range = 270.70m (from 4 at 0.37m to 478 at -270.33m)
+13> East-West range = 546.95m (from 222 at 302.08m to 452 at -244.88m)
+14>  454 1-nodes.
+15>    6 5-nodes.
+16>   51 6-nodes.
+17>   20 7-nodes.
+18>    7 8-nodes.
+19>    1 9-node.
+20>    3 11-nodes.
+21>    1 12-node.
+22>    2 13-nodes.
+23>    2 14-nodes.
+24> 
+######################### transcription ########################
+ 3> 1 : 7@eastern
+ 5> 547 : 129d@eastern -- 547 : 129d@eastern
+ 6> 2 : 30@eastern
+ 7> 2 : 30@eastern
+11> 11 : 30e@eastern -- 179 : 59c@eastern
+12> 4 : 7b@eastern -- 478 : 113e@eastern
+13> 222 : 67e@eastern -- 452 : 109g@eastern
+14> 454 : 105g@eastern
+15> 6 : 7d@eastern
+16> 51 : 37d@eastern
+17> 20 : 32c@eastern
+18> 7 : 30a@eastern
+19> 1 : 7@eastern
+20> 3 : 7a@eastern
+21> 1 : 7@eastern
+22> 2 : 30@eastern
+23> 2 : 30@eastern
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+writing eastern.3d ... done
+writing eastern.lox ...
+processing projection plan ... done
+ done
+
+
+############### export maps & scraps selection #################
+S      nan  @ ()
+########## end of export maps & scraps selection ###############
+writing eastern.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 2.000 (TeX Live 2017/Debian) (kpathsea version 6.2.3)  12 APR 2020 13:19
+**data.mp
+(/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
+(/usr/share/texlive/texmf-dist/metapost/base/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010] [4011] [
+4012] [4013] [4014]
+[1] [2] (./mptextmp.mp) [3] )
+ 
+Here is how much of MetaPost's memory you used:
+ 1374 strings using 32072 characters
+ 4099120 bytes of node memory
+ 1657 symbolic tokens
+ 8i,81n,11p,312b,4f stack positions out of 16i,96n,12p,312b,6f
+17 output files written: data.1 .. data.4014
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdfetex 2019.12.12)  12 APR 2020 13:19
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
+(./th_fontdef.tex{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map})
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 50 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 247 strings out of 495042
+ 2540 string characters out of 6159509
+ 521652 words of memory out of 5000000
+ 1842 multiletter control sequences out of 15000+600000
+ 18931 words of font info for 60 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 9i,5n,8p,238b,58s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
+Output written on data.pdf (1 page, 128149 bytes).
+PDF statistics:
+ 36 PDF objects out of 1000 (max. 8388607)
+ 22 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+compilation time: 1 sec
+
+
+######################### loop errors ##########################
+REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
+  1.63%    6.6m  405.9m  32    3.4m    5.2m   -2.3m [32@eastern - 40 - 41 - 42 - 43 - 75 - 76 - 77 - 78 - 79 - 83 - 84 - 85 - 86 - 87 - 88 - 89 - 129 - 128 - 127 - 126 - 125 - 124 - 123 - 122 - 121 - 120 - 37 - 36 - 35 - 34 - 33 - 32]
+##################### end of loop errors #######################

@@ -1,0 +1,9 @@
+input troll.th2
+join troll_s1 troll_s2
+map troll_m -title "Troll"
+  troll_s1
+  break
+  troll_s2
+  break
+  gnome_s1
+endmap

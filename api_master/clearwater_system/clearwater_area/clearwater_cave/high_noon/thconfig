@@ -1,0 +1,5 @@
+source high_noon.th
+
+export model -o high_noon.lox
+export model -o high_noon.3d
+export map -o high_noon.pdf

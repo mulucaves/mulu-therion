@@ -1,0 +1,5 @@
+source dune_compass.th
+
+export model -o dune_compass.3d
+export model -o dune_compass.lox
+export map -o dune_compass.pdf

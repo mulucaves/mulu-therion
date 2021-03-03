@@ -1,0 +1,133 @@
+therion 5.4.4+19919fc (2020-10-19)
+  - using Proj 6.3.1, compiled against 6.3.1
+initialization file: /home/ben/.therion/therion.ini
+reading ... done
+checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... OK
+checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... OK
+configuration file: thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+average loop error: 1.79%
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.2.42
+ 2> Copyright © 1990-2018 Olly Betts
+ 3> Survey has no fixed points. Therefore I’ve fixed 1 at (0,0,0)
+ 4> 
+ 5> Survey contains 65 survey stations, joined by 66 legs.
+ 6> There are 2 loops.
+ 7> Total length of survey legs =    0.00m (   0.00m adjusted)
+ 8> Total plan length of survey legs =    0.00m
+ 9> Total vertical length of survey legs =    0.00m
+10> Vertical range = 65.24m (from 56 at 65.24m to 1 at 0.00m)
+11> North-South range = 208.75m (from 35 at 56.74m to 17 at -152.01m)
+12> East-West range = 615.34m (from 57 at 615.34m to 1 at 0.00m)
+13>   11 1-nodes.
+14>   42 2-nodes.
+15>   11 3-nodes.
+16>    1 4-node.
+17> 
+######################### transcription ########################
+ 3> 1 : 1@racer_lower14
+ 5> 65 : 63@racer_lower14
+ 6> 2 : 2@racer_lower14
+10> 56 : 56@racer_lower14 -- 1 : 1@racer_lower14
+11> 35 : 35@racer_lower14 -- 17 : 17@racer_lower14
+12> 57 : 55@racer_lower14 -- 1 : 1@racer_lower14
+13> 11 : 11@racer_lower14
+14> 42 : 41@racer_lower14
+15> 11 : 11@racer_lower14
+16> 1 : 1@racer_lower14
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+processing projection plan ... done
+average distortion: 11.64%
+
+
+############### export maps & scraps selection #################
+S    32.69  RacerLowerSP3@racer_lower14 ()
+S    27.75  RacerLowerSP2@racer_lower14 ()
+S    13.84  RacerLowerSP1@racer_lower14 ()
+########## end of export maps & scraps selection ###############
+writing racer_lower14.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 2.00 (TeX Live 2019/Debian) (kpathsea version 6.3.1)  21 DEC 2020 16:25
+**data.mp
+(/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
+(/usr/share/texlive/texmf-dist/metapost/base/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010] [4011] [
+4012] [4013] [4014]
+[1]
+[Warning: scrap outline intersects itself in scrap RacerLowerSP1@racer_lower14]
+[2] [3] [4] [5] [6] [7] [8] [9] [10] (./mptextmp.mp) [11] )
+ 
+Here is how much of MetaPost's memory you used:
+ 3577 strings using 81031 characters
+ 3157808 bytes of node memory
+ 1658 symbolic tokens
+ 8i,82n,11p,312b,4f stack positions out of 16i,98n,12p,312b,6f
+25 output files written: data.1 .. data.4014
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdftex 2020.10.6)  21 DEC 2020 16:25
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
+(./th_fontdef.tex{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map})
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 61 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 258 strings out of 495031
+ 2658 string characters out of 6159437
+ 18760 words of memory out of 5000000
+ 1858 multiletter control sequences out of 15000+600000
+ 20080 words of font info for 63 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 9i,5n,8p,238b,58s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
+Output written on data.pdf (1 page, 38211 bytes).
+PDF statistics:
+ 62 PDF objects out of 1000 (max. 8388607)
+ 35 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 139 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+compilation time: 1 sec
+
+
+######################### loop errors ##########################
+REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
+  3.82%    4.0m  105.8m   6   -0.2m    1.0m    3.9m [1@racer_lower14 - 6 - 5 - 4 - 3 - 2 - 1]
+  0.57%    1.3m  221.3m  10   -0.1m   -1.0m    0.8m [28@racer_lower14 - 61 - 60 - 43 - 42 - 41 - 40 - 39 - 30 - 29 - 28]
+##################### end of loop errors #######################
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+  16.93%   81.11%  RacerLowerSP3@racer_lower14
+  12.84%   80.70%  RacerLowerSP2@racer_lower14
+   8.72%   66.96%  RacerLowerSP1@racer_lower14
+################### end of scrap distortions ###################

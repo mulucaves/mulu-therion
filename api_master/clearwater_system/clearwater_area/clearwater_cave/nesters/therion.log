@@ -1,0 +1,143 @@
+therion 5.4.4+4cb2921 (2020-04-05)
+initialization file: /home/ben/.therion/therion.ini
+reading ... done
+checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... OK
+checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... OK
+configuration file: thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+average loop error: 2.29%
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.2.43
+ 2> Copyright © 1990-2020 Olly Betts
+ 3> Survey has no fixed points. Therefore I’ve fixed 1 at (0,0,0)
+ 4> 
+ 5> Survey contains 108 survey stations, joined by 108 legs.
+ 6> There is 1 loop.
+ 7> Total length of survey legs =    0.00m (   0.00m adjusted)
+ 8> Total plan length of survey legs =    0.00m
+ 9> Total vertical length of survey legs =    0.00m
+10> Vertical range = 135.12m (from 79 at 94.22m to 13 at -40.90m)
+11> North-South range = 257.78m (from 7 at 100.11m to 79 at -157.68m)
+12> East-West range = 218.84m (from 69 at 188.18m to 22 at -30.67m)
+13>   22 1-nodes.
+14>   68 2-nodes.
+15>   14 3-nodes.
+16>    4 4-nodes.
+17> 
+######################### transcription ########################
+ 3> 1 : 1@nesters
+ 5> 108 : 99@nesters -- 108 : 99@nesters
+ 6> 1 : 1@nesters
+10> 79 : 71@nesters -- 13 : 0a@nesters
+11> 7 : 7@nesters -- 79 : 71@nesters
+12> 69 : 61@nesters -- 22 : 15@nesters
+13> 22 : 15@nesters
+14> 68 : 60@nesters
+15> 14 : 1a@nesters
+16> 4 : 4@nesters
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+writing nesters.3d ... done
+writing nesters.lox ...
+processing projection plan ... done
+average distortion: 2.38%
+...... done
+
+
+############### export maps & scraps selection #################
+M    41.53 nestersPlan@nesters (Nesters Cave<br>Clearwater<br>Gunung Api<br>Mulu<br>Sarawak)
+S    82.45  nesters_s1@nesters ()
+S    57.43  nesters_s2@nesters ()
+S    48.30  nesters_s3@nesters ()
+S    44.06  nesters_s4@nesters ()
+S    21.19  nesters_s5@nesters ()
+S    -4.26  nesters_s6@nesters ()
+########## end of export maps & scraps selection ###############
+writing nesters.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 2.000 (TeX Live 2017/Debian) (kpathsea version 6.2.3)  12 APR 2020 14:15
+**data.mp
+(/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
+(/usr/share/texlive/texmf-dist/metapost/base/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010] [4011] [
+4012] [4013] [4014]
+[1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11]
+[Warning: scrap outline intersects itself in scrap nesters_s3@nesters] [12]
+[13] [14]
+[Warning: scrap outline intersects itself in scrap nesters_s2@nesters] [15]
+[16] [17] [18] [19] [20] [21] (./mptextmp.mp) [22] )
+ 
+Here is how much of MetaPost's memory you used:
+ 11603 strings using 276569 characters
+ 5629568 bytes of node memory
+ 1661 symbolic tokens
+ 11i,81n,14p,312b,5f stack positions out of 16i,96n,17p,312b,6f
+36 output files written: data.1 .. data.4014
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdfetex 2019.12.12)  12 APR 2020 14:15
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
+(./th_fontdef.tex{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map})
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 76 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 273 strings out of 495042
+ 2813 string characters out of 6159509
+ 286620 words of memory out of 5000000
+ 1868 multiletter control sequences out of 15000+600000
+ 20080 words of font info for 63 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 9i,5n,8p,317b,58s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
+Output written on data.pdf (1 page, 337751 bytes).
+PDF statistics:
+ 89 PDF objects out of 1000 (max. 8388607)
+ 48 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 221 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+compilation time: 2 sec
+
+
+######################### loop errors ##########################
+REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
+  2.29%    7.2m  312.5m  19    0.6m   -7.1m    0.7m [23@nesters - 45 - 44 - 43 - 42 - 41 - 39 - 38 - 37 - 36 - 35 - 33 - 32 - 31 - 30 - 29 - 28 - 27 - 26 - 23]
+##################### end of loop errors #######################
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+  14.00%   73.69%  nesters_s3@nesters
+   2.33%   25.07%  nesters_s1@nesters
+   1.31%   15.63%  nesters_s2@nesters
+   1.14%   14.56%  nesters_s4@nesters
+   0.97%   10.23%  nesters_s5@nesters
+   0.02%    6.36%  nesters_s6@nesters
+################### end of scrap distortions ###################

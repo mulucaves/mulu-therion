@@ -1,0 +1,11 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 319.40m (surface 0.00m, duplicated 0.00m)\nvertical range: 25.80m (from 30@alexandra_palace at 10.92m to 156@alexandra_palace at -14.88m)\nnorth-south range: 77.60m (from 19@alexandra_palace at 0.00m to 26@alexandra_palace at -77.60m)\neast-west range: 133.95m (from 27@alexandra_palace at 133.95m to 19@alexandra_palace at 0.00m)\nnumber of shots: 29\nnumber of stations: 30"
+xth_cp_data_tree_insert 19 1 1 alexandra_palace alexandra_palace "" "" "length: 319.40m (surface 0.00m, duplicated 0.00m)\nvertical range: 25.80m (from 30@alexandra_palace at 10.92m to 156@alexandra_palace at -14.88m)\nnorth-south range: 77.60m (from 19@alexandra_palace at 0.00m to 26@alexandra_palace at -77.60m)\neast-west range: 133.95m (from 27@alexandra_palace at 133.95m to 19@alexandra_palace at 0.00m)\nnumber of shots: 29\nnumber of stations: 30"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_create
+xth_cp_comp_stat 319 1
+set xth(th_exit_state) 1
+set xth(th_exit_number) 1586721139
+

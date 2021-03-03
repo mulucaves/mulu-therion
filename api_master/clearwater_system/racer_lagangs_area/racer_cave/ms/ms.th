@@ -1,0 +1,35 @@
+survey ms
+ centerline
+##export scd39 ss3a
+units tape feet
+date 1989.10.10
+#team "mick meridith"
+#team "simon lagang"
+entrance ss3a
+entrance ms24
+data normal from to tape compass clino
+	scd39 ms5 31.5 315 -2
+	ms5 ms4 13.12 245 -48
+	ms4 ms3 74.15 273 -24
+	ms3 ms2 79.72 327 -21
+	ms2 ss3a 66.27 295 -17
+	scd39 ms8 38.06 70 -4
+	ms8 ms9 40.35 322 -17
+	ms9 ms10 14.76 347 -8
+	ms10 ms11 14.11 67 -2
+	ms11 ms12 24.28 109 21
+	ms12 ms13 13.45 53 -1
+	ms13 ms14 34.45 339 -15
+	ms14 ms15 11.15 56 -1
+	ms15 ms16 34.12 111 19
+	ms16 ms17 44.62 134 12
+	ms17 ms18 38.39 3 -17
+	ms18 ms19 11.81 310 -20
+	ms19 ms20 16.73 293 -20
+	ms20 ms21 38.71 331 -29
+	ms21 ms22 29.86 301 -28
+	ms22 ms23 19.68 325 -20
+	ms23 ms24 41.34 279 -24
+	ms24 ms25 53.81 314 -14
+endcenterline
+  endsurvey

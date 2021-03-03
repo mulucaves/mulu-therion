@@ -1,0 +1,27 @@
+survey elevationsurveycheck6
+	centreline
+		date 2009.2.15
+		data normal from to tape compass clino ignoreall
+		g2	g3	12.71	276	-35 gina's notes to here
+		g3	g4	43.85	279	-25
+		g4	g5	8.3	250	1
+		g5	g6	31.93	212	-10.5
+		g6	g7	15.03	209	11.5
+		g7	g8	40.24	206	3
+		g8	g9	21.98	214	1
+		g9	g10	32.73	259	-24
+		g10	g11	24.02	177	22
+		g11	g12	25.44	198	6.5
+		g12	g13	30.59	211	5.5
+		g13	g14	24.73	226	-12
+		g14	g15	27.52	260	-19
+		g15	g16	18.64	206	12
+		g16	g17	18.88	183	13
+		g17	g18	38.99	212	0
+		g18	g19	21.55	224	-3
+		g19	g20	31.59	216	-0.5
+		g20	g21	58.91	214	0
+		g21	g22	14.52	222	-5
+		g22	r13	12.2	299	-23
+	endcentreline
+endsurvey

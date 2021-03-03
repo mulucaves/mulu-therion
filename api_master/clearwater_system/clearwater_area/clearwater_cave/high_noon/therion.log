@@ -1,0 +1,144 @@
+therion 5.4.4+4cb2921 (2020-04-05)
+initialization file: /home/ben/.therion/therion.ini
+reading ... done
+checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... OK
+checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... OK
+configuration file: thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.2.43
+ 2> Copyright © 1990-2020 Olly Betts
+ 3> Survey has no fixed points. Therefore I’ve fixed 1 at (0,0,0)
+ 4> 
+ 5> Survey contains 130 survey stations, joined by 129 legs.
+ 6> There is 1 loop.
+ 7> Survey has 2 connected components.
+ 8> Total length of survey legs =  135.81m ( 135.81m adjusted)
+ 9> Total plan length of survey legs =  126.45m
+10> Total vertical length of survey legs =   39.05m
+11> Vertical range = 33.22m (from 125 at 25.17m to 46 at -8.05m)
+12> North-South range = 76.65m (from 123 at 56.92m to 49 at -19.73m)
+13> East-West range = 103.86m (from 27 at 53.79m to 107 at -50.07m)
+14>  113 1-nodes.
+15>    1 2-node.
+16>    9 6-nodes.
+17>    3 7-nodes.
+18>    2 10-nodes.
+19>    1 19-node.
+20>    1 29-node.
+21> 
+######################### transcription ########################
+ 3> 1 : 286@high_noon
+ 5> 130 : -@high_noon -- 129 : -@high_noon
+ 6> 1 : 286@high_noon
+ 7> 2 : -@high_noon
+11> 125 : -@high_noon -- 46 : -@high_noon
+12> 123 : -@high_noon -- 49 : -@high_noon
+13> 27 : 380@high_noon -- 107 : -@high_noon
+14> 113 : -@high_noon
+15> 1 : 286@high_noon
+16> 9 : -@high_noon
+17> 3 : -@high_noon
+18> 2 : -@high_noon
+19> 1 : 286@high_noon
+20> 1 : 286@high_noon
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+writing high_noon.lox ...
+processing projection plan ... done
+average distortion: 0.04%
+..... done
+writing high_noon.3d ... done
+
+
+############### export maps & scraps selection #################
+M     7.98 highNoonPlan@ (High Noon, Clearwater Cave)
+S     8.35  surface@ ()
+S    12.05  high_noon_s1@ ()
+S    -0.63  high_noon_s2@ ()
+S     0.27  high_noon_s4@ ()
+S    19.86  high_noon_s3@ ()
+########## end of export maps & scraps selection ###############
+writing high_noon.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 2.000 (TeX Live 2017/Debian) (kpathsea version 6.2.3)  12 APR 2020 13:49
+**data.mp
+(/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
+(/usr/share/texlive/texmf-dist/metapost/base/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010] [4011] [
+4012] [4013] [4014]
+[1]
+[Warning: scrap outline intersects itself in scrap high_noon_s3] [2] [3] [4]
+[5] [6] [7] [8] [9]
+[Warning: text scaled down to fit the path in scrap high_noon_s2] [10] [11]
+[Warning: scrap outline intersects itself in scrap high_noon_s1] [12] [13]
+[Warning: text scaled down to fit the path in scrap high_noon_s1] [14] [15]
+[16] (./mptextmp.mp) [17] )
+ 
+Here is how much of MetaPost's memory you used:
+ 8525 strings using 201539 characters
+ 3311448 bytes of node memory
+ 1662 symbolic tokens
+ 11i,81n,14p,312b,5f stack positions out of 16i,96n,17p,312b,6f
+31 output files written: data.1 .. data.4014
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdfetex 2019.12.12)  12 APR 2020 13:49
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(/usr/share/texlive/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
+(./th_fontdef.tex{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map})
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 68 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 265 strings out of 495042
+ 2734 string characters out of 6159509
+ 46070 words of memory out of 5000000
+ 1860 multiletter control sequences out of 15000+600000
+ 18931 words of font info for 60 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 9i,5n,8p,276b,58s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
+Output written on data.pdf (1 page, 62779 bytes).
+PDF statistics:
+ 74 PDF objects out of 1000 (max. 8388607)
+ 41 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 175 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+compilation time: 0 sec
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+   0.11%    0.87%  high_noon_s3@
+   0.03%    0.45%  high_noon_s1@
+   0.04%    0.14%  high_noon_s2@
+   0.00%    0.00%  surface@
+   0.00%    0.00%  high_noon_s4@
+################### end of scrap distortions ###################

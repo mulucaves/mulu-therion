@@ -1,0 +1,6 @@
+encoding  utf-8
+source far_from_home.th
+
+export model -o far_from_home.3d
+export model -o far_from_home.lox
+export map -o far_from_home.pdf

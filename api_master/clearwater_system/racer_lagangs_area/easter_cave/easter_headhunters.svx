@@ -1,0 +1,64 @@
+
+
+;ft lrw tr  25/4/14 easter cave - head hunters trail
+
+*begin easter_headhunters
+*export 21 517
+*title "easter_headhunters"
+*date 2014.05.05
+*team "roo" notes
+*team "les williams and rambli" ferreting
+*team "les williams" instruments ;1st half
+*team "carl clarke" instruments  ;2nd half
+
+21	501	20.5	135	-45.6
+501	502	28.8	060	-11.3
+502	503	14.5	043	+9.2
+503	504	15.3	059	+17.5
+505	504	22.3	215	-12.8
+*flags splay
+505	506	28.7	338	-8.4
+*flags not splay
+
+505	507	14.3	109	+40
+507	508	3.6	74.4	+12.2
+508	509	16.5	74.4	-35.6
+*flags splay
+509	510	13.1	180	+24.2
+*flags not splay
+
+509	511	13.0	327	-24.3
+511	512	14.3	343	-39.9
+512	513	15.0	014	+30.7
+513	514	7.5	349	+36.2
+514	515	10.8	078	+4.6
+515	516	41.5	359	+35.4
+516	517	17.8	044	-9.3
+
+*flags duplicate
+517	518	55.3	105	+2.1
+*flags not duplicate
+
+*data passage station left right up down ignoreall
+501	15	3.5	12	3
+502	11	1	8	2
+503	7	5	5	7
+504	4	5	3	2
+505	17	18	35	10
+507	29	8	28	21
+508	8	2	8	18
+509	2	16	3	1
+511	9.5	4	9	9
+512	8.5	9	10	7
+513	7	10	3	13
+514	8	7	10	4
+515	10	13	35	7
+516	15	11	9	2
+517	14	8	10	1
+
+
+
+*end easter_headhunters
+
+
+

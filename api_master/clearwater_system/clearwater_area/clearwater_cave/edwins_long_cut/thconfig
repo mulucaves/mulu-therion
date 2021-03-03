@@ -1,0 +1,6 @@
+encoding  utf-8
+source edwins_long_cut.th
+
+export model -o edwins_long_cut.3d
+export model -o edwins_long_cut.lox
+export map -o edwins_long_cut.pdf

@@ -1,0 +1,58 @@
+encoding  utf-8
+survey wind_cave
+
+input wind_cave.th2
+
+centerline
+##export 4.45
+##export 4.24
+title "wind cave river resurvey"
+date 2017.04.16
+#team "david cooke" notes
+#team "andy farrant" instruments + disto
+equate 40@4 0@5
+endcenterline
+survey 4
+ centerline
+##export 45
+##export 40
+##export 24
+24  25  19.88  269.13   -3.05
+25  24  19.92   88.70    3.21
+flags splay
+25  25a  26.43  174.80   51.56
+flags not splay
+25  26  14.04  272.82   -0.06
+26  27  19.07  269.60   -2.72
+27  28  34.77  315.48   -0.60
+28  29  11.83  350.60    0.52
+29  30  19.88  282.66    3.73
+30  31  36.65  297.59    0.16
+31  32  16.07   32.87   -0.25
+32  33  19.80  352.60   -1.79
+33  34  19.24  350.78    3.92
+34  35  30.46  307.30   -0.58
+35  36  12.60   11.96   -0.33
+36  37  17.64  300.64    7.14
+37  38  15.82  357.50   -5.71
+38  39   7.47  314.09   -7.19
+39  40  29.05  310.32    1.03
+40  41  44.62  281.42   -0.19
+41  42  25.74  286.46    1.09
+42  43  21.80  272.64    1.48
+44  43  16.56  171.14    3.22
+44  45   6.01  128.54    0.84
+data dimensions station left right up down
+25  16.34   0.00  20.70   0.00
+endcenterline
+  endsurvey
+survey 5
+ centerline
+##export 0
+0  1  31.65   10.92   47.79
+2  1  20.48  254.24  -27.06
+endcenterline
+
+  endsurvey
+endsurvey
+

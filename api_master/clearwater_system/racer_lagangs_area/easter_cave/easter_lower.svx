@@ -1,0 +1,78 @@
+;ft lrw cc  24/4/14 easter cave - lower series
+
+*begin easter_lower
+*export 1 ; tie back up hole to easter main survey
+*export 12 ; hole in floor to lower easter
+*export 35 ; link back to cairn in island chamber, survey is now connected to easter_re-survey.svx
+
+*title "easter_lower"
+*date 2014.04.24
+*team "frank tully" notes
+*team "les williams" instruments
+*team "carl clarke" ;feret
+
+*flags duplicate
+37	1	5.64	054	-13.1
+*flags not duplicate
+1	2	2.47	37.0	-29.2
+2	3	9.56	36.2	-41.7
+3	4	5.22	157.6	-52.7
+4	5	14.03	038.4	-30.1
+5	6	14.67	051.5	19.3
+6	7	10.6	098.4	35.7
+7	8	11.41	095.5	21.6
+8	9	24.95	055.6	19.2
+9	10	27.2	092.8	13.3
+10	11	13.24	134.9	10.2
+11	12	25.88	139.0	-06.5
+*flags duplicate
+12	13	2.3	043.2	27.8 ; leg is duplicated now part of easter_re-survey.svx
+*flags not duplicate
+
+;14	13	18.1	220	52.3	;duplicate legs
+;14	15	20.93	144.8	-38.2	;duplicate legs
+;*flags splay ;the splays have been moved to easter_lower_3 and commented out here. ft 6/5/14
+;15	16	23.88	249.5	05.2
+;15	17	35.76	218.4	-13.1
+;15	18	17.74	192.9	-30.2
+;*flags not splay
+
+;*flags duplicate	;legs are duplicatd in easter_lower_3
+;15	19	22.71	199.4	-19.6	;duplicate legs
+;19	20	22.62	201.5	-29.9	;duplicate legs
+;20	21	25.97	161.2	1.3	;duplicate legs
+;*flags not duplicate
+;35	13	12.06	305.9	-12.6	tie in now to 34
+
+;fjt 12/4/17 the following survey les are commented out because the connection is now to easter_re-survey.svx
+;following clarification of where easter survey stations are now tied in at station 13 to 34 confirmed pls
+;survey legs to pls fixed station
+;*flags duplicate
+;12	30	10.02	164.7	14.1
+;30	31	37.57	204.6	2.1
+;31	32	22.48	221.2	-2.5
+;32	33	25.45	235.1	-11.3
+;33	34	16.92	327.8	-4.3
+;34	35	19.90	253.1	-15
+;*flags not duplicate
+
+
+*data passage station left right up down ignoreall
+5	7.6	10.2	5.4	2	rd stal on floor of chamber
+6	4.6	11.8	4.8	2	rd stall sticking out from wall
+7	0	6.7	0.7	1.1	rd on wall
+8	3.4	7.1	1.8	1.3	rd on pendant
+9	6.1	8.3	3.2	9.1	rd on cairn with station number
+10	12	2.3	1	1
+11	4.6	2.5	0.7	2	rd stall column
+12	0	2.5	3.5	0.2	rd on existing cairn in floor of trench
+13	0	0	4	0	cairn on ledge of mud wall
+;14	11.73	3	21	3	cairn in depression above drop	;duplicate station
+;15	34	22.6	10.9	1	rd on bedrock of chamber	;duplicate station
+;19	2	17.5	25	4	rd on boulder on rib		;duplicate station
+
+
+*end easter_lower
+
+
+

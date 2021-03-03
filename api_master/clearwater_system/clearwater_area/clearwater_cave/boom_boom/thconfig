@@ -1,0 +1,6 @@
+source boom_boom.th
+
+export model -o boom_boom.lox
+export model -o boom_boom.3d
+
+export map -o boom_boom.pdf

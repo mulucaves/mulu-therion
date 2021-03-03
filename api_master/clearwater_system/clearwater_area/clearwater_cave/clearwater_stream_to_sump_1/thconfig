@@ -1,0 +1,5 @@
+source clearwater_stream_to_sump_1.th
+
+export model -o clearwater_stream_to_sump_1.3d
+export model -o clearwater_stream_to_sump_1.lox
+export map -o clearwater_stream_to_sump_1.pdf

@@ -1,0 +1,5 @@
+source bodiceripper.th
+
+export model -o bodiceripper.3d
+export model -o bodiceripper.lox
+export map -o bodiceripper.pdf

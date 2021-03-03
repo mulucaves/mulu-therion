@@ -1,0 +1,40 @@
+*cs utm50n
+*cs out utm50n
+
+*include racer_area_surface/racer_area_surface_master.svx
+*include lagans_cave/lagans_master.svx
+*include racer_cave/racer_master.svx
+*include easter_cave/easter_master.svx
+*include surprisingly_obvious_cave/surprisingly_obvious_master.svx
+*include consolation_cave/consolation_master.svx
+*include sago_palm_cave/sago_palm_master.svx
+*include ipois_cave/ipois_master.svx
+*include moonmilk_cave/moonmilk_master.svx
+
+;lagans entrances
+;*racer_area_surface_master.equate helipad_to_lagangs.79 lagangs_master.lagans_main_cave.60	; lagans fast lane entrance
+*equate racer_area_surface_master.helipad_to_lagangs.79 lagangs_master.showcave2017.3	; lagans fast lane entrance ;fjt 16/4/17 was connected to fastlane.6_0
+;*equate racer_area_surface_master.helipad_to_lagangs.99 lagangs_master.lagans_main_cave.40	; lagans main entrance
+
+;easter cave entrance
+*equate racer_area_surface_master.eastersurface.34 easter_master.easter.0 	; easter main entrance
+
+;racer cave entrance
+*equate racer_area_surface_master.surface_racertocowpete.0 racer_master.racer_lower14.1 	; simon/racer entrance
+
+;moonmilk cave
+*equate racer_area_surface_master.racertotjunction.40 moonmilk_master.moonmilk_cave.40
+*equate racer_area_surface_master.racertotjunction.51 moonmilk_master.moonmilk_cave.51
+
+;surprisingly obvious cave
+*equate racer_area_surface_master.surprisingly_obvious_totjunction.0 surprisingly_obvious_master.surprisingly_obvious_cave.0 ; surface survey from cave to lagans track junction nb finger point not ground may be a high tie point cf that used in original 21012 survey
+
+;consolation cave
+*equate racer_area_surface_master.helipad_to_lagangs.55 consolation_master.consolation_cave.39 ; surface survey from cave to lagans track junction nb finger point not ground may be a high tie point cf that used in original 21012 survey
+
+
+
+
+
+
+

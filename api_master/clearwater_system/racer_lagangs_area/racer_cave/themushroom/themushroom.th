@@ -1,0 +1,16 @@
+survey themushroom
+ centerline
+##export s14
+units tape feet
+date 1990.08.22
+#team ajb notes
+#team njt instruments
+#team sl tape
+data normal from to tape compass  clino ignoreall
+s14	s15	91.54	77	-2.5
+s15	s16	44.62	98	-32.5
+s16	s17	42.65	51	-8.5
+data dimensions station left up down right
+s14	13.12	49.21	6.56	6.56
+endcenterline
+  endsurvey

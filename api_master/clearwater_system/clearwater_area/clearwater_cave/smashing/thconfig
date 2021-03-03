@@ -1,0 +1,5 @@
+source smashing.th
+
+export model -o smashing.3d
+export model -o smashing.lox
+export map -o smashing.pdf

@@ -1,0 +1,6 @@
+encoding  utf-8
+source snakechimney.th
+
+export model -o snakechimney.3d
+export model -o snakechimney.lox
+export map -o snakechimney.pdf

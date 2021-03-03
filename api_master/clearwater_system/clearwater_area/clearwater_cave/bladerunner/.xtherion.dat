@@ -1,0 +1,13 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 804.30m (surface 0.00m, duplicated 0.00m)\nvertical range: 101.44m (from 42@bladerunner at 38.55m to 45@bladerunner at -62.89m)\nnorth-south range: 369.30m (from 14@bladerunner at 182.20m to 42@bladerunner at -187.10m)\neast-west range: 152.80m (from 21@bladerunner at 10.33m to 38@bladerunner at -142.47m)\nnumber of shots: 125\nnumber of stations: 126"
+xth_cp_data_tree_insert 25 1 1 bladerunner bladerunner "" "" "length: 804.30m (surface 0.00m, duplicated 0.00m)\nvertical range: 101.44m (from 42@bladerunner at 38.55m to 45@bladerunner at -62.89m)\nnorth-south range: 369.30m (from 14@bladerunner at 182.20m to 42@bladerunner at -187.10m)\neast-west range: 152.80m (from 21@bladerunner at 10.33m to 38@bladerunner at -142.47m)\nnumber of shots: 125\nnumber of stations: 126"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 none {} {} {}
+xth_cp_map_tree_insert projection 0 p3 {} 0 elevation {} {} {}
+xth_cp_map_tree_create
+xth_cp_comp_stat 804 7
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1432498844
+

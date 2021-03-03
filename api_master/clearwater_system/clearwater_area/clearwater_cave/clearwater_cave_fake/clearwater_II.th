@@ -1,0 +1,8 @@
+input clearwater_II.th2
+map clearwater_II_m -title "Clearwater II"
+ clearwater_II_s1
+ break
+ clearwater_II_s4
+ clearwater_II_s2
+ clearwater_II_s3
+endmap

@@ -1,0 +1,12 @@
+survey nilongs_master
+input nilongs_cave_fake.th
+
+map nilongs_m
+ NilongsSP1@nilongs_cave_fake
+endmap
+
+centerline
+    fix 845@nilongs_cave_fake 261013.37 449896.07 390
+endcenterline
+
+endsurvey

@@ -1,0 +1,181 @@
+encoding  utf-8
+map clearwaterPlan -title "Clearwater Cave"
+  highLevelPlan  [800 -400 m] above
+  break
+  nestersPlan  [-600 -1000 m] above
+  break
+  upperSeriesPlan  [-600 -1000 m] above
+  break
+  volcanoPlan
+  rampagePlan
+  farFromHomePlan
+  revivalPlan
+  armisticePlan
+  trollPlan
+  dunePlan
+  edwinsLongCutPlan
+  snakeTrackPlan
+  ronniesDelightPlan
+  cleartopPlan
+  cairnFarmPlan
+  break
+  anotherStoreyPlan
+  inflationPlan
+  break
+  snowSlopesPlan
+  break
+  clearwaterRiverPlan
+  goldwaterPlan
+endmap
+
+map highLevelPlan
+  highNoonPlan
+  jetstreamPlan
+  andFinallyPlan
+  crucibleOffsetPlan
+  creedencePlan
+  quattroFormaggioPlan
+  break
+  upskirtPlan
+  break
+  upskirtLowerPlan
+  helicPlan
+  break
+  boom_boomPlan
+endmap
+
+map clearwaterRiverPlan -title "Clearwater River"
+  alans_clearwater_5_s1
+  clearwater_6_s1
+  clearwater_6_s2
+  break
+  clearwater_river_s1
+  clearwater_river_s2
+  clearwater_II_s2
+  clearwater_II_s3
+  clearwater_II_s4
+  clearwater_III_s1
+  clearwater_III_s2
+  clearwater_5_s1
+  clearwater_7_s1
+endmap
+
+map anotherStoreyPlan -title "Another Storey"
+  clearwater_II_s1  #Another Storey
+endmap
+
+map inflationPlan -title "Inflation"
+  clearwater_II_s5  #Inflation
+endmap
+
+map goldwaterPlan -title "Goldwater"
+  goldwater_s1
+endmap
+
+map cairnFarmPlan -title "The Cairn Farm<br>Clearwater Cave"
+  cairn_farm_s3
+  break
+  cairn_farm_s1
+  break
+  cairn_farm_s2
+endmap
+
+map armisticePlan -title "Armistice"
+  armistice_s1
+  break
+  armistice_s2
+  armistice_s3
+  armistice_s4
+endmap
+
+map cleartopPlan -title "Cleartop Cave"
+  cleartop_s1
+endmap
+
+map revivalPlan
+  revival_s1
+  break
+  revival_s3
+  revival_s4
+  break
+  revival_s2
+endmap
+
+map ronniesDelightPlan
+  ronnies_delight_s1
+endmap
+
+map upperSeriesPlan -title "Upper Series"
+  upper_series_s8
+  upper_series_s7
+  break
+  upper_series_s1
+  break
+  upper_series_s2
+  break
+  upper_series_s4
+  break
+  upper_series_s3
+  break
+  upper_series_s6
+  break
+  upper_series_s5
+  break
+  upper_series_s9
+  break
+  upper_series_s12
+  break
+  upper_series_s11
+endmap
+
+map snakeTrackPlan
+  snake_track_s1
+  snake_track_s2
+endmap
+
+map dunePlan
+  dune_s1
+  dune_s2
+  greatwall_s1
+  greatwall_s2
+endmap
+
+map edwinsLongCutPlan -title "Edwin's Long Cut"
+  edwins_long_cut_s1
+  edwins_long_cut_s2
+  edwins_long_cut_s3
+  edwins_long_cut_s4
+endmap
+
+map rampagePlan
+  rampage_s1
+  break
+  rampage_s2
+  rampage_s3
+endmap
+
+map trollPlan
+  troll_s1
+  troll_s2
+  troll_s3
+  gnome_s1
+endmap
+
+map volcanoPlan
+  rmaf_s1
+  volcano_s2
+  break
+  volcano_s1
+  volcano_s3
+endmap
+
+map snowSlopesPlan
+  snow_slopes_s1
+  break
+  snow_slopes_s2
+endmap
+
+map farFromHomePlan
+  far_from_home_s1
+endmap
+

@@ -1,0 +1,48 @@
+encoding  utf-8
+######################################## Input  ################################################
+
+source qf.th
+input /Users/daveclucas/Documents/caving/surveys/common_layout.th
+input /Users/daveclucas/Documents/caving/surveys/therionLayouts/layoutscales.thc
+
+######################################## Layouts  ################################################
+
+layout layout
+  copy common
+  map-header 0 0 off
+  rotate 60
+  symbol-show group cave-centreline
+ code metapost
+  fonts_setup(4,8,10,12,16); 
+ endcode
+endlayout
+layout images
+  map-image 0 100 sw ../output/componentElevations/qf_ext.pdf
+  map-header 100 0 se
+endlayout
+layout xviScale
+	scale 1 200
+endlayout
+layout debug
+ symbol-show point cave-station
+ symbol-show group cave-centreline
+# debug scrap-names
+ debug station-names
+ colour map-fg altitude
+endlayout
+
+######################################## Output  ################################################
+
+export model -o ../output/componentModels/qf.lox
+export model -o ../output/componentModels/qf.3d
+#export model -o ..output/componentModels/qf.kml	#requires a fixed station in survey
+#export map -o ../output/componentModels/qf.kml	#requires a fixed station in survey
+
+export map -o ../output/componentModels/qf.xvi -layout xviScale
+export map -o ../output/componentModels/qf_e300.xvi -layout xviScale -proj [elevation 300]
+
+#export map -o ../output/componentElevations/qf_ext.pdf -proj extended -layout layout -layout LayoutScale1000 -layout debug
+#select qfPlan
+export map -o ../output/componentPlans/qf.pdf -layout layout -layout LayoutScale1000 #subtype unsurveyed-layout images -layout debug
+
+#################################################################################################

@@ -1,0 +1,16 @@
+*begin asp3
+*export s84
+*units tape feet
+*date 1990.08.25
+*team ajb notes
+*team rah instruments
+*team sl tape
+*data normal from to tape compass  clino ignoreall
+s84	s87	35.43	260	9.5
+s87	s88	39.04	240	-8.5
+s88	s89	54.13	225	2.5
+*data passage station left up down right
+s87	4	1	1	1
+s88	3	8	1.5	5
+s89	0.5	5	2	0.5
+*end asp3

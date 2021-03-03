@@ -1,0 +1,5 @@
+source hospitalramp.th
+
+export model -o hospitalramp.3d
+export model -o hospitalramp.lox
+export map -o hospitalramp.pdf

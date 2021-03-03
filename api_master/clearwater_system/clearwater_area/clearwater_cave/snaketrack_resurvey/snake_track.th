@@ -1,0 +1,6 @@
+#import ../../Api_Master.3d
+input snake_track.th2
+map snake_track_m
+  snake_s1
+  snake_s2
+endmap

@@ -1,0 +1,5 @@
+source helic.th
+
+export model -o helic.lox
+export model -o helic.3d
+export map -o helic.pdf

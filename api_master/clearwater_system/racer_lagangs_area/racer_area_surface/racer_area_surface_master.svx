@@ -1,0 +1,69 @@
+*begin racer_area_surface_master
+
+*export helipad_to_lagangs.55
+*export helipad_to_lagangs.79
+*export surface_racertocowpete.0
+*export eastersurface.34
+*export racertotjunction.40
+*export racertotjunction.51
+*export surprisingly_obvious_totjunction.0
+
+
+;*include surface_survey_hq_helipad_to_lagans.svx
+*include helipad_to_lagangs.svx
+*include racertotjunction.svx
+*include eastersurface.svx
+*include surface_racertocowpete.svx
+*include surprisingly_obvious_totjunction.svx
+;*include cowtoracer_surface.svx
+;*include surface_c_o_w_upper_to_lower
+
+
+;*equate surface_survey_hq_helipad_to_lagans.0 hq_helipad_kd
+*equate helipad_to_lagangs.0 hq_helipad_kd
+
+;*equate surface_survey_hq_helipad_to_lagans.76 helipad_to_lagangs.55; lagans track junctn
+;*equate surface_survey_hq_helipad_to_lagans.98 helipad_to_lagangs.71; fast lane junctn
+;*equate surface_survey_hq_helipad_to_lagans.200 helipad_to_lagangs.79; fast lane entrance lagans
+
+
+*equate racertotjunction.82 helipad_to_lagangs.55; lagans track juctn
+;*equate racertotjunction.0 surface_survey_hq_helipad_to_lagans.165 ; racer entrance
+;*equate racertotjunction.51 surface_survey_hq_helipad_to_lagans.132; s entrance moonmilk
+;*equate racertotjunction.40 surface_survey_hq_helipad_to_lagans.144; n entrance moonmilk
+;*equate surface_survey_hq_helipad_to_lagans.144 eastersurface.42 ; n entrance to moonmilk
+
+*equate racertotjunction.0 surface_racertocowpete.0 ; datum at racer entrance
+*equate surprisingly_obvious_totjunction.26 helipad_to_lagangs.55
+*equate racertotjunction.30 eastersurface.0 ; start of easter track
+;*equate racertotjunction.40 eastersurface.42 ; n entrance to moonmilk
+;*equate surface_survey_hq_helipad_to_lagans.152 eastersurface.0; start of easter track
+
+;*equate cowtoracer_surface.500 surface_racertocowpete.36 ; end of moose survey line in cow upper entrance
+;*equate cowtoracer_surface.541 surface_racertocowpete.0 ; datum at racer entrance
+*equate surface_racertocowpete.47 c_o_w_lower_ent
+
+;*equate surface_c_o_w_upper_to_lower.0 surface_racertocowpete.36
+
+
+*fix helipad_to_lagangs.99 258626 447660 33.3 ; fix for lagans main entrance based on 2014 surface survey. use only one of these 2 fixes!
+;*fix helipad_to_lagangs.99 258618 447667 32.8 ; fix for lagans main entrance based on 2012 and 2014  surface surveys tied at all junctions
+*fix helipad_to_lagangs.79 258431 447988 39.8 ; fix for fast lane entrance based on 2014 surface survey.use only one of these 2 fixes!
+;*fix helipad_to_lagangs.79 258419 447996 39.7 ; fix for fast lane entrance based on 2012 and 2014  surface surveys tied at all junctions.
+
+*fix eastersurface.34 258905 448591 128.0 ; fix for easter entrance based on easter surface survey and elevation of racer datum and gps position of helipad and cowlower
+*fix surface_racertocowpete.0 258807 448770 27.9 ; fix for easter entrance based on easter surface survey and elevation of racer datum and gps position of helipad and cowlower
+
+
+*fix hq_helipad_kd 0257218.28 447151.22 23.94 	;k dixon gps 2011
+*fix c_o_w_lower_ent 259115.520 449172.917 28.336 	;k dixon gps 2011
+
+;*fix easter_gps 258911 448608 102	;	pls with aje gps 62 (altitude relative to racer beach).
+;*fix moonmilkwest 258571 448476 90	;	mb with aje gps62 09.05.2014
+;*fix moonmilkeast 258662 448539 90	;	mb with aje gps62 09.05.2014
+;*fix t-junction 258178 448369 24	;	mb with aje gps62 09.05.2014
+;*fix racerent 258813 448769 25	;	mb with aje gps62 09.05.2014
+
+;*fix sago_palm_cave.37 258835 447957 230; pls andys gps 29-4-14
+
+*end racer_area_surface_master

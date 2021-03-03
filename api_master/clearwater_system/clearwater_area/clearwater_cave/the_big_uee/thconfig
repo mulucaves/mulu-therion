@@ -1,0 +1,5 @@
+source the_big_uee.th
+
+export model -o the_big_uee.3d
+export model -o the_big_uee.lox
+export map -o the_big_uee.pdf

@@ -1,0 +1,8 @@
+
+input clearwater_III.th2
+join  clearwater_III_s1 clearwater_III_s2
+
+map clearwater_III_m -title "Clearwater III"
+ clearwater_III_s1
+ clearwater_III_s2
+endmap

@@ -1,0 +1,8 @@
+therion 5.4.1 (2017-04-18)
+initialization file: /etc/therion.ini
+reading ... done
+checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... OK
+checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... OK
+configuration file: therion.log
+reading ... done
+therion: error -- source files not specified

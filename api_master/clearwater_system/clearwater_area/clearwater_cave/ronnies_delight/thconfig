@@ -1,0 +1,7 @@
+encoding  utf-8
+source ronnies_delight.th
+layout layout
+  scale 1 1500
+endlayout
+
+export map -o ../output/componentPlans/ronnies_delight.pdf -layout layout

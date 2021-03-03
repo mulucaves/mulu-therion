@@ -1,0 +1,5 @@
+source cotw_surface_tie_in.th
+
+export model -o cotw_surface_tie_in.3d
+export model -o cotw_surface_tie_in.lox
+export map -o cotw_surface_tie_in.pdf

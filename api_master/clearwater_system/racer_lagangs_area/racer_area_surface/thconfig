@@ -1,0 +1,2 @@
+source racer_area_surface_master.th
+export model -o racer_area_surface_master.3d

@@ -1,0 +1,14 @@
+survey circleline
+ centerline
+##export s723
+units tape feet
+date 1990.9.8
+#team rw
+#team njt
+data normal from to tape compass  clino ignoreall
+s723	s723a	82.02	229	-51
+data dimensions station left up down right
+s723	5	2	2	2
+s723a	1	0.3	0.3	1
+endcenterline
+  endsurvey

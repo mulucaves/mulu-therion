@@ -1,0 +1,7 @@
+survey ipois_master
+input ipois_cave.th
+centerline
+fix ipois_cave.23 259477 447834 58
+ endcenterline
+
+endsurvey

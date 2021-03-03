@@ -1,0 +1,5 @@
+source chinashop.th
+
+export model -o chinashop.3d
+export model -o chinashop.lox
+export map -o chinashop.pdf

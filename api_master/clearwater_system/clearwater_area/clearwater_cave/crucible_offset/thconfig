@@ -1,0 +1,5 @@
+source crucible_offset.th
+
+export model -o crucible_offset.lox
+export model -o crucible_offset.3d
+export map -o crucibl_offset.pdf

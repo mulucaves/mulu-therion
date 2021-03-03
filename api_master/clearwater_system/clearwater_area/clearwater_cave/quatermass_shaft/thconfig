@@ -1,0 +1,5 @@
+source quatermass_shaft.th
+
+export model -o quatermass_shaft.3d
+export model -o quatermass_shaft.lox
+export map -o quatermass_shaft.pdf

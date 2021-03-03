@@ -1,0 +1,5 @@
+source ibun.th
+
+export model -o ibun.3d
+export model -o ibun.lox
+export map -o ibun.pdf

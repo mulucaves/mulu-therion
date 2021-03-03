@@ -1,0 +1,10 @@
+encoding  utf-8
+source armistice.th
+layout layout
+  rotate 60
+  scale 1 1000
+  scale-bar 200 metres
+endlayout
+select armistice_north
+
+export map -o ../output/componentModels/armistice.xvi -layout layout

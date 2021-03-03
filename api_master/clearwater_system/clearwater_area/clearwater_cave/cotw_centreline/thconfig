@@ -1,0 +1,5 @@
+source cotw_centreline.th
+
+export model -o cotw_centreline.3d
+export model -o cotw_centreline.lox
+export map -o cotw_centreline.pdf

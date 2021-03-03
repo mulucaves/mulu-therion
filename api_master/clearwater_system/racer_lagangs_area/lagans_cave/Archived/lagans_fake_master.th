@@ -1,0 +1,5 @@
+input lagans.th
+centerline
+fix lagans.1 0258571 0447829 43
+ endcenterline
+

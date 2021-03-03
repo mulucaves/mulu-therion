@@ -1,0 +1,18 @@
+survey creedencesiderift
+ centerline
+##export 0
+title "creedencesiderift"
+date 2017.04.13
+data normal from to tape compass clino ignoreall
+0	1	18.35	265	-3
+1	2	20.67	324.5	-2
+3	1	11.03	241	11
+3	4	10.09	030	-32
+data dimensions station left right up down
+0	19.9	5.1	7.9	1.5
+1	1.6	4.4	8.9	2.5
+2	0	1.6	19.9	2.0
+3	2.3	1.7	3.2	1.5
+4	7	2	15	2
+endcenterline
+  endsurvey

@@ -1,0 +1,4 @@
+source nilongs_master.th
+
+export map -o nilongs_master.pdf
+export model -o nilongs_master.3d

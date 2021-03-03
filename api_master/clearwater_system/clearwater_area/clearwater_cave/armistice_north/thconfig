@@ -1,0 +1,8 @@
+encoding  utf-8
+source armistice_north.th
+
+input ../layoutscales.thc
+
+export model -o armistice_north.3d
+export model -o armistice_north.lox
+export map -o armistice_north.pdf -layout LayoutScale1000

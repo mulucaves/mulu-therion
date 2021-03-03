@@ -1,0 +1,65 @@
+*begin easter_master
+*export easter.0
+
+;added 2014
+*include easter.svx
+*include canyon_climb.svx
+*include easter_canyon
+
+*include easter_headhunters.svx
+*include easter_headhunters_contd.svx
+
+*include easter_lower.svx
+*include easter_lower_se.svx;  removed as data suspect, centreline needs rechecking - lw 1/5/14
+*include easter_lower_three.svx
+*include easter_lower_four.svx
+*include easter_lower_five.svx
+
+;added 2017
+*include canyon_the_sequel.svx
+*include stinky_pete.svx
+*include easter_re-survey
+*include easter_canyon_north
+*include easter_canyon_north2
+
+; include 2019
+*include roadtonowhere.svx
+*include easter_pass_go.svx
+
+;equates**************************************************************************
+*equate easter_lower_three.13 easter_re-survey.20
+*equate easter_lower.12 easter_re-survey.21
+*equate easter_lower.1 easter_re-survey.34
+
+*equate easter_lower.35 easter.25 ; added as test of closure in island chamber by pls
+*equate easter_lower_three.stal easter.34 ; tie point into easter = 3 broken stal as cairn at edge of sediment pit
+
+
+*equate easter_lower_three.20 easter_lower_se.20  ; removed as data suspect, centreline needs rechecking - lw 1/5/14 was this done???;*equate easter.34 easter_lower_three.stal ; originally listed as 34 but is in fact 35 pls
+;*equate easter_lower_three.13 easter_lower.13     ; link between lower and lower 3 surveys in hole in seds
+*equate easter_lower_three.21 easter_headhunters.21
+*equate easter_headhunters.517 easter_headhunters_contd.517
+*equate easter_lower_three.114 easter_lower_four.114
+*equate easter_lower_three.119 easter_lower_five.119
+
+*equate easter_re-survey.3 canyon_climb.26  ;fjt canyon_climb.26 was connected easter.26
+*equate canyon_climb.304 easter_canyon.304
+
+;*equate easter.61a easter.221 ; temporary test for loop closure start of mezzanine
+
+;2017
+*equate easter.23 easter_re-survey.30  ;this is the main tie in of the new easter upper survey
+
+*equate canyon_the_sequel.25 easter_re-survey.6  ; fjt was *equate easter.34 canyon_the_sequel.0
+*equate canyon_the_sequel.5 easter_re-survey.4   ; fjt resurvey
+*equate stinky_pete.3310 easter_re-survey.6  ;fjt was canyon_the_sequel.25, actually the same point.
+*equate stinky_pete.0 easter_canyon_north.16
+*equate stinky_pete.5 easter_canyon_north2.48
+
+;2019
+*equate roadtonowhere.15 easter_lower_four.148
+*equate easter_lower_three.114 easter_pass_go.0
+
+;*equate easter_gps easter.0
+;*fix easter_gps 258911 448608 102	; to fix easter master to get total length
+*end easter_master

@@ -1,0 +1,21 @@
+survey elevationsurveycheck3
+	centreline
+		date 2009.2.15
+		data normal from to tape compass clino ignoreall
+		#matt and richard scumring to revival
+		d1	m2	24.14	285	-1
+		m2	m3	35.64	255	0
+		m3	m4	45.99	257	5
+		m4	m5	23.2	255	-19
+		m5	m6	28.99	209	-3.5
+		m6	m7	17.67	279	19.5
+		m7	m8	10.54	302	22
+		m8	m9	27.51	248	-6.5
+		m9	m10	44.83	272	-30.5
+		m10	m11	17.96	346	-45
+		m11	m12	16.29	262	-18
+		m12	m13	43.63	259.5	-29
+		m13	m14	29.51	249	-20
+		m14	m15	39.64	174	-1
+	endcentreline
+endsurvey

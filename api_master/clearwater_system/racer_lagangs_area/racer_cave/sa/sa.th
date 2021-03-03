@@ -1,0 +1,27 @@
+survey sa
+ centerline
+##export s93
+units tape feet
+date 1992.09.18
+#team "v thomas"
+#team "lyn thomas"
+data normal from to tape compass  clino ignoreall
+	s93	sa300    76.12   302.00     7.00
+	sa300   sa301    28.22   250.00   -12.00
+	sa301	sa302	31.5	300	9
+	sa302	sa303	31.5	195	-27
+	sa302	sa304	28.54	312	30
+	sa304	sa305	57.09	314	0
+	sa305	sa306	48.23	6	5
+	sa306	sa307	39.7	32	5
+data dimensions station left up down right
+	s93	19.68	49.21	0	16.4
+	sa300	13.12	16.4	3.28	9.84
+	sa301	1.64	4.92	3.28	3.28
+	sa302	3.28	9.84	4.92	13.12
+	sa304	6.56	8.2	1.64	13.12
+	sa305	16.4	3.28	3.28	13.12
+	sa306	3.28	13.12	3.28	9.84
+	sa307	4.92	14.76	4.92	3.28
+endcenterline
+  endsurvey

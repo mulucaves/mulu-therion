@@ -1,0 +1,6 @@
+encoding  utf-8
+source c_o_w_ent_to_scumring_mainline_2.th
+
+export model -o c_o_w_ent_to_scumring_mainline_2.lox
+export model -o c_o_w_ent_to_scumring_mainline_2.3d
+export map -o c_o_w_ent_to_scumring_mainline_2.pdf

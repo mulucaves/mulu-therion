@@ -1,0 +1,2 @@
+source easter_master.th
+export model -o easter_master.3d
