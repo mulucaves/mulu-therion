@@ -4,13 +4,12 @@ survey entrances
 ##export cairn
 title "racer cave entrance"
 data normal from to tape compass clino ignoreall
-cairn	5	9.6	315	-2
+6	5	9.6	315	-2
 5	4	4	245	-48
 4	3	22.6	273	-24
 3	2	24.3	327	-21
 2	1	20.2	295	-17
-entrance 1
-cairn	8	11.6	70	-4
+6	8	11.6	70	-4
 8	9	12.3	322	-17
 9	10	4.5	347	-8
 10	11	4.3	67	-2
@@ -28,6 +27,6 @@ cairn	8	11.6	70	-4
 22	23	6	325	-20
 23	24	12.6	279	-24
 24	25	16.4	314	-14
-entrance 25
+entrance 1 25
 endcenterline
   endsurvey

@@ -1,8 +1,7 @@
-encoding  utf-8
+input ../../../../../layouts/mulu_layouts.thc
+
 source berangs_to_inflation.th
 
-input ../layoutscales.thc
-
-export model -o berangs_to_inflation.lox
 export model -o berangs_to_inflation.3d
-export map -o berangs_to_inflation.pdf -layout LayoutScale1000
+export model -o berangs_to_inflation.lox
+export map -o berangs_to_inflation.pdf -layout MuluSmall

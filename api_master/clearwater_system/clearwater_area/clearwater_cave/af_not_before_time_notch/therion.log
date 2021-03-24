@@ -1,4 +1,5 @@
-therion 5.4.4+4cb2921 (2020-04-05)
+therion 5.4.4+19919fc (2020-10-19)
+  - using Proj 6.3.1, compiled against 6.3.1
 initialization file: /home/ben/.therion/therion.ini
 reading ... done
 checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... OK

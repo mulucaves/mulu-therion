@@ -1,3 +1,7 @@
+input ../../../../../layouts/mulu_layouts.thc
+
 source af_not_before_time_notch.th
 
 export model -o af_not_before_time_notch.3d
+export model -o af_not_before_time_notch.lox
+export map -o af_not_before_time_notch.pdf -layout MuluSmall

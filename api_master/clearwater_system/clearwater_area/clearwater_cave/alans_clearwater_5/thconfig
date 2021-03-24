@@ -1,4 +1,7 @@
+input ../../../../../layouts/mulu_layouts.thc
+
 source alans_clearwater_5.th
 
 export model -o alans_clearwater_5.3d
-export map -o alans_clearwater_5.pdf
+export model -o alans_clearwater_5.lox
+export map -o alans_clearwater_5.pdf -layout MuluSmall

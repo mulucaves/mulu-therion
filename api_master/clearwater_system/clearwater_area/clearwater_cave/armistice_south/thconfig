@@ -1,6 +1,8 @@
 encoding  utf-8
 source armistice_south.th
 
+input ../../../../../layouts/mulu_layouts.thc
+
 export model -o armistice_south.3d
 export model -o armistice_south.lox
-export map -o armistice_south.pdf
+export map -o armistice_south.pdf -layout MuluSmall

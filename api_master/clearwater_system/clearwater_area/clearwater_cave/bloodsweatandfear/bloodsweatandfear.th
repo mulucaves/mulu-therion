@@ -1,5 +1,6 @@
 survey bloodsweatandfear
 
+input bloodsweatandfear.th2
 map bloodsweatandfear_m
     bsfSP1
     bsfSP2
@@ -46,7 +47,4 @@ data dimensions station left right up down
 15	 0.22	 1.18	 0.18	 0.56
 16	 0.65	 0.48	 0.43	 0.28
 endcenterline
-
-input bloodsweatandfear.th2
-
-  endsurvey
+endsurvey

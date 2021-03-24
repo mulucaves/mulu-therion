@@ -1,2 +1,8 @@
+encoding  utf-8
+input ../../../layouts/mulu_layouts.thc
+
 source racer_lagangs_master.th
+
 export model -o racer_lagangs_master.3d
+export model -o racer_lagangs_master.lox
+export map -o racer_lagangs_master.pdf -layout MuluLarge

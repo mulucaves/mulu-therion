@@ -1,9 +1,4 @@
 encoding  utf-8
-#input layoutstandards.thc        #generic settings to be consistent across all outputs
-#input layoutatlaspapersizes.thc  #pre-defined landscape and portrait page setups
-#input layoutscales.thc           #pre-defined settings to suit output scales
-#input layoutstatisticsreporting.thc
-#input common_layout.thc
 input ../../../../layouts/mulu_layouts.thc
 
 source clearwater_master.th
@@ -19,4 +14,4 @@ select Clearwater_l1_m@clearwater_master
 
 export model -o clearwater_master.3d
 export model -o clearwater_master.lox
-export map -o clearwater_master.pdf -layout common -layout LayoutStandard -layout LayoutScale5000 -layout LayoutStatisticsNormal
+export map -o clearwater_master.pdf -layout MuluMedium

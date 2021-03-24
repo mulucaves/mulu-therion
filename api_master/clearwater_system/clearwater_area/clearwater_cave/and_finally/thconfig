@@ -1,5 +1,8 @@
+input ../../../../../layouts/mulu_layouts.thc
+
 source and_finally.th
 
 export model -o and_finally.3d
-export map -o and_finally.pdf
+export model -o and_finally.lox
+export map -o and_finally.pdf -layout MuluSmall
 

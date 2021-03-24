@@ -9,3 +9,7 @@ select clearwater_small_caves_m
 export model -o clearwater_area_master.3d
 export model -o clearwater_area_master.lox
 export map -o clearwater_area_master.pdf -layout MuluLarge
+export database -output clearwater_area.sql
+export database -output clearwater_area.csv
+export cave-list -output clearwater_area-cave.html
+export survey-list -output clearwater_area-survey.html

@@ -1,0 +1,8 @@
+encoding  utf-8
+input ../../../../../layouts/mulu_layouts.thc
+
+source entrances.th
+
+export model -o entrances.3d
+export model -o entrances.lox
+export map -o entrances.pdf -layout MuluSmall

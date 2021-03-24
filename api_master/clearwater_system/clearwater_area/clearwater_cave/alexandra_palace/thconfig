@@ -1,6 +1,7 @@
-encoding  utf-8
+input ../../../../../layouts/mulu_layouts.thc
+
 source alexandra_palace.th
 
 export model -o alexandra_palace.3d
 export model -o alexandra_palace.lox
-export map -o alexandra_palace.pdf
+export map -o alexandra_palace.pdf -layout MuluSmall
