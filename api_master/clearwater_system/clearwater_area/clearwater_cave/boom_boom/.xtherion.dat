@@ -1,14 +1,13 @@
 set xth(ctrl,cp,datlist) {}
-xth_cp_data_tree_insert 1 {} 0   "" "" "length: 667.92m (surface 0.00m, duplicated 0.00m)\nvertical range: 87.78m (from 30@boom_boom at 81.70m to 88@boom_boom at -6.08m)\nnorth-south range: 229.38m (from 0@boom_boom at 0.00m to 21@boom_boom at -229.38m)\neast-west range: 141.06m (from 28@boom_boom at 97.13m to 43@boom_boom at -43.92m)\nnumber of shots: 93\nnumber of stations: 94"
-xth_cp_data_tree_insert 25 1 1 boom_boom boom_boom "" "" "length: 667.92m (surface 0.00m, duplicated 0.00m)\nvertical range: 87.78m (from 30@boom_boom at 81.70m to 88@boom_boom at -6.08m)\nnorth-south range: 229.38m (from 0@boom_boom at 0.00m to 21@boom_boom at -229.38m)\neast-west range: 141.06m (from 28@boom_boom at 97.13m to 43@boom_boom at -43.92m)\nnumber of shots: 93\nnumber of stations: 94"
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 667.92m (surface 0.00m, duplicated 0.00m)\nvertical range: 87.78m (from 30@boom_boom at 81.70m to 88@boom_boom at -6.08m)\nnorth-south range: 229.38m (from 0@boom_boom at 0.00m to 21@boom_boom at -229.38m)\neast-west range: 141.05m (from 28@boom_boom at 97.13m to 43@boom_boom at -43.92m)\nnumber of shots: 93\nnumber of stations: 94"
+xth_cp_data_tree_insert 19 1 1 boom_boom boom_boom "" "" "length: 667.92m (surface 0.00m, duplicated 0.00m)\nvertical range: 87.78m (from 30@boom_boom at 81.70m to 88@boom_boom at -6.08m)\nnorth-south range: 229.38m (from 0@boom_boom at 0.00m to 21@boom_boom at -229.38m)\neast-west range: 141.05m (from 28@boom_boom at 97.13m to 43@boom_boom at -43.92m)\nnumber of shots: 93\nnumber of stations: 94"
 xth_cp_data_tree_create
 set xth(ctrl,cp,maplist) {}
 xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
 xth_cp_map_tree_insert projection 0 p2 {} 0 none {} {} {}
-xth_cp_map_tree_insert projection 0 p3 {} 0 elevation {} {} {}
-xth_cp_map_tree_insert map 1 204X1 p1 1 boom_boomPlan boom_boomPlan "" ""
+xth_cp_map_tree_insert map 1 200X1 p1 1 boom_boom_m boom_boom_m@boom_boom "" ""
 xth_cp_map_tree_create
 xth_cp_comp_stat 668 9
 set xth(th_exit_state) 2
-set xth(th_exit_number) 1428613469
+set xth(th_exit_number) 1616671140
 

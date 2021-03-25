@@ -1,3 +1,4 @@
+encoding  utf-8
 source boom_boom.th
 
 export model -o boom_boom.lox

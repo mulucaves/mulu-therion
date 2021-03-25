@@ -1,11 +1,12 @@
 set xth(ctrl,cp,datlist) {}
 xth_cp_data_tree_insert 1 {} 0   "" "" "length: 1365.60m (surface 0.00m, duplicated 0.00m)\nvertical range: 103.98m (from 138@armistice_south at 63.00m to 360a@armistice_south at -40.98m)\nnorth-south range: 463.49m (from 321@armistice_south at 0.00m to 372@armistice_south at -463.49m)\neast-west range: 327.06m (from 138@armistice_south at 116.81m to 704@armistice_south at -210.25m)\nnumber of shots: 57\nnumber of stations: 58"
-xth_cp_data_tree_insert 19 1 1 armistice_south armistice_south "" "" "length: 1365.60m (surface 0.00m, duplicated 0.00m)\nvertical range: 103.98m (from 138@armistice_south at 63.00m to 360a@armistice_south at -40.98m)\nnorth-south range: 463.49m (from 321@armistice_south at 0.00m to 372@armistice_south at -463.49m)\neast-west range: 327.06m (from 138@armistice_south at 116.81m to 704@armistice_south at -210.25m)\nnumber of shots: 57\nnumber of stations: 58"
+xth_cp_data_tree_insert 64 1 1 armistice_south armistice_south "" "" "length: 1365.60m (surface 0.00m, duplicated 0.00m)\nvertical range: 103.98m (from 138@armistice_south at 63.00m to 360a@armistice_south at -40.98m)\nnorth-south range: 463.49m (from 321@armistice_south at 0.00m to 372@armistice_south at -463.49m)\neast-west range: 327.06m (from 138@armistice_south at 116.81m to 704@armistice_south at -210.25m)\nnumber of shots: 57\nnumber of stations: 58"
 xth_cp_data_tree_create
 set xth(ctrl,cp,maplist) {}
 xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert map 1 66X1 p1 1 armistice_south_m armistice_south_m@armistice_south "" ""
 xth_cp_map_tree_create
 xth_cp_comp_stat 1366 2
 set xth(th_exit_state) 1
-set xth(th_exit_number) 1586730757
+set xth(th_exit_number) 1616671266
 
