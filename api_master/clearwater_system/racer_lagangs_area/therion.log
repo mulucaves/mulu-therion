@@ -1,10 +1,8 @@
-therion 5.4.4+19919fc (2020-10-19)
-  - using Proj 6.3.1, compiled against 6.3.1
-initialization file: /home/ben/.therion/therion.ini
+therion 5.4.4 (2019-05-01)
+initialization file: C:\Users\reavis\AppData\Local\Therion/therion.ini
 reading ... done
-checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... OK
-checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... OK
 configuration file: thconfig
 reading ... done
 reading source files ... 
-therion: error -- lagans_cave/lagans_entrance.th [7] -- not enough data readings
+C:\Users\reavis\AppData\Local\Therion\therion.exe: error -- lagans_cave/lagans_entrance.th [7] -- not enough data readings
+writing xtherion file ... done
