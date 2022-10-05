@@ -1,5 +1,7 @@
+input ../../../../../layouts/mulu_layouts.thc
+
 source bloodsweatandfear.th
 
 export model -o bloodsweatandfear.3d
 export model -o bloodsweatandfear.lox
-export map -o bloodsweatandfear.pdf
+export map -o bloodsweatandfear.pdf -layout MuluSmall

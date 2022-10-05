@@ -1,3 +1,4 @@
+encoding  utf-8
 source dadsarmy.th
 
 export model -o dadsarmy.3d

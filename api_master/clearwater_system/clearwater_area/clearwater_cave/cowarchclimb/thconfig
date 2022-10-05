@@ -1,10 +1,7 @@
-encoding  utf-8
-######################################## Input  ################################################
+input ../../../../../layouts/mulu_layouts.thc
 
 source cowarchclimb.th
 
-export model -o cowarchclimb.lox
 export model -o cowarchclimb.3d
-export map -o cowarchclimb.pdf
-
-#################################################################################################
+export model -o cowarchclimb.lox
+export map -o cowarchclimb.pdf -layout MuluSmall

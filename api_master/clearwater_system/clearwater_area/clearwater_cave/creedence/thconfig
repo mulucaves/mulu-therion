@@ -1,7 +1,9 @@
+input ../../../../../layouts/mulu_layouts.thc
+
 source creedence.th
 
-export model -o creedence.lox
-export model -o creedence.3d
-
 select creedencePlan
-export map -o creedence.pdf
+
+export model -o creedence.3d
+export model -o creedence.lox
+export map -o creedence.pdf -layout MuluSmall

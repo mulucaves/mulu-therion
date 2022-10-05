@@ -1,8 +1,9 @@
-encoding  utf-8
+input ../../../../../layouts/mulu_layouts.thc
 
 source bladerunner.th
 
-export model -o bladerunner.lox
 export model -o bladerunner.3d
-export map -o bladerunner.pdf
+export model -o bladerunner.lox
+export map -o bladerunner.pdf -layout MuluSmall
+
 

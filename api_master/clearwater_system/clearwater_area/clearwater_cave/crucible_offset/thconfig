@@ -1,5 +1,7 @@
+input ../../../../../layouts/mulu_layouts.thc
+
 source crucible_offset.th
 
-export model -o crucible_offset.lox
 export model -o crucible_offset.3d
-export map -o crucibl_offset.pdf
+export model -o crucible_offset.lox
+export map -o crucible_offset.pdf -layout MuluSmall

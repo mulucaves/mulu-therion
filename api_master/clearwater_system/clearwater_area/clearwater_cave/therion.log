@@ -1,6 +1,5 @@
-therion 5.4.4+19919fc (2020-10-19)
-  - using Proj 6.3.1, compiled against 6.3.1
-initialization file: /home/ben/.therion/therion.ini
+therion 5.4.4 (2019-05-01)
+initialization file: /etc/therion.ini
 reading ... done
 checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... OK
 checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... OK
@@ -16,17 +15,17 @@ processing survey data ...
 ####################### cavern log file ########################
  1> Survex 1.2.42
  2> Copyright © 1990-2018 Olly Betts
- 3> /tmp/th249548/data.svx:10442: warning: Unused fixed point “8961”
+ 3> /tmp/th184829/data.svx:9036: warning: Unused fixed point “8961”
  4> 
  5> Survey contains 8961 survey stations, joined by 9109 legs.
  6> There are 151 loops.
  7> Survey has 3 connected components.
- 8> Total length of survey legs = 92909.04m (92879.90m adjusted)
- 9> Total plan length of survey legs = 87693.20m
-10> Total vertical length of survey legs = 18981.26m
+ 8> Total length of survey legs = 154565.06m (154528.99m adjusted)
+ 9> Total plan length of survey legs = 137711.43m
+10> Total vertical length of survey legs = 43631.55m
 11> Vertical range = 521.59m (from 4984 at 537.20m to 4792 at 15.61m)
 12> North-South range = 4186.99m (from 873 at 452933.15m to 6889 at 448746.15m)
-13> East-West range = 3423.86m (from 5275 at 262583.16m to 6655 at 259159.30m)
+13> East-West range = 3429.86m (from 5275 at 262583.16m to 7648 at 259153.29m)
 14>    1 0-node.
 15> 5317 1-nodes.
 16> 2428 2-nodes.
@@ -66,14 +65,14 @@ processing survey data ...
 50> There were 1 warning(s).
 51> 
 ######################### transcription ########################
- 3> input:10442 -- clearwater_master.th [208]
+ 3> input:9036 -- clearwater_master.th [208]
  3> 8961 : clearwater_cave_fake.0@clearwater_master
  5> 8961 : clearwater_cave_fake.0@clearwater_master
  6> 151 : 123@armistice_north.clearwater_master
  7> 3 : 3@snow_slopes.clearwater_master
 11> 4984 : 22c@highandmighty.clearwater_master -- 4792 : 16s3@cowarchclimb.clearwater_master
 12> 873 : 443@clearwater_cave_fake.clearwater_master -- 6889 : 108@eureka_matt.clearwater_master
-13> 5275 : 67e@eastern.clearwater_master -- 6655 : 44@4.wind_cave.clearwater_master
+13> 5275 : 67e@eastern.clearwater_master -- 7648 : 4@surface_cotw_to_clearwater.clearwater_master
 14> 1 : 1@snow_slopes.clearwater_master
 15> 5317 : 78b@eastern.clearwater_master
 16> 2428 : 186@jetstream.clearwater_master
@@ -194,243 +193,17 @@ therion: warning -- ClayHallSP1@eureka_matt.clearwater_master -- invalid scrap o
 .therion: warning -- SciMethodIISP2@scientific_method_ii.clearwater_master -- multiple scrap outer outlines not supported yet
 ....therion: warning -- ChinaShopSP1@chinashop.clearwater_master -- multiple scrap outer outlines not supported yet
 . done
-
-
-############### export maps & scraps selection #################
-M      nan Clearwater_l1_m@clearwater_master ()
-M      nan eureka_sump_map@eureka_matt.clearwater_master ()
-S    39.97  EurekaSumpSP1@eureka_matt.clearwater_master ()
-S    22.14  EurekaSumpSP2@eureka_matt.clearwater_master ()
-M      nan cowarchclimb_m@cowarchclimb.clearwater_master ()
-S      nan  CowArchClimbSP1@cowarchclimb.clearwater_master ()
-M      nan fally_m@fally.clearwater_master ()
-S    44.86  FallySP1@fally.clearwater_master ()
-M      nan snakechimney_m@snakechimney.clearwater_master ()
-S    20.01  SnakeChimneySP1@snakechimney.clearwater_master ()
-S    47.86  SnakeChimneySP2@snakechimney.clearwater_master ()
-M      nan lower_series_m@clearwater_cave_fake.clearwater_master ()
-S   134.08  LowerSeriesSP1@clearwater_cave_fake.clearwater_master ()
-S   117.80  LowerSeriesSP4@clearwater_cave_fake.clearwater_master ()
-S   123.29  LowerSeriesSP6@clearwater_cave_fake.clearwater_master ()
-S    73.43  LowerSeriesSP3@clearwater_cave_fake.clearwater_master ()
-S    92.50  LowerSeriesSP5@clearwater_cave_fake.clearwater_master ()
-S    81.21  LowerSeriesSP2@clearwater_cave_fake.clearwater_master ()
-M      nan clearwater_III_m@clearwater_cave_fake.clearwater_master (Clearwater III)
-S    34.25  clearwater_III_s1@clearwater_cave_fake.clearwater_master ()
-S    34.25  clearwater_III_s2@clearwater_cave_fake.clearwater_master ()
-M      nan clearwater_II_m@clearwater_cave_fake.clearwater_master (Clearwater II)
-S    74.56  clearwater_II_s1@clearwater_cave_fake.clearwater_master ()
-S    30.30  clearwater_II_s4@clearwater_cave_fake.clearwater_master ()
-S    31.13  clearwater_II_s2@clearwater_cave_fake.clearwater_master ()
-S    67.43  clearwater_II_s3@clearwater_cave_fake.clearwater_master ()
-M      nan clearwater_I_m@clearwater_cave_fake.clearwater_master ()
-S    44.96  balcony_s1@clearwater_cave_fake.clearwater_master ()
-S    22.41  clearwater_river_s4@clearwater_cave_fake.clearwater_master ()
-S    53.66  richards_passage_s1@clearwater_cave_fake.clearwater_master ()
-S    21.64  goldwater_s1@clearwater_cave_fake.clearwater_master ()
-S    27.40  clearwater_river_s1@clearwater_cave_fake.clearwater_master ()
-S    22.28  clearwater_river_s2@clearwater_cave_fake.clearwater_master ()
-S    66.11  clearwater_river_s3@clearwater_cave_fake.clearwater_master ()
-S    24.41  ClearwaterOneSP5@clearwater_cave_fake.clearwater_master ()
-M      nan cotw_fake_river_m@clearwater_cave_fake.clearwater_master ()
-S    17.58  ClayHallSP3@clearwater_cave_fake.clearwater_master ()
-S    16.41  WindCaveRiverSP1@clearwater_cave_fake.clearwater_master ()
-S    17.33  WindCaveRiverSP2@clearwater_cave_fake.clearwater_master ()
-S    18.31  WindCaveRiverSP3@clearwater_cave_fake.clearwater_master ()
-M      nan clearwater_5_m@clearwater_5.clearwater_master ()
-S    52.60  clearwater_5_s1@clearwater_5.clearwater_master ()
-M      nan alans_clearwater_5_m@alans_clearwater_5.clearwater_master ()
-S    64.82  alans_clearwater_5_s1@alans_clearwater_5.clearwater_master ()
-M      nan clearwater_6_7_m@clearwater_6_7.clearwater_master ()
-S    74.49  clearwater_7_s1@clearwater_6_7.clearwater_master ()
-S    71.58  clearwater_6_s1@clearwater_6_7.clearwater_master ()
-S    66.64  clearwater_6_s2@clearwater_6_7.clearwater_master ()
-M      nan the_cairn_farm_m@the_cairn_farm.clearwater_master ()
-S   185.42  cairn_farm_s1@the_cairn_farm.clearwater_master ()
-S   175.76  cairn_farm_s2@the_cairn_farm.clearwater_master ()
-S   196.72  cairn_farm_s3@the_cairn_farm.clearwater_master ()
-M      nan rampage_m@rampage.clearwater_master (Rampage)
-S    73.71  RampageSP1@rampage.clearwater_master ()
-M      nan alexandra_palace_m@alexandra_palace.clearwater_master ()
-S    67.61  AlexandraPalaceSP1@alexandra_palace.clearwater_master ()
-M      nan Clearwater_l2_m@clearwater_master ()
-M      nan scientific_method_ii_m@scientific_method_ii.clearwater_master ()
-S    38.24  SciMethodIISP2@scientific_method_ii.clearwater_master ()
-S    44.26  SciMethodIISP1@scientific_method_ii.clearwater_master ()
-M      nan scientific_method_m@scientific_method.clearwater_master ()
-S    53.23  EastInletSP1@scientific_method.clearwater_master ()
-S    40.04  ScientificMethodSP1@scientific_method.clearwater_master ()
-S    45.17  HypothesisNorthSP1@scientific_method.clearwater_master ()
-M      nan hypothesis_south_m@hypothesis_south.clearwater_master ()
-S    45.93  HypothesisSP1@hypothesis_south.clearwater_master ()
-M      nan chinashop_m@chinashop.clearwater_master ()
-S   104.56  ChinaShopSP1@chinashop.clearwater_master ()
-S   145.47  ChinaShopSP2@chinashop.clearwater_master ()
-M      nan far_from_home_m@far_from_home.clearwater_master ()
-S   182.17  far_from_home_s1@far_from_home.clearwater_master ()
-M      nan the_big_uee_m@the_big_uee.clearwater_master ()
-S   181.25  BigUEESP1@the_big_uee.clearwater_master ()
-S   187.33  BigUEESP2@the_big_uee.clearwater_master ()
-M      nan armistice_north_m@armistice_north.clearwater_master ()
-S   266.57  armistice_s1@armistice_north.clearwater_master ()
-S   243.79  armistice_s2@armistice_north.clearwater_master ()
-S   215.10  armistice_s3@armistice_north.clearwater_master ()
-S   185.60  armistice_s4@armistice_north.clearwater_master ()
-M      nan armistice_south_m@armistice_south.clearwater_master ()
-S   241.29  ArmisticeSouthSP1@armistice_south.clearwater_master ()
-S   233.12  ArmisticeSouth1SP1@armistice_south.clearwater_master ()
-M      nan edwins_long_cut_m@edwins_long_cut.clearwater_master (Edwins Long Cut)
-S   137.67  edwins_long_cut_s4@edwins_long_cut.clearwater_master ()
-S   109.94  edwins_long_cut_s1@edwins_long_cut.clearwater_master ()
-S   115.51  edwins_long_cut_s2@edwins_long_cut.clearwater_master ()
-S   137.67  edwins_long_cut_s3@edwins_long_cut.clearwater_master ()
-M      nan snow_slopes_m@snow_slopes.clearwater_master (Snow Slopes)
-S   192.61  snow_slopes_s1@snow_slopes.clearwater_master ()
-S   187.53  snow_slopes_s2@snow_slopes.clearwater_master ()
-M      nan bloodsweatandfear_m@bloodsweatandfear.clearwater_master ()
-S    77.79  bsfSP1@bloodsweatandfear.clearwater_master ()
-S    73.94  bsfSP2@bloodsweatandfear.clearwater_master ()
-S    80.35  bsfSP3@bloodsweatandfear.clearwater_master ()
-M      nan eureka_main_map@eureka_matt.clearwater_master (Eureka Main Passage)
-S    83.61  EurekaNorthSP1@eureka_matt.clearwater_master ()
-S    66.65  EurekaSP2@eureka_matt.clearwater_master ()
-S    59.93  EurekaSP1@eureka_matt.clearwater_master ()
-S    72.13  EurekaSP3@eureka_matt.clearwater_master ()
-S    60.41  EurekaSouthStrikeSP1@eureka_matt.clearwater_master ()
-S    69.68  EurekaSouthStrikeSP2@eureka_matt.clearwater_master ()
-S    58.12  EurekaSouthStrikeSP3@eureka_matt.clearwater_master ()
-M      nan clay_hall_map@eureka_matt.clearwater_master (Clay Hall)
-S    59.13  ClayHallSP1@eureka_matt.clearwater_master ()
-M      nan cotw_entrance_redraw_m@cotw_entrance_redraw.clearwater_master ()
-S    39.84  COTWEntranceSP1@cotw_entrance_redraw.clearwater_master ()
-S    36.01  COTWEntranceSP2@cotw_entrance_redraw.clearwater_master ()
-M      nan ronnies_delight_m@clearwater_cave_fake.clearwater_master ()
-S   133.42  ronnies_delight_s1@clearwater_cave_fake.clearwater_master ()
-M      nan beckoning_finger_m@clearwater_cave_fake.clearwater_master ()
-S   141.96  BeckoningFingerSP1@clearwater_cave_fake.clearwater_master ()
-M      nan dune_m@clearwater_cave_fake.clearwater_master (Dune Series)
-S    73.46  dune_s1@clearwater_cave_fake.clearwater_master ()
-S    68.46  dune_s2@clearwater_cave_fake.clearwater_master ()
-M      nan farnorth_m@clearwater_cave_fake.clearwater_master ()
-S    85.46  WestPassageSP1@clearwater_cave_fake.clearwater_master ()
-S    66.46  GreatWallChamberSP1@clearwater_cave_fake.clearwater_master ()
-S    58.96  EastPassageSP1@clearwater_cave_fake.clearwater_master ()
-S   106.46  GnomeOxbowSP1@clearwater_cave_fake.clearwater_master ()
-S    85.46  TrollCavernSP1@clearwater_cave_fake.clearwater_master ()
-S    79.46  GnomeOxbowSP2@clearwater_cave_fake.clearwater_master ()
-S    68.96  KingsLoopSP1@clearwater_cave_fake.clearwater_master ()
-M      nan revival_m@clearwater_cave_fake.clearwater_master (Revival)
-S    81.96  revival_s1@clearwater_cave_fake.clearwater_master ()
-S   109.52  revival_s4@clearwater_cave_fake.clearwater_master ()
-S    77.46  revival_s3@clearwater_cave_fake.clearwater_master ()
-M      nan clearwater_maindrag_m@clearwater_cave_fake.clearwater_master ()
-S   110.52  IIDSP1@clearwater_cave_fake.clearwater_master ()
-S    94.52  IIDSP2@clearwater_cave_fake.clearwater_master ()
-S    49.21  InflationSP1@clearwater_cave_fake.clearwater_master ()
-S    88.12  HyperspaceSP1@clearwater_cave_fake.clearwater_master ()
-S   141.76  ConnectionToLowerSP1@clearwater_cave_fake.clearwater_master ()
-S    67.43  KingSethsMazeSP1@clearwater_cave_fake.clearwater_master ()
-M      nan volcano_m@clearwater_cave_fake.clearwater_master (Volcano)
-S    67.43  volcano_s1@clearwater_cave_fake.clearwater_master ()
-S    67.43  volcano_s2@clearwater_cave_fake.clearwater_master ()
-S    67.43  JunctionCavernSP1@clearwater_cave_fake.clearwater_master ()
-M      nan sheer_delight_m@clearwater_cave_fake.clearwater_master ()
-S    52.96  revival_s2@clearwater_cave_fake.clearwater_master ()
-S    29.46  SheerDelightSP1@clearwater_cave_fake.clearwater_master ()
-M      nan cotw_fake_m@clearwater_cave_fake.clearwater_master ()
-S    60.61  COTWSP4@clearwater_cave_fake.clearwater_master ()
-S    50.11  COTWSP1@clearwater_cave_fake.clearwater_master ()
-S   121.94  COTWSP2@clearwater_cave_fake.clearwater_master ()
-S   111.61  COTWSP3@clearwater_cave_fake.clearwater_master ()
-S    78.61  WanWaySP1@clearwater_cave_fake.clearwater_master ()
-S    20.33  ClayHallSP1@clearwater_cave_fake.clearwater_master ()
-S    18.50  ClayHallSP2@clearwater_cave_fake.clearwater_master ()
-M      nan lost_in_translation_m@lost_in_translation.clearwater_master ()
-S    69.17  lost_in_translation_s1@lost_in_translation.clearwater_master ()
-S    46.07  lost_in_translation_s2@lost_in_translation.clearwater_master ()
-M      nan Clearwater_l3_m@clearwater_master ()
-M      nan highNoonPlan@high_noon.clearwater_master (High Noon, Clearwater Cave)
-S   448.25  surface@high_noon.clearwater_master ()
-S   451.94  high_noon_s1@high_noon.clearwater_master ()
-S   439.26  high_noon_s2@high_noon.clearwater_master ()
-S   440.17  high_noon_s4@high_noon.clearwater_master ()
-S   459.76  high_noon_s3@high_noon.clearwater_master ()
-M      nan jetstreamPlan@jetstream.clearwater_master (Jetstream, Clearwater Cave)
-S   416.67  jetstream_s1@jetstream.clearwater_master ()
-S   432.51  jetstream_s2@jetstream.clearwater_master ()
-S   438.14  jetstream_s3@jetstream.clearwater_master ()
-S   439.41  jetstream_s4@jetstream.clearwater_master ()
-S   432.54  jetstream_s5@jetstream.clearwater_master ()
-S   440.41  jetstream_s6@jetstream.clearwater_master ()
-S   357.33  jetstream_s0@jetstream.clearwater_master ()
-M      nan andFinallyPlan@and_finally.clearwater_master ()
-S   447.71  and_finally_s1@and_finally.clearwater_master ()
-S   424.42  and_finally_s2@and_finally.clearwater_master ()
-S   416.24  and_finally_s3@and_finally.clearwater_master ()
-S   427.17  and_finally_s4@and_finally.clearwater_master ()
-M      nan crucibleOffsetPlan@crucible_offset.clearwater_master (Crucible, Clearwater Cave)
-S   445.83  crucible_offset_s1@crucible_offset.clearwater_master ()
-M      nan creedencePlan@creedence.clearwater_master (Creedence, Clearwater Cave)
-S   443.04  creedence_s1@creedence.clearwater_master ()
-S   433.44  creedence_s2@creedence.clearwater_master ()
-S   428.94  creedence_s4@creedence.clearwater_master ()
-S   389.03  creedence_s3@creedence.clearwater_master ()
-S   429.91  creedence_s5@creedence.clearwater_master ()
-S   405.51  creedence_s6@creedence.clearwater_master ()
-S   426.85  creedence_s7@creedence.clearwater_master ()
-M      nan quattroFormaggioPlan@quattro_formaggio.clearwater_master (Quattro Formaggio)
-S   156.31  quattro_formaggio_s5@quattro_formaggio.clearwater_master ()
-S   119.24  quattro-formaggio_s4@quattro_formaggio.clearwater_master ()
-S   165.27  quattro_formaggio_s1@quattro_formaggio.clearwater_master ()
-S   200.57  quattro_formaggio_s3@quattro_formaggio.clearwater_master ()
-S   153.76  quattro_formaggio_s2@quattro_formaggio.clearwater_master ()
-M      nan upskirt_m@upskirt.clearwater_master ()
-S   330.97  upskirt_s1@upskirt.clearwater_master ()
-S   316.44  upskirt_s2@upskirt.clearwater_master ()
-M      nan upskirtLowerPlan@upskirt_lower.clearwater_master ()
-S   290.21  upskirt_lower_s1@upskirt_lower.clearwater_master ()
-S   327.42  upskirt_lower_s2@upskirt_lower.clearwater_master ()
-M      nan helicPlan@helic.clearwater_master ()
-S   317.23  helic_s1@helic.clearwater_master ()
-M      nan boom_boom_m@boom_boom.clearwater_master ()
-S   213.72  boom_boom_s1@boom_boom.clearwater_master ()
-S   239.83  boom_boom_s2@boom_boom.clearwater_master ()
-S   267.44  boom_boom_s3@boom_boom.clearwater_master ()
-M      nan nesters_m@nesters.clearwater_master (Nesters Cave<br>Clearwater<br>Gunung Api<br>Mulu<br>Sarawak)
-S   219.49  nesters_s1@nesters.clearwater_master ()
-S   194.48  nesters_s2@nesters.clearwater_master ()
-S   185.34  nesters_s3@nesters.clearwater_master ()
-S   181.11  nesters_s4@nesters.clearwater_master ()
-S   158.24  nesters_s5@nesters.clearwater_master ()
-S   132.78  nesters_s6@nesters.clearwater_master ()
-M      nan eureka_hl_map@eureka_matt.clearwater_master (Eureka High Level Series)
-S    80.81  EurekaHLSP4@eureka_matt.clearwater_master ()
-S    76.95  EurekaHLSP3@eureka_matt.clearwater_master ()
-S    76.13  EurekaHLSP2@eureka_matt.clearwater_master ()
-S    68.49  EurekaHLSP1@eureka_matt.clearwater_master ()
-M      nan clearwater_upper_m@clearwater_cave_fake.clearwater_master ()
-S   287.11  HeavensGateSP1@clearwater_cave_fake.clearwater_master ()
-S   218.37  SecretGardenSP1@clearwater_cave_fake.clearwater_master ()
-S   117.82  SecretGardenSP2@clearwater_cave_fake.clearwater_master ()
-S    67.43  DonutSP2@clearwater_cave_fake.clearwater_master ()
-S   172.11  UpperSeriesConnectionSP1@clearwater_cave_fake.clearwater_master ()
-M      nan Clearwater_l4_m@clearwater_master ()
-M      nan rmaf_m@clearwater_cave_fake.clearwater_master (RMAF)
-S    67.43  rmaf_s1@clearwater_cave_fake.clearwater_master ()
-M      nan cleartop_m@clearwater_cave_fake.clearwater_master ()
-S    21.31  cleartop_s1@clearwater_cave_fake.clearwater_master ()
-########## end of export maps & scraps selection ###############
 writing clearwater_master.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.00 (TeX Live 2019/Debian) (kpathsea version 6.3.1)  11 MAR 2021 20:26
+This is MetaPost, version 2.00 (TeX Live 2019/Debian) (kpathsea version 6.3.1)  27 SEP 2022 20:28
 **data.mp
 (/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
 (/usr/share/texlive/texmf-dist/metapost/base/plain.mp
 Preloading the plain mem file, version 1.005) ) (./data.mp
 {randomseed:=42}
  [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010] [4011] [
-4012] [4013] [4014]
-[4015] [4016] [4017]
+4012] [4013]
+[4014] [4015] [4016]
 [Error: area borders l18-1503--653 and l17-1506--614 don't intersect in scrap E
 urekaSumpSP2@eureka_matt.clearwater_master (file eureka_matt/eureka_sump.th2 [1
 08])] [1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12]
@@ -666,18 +439,18 @@ ave_fake.clearwater_master] [481] [482] [483] [484] [485] [486] [487] [488]
 [562] [563] [564] [565] [566] [567] )
  
 Here is how much of MetaPost's memory you used:
- 352417 strings using 8466140 characters
- 30688944 bytes of node memory
- 1909 symbolic tokens
+ 352015 strings using 8459089 characters
+ 30269928 bytes of node memory
+ 1632 symbolic tokens
  11i,82n,16p,456b,5f stack positions out of 16i,98n,20p,487b,6f
-584 output files written: data.1 .. data.4017
+583 output files written: data.1 .. data.4016
 
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdftex 2021.3.1)  11 MAR 2021 20:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdfetex 2021.11.1)  27 SEP 2022 20:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -692,8 +465,8 @@ Normal \count register pool exhausted, switching to extended pool.)
  [1] ) 
 Here is how much of TeX's memory you used:
  1298 strings out of 495031
- 13676 string characters out of 6159438
- 2405908 words of memory out of 5000000
+ 13676 string characters out of 6159434
+ 2405892 words of memory out of 5000000
  2898 multiletter control sequences out of 15000+600000
  20080 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -702,7 +475,7 @@ Here is how much of TeX's memory you used:
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
-Output written on data.pdf (1 page, 6709237 bytes).
+Output written on data.pdf (1 page, 6709247 bytes).
 PDF statistics:
  2328 PDF objects out of 2487 (max. 8388607)
  1163 compressed objects within 12 object streams
@@ -712,7 +485,7 @@ PDF statistics:
 
 ##################### end of pdftex log file #####################
 done
-compilation time: 310 sec
+compilation time: 159 sec
 
 
 ######################### loop errors ##########################

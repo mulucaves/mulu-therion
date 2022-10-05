@@ -1,5 +1,7 @@
+input ../../../../../layouts/mulu_layouts.thc
+
 source chinashop.th
 
 export model -o chinashop.3d
 export model -o chinashop.lox
-export map -o chinashop.pdf
+export map -o chinashop.pdf -layout MuluSmall

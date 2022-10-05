@@ -1,5 +1,8 @@
+input ../../../../../layouts/mulu_layouts.thc
+
 source bodiceripper.th
 
 export model -o bodiceripper.3d
 export model -o bodiceripper.lox
-export map -o bodiceripper.pdf
+export map -o bodiceripper.pdf -layout MuluSmall
+

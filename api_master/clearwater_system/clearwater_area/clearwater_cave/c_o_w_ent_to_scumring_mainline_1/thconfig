@@ -1,5 +1,7 @@
+input ../../../../../layouts/mulu_layouts.thc
+
 source c_o_w_ent_to_scumring_mainline_1.th
 
-export model -o c_o_w_ent_to_scumring_mainline_1.lox
 export model -o c_o_w_ent_to_scumring_mainline_1.3d
-export map -o c_o_w_ent_to_scumring_mainline_1.pdf
+export model -o c_o_w_ent_to_scumring_mainline_1.lox
+export map -o c_o_w_ent_to_scumring_mainline_1.pdf -layout MuluSmall
