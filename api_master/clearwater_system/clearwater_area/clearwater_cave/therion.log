@@ -14,7 +14,7 @@ processing survey data ...
 ####################### cavern log file ########################
  1> Survex 1.2.44
  2> Copyright ¸ 1990-2021 Olly Betts
- 3> C:\Users\Rob\AppData\Local\Temp\th30588\data.svx:10442: warning: Unused fixed point "8961"
+ 3> C:\Users\Rob\AppData\Local\Temp\th41088\data.svx:10442: warning: Unused fixed point "8961"
  4> 
  5> Survey contains 8961 survey stations, joined by 9109 legs.
  6> There are 151 loops.
@@ -117,7 +117,7 @@ processing references ... done
 selecting export objects ... done
 writing clearwater_master.3d ... done
 processing projection plan ... done
-average distortion: 2.58%
+average distortion: 2.60%
 
 
 ############### export maps & scraps selection #################
@@ -272,7 +272,7 @@ S    18.50 ClayHallSP2@clearwater_cave_fake.clearwater_master ()
 M    57.62 lost_in_translation_m@lost_in_translation.clearwater_master ()
 S    69.17 lost_in_translation_s1@lost_in_translation.clearwater_master ()
 S    46.07 lost_in_translation_s2@lost_in_translation.clearwater_master ()
-M   194.60 Clearwater_l3_m@clearwater_master ()
+M   196.59 Clearwater_l3_m@clearwater_master ()
 M   447.87 highNoonPlan@high_noon.clearwater_master (High Noon, Clearwater Cave)
 S   448.24 surface@high_noon.clearwater_master ()
 S   451.94 high_noon_s1@high_noon.clearwater_master ()
@@ -308,6 +308,8 @@ S   119.24 quattro-formaggio_s4@quattro_formaggio.clearwater_master ()
 S   165.27 quattro_formaggio_s1@quattro_formaggio.clearwater_master ()
 S   200.57 quattro_formaggio_s3@quattro_formaggio.clearwater_master ()
 S   153.76 quattro_formaggio_s2@quattro_formaggio.clearwater_master ()
+M   439.22 ginpalacePlan@ginpalace.clearwater_master (Ginpalace, Clearwater Cave)
+S   439.22 ginpalace_s0@ginpalace.clearwater_master ()
 M   323.71 upskirt_m@upskirt.clearwater_master ()
 S   330.97 upskirt_s1@upskirt.clearwater_master ()
 S   316.44 upskirt_s2@upskirt.clearwater_master ()
@@ -346,7 +348,7 @@ S    21.31 cleartop_s1@clearwater_cave_fake.clearwater_master ()
 ########## end of export maps & scraps selection ###############
 writing clearwater_master.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.00 (TeX Live 2020/W32TeX) (kpathsea version 6.3.2)  31 OCT 2022 16:46
+This is MetaPost, version 2.00 (TeX Live 2020/W32TeX) (kpathsea version 6.3.2)  1 NOV 2022 20:16
 **data.mp
 (c:/Program Files (x86)/Therion/texmf/mpost/mpost.mp
 (c:/Program Files (x86)/Therion/texmf/mpost/plain.mp
@@ -508,51 +510,53 @@ rwater_master] [386] [387] [388] [389] [390] [391] [392] [393] [394] [395]
 [396] [397] [398] [399] [400] [401] [402] [403] [404] [405] [406] [407]
 [Warning: text scaled down to fit the path in scrap quattro-formaggio_s4@quattr
 o_formaggio.clearwater_master] [408] [409] [410] [411]
+[Warning: scrap outline intersects itself in scrap ginpalace_s0@ginpalace.clear
+water_master] [412] [413] [414] [415]
 [Warning: scrap outline intersects itself in scrap upskirt_s2@upskirt.clearwate
-r_master] [412] [413] [414] [415]
+r_master] [416] [417] [418] [419]
 [Warning: scrap outline intersects itself in scrap upskirt_s1@upskirt.clearwate
-r_master] [416] [417]
+r_master] [420] [421]
 [Warning: text scaled down to fit the path in scrap upskirt_s1@upskirt.clearwat
 er_master]
 [Warning: text scaled down to fit the path in scrap upskirt_s1@upskirt.clearwat
-er_master] [418] [419] [420] [421]
+er_master] [422] [423] [424] [425]
 [Warning: text scaled down to fit the path in scrap upskirt_lower_s2@upskirt_lo
 wer.clearwater_master]
 [Warning: text scaled down to fit the path in scrap upskirt_lower_s2@upskirt_lo
 wer.clearwater_master]
 [Warning: text scaled down to fit the path in scrap upskirt_lower_s2@upskirt_lo
-wer.clearwater_master] [422] [423] [424] [425] [426] [427] [428] [429] [430]
-[431] [432] [433] [434] [435] [436] [437] [438] [439] [440] [441] [442] [443]
-[444] [445] [446] [447] [448] [449] [450] [451] [452]
+wer.clearwater_master] [426] [427] [428] [429] [430] [431] [432] [433] [434]
+[435] [436] [437] [438] [439] [440] [441] [442] [443] [444] [445] [446] [447]
+[448] [449] [450] [451] [452] [453] [454] [455] [456]
 [Warning: scrap outline intersects itself in scrap nesters_s3@nesters.clearwate
-r_master] [453] [454] [455]
+r_master] [457] [458] [459]
 [Warning: scrap outline intersects itself in scrap nesters_s2@nesters.clearwate
-r_master] [456] [457] [458] [459] [460] [461] [462] [463] [464] [465] [466]
-[467] [468] [469] [470] [471] [472] [473]
+r_master] [460] [461] [462] [463] [464] [465] [466] [467] [468] [469] [470]
+[471] [472] [473] [474] [475] [476] [477]
 [Warning: scrap outline intersects itself in scrap UpperSeriesConnectionSP1@cle
-arwater_cave_fake.clearwater_master] [474] [475] [476] [477] [478] [479]
+arwater_cave_fake.clearwater_master] [478] [479] [480] [481] [482] [483]
 [Warning: scrap outline intersects itself in scrap SecretGardenSP2@clearwater_c
-ave_fake.clearwater_master] [480] [481] [482] [483] [484] [485] [486] [487]
-[488] [489] [490] [491] [492] [493] [494] [495] [496] [497] (./mptextmp.mp)
-[498] [499] [500] [501] [502] [503] [504] [505] [506] [507] [508] [509] [510]
-[511] [512] [513] [514] [515] [516] [517] [518] [519] [520] [521] [522] [523]
-[524] [525] [526] [527] [528] [529] [530] [531] [532] [533] [534] [535] [536]
-[537] [538] [539] [540] [541] [542] [543] [544] [545] [546] [547] [548] [549]
-[550] [551] [552] [553] [554] [555] [556] [557] [558] [559] [560] [561] )
+ave_fake.clearwater_master] [484] [485] [486] [487] [488] [489] [490] [491]
+[492] [493] [494] [495] [496] [497] [498] [499] [500] [501] (./mptextmp.mp)
+[502] [503] [504] [505] [506] [507] [508] [509] [510] [511] [512] [513] [514]
+[515] [516] [517] [518] [519] [520] [521] [522] [523] [524] [525] [526] [527]
+[528] [529] [530] [531] [532] [533] [534] [535] [536] [537] [538] [539] [540]
+[541] [542] [543] [544] [545] [546] [547] [548] [549] [550] [551] [552] [553]
+[554] [555] [556] [557] [558] [559] [560] [561] [562] [563] [564] [565] )
  
 Here is how much of MetaPost's memory you used:
- 352455 strings using 8465451 characters
- 20474716 bytes of node memory
+ 353368 strings using 8488051 characters
+ 20477936 bytes of node memory
  1929 symbolic tokens
  11i,82n,16p,456b,5f stack positions out of 16i,98n,20p,487b,6f
-578 output files written: data-patt.1 .. data.561
+582 output files written: data-patt.1 .. data.565
 
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdftex 2020.6.19)  31 OCT 2022 16:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdftex 2020.6.19)  1 NOV 2022 20:17
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
@@ -564,10 +568,10 @@ Normal \count register pool exhausted, switching to extended pool.)
  253 numeric registers used out of 32768
  [1] ) 
 Here is how much of TeX's memory you used:
- 1637 strings out of 94623
- 20683 string characters out of 1150079
+ 1646 strings out of 94623
+ 20795 string characters out of 1150079
  2542854 words of memory out of 7000000
- 3288 multiletter control sequences out of 15000+50000
+ 3297 multiletter control sequences out of 15000+50000
  20080 words of font info for 63 fonts, out of 1000000 for 2000
  1416 hyphenation exceptions out of 5000
  9i,5n,9p,321b,56s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -575,18 +579,18 @@ Here is how much of TeX's memory you used:
 Files (x86)/Therion/texmf/fonts/type1/cmr10.pfb><c:/Program Files (x86)/Therion
 /texmf/fonts/type1/cmss10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/type1
 /cmssi10.pfb>
-Output written on data.pdf (1 page, 6743356 bytes).
+Output written on data.pdf (1 page, 6770652 bytes).
 PDF statistics:
- 2959 PDF objects out of 2984 (max. 8388607)
- 1477 compressed objects within 15 object streams
+ 2979 PDF objects out of 2984 (max. 8388607)
+ 1487 compressed objects within 15 object streams
  0 named destinations out of 1000 (max. 500000)
- 8765 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 8825 words of extra memory for PDF output out of 10000 (max. 10000000)
 
 
 ##################### end of pdftex log file #####################
 done
 writing xtherion file ... done
-compilation time: 36 sec
+compilation time: 38 sec
 
 
 ######################### loop errors ##########################
@@ -758,6 +762,7 @@ REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
    7.43%  100.00%  ArmisticeSouthSP1@armistice_south.clearwater_master
    6.27%  100.00%  jetstream_s4@jetstream.clearwater_master
   76.28%   93.90%  dune_s2@clearwater_cave_fake.clearwater_master
+   6.73%   89.28%  ginpalace_s0@ginpalace.clearwater_master
   34.22%   87.17%  WanWaySP1@clearwater_cave_fake.clearwater_master
   63.06%   84.18%  KingSethToWanWay@clearwater_cave_fake.clearwater_master
    4.00%   81.78%  COTWEntranceSP2@cotw_entrance_redraw.clearwater_master
@@ -826,6 +831,7 @@ REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
    2.48%   28.66%  COTWSP3@clearwater_cave_fake.clearwater_master
    2.42%   28.07%  cairn_farm_s3@the_cairn_farm.clearwater_master
    0.63%   26.25%  clearwater_III_s2@clearwater_cave_fake.clearwater_master
+   0.17%   25.86%  jetstream_s3@jetstream.clearwater_master
    2.34%   25.11%  nesters_s1@nesters.clearwater_master
    1.04%   22.93%  SheerDelightSP1@clearwater_cave_fake.clearwater_master
    1.42%   22.69%  BerangsSP2@berangs_to_inflation.clearwater_master
@@ -857,7 +863,6 @@ REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
    0.46%    9.01%  boom_boom_s3@boom_boom.clearwater_master
    0.11%    8.97%  DuneChinashopSP1@chinashop.clearwater_master
    3.71%    8.58%  clearwater_II_s3@clearwater_cave_fake.clearwater_master
-   0.04%    7.94%  jetstream_s3@jetstream.clearwater_master
    0.73%    7.69%  ChinaShopSP2@chinashop.clearwater_master
    1.29%    7.57%  SecretGardenSP2@clearwater_cave_fake.clearwater_master
    1.01%    7.56%  edwins_long_cut_s2@edwins_long_cut.clearwater_master
@@ -928,7 +933,7 @@ REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
    0.00%    0.00%  surface@high_noon.clearwater_master
    0.00%    0.00%  rmaf_s1@clearwater_cave_fake.clearwater_master
    0.00%    0.00%  GnomeOxbowSP2@clearwater_cave_fake.clearwater_master
-   0.00%    0.00%  WindCaveSP1@wind_cave.clearwater_master
    0.00%    0.00%  FallySP1@fally.clearwater_master
    0.00%    0.00%  CowArchClimbSP1@cowarchclimb.clearwater_master
+   0.00%    0.00%  WindCaveSP1@wind_cave.clearwater_master
 ################### end of scrap distortions ###################

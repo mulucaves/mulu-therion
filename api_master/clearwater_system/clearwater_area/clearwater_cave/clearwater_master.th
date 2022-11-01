@@ -228,6 +228,7 @@ join ClayHallSP1@clearwater_cave_fake ClayHallSP1@eureka_matt
 join quattro_formaggio_s3@quattro_formaggio boom_boom_s1@boom_boom
 join quattro_formaggio_s1@quattro_formaggio boom_boom_s2@boom_boom
 join jetstream_s4@jetstream and_finally_s1@and_finally -count 2
+join jetstream_s3@jetstream ginpalace_s0@ginpalace
 
 join ArmisticeSouthSP1@armistice_south BigUEESP1@the_big_uee
 join BigUEESP1@the_big_uee RampageSP1@rampage
@@ -250,6 +251,7 @@ map creedence_m
   crucibleOffsetPlan@crucible_offset
   creedencePlan@creedence
   quattroFormaggioPlan@quattro_formaggio
+  ginpalacePlan@ginpalace
   break
   upskirt_m@upskirt
   break
