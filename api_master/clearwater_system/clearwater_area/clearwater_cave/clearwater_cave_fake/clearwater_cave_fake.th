@@ -806,7 +806,7 @@ survey clearwater_cave_fake
     join IIDSP2 JunctionCavernSP1
     join InflationSP1 JunctionCavernSP1
     
-    #join volcano_s1 revival_s4 NEEDS FIXING
+    #join volcano_s1 revival_s4 #NEEDS FIXING
     join linebottomvolcanos1:end linebottomrevivals4:0
     join linetopvolcanos1:0 linetoprevivals4:end #rename as East West lines
     

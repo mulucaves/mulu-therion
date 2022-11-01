@@ -1,8 +1,7 @@
-therion 5.4.4+4cb2921 (2020-04-05)
-initialization file: /home/ben/.therion/therion.ini
+therion 6.0.1 (2021-07-25)
+  - using Proj 5.1.0, compiled against 5.1.0
+initialization file: C:\Program Files (x86)\Therion/therion.ini
 reading ... done
-checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... OK
-checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... OK
 configuration file: thconfig
 reading ... done
 reading source files ... done
@@ -12,9 +11,9 @@ searching for centerline loops ... done
 calculating station coordinates ... done
 processing survey data ... 
 ####################### cavern log file ########################
- 1> Survex 1.2.43
- 2> Copyright © 1990-2020 Olly Betts
- 3> Survey has no fixed points. Therefore I’ve fixed 1 at (0,0,0)
+ 1> Survex 1.2.44
+ 2> Copyright � 1990-2021 Olly Betts
+ 3> Survey has no fixed points. Therefore I've fixed 1 at (0,0,0)
  4> 
  5> Survey contains 52 survey stations, joined by 51 legs.
  6> There are 0 loops.
@@ -48,73 +47,72 @@ writing snow_slopes.lox ...
 processing projection plan ... done
 average distortion: 4.93%
 .
-therion: warning -- snow_slopes_s1@snow_slopes -- multiple scrap outer outlines not supported yet
+C:\Program Files (x86)\Therion\therion.exe: warning -- snow_slopes_s1@snow_slopes -- multiple scrap outer outlines not supported yet
 . done
 
 
 ############### export maps & scraps selection #################
 M    11.83 snow_slopes_m@snow_slopes (Snow Slopes)
-S    14.89  snow_slopes_s1@snow_slopes ()
-S     8.77  snow_slopes_s2@snow_slopes ()
+S    14.89 snow_slopes_s1@snow_slopes ()
+S     8.77 snow_slopes_s2@snow_slopes ()
 ########## end of export maps & scraps selection ###############
 writing snow_slopes.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.000 (TeX Live 2017/Debian) (kpathsea version 6.2.3)  13 APR 2020 14:37
+This is MetaPost, version 2.00 (TeX Live 2020/W32TeX) (kpathsea version 6.3.2)  31 OCT 2022 14:05
 **data.mp
-(/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
-(/usr/share/texlive/texmf-dist/metapost/base/plain.mp
+(c:/Program Files (x86)/Therion/texmf/mpost/mpost.mp
+(c:/Program Files (x86)/Therion/texmf/mpost/plain.mp
 Preloading the plain mem file, version 1.005) ) (./data.mp
 {randomseed:=42}
- [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010] [4011] [
-4012] [4013] [4014]
+ [1] [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
 [1] [2]
 [Warning: scrap outline intersects itself in scrap snow_slopes_s1@snow_slopes]
 [3] [4] [5] [6] (./mptextmp.mp) [7] )
  
 Here is how much of MetaPost's memory you used:
- 6621 strings using 154129 characters
- 3256992 bytes of node memory
- 1659 symbolic tokens
- 10i,81n,13p,312b,5f stack positions out of 16i,96n,16p,312b,6f
-21 output files written: data.1 .. data.4014
+ 6693 strings using 161049 characters
+ 2335036 bytes of node memory
+ 1679 symbolic tokens
+ 10i,82n,13p,312b,5f stack positions out of 16i,98n,16p,312b,6f
+21 output files written: data-patt.1 .. data-patt.14
 
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdfetex 2019.12.12)  13 APR 2020 14:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdftex 2020.6.19)  31 OCT 2022 14:05
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
-(./th_fontdef.tex{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map})
+(c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
+(./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
 (./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
- 56 numeric registers used out of 32768
+ 58 numeric registers used out of 32768
  [1] ) 
 Here is how much of TeX's memory you used:
- 253 strings out of 495042
- 2606 string characters out of 6159509
- 21812 words of memory out of 5000000
- 1848 multiletter control sequences out of 15000+600000
- 20080 words of font info for 63 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 9i,5n,8p,238b,58s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
-Output written on data.pdf (1 page, 39012 bytes).
+ 280 strings out of 94623
+ 3937 string characters out of 1150079
+ 22821 words of memory out of 5008564
+ 1931 multiletter control sequences out of 15000+50000
+ 20080 words of font info for 63 fonts, out of 1000000 for 2000
+ 1416 hyphenation exceptions out of 5000
+ 9i,5n,6p,229b,56s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program 
+Files (x86)/Therion/texmf/fonts/type1/cmssi10.pfb>
+Output written on data.pdf (1 page, 39494 bytes).
 PDF statistics:
- 50 PDF objects out of 1000 (max. 8388607)
- 29 compressed objects within 1 object stream
+ 54 PDF objects out of 1000 (max. 8388607)
+ 31 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 103 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 115 words of extra memory for PDF output out of 10000 (max. 10000000)
 
 
 ##################### end of pdftex log file #####################
 done
-compilation time: 1 sec
+writing xtherion file ... done
+compilation time: 0 sec
 
 
 ###################### scrap distortions #######################

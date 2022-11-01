@@ -1221,7 +1221,7 @@ line wall
   -308.0 -1190.0
 endline
 
-line wall
+line wall -reverse on
   -801.5 -1450.5
   -801.5 -1450.5 -828.0 -1430.0 -832.5 -1397.5
   -833.33 -1391.54 -838.5 -1384.5 -838.5 -1384.5
@@ -1383,7 +1383,7 @@ line pit -close on
   smooth off
 endline
 
-line wall
+line wall -reverse on
   -890.5 -1593.5
   -890.5 -1593.5 -915.0 -1561.0 -916.0 -1551.5
   -917.0 -1542.0 -942.5 -1529.0 -942.5 -1529.0
@@ -1445,7 +1445,7 @@ line floor-step
   smooth off
 endline
 
-line wall -close on
+line wall -close on -reverse on
   -973.5 -1433.0
   -973.5 -1433.0 -963.0 -1434.0 -971.0 -1440.5
   -979.0 -1447.0 -981.0 -1453.0 -991.5 -1452.0
@@ -1460,7 +1460,7 @@ line wall -close on
   smooth off
 endline
 
-line wall -close on -outline in
+line wall -close on -reverse on -outline in
   -859.0 -1313.5
   -859.0 -1313.5 -871.0 -1314.5 -876.5 -1312.0
   -882.0 -1309.5 -891.0 -1309.5 -899.5 -1311.5
@@ -1476,7 +1476,7 @@ line wall -close on -outline in
   smooth off
 endline
 
-line wall -close on -outline in
+line wall -close on -reverse on -outline in
   -903.0 -1354.0
   -903.0 -1354.0 -877.5 -1355.0 -885.0 -1361.0
   -892.5 -1367.0 -884.5 -1370.0 -884.5 -1370.0
@@ -1501,7 +1501,7 @@ line wall -close on -outline in
   smooth off
 endline
 
-line wall -id linebottomrevivals4
+line wall -id linebottomrevivals4 -reverse on
   -1180.0 -1416.5
   -1176.0 -1419.5 -1132.0 -1450.5 -1129.5 -1453.0
   -1127.0 -1455.5 -1113.5 -1470.0 -1112.0 -1475.5
@@ -1514,7 +1514,7 @@ line wall -id linebottomrevivals4
   smooth off
 endline
 
-line wall -id linetoprevivals4
+line wall -id linetoprevivals4 -reverse on
   -404.5 -1114.5
   -404.5 -1114.5 -403.0 -1129.5 -419.0 -1133.5
   -435.0 -1137.5 -430.0 -1147.5 -430.0 -1150.5
@@ -1545,7 +1545,7 @@ line wall -id linetoprevivals4
   smooth off
 endline
 
-line wall
+line wall -reverse on
   -368.5 -1119.5
   -368.5 -1119.5 -400.5 -1149.5 -392.5 -1114.0
   smooth off
@@ -1659,7 +1659,7 @@ line wall -outline none
   smooth off
 endline
 
-line wall
+line wall -reverse on
   -308.0 -1190.0
   -330.0 -1196.0 -336.0 -1181.0 -336.0 -1181.0
   smooth off

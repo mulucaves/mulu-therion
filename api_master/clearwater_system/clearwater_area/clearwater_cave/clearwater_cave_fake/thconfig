@@ -10,5 +10,5 @@ select clearwater_fake_l1_m@clearwater_cave_fake
 #select clearwater_cave_fake_m@clearwater_cave_fake
 
 export model -o clearwater_cave_fake.3d
-export model -o clearwater_cave_fake.lox
-export map -o clearwater_cave_fake.pdf -layout MuluSmall
+#export model -o clearwater_cave_fake.lox
+export map -o clearwater_cave_fake.pdf -layout MuluMedium

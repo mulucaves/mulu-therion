@@ -13,5 +13,5 @@ select Clearwater_l2_m@clearwater_master
 select Clearwater_l1_m@clearwater_master
 
 export model -o clearwater_master.3d
-export model -o clearwater_master.lox
+#export model -o clearwater_master.lox
 export map -o clearwater_master.pdf -layout MuluMedium

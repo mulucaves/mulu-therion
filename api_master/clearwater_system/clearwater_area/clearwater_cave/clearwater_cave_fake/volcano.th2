@@ -32,7 +32,7 @@ line border -id l291--3037--1265 -close on -subtype invisible
   smooth off
 endline
 
-line wall
+line wall -reverse on
   -3072.0 -1217.0
   -3072.0 -1217.0 -3076.0 -1230.0 -3078.0 -1236.0
   -3080.0 -1242.0 -3094.0 -1251.0 -3081.0 -1251.0
@@ -646,14 +646,14 @@ point -2086.0 -653.0 gradient -orientation 245.1
 
 point -2094.0 -614.0 gradient -orientation 195.1
 
-line wall
+line wall -reverse on
   -1383.5 -1478.5
   -1383.5 -1478.5 -1395.67 -1427.54 -1358.5 -1435.5
   -1330.5 -1441.5 -1301.5 -1423.0 -1314.0 -1487.0
   smooth off
 endline
 
-line wall -id linebottomvolcanos1 -outline out
+line wall -id linebottomvolcanos1 -reverse on
   -1296.5 -1483.0
   -1296.5 -1483.0 -1303.01 -1466.84 -1293.0 -1463.5
   -1281.0 -1459.5 -1242.0 -1444.5 -1242.0 -1444.5
@@ -663,7 +663,7 @@ line wall -id linebottomvolcanos1 -outline out
   smooth off
 endline
 
-line wall -reverse on
+line wall
   -2758.5 -1071.0
   -2758.5 -1071.0 -2747.5 -1074.0 -2740.0 -1074.0
   -2732.5 -1074.0 -2715.0 -1077.5 -2707.5 -1082.5
@@ -679,7 +679,7 @@ line wall -reverse on
   smooth off
 endline
 
-line wall
+line wall -reverse on
   -2728.0 -944.0
   -2698.0 -938.0 -2677.0 -934.5 -2673.0 -938.0
   -2669.0 -941.5 -2658.0 -947.0 -2663.5 -951.0
@@ -690,7 +690,7 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -reverse on
   -1957.0 -1503.0
   subtype presumed
   -1957.0 -1503.0 -1961.31 -1488.27 -1974.0 -1478.0
@@ -700,7 +700,7 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -reverse on
   -1925.0 -1413.0
   -1925.0 -1413.0 -1941.0 -1411.0 -1949.0 -1417.0
   -1957.0 -1423.0 -1982.0 -1428.0 -1991.0 -1426.0
@@ -718,7 +718,7 @@ line wall
   smooth off
 endline
 
-line wall -close on -outline in
+line wall -close on
   -2200.0 -1331.0
   -2200.0 -1331.0 -2172.0 -1347.0 -2119.0 -1349.0
   -2066.0 -1351.0 -2066.0 -1366.0 -2061.0 -1374.0
@@ -733,7 +733,7 @@ line wall -close on -outline in
   smooth off
 endline
 
-line wall
+line wall -reverse on
   -2645.0 -1335.0
   -2645.0 -1335.0 -2661.0 -1368.0 -2692.0 -1359.0
   -2723.0 -1350.0 -2726.0 -1336.0 -2717.0 -1312.0
@@ -754,7 +754,7 @@ line wall
   smooth off
 endline
 
-line wall -close on -outline in
+line wall -close on -reverse on
   -2503.0 -1234.0
   -2503.0 -1234.0 -2446.0 -1239.0 -2421.0 -1230.0
   -2396.0 -1221.0 -2389.0 -1246.0 -2384.0 -1253.0
@@ -773,7 +773,7 @@ line wall -close on -outline in
   smooth off
 endline
 
-line wall -close on -outline in
+line wall -close on -reverse on
   -2512.5 -1071.5
   -2512.5 -1071.5 -2511.0 -1054.0 -2491.5 -1057.0
   -2472.0 -1060.0 -2467.5 -1058.5 -2460.5 -1067.5
@@ -830,7 +830,7 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -reverse on
   -1748.0 -1044.5
   -1748.0 -1044.5 -1769.0 -1062.5 -1768.5 -1075.0
   -1768.0 -1087.5 -1760.5 -1098.0 -1756.5 -1101.0
@@ -839,7 +839,7 @@ line wall
   subtype underlying
 endline
 
-line wall -outline in
+line wall -reverse on
   -1715.0 -1156.0
   subtype bedrock
   -1715.0 -1156.0 -1713.5 -1145.5 -1712.5 -1140.0
@@ -879,7 +879,7 @@ line wall -outline in
   smooth off
 endline
 
-line wall
+line wall -reverse on
   -1848.0 -1040.5
   -1848.0 -1040.5 -1851.0 -1021.5 -1835.0 -1026.0
   -1819.0 -1030.5 -1783.0 -1040.0 -1774.5 -1036.0
@@ -955,7 +955,7 @@ endline
 line wall
 endline
 
-line wall -outline in
+line wall -reverse on
   -1664.5 -1278.5
   -1664.5 -1278.5 -1651.0 -1266.0 -1626.5 -1273.0
   -1602.0 -1280.0 -1549.0 -1288.0 -1529.0 -1298.0
@@ -967,7 +967,7 @@ line wall -outline in
   smooth off
 endline
 
-line wall -close on
+line wall -close on -reverse on
   -1458.0 -1072.5
   -1458.0 -1072.5 -1443.5 -1078.5 -1452.0 -1090.0
   -1460.5 -1101.5 -1467.5 -1101.5 -1467.5 -1101.5
@@ -1001,7 +1001,7 @@ line wall -subtype invisible
   -1172.5 -1162.0
 endline
 
-line wall -id linetopvolcanos1 -outline out
+line wall -id linetopvolcanos1 -reverse on
   -1166.0 -1207.5
   -1166.0 -1207.5 -1224.0 -1184.0 -1252.0 -1184.0
   -1280.0 -1184.0 -1295.0 -1179.0 -1307.0 -1164.0
@@ -1032,7 +1032,7 @@ line floor-step
   smooth off
 endline
 
-line wall
+line wall -reverse on
   -1172.5 -1162.0
   -1172.5 -1162.0 -1172.0 -1122.5 -1104.0 -1128.0
   -1036.0 -1133.5 -1041.5 -1143.0 -1025.5 -1134.0
@@ -1051,7 +1051,7 @@ endline
 line wall
 endline
 
-line wall -reverse on
+line wall
   -1462.0 -1145.5
   -1462.0 -1145.5 -1450.5 -1147.0 -1443.5 -1130.0
   -1436.5 -1113.0 -1434.0 -1104.5 -1443.0 -1108.5
@@ -1074,7 +1074,7 @@ line wall -visibility off
   -1476.0 -1175.0
 endline
 
-line wall -reverse on
+line wall
   -1454.0 -1128.5
   -1454.0 -1128.5 -1465.0 -1126.5 -1469.0 -1132.5
   -1473.0 -1138.5 -1478.5 -1150.0 -1482.0 -1153.0
@@ -1094,7 +1094,7 @@ line wall -reverse on
   smooth off
 endline
 
-line wall
+line wall -reverse on
   -2019.5 -1558.5
   subtype presumed
   -2060.0 -1560.0
@@ -1111,7 +1111,13 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -subtype invisible
+  -1957.0 -1503.0
+  -1965.0 -1506.0 -2026.5 -1528.0 -2026.5 -1528.0
+  smooth off
+endline
+
+line wall -reverse on
   -1977.5 -1581.0
   subtype presumed
   -1977.5 -1581.0 -1976.5 -1600.0 -1973.0 -1609.0
@@ -1128,7 +1134,7 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -reverse on
   -1928.0 -1558.0
   subtype presumed
   -1904.5 -1589.5
@@ -1142,7 +1148,7 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -reverse on
   -1745.0 -1552.5
   -1745.0 -1552.5 -1738.5 -1557.5 -1744.0 -1564.5
   -1749.5 -1571.5 -1762.0 -1591.0 -1799.0 -1599.5
@@ -1155,7 +1161,7 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -reverse on
   -1697.0 -1382.0
   -1697.0 -1382.0 -1695.0 -1399.5 -1715.0 -1391.0
   -1735.0 -1382.5 -1753.0 -1373.0 -1753.0 -1373.0
@@ -1178,7 +1184,7 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -reverse on
   -1640.5 -1443.5
   -1640.5 -1443.5 -1612.0 -1458.0 -1621.5 -1466.5
   -1631.0 -1475.0 -1639.5 -1477.0 -1639.5 -1477.0
@@ -1189,7 +1195,7 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -reverse on
   -1430.0 -1394.0
   -1430.0 -1394.0 -1440.0 -1412.5 -1450.0 -1413.0
   -1460.0 -1413.5 -1462.5 -1414.0 -1465.0 -1417.0
@@ -1201,7 +1207,7 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -reverse on
   -1371.0 -1375.0
   -1371.0 -1375.0 -1383.0 -1394.5 -1397.0 -1402.5
   -1411.0 -1410.5 -1412.0 -1402.5 -1414.5 -1394.5
@@ -1280,7 +1286,7 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -reverse on
   -1951.0 -1752.0
   subtype presumed
   -1963.5 -1722.0
@@ -1304,7 +1310,7 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -reverse on
   -2075.5 -1789.0
   -2075.5 -1789.0 -2069.5 -1773.0 -2069.5 -1768.0
   -2069.5 -1763.0 -2065.5 -1757.5 -2063.5 -1754.5
@@ -1315,7 +1321,7 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -reverse on
   -2695.5 -1437.0
   -2695.5 -1437.0 -2685.0 -1448.0 -2694.0 -1450.0
   -2703.0 -1452.0 -2696.5 -1458.5 -2696.0 -1460.5
@@ -1348,7 +1354,7 @@ line wall
   smooth off
 endline
 
-line wall -close on
+line wall -close on -reverse on
   -2659.5 -992.0
   -2659.5 -992.0 -2665.0 -987.5 -2662.0 -982.5
   -2659.0 -977.5 -2655.5 -969.0 -2650.0 -973.0
@@ -1369,7 +1375,7 @@ line border
   smooth off
 endline
 
-line wall
+line wall -reverse on
   -3040.5 -1390.5
   -3040.5 -1390.5 -3028.5 -1399.0 -3023.5 -1396.5
   -3018.5 -1394.0 -3016.5 -1393.0 -3013.0 -1395.0
@@ -1398,7 +1404,7 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -reverse on
   -2810.0 -1158.0
   -2810.0 -1158.0 -2749.0 -1182.0 -2748.0 -1202.5
   -2747.0 -1223.0 -2737.0 -1238.5 -2737.5 -1253.0
@@ -1421,7 +1427,7 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -reverse on
   -2491.5 -928.0
   -2491.5 -928.0 -2497.5 -943.5 -2499.0 -945.5
   -2500.5 -947.5 -2503.0 -947.5 -2500.5 -952.0
@@ -1457,7 +1463,7 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -reverse on
   -1918.5 -969.5
   -1918.5 -969.5 -1904.0 -1001.5 -1924.5 -974.0
   -1945.0 -946.5 -1962.0 -940.5 -1971.5 -902.5
@@ -1526,7 +1532,7 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -reverse on
   -1342.0 -1019.5
   subtype presumed
   -1320.5 -1041.0
@@ -1541,7 +1547,7 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -reverse on
   -918.0 -1010.0
   -918.0 -1010.0 -929.5 -1006.5 -930.0 -1002.0
   -930.5 -997.5 -939.5 -989.5 -943.5 -988.5
@@ -1568,7 +1574,7 @@ line wall
   smooth off
 endline
 
-line wall
+line wall -reverse on
   -778.0 -1008.0
   -778.0 -1008.0 -809.0 -1016.0 -815.5 -1016.0
   -822.0 -1016.0 -826.5 -1018.5 -826.5 -1018.5
@@ -1872,7 +1878,7 @@ line border -id l262--2771--865 -close on
   -3005.0 -887.5
 endline
 
-line wall
+line wall -reverse on
   -2878.0 -953.0
   -2880.0 -937.5 -2877.5 -919.5 -2863.5 -909.5
   -2849.5 -899.5 -2849.0 -906.0 -2853.0 -912.5
@@ -1911,7 +1917,7 @@ point -2999.0 -930.0 stalagmite
 
 point -3010.0 -940.0 stalagmite
 
-line wall
+line wall -reverse on
   -3038.5 -981.0
   -3038.5 -981.0 -2980.5 -971.0 -2944.5 -995.0
   smooth off
@@ -1926,7 +1932,7 @@ point -3244.0 -1310.0 station -name 897
 
 point -2094.0 -596.5 station -name 614
 
-line wall
+line wall -reverse on
   -2944.5 -995.0
   -2928.87 -1005.42 -2925.5 -1016.5 -2925.5 -1016.5
   smooth off
@@ -1983,7 +1989,7 @@ endline
 
 point -2792.0 -1118.0 water-flow -orientation 341.2
 
-line wall
+line wall -reverse on
   -2998.5 -1164.0
   -2976.0 -1149.0 -2903.5 -1124.0 -2888.0 -1124.0
   -2872.5 -1124.0 -2869.0 -1125.0 -2860.0 -1130.0

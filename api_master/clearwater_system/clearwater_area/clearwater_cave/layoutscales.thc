@@ -168,5 +168,35 @@ layout LayoutScale10000
 
 endlayout LayoutScale10000
 
+layout LayoutScale20000 
+#---------------------
+#layout settings suited to 2d outputs at 1:10,000 scale 
+  
+  scale 1 20000       
+  #base-scale 1 20000   
+    # use base-scale only if outputs to be photo enlarged 
+    # or reduced or to scale fonts and symbols
+  
+  scale-bar 1000 m  
+  grid-size 1000 1000 500 metres  # coordinate grid
+  
+  code metapost
+  fonts_setup(0.01,0.01,0.01,0.01,0.01); 
+  #ie make as small as possible
+  
+  #CAVE APPEARANCE
+    
+  symbol-hide group all  #hides ALL except passage infill colour
+  #symbol-show line wall # don't use at very small scales as it blurs the outline
+  
+  #symbol-show group surface-centreline  #hides morphed sketches as well??
+      
+  #symbol-show point label    
+  #symbol-show line label
+   
+  #blackout passage
+  colour map-fg [0 0 0] #black    # Shading in cave passage, <colour>, <altitude>, <scrap>, <map>
+
+endlayout LayoutScale20000
 #END
 
