@@ -1,0 +1,23 @@
+therion 5.5.7+82eee85+dev (2022-10-31)
+  - using Proj 6.3.1, compiled against 6.3.1
+initialization file: /etc/therion.ini
+reading ... done
+checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... OK
+checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... OK
+configuration file: thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... 
+/home/ben/Documents/GitHub/therion/therion: warning -- ../layouts/mulu_layouts.thc [30] -- source layout not found -- LayoutScale20000
+done
+selecting export objects ... done
+writing api_master.lox ...
+processing projection plan ... done
+ done
+compilation time: 2 sec
