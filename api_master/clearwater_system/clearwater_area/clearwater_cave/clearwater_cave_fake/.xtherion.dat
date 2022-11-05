@@ -1,33 +1,33 @@
 set xth(ctrl,cp,datlist) {}
 xth_cp_data_tree_insert 1 {} 0   "" "" "length: 43956.65m (surface 184.34m, duplicated 0.00m)\nvertical range: 440.00m (from 835@clearwater_cave_fake at 460.00m to 0@clearwater_cave_fake at 20.00m)\nnorth-south range: 4108.37m (from 443@clearwater_cave_fake at 452920.12m to 25@clearwater_cave_fake at 448811.75m)\neast-west range: 2939.71m (from 472@clearwater_cave_fake at 262103.71m to 0@clearwater_cave_fake at 259164.00m)\nnumber of shots: 735\nnumber of stations: 684"
-xth_cp_data_tree_insert 60 1 1 clearwater_cave_fake clearwater_cave_fake "" "" "length: 43956.65m (surface 184.34m, duplicated 0.00m)\nvertical range: 440.00m (from 835@clearwater_cave_fake at 460.00m to 0@clearwater_cave_fake at 20.00m)\nnorth-south range: 4108.37m (from 443@clearwater_cave_fake at 452920.12m to 25@clearwater_cave_fake at 448811.75m)\neast-west range: 2939.71m (from 472@clearwater_cave_fake at 262103.71m to 0@clearwater_cave_fake at 259164.00m)\nnumber of shots: 735\nnumber of stations: 684"
+xth_cp_data_tree_insert 65 1 1 clearwater_cave_fake clearwater_cave_fake "" "" "length: 43956.65m (surface 184.34m, duplicated 0.00m)\nvertical range: 440.00m (from 835@clearwater_cave_fake at 460.00m to 0@clearwater_cave_fake at 20.00m)\nnorth-south range: 4108.37m (from 443@clearwater_cave_fake at 452920.12m to 25@clearwater_cave_fake at 448811.75m)\neast-west range: 2939.71m (from 472@clearwater_cave_fake at 262103.71m to 0@clearwater_cave_fake at 259164.00m)\nnumber of shots: 735\nnumber of stations: 684"
 xth_cp_data_tree_create
 set xth(ctrl,cp,maplist) {}
 xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
-xth_cp_map_tree_insert map 1 1475X1 p1 1 rmaf_m rmaf_m@clearwater_cave_fake "RMAF" "RMAF"
-xth_cp_map_tree_insert map 1 2207X1 p1 1 cleartop_m cleartop_m@clearwater_cave_fake "" ""
-xth_cp_map_tree_insert map 0 2232X1 p1 1 clearwater_cave_fake_m clearwater_cave_fake_m@clearwater_cave_fake "" ""
-xth_cp_map_tree_insert map 0 2231X1 2232X1 2 clearwater_fake_l2_l3_m clearwater_fake_l2_l3_m@clearwater_cave_fake "" ""
-xth_cp_map_tree_insert map 0 2230X1 2231X1 3 clearwater_fake_l3_m clearwater_fake_l3_m@clearwater_cave_fake "" ""
-xth_cp_map_tree_insert map 1 1829X1 2230X1 4 clearwater_upper_m clearwater_upper_m@clearwater_cave_fake "" ""
-xth_cp_map_tree_insert map 0 2229X1 2231X1 3 clearwater_fake_l2_m clearwater_fake_l2_m@clearwater_cave_fake "" ""
-xth_cp_map_tree_insert map 1 1193X1 2229X1 4 ronnies_delight_m ronnies_delight_m@clearwater_cave_fake "" ""
-xth_cp_map_tree_insert map 1 1049X1 2229X1 4 beckoning_finger_m beckoning_finger_m@clearwater_cave_fake "" ""
-xth_cp_map_tree_insert map 1 2059X1 2229X1 4 dune_m dune_m@clearwater_cave_fake "Dune Series" "Dune Series"
-xth_cp_map_tree_insert map 1 2117X1 2229X1 4 farnorth_m farnorth_m@clearwater_cave_fake "" ""
-xth_cp_map_tree_insert map 1 1050X1 2229X1 4 revival_m revival_m@clearwater_cave_fake "Revival" "Revival"
-xth_cp_map_tree_insert map 1 1998X1 2229X1 4 clearwater_maindrag_m clearwater_maindrag_m@clearwater_cave_fake "" ""
-xth_cp_map_tree_insert map 1 1474X1 2229X1 4 volcano_m volcano_m@clearwater_cave_fake "Volcano" "Volcano"
-xth_cp_map_tree_insert map 1 1051X1 2229X1 4 sheer_delight_m sheer_delight_m@clearwater_cave_fake "" ""
-xth_cp_map_tree_insert map 1 1634X1 2229X1 4 cotw_fake_m cotw_fake_m@clearwater_cave_fake "" ""
-xth_cp_map_tree_insert map 0 2228X1 2232X1 2 clearwater_fake_l1_m clearwater_fake_l1_m@clearwater_cave_fake "" ""
-xth_cp_map_tree_insert map 1 2193X1 2228X1 3 lower_series_m lower_series_m@clearwater_cave_fake "" ""
-xth_cp_map_tree_insert map 1 701X1 2228X1 3 clearwater_III_m clearwater_III_m@clearwater_cave_fake "Clearwater III" "Clearwater III"
-xth_cp_map_tree_insert map 1 566X1 2228X1 3 clearwater_II_m clearwater_II_m@clearwater_cave_fake "Clearwater II" "Clearwater II"
-xth_cp_map_tree_insert map 1 420X1 2228X1 3 clearwater_I_m clearwater_I_m@clearwater_cave_fake "" ""
-xth_cp_map_tree_insert map 1 1633X1 2228X1 3 cotw_fake_river_m cotw_fake_river_m@clearwater_cave_fake "" ""
+xth_cp_map_tree_insert map 1 1497X1 p1 1 rmaf_m rmaf_m@clearwater_cave_fake "RMAF" "RMAF"
+xth_cp_map_tree_insert map 1 2229X1 p1 1 cleartop_m cleartop_m@clearwater_cave_fake "" ""
+xth_cp_map_tree_insert map 0 2255X1 p1 1 clearwater_cave_fake_m clearwater_cave_fake_m@clearwater_cave_fake "" ""
+xth_cp_map_tree_insert map 0 2254X1 2255X1 2 clearwater_fake_l2_l3_m clearwater_fake_l2_l3_m@clearwater_cave_fake "" ""
+xth_cp_map_tree_insert map 0 2253X1 2254X1 3 clearwater_fake_l3_m clearwater_fake_l3_m@clearwater_cave_fake "" ""
+xth_cp_map_tree_insert map 1 1851X1 2253X1 4 clearwater_upper_m clearwater_upper_m@clearwater_cave_fake "" ""
+xth_cp_map_tree_insert map 0 2252X1 2254X1 3 clearwater_fake_l2_m clearwater_fake_l2_m@clearwater_cave_fake "" ""
+xth_cp_map_tree_insert map 1 1198X1 2252X1 4 ronnies_delight_m ronnies_delight_m@clearwater_cave_fake "" ""
+xth_cp_map_tree_insert map 1 1054X1 2252X1 4 beckoning_finger_m beckoning_finger_m@clearwater_cave_fake "" ""
+xth_cp_map_tree_insert map 1 2081X1 2252X1 4 dune_m dune_m@clearwater_cave_fake "Dune Series" "Dune Series"
+xth_cp_map_tree_insert map 1 2139X1 2252X1 4 farnorth_m farnorth_m@clearwater_cave_fake "" ""
+xth_cp_map_tree_insert map 1 1055X1 2252X1 4 revival_m revival_m@clearwater_cave_fake "Revival" "Revival"
+xth_cp_map_tree_insert map 1 2020X1 2252X1 4 clearwater_maindrag_m clearwater_maindrag_m@clearwater_cave_fake "" ""
+xth_cp_map_tree_insert map 1 1496X1 2252X1 4 volcano_m volcano_m@clearwater_cave_fake "Volcano" "Volcano"
+xth_cp_map_tree_insert map 1 1056X1 2252X1 4 sheer_delight_m sheer_delight_m@clearwater_cave_fake "" ""
+xth_cp_map_tree_insert map 1 1656X1 2252X1 4 cotw_fake_m cotw_fake_m@clearwater_cave_fake "" ""
+xth_cp_map_tree_insert map 0 2251X1 2255X1 2 clearwater_fake_l1_m clearwater_fake_l1_m@clearwater_cave_fake "" ""
+xth_cp_map_tree_insert map 1 2215X1 2251X1 3 lower_series_m lower_series_m@clearwater_cave_fake "" ""
+xth_cp_map_tree_insert map 1 706X1 2251X1 3 clearwater_III_m clearwater_III_m@clearwater_cave_fake "Clearwater III" "Clearwater III"
+xth_cp_map_tree_insert map 1 571X1 2251X1 3 clearwater_II_m clearwater_II_m@clearwater_cave_fake "Clearwater II" "Clearwater II"
+xth_cp_map_tree_insert map 1 425X1 2251X1 3 clearwater_I_m clearwater_I_m@clearwater_cave_fake "" ""
+xth_cp_map_tree_insert map 1 1655X1 2251X1 3 cotw_fake_river_m cotw_fake_river_m@clearwater_cave_fake "" ""
 xth_cp_map_tree_create
 xth_cp_comp_stat 43957 66
-set xth(th_exit_state) 1
-set xth(th_exit_number) 1608633155
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1667234451
 

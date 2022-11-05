@@ -1,9 +1,7 @@
-therion 5.4.4+19919fc (2020-10-19)
-  - using Proj 6.3.1, compiled against 6.3.1
-initialization file: /home/ben/.therion/therion.ini
+therion 6.0.1 (2021-07-25)
+  - using Proj 5.1.0, compiled against 5.1.0
+initialization file: C:\Program Files (x86)\Therion/therion.ini
 reading ... done
-checking optional fonts csr10 csti10 csbx10 csss10 csssi10 ... OK
-checking optional fonts cmcyr10 cmcti10 cmcbx10 cmcss10 cmcssi10 ... OK
 configuration file: thconfig
 reading ... done
 reading source files ... done
@@ -14,15 +12,15 @@ calculating station coordinates ... done
 average loop error: 0.00%
 processing survey data ... 
 ####################### cavern log file ########################
- 1> Survex 1.2.42
- 2> Copyright Â© 1990-2018 Olly Betts
+ 1> Survex 1.2.44
+ 2> Copyright ¸ 1990-2021 Olly Betts
  3> 
  4> Survey contains 684 survey stations, joined by 735 legs.
  5> There are 52 loops.
  6> Total length of survey legs = 43956.65m (43956.65m adjusted)
  7> Total plan length of survey legs = 42017.27m
  8> Total vertical length of survey legs = 6731.50m
- 9> Vertical range = 440.00m (from 542 at 460.00m to 583 at 20.00m)
+ 9> Vertical range = 440.00m (from 542 at 460.00m to 584 at 20.00m)
 10> North-South range = 4108.37m (from 295 at 452920.12m to 23 at 448811.75m)
 11> East-West range = 2939.71m (from 311 at 262103.71m to 1 at 259164.00m)
 12>   90 1-nodes.
@@ -35,7 +33,7 @@ processing survey data ...
 ######################### transcription ########################
  4> 684 : 1045@clearwater_cave_fake
  5> 52 : 71@clearwater_cave_fake
- 9> 542 : 835@clearwater_cave_fake -- 583 : 899@clearwater_cave_fake
+ 9> 542 : 835@clearwater_cave_fake -- 584 : 900@clearwater_cave_fake
 10> 295 : 443@clearwater_cave_fake -- 23 : 25@clearwater_cave_fake
 11> 311 : 472@clearwater_cave_fake -- 1 : 0@clearwater_cave_fake
 12> 90 : 150@clearwater_cave_fake
@@ -51,218 +49,190 @@ processing extended elevation ... done
 processing references ... done
 selecting export objects ... done
 writing clearwater_cave_fake.3d ... done
-writing clearwater_cave_fake.lox ...
 processing projection plan ... done
-average distortion: 3.69%
-.
-therion: warning -- goldwater_s1@clearwater_cave_fake -- multiple scrap outer outlines not supported yet
-..
-therion: warning -- clearwater_river_s2@clearwater_cave_fake -- multiple scrap outer outlines not supported yet
-....
-therion: warning -- ClearwaterOneSP5@clearwater_cave_fake -- multiple scrap outer outlines not supported yet
-..
-therion: warning -- clearwater_II_s1@clearwater_cave_fake -- multiple scrap outer outlines not supported yet
-.....
-therion: warning -- clearwater_ii_old@clearwater_cave_fake -- multiple scrap outer outlines not supported yet
-therion: warning -- clearwater_ii_old@clearwater_cave_fake -- invalid scrap outline
-.
-therion: warning -- clearwater_III_s1@clearwater_cave_fake -- multiple scrap outer outlines not supported yet
-.
-therion: warning -- clearwater_III_s2@clearwater_cave_fake -- multiple scrap outer outlines not supported yet
-...
-therion: warning -- revival_s4@clearwater_cave_fake -- multiple scrap outer outlines not supported yet
-.....
-therion: warning -- volcano_s1@clearwater_cave_fake -- multiple scrap outer outlines not supported yet
-.
-therion: warning -- rmaf_s1@clearwater_cave_fake -- scrap 3D reconstruction failed
-.therion: warning -- volcano_s2@clearwater_cave_fake -- multiple scrap outer outlines not supported yet
-....therion: warning -- COTWSP3@clearwater_cave_fake -- multiple scrap outer outlines not supported yet
-.therion: warning -- COTWSP4@clearwater_cave_fake -- multiple scrap outer outlines not supported yet
-...therion: warning -- ClayHallSP1@clearwater_cave_fake -- multiple scrap outer outlines not supported yet
-...therion: warning -- WindCaveRiverSP1@clearwater_cave_fake -- multiple scrap outer outlines not supported yet
-...therion: warning -- SecretGardenSP1@clearwater_cave_fake -- multiple scrap outer outlines not supported yet
-..therion: warning -- SecretGardenSP2@clearwater_cave_fake -- multiple scrap outer outlines not supported yet
-.therion: warning -- HeavensGateSP1@clearwater_cave_fake -- multiple scrap outer outlines not supported yet
-......therion: warning -- KingSethsMazeSP1@clearwater_cave_fake -- multiple scrap outer outlines not supported yet
-.therion: warning -- HyperspaceSP1@clearwater_cave_fake -- multiple scrap outer outlines not supported yet
-..therion: warning -- dune_s2@clearwater_cave_fake -- invalid scrap outline
-....therion: warning -- GnomeOxbowSP1@clearwater_cave_fake -- multiple scrap outer outlines not supported yet
-..therion: warning -- TrollCavernSP1@clearwater_cave_fake -- multiple scrap outer outlines not supported yet
-.......therion: warning -- LowerSeriesSP6@clearwater_cave_fake -- multiple scrap outer outlines not supported yet
-.therion: warning -- cleartop_s1@clearwater_cave_fake -- multiple scrap outer outlines not supported yet
-therion: warning -- cleartop_s1@clearwater_cave_fake -- invalid scrap outline
- done
-therion: warning --  [0] -- source layout not found -- LayoutScale3000
+average distortion: 3.68%
 
 
 ############### export maps & scraps selection #################
-M      nan clearwater_fake_l1_m@clearwater_cave_fake ()
-M      nan lower_series_m@clearwater_cave_fake ()
-S   127.50  LowerSeriesSP1@clearwater_cave_fake ()
-S   108.50  LowerSeriesSP4@clearwater_cave_fake ()
-S   116.50  LowerSeriesSP6@clearwater_cave_fake ()
-S    64.00  LowerSeriesSP3@clearwater_cave_fake ()
-S    85.50  LowerSeriesSP5@clearwater_cave_fake ()
-S    74.00  LowerSeriesSP2@clearwater_cave_fake ()
-M      nan clearwater_III_m@clearwater_cave_fake (Clearwater III)
-S    26.00  clearwater_III_s1@clearwater_cave_fake ()
-S    26.00  clearwater_III_s2@clearwater_cave_fake ()
-M      nan clearwater_II_m@clearwater_cave_fake (Clearwater II)
-S    77.00  clearwater_II_s1@clearwater_cave_fake ()
-S    29.00  clearwater_II_s4@clearwater_cave_fake ()
-S    31.50  clearwater_II_s2@clearwater_cave_fake ()
-S    70.50  clearwater_II_s3@clearwater_cave_fake ()
-M      nan clearwater_I_m@clearwater_cave_fake ()
-S    45.67  balcony_s1@clearwater_cave_fake ()
-S    23.00  clearwater_river_s4@clearwater_cave_fake ()
-S    54.25  richards_passage_s1@clearwater_cave_fake ()
-S    22.33  goldwater_s1@clearwater_cave_fake ()
-S    28.06  clearwater_river_s1@clearwater_cave_fake ()
-S    22.90  clearwater_river_s2@clearwater_cave_fake ()
-S    67.50  clearwater_river_s3@clearwater_cave_fake ()
-S    24.83  ClearwaterOneSP5@clearwater_cave_fake ()
-M      nan cotw_fake_river_m@clearwater_cave_fake ()
-S    21.75  ClayHallSP3@clearwater_cave_fake ()
-S    20.58  WindCaveRiverSP1@clearwater_cave_fake ()
-S    21.50  WindCaveRiverSP2@clearwater_cave_fake ()
-S    20.17  WindCaveRiverSP3@clearwater_cave_fake ()
-M      nan clearwater_fake_l2_m@clearwater_cave_fake ()
-M      nan ronnies_delight_m@clearwater_cave_fake ()
-S   161.35  ronnies_delight_s1@clearwater_cave_fake ()
-M      nan beckoning_finger_m@clearwater_cave_fake ()
-S   158.50  BeckoningFingerSP1@clearwater_cave_fake ()
-M      nan dune_m@clearwater_cave_fake (Dune Series)
-S    90.00  dune_s1@clearwater_cave_fake ()
-S    85.00  dune_s2@clearwater_cave_fake ()
-M      nan farnorth_m@clearwater_cave_fake ()
-S   102.00  WestPassageSP1@clearwater_cave_fake ()
-S    83.00  GreatWallChamberSP1@clearwater_cave_fake ()
-S    75.50  EastPassageSP1@clearwater_cave_fake ()
-S   123.00  GnomeOxbowSP1@clearwater_cave_fake ()
-S   102.00  TrollCavernSP1@clearwater_cave_fake ()
-S    96.00  GnomeOxbowSP2@clearwater_cave_fake ()
-S    85.50  KingsLoopSP1@clearwater_cave_fake ()
-M      nan revival_m@clearwater_cave_fake (Revival)
-S    98.50  revival_s1@clearwater_cave_fake ()
-S   128.33  revival_s4@clearwater_cave_fake ()
-S    94.00  revival_s3@clearwater_cave_fake ()
-M      nan clearwater_maindrag_m@clearwater_cave_fake ()
-S   112.75  IIDSP1@clearwater_cave_fake ()
-S   100.50  IIDSP2@clearwater_cave_fake ()
-S    50.67  InflationSP1@clearwater_cave_fake ()
-S    90.20  HyperspaceSP1@clearwater_cave_fake ()
-S   139.80  ConnectionToLowerSP1@clearwater_cave_fake ()
-S    70.50  KingSethsMazeSP1@clearwater_cave_fake ()
-M      nan volcano_m@clearwater_cave_fake (Volcano)
-S    70.50  volcano_s1@clearwater_cave_fake ()
-S    70.50  volcano_s2@clearwater_cave_fake ()
-S    70.50  JunctionCavernSP1@clearwater_cave_fake ()
-M      nan sheer_delight_m@clearwater_cave_fake ()
-S    69.50  revival_s2@clearwater_cave_fake ()
-S    46.00  SheerDelightSP1@clearwater_cave_fake ()
-M      nan cotw_fake_m@clearwater_cave_fake ()
-S    62.00  COTWSP4@clearwater_cave_fake ()
-S    51.50  COTWSP1@clearwater_cave_fake ()
-S   123.33  COTWSP2@clearwater_cave_fake ()
-S   113.00  COTWSP3@clearwater_cave_fake ()
-S    80.00  WanWaySP1@clearwater_cave_fake ()
-S    24.50  ClayHallSP1@clearwater_cave_fake ()
-S    22.67  ClayHallSP2@clearwater_cave_fake ()
-M      nan clearwater_fake_l3_m@clearwater_cave_fake ()
-M      nan clearwater_upper_m@clearwater_cave_fake ()
-S   288.50  HeavensGateSP1@clearwater_cave_fake ()
-S   220.10  SecretGardenSP1@clearwater_cave_fake ()
-S   120.33  SecretGardenSP2@clearwater_cave_fake ()
-S    70.50  DonutSP2@clearwater_cave_fake ()
-S   173.50  UpperSeriesConnectionSP1@clearwater_cave_fake ()
+M    46.21 clearwater_fake_l1_m@clearwater_cave_fake ()
+M    96.00 lower_series_m@clearwater_cave_fake ()
+S   127.50 LowerSeriesSP1@clearwater_cave_fake ()
+S   108.50 LowerSeriesSP4@clearwater_cave_fake ()
+S   116.50 LowerSeriesSP6@clearwater_cave_fake ()
+S    64.00 LowerSeriesSP3@clearwater_cave_fake ()
+S    85.50 LowerSeriesSP5@clearwater_cave_fake ()
+S    74.00 LowerSeriesSP2@clearwater_cave_fake ()
+M    26.00 clearwater_III_m@clearwater_cave_fake (Clearwater III)
+S    26.00 clearwater_III_s1@clearwater_cave_fake ()
+S    26.00 clearwater_III_s2@clearwater_cave_fake ()
+M    52.00 clearwater_II_m@clearwater_cave_fake (Clearwater II)
+S    77.00 clearwater_II_s1@clearwater_cave_fake ()
+S    29.00 clearwater_II_s4@clearwater_cave_fake ()
+S    31.50 clearwater_II_s2@clearwater_cave_fake ()
+S    70.50 clearwater_II_s3@clearwater_cave_fake ()
+M    36.07 clearwater_I_m@clearwater_cave_fake ()
+S    45.67 balcony_s1@clearwater_cave_fake ()
+S    23.00 clearwater_river_s4@clearwater_cave_fake ()
+S    54.25 richards_passage_s1@clearwater_cave_fake ()
+S    22.33 goldwater_s1@clearwater_cave_fake ()
+S    28.06 clearwater_river_s1@clearwater_cave_fake ()
+S    22.90 clearwater_river_s2@clearwater_cave_fake ()
+S    67.50 clearwater_river_s3@clearwater_cave_fake ()
+S    24.83 ClearwaterOneSP5@clearwater_cave_fake ()
+M    21.00 cotw_fake_river_m@clearwater_cave_fake ()
+S    21.75 ClayHallSP3@clearwater_cave_fake ()
+S    20.58 WindCaveRiverSP1@clearwater_cave_fake ()
+S    21.50 WindCaveRiverSP2@clearwater_cave_fake ()
+S    20.17 WindCaveRiverSP3@clearwater_cave_fake ()
+M   100.00 clearwater_fake_l2_m@clearwater_cave_fake ()
+M   161.35 ronnies_delight_m@clearwater_cave_fake ()
+S   161.35 ronnies_delight_s1@clearwater_cave_fake ()
+M   158.50 beckoning_finger_m@clearwater_cave_fake ()
+S   158.50 BeckoningFingerSP1@clearwater_cave_fake ()
+M    87.50 dune_m@clearwater_cave_fake (Dune Series)
+S    90.00 dune_s1@clearwater_cave_fake ()
+S    85.00 dune_s2@clearwater_cave_fake ()
+M    95.29 farnorth_m@clearwater_cave_fake ()
+S   102.00 WestPassageSP1@clearwater_cave_fake ()
+S    83.00 GreatWallChamberSP1@clearwater_cave_fake ()
+S    75.50 EastPassageSP1@clearwater_cave_fake ()
+S   123.00 GnomeOxbowSP1@clearwater_cave_fake ()
+S   102.00 TrollCavernSP1@clearwater_cave_fake ()
+S    96.00 GnomeOxbowSP2@clearwater_cave_fake ()
+S    85.50 KingsLoopSP1@clearwater_cave_fake ()
+M   106.94 revival_m@clearwater_cave_fake (Revival)
+S    98.50 revival_s1@clearwater_cave_fake ()
+S   128.33 revival_s4@clearwater_cave_fake ()
+S    94.00 revival_s3@clearwater_cave_fake ()
+M    94.07 clearwater_maindrag_m@clearwater_cave_fake ()
+S   112.75 IIDSP1@clearwater_cave_fake ()
+S   100.50 IIDSP2@clearwater_cave_fake ()
+S    50.67 InflationSP1@clearwater_cave_fake ()
+S    90.20 HyperspaceSP1@clearwater_cave_fake ()
+S   139.80 ConnectionToLowerSP1@clearwater_cave_fake ()
+S    70.50 KingSethsMazeSP1@clearwater_cave_fake ()
+M    70.50 volcano_m@clearwater_cave_fake (Volcano)
+S    70.50 volcano_s1@clearwater_cave_fake ()
+S    70.50 volcano_s2@clearwater_cave_fake ()
+S    70.50 JunctionCavernSP1@clearwater_cave_fake ()
+M    57.75 sheer_delight_m@clearwater_cave_fake ()
+S    69.50 revival_s2@clearwater_cave_fake ()
+S    46.00 SheerDelightSP1@clearwater_cave_fake ()
+M    68.14 cotw_fake_m@clearwater_cave_fake ()
+S    62.00 COTWSP4@clearwater_cave_fake ()
+S    51.50 COTWSP1@clearwater_cave_fake ()
+S   123.33 COTWSP2@clearwater_cave_fake ()
+S   113.00 COTWSP3@clearwater_cave_fake ()
+S    80.00 WanWaySP1@clearwater_cave_fake ()
+S    24.50 ClayHallSP1@clearwater_cave_fake ()
+S    22.67 ClayHallSP2@clearwater_cave_fake ()
+M   174.59 clearwater_fake_l3_m@clearwater_cave_fake ()
+M   174.59 clearwater_upper_m@clearwater_cave_fake ()
+S   288.50 HeavensGateSP1@clearwater_cave_fake ()
+S   220.10 SecretGardenSP1@clearwater_cave_fake ()
+S   120.33 SecretGardenSP2@clearwater_cave_fake ()
+S    70.50 DonutSP2@clearwater_cave_fake ()
+S   173.50 UpperSeriesConnectionSP1@clearwater_cave_fake ()
 ########## end of export maps & scraps selection ###############
 writing clearwater_cave_fake.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.00 (TeX Live 2019/Debian) (kpathsea version 6.3.1)  3 MAR 2021 13:29
+This is MetaPost, version 2.00 (TeX Live 2020/W32TeX) (kpathsea version 6.3.2)  31 OCT 2022 16:40
 **data.mp
-(/usr/share/texlive/texmf-dist/metapost/base/mpost.mp
-(/usr/share/texlive/texmf-dist/metapost/base/plain.mp
+(c:/Program Files (x86)/Therion/texmf/mpost/mpost.mp
+(c:/Program Files (x86)/Therion/texmf/mpost/plain.mp
 Preloading the plain mem file, version 1.005) ) (./data.mp
 {randomseed:=42}
- [4001] [4002] [4003] [4004] [4005] [4006] [4007] [4008] [4009] [4010] [4011] [
-4012] [4013] [4014]
-[4015] [4016] [4017]
+ [1] [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+[15] [16] [17]
 [Warning: scrap outline intersects itself in scrap LowerSeriesSP2@clearwater_ca
-ve_fake] [1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15]
-[16] [17] [18] [19] [20] [21] [22] [23] [24] [25] [26]
+ve_fake] [1] [2] [3] [4]
+[Warning: scrap outline intersects itself in scrap LowerSeriesSP3@clearwater_ca
+ve_fake] [5] [6]
+[Warning: scrap outline intersects itself in scrap LowerSeriesSP6@clearwater_ca
+ve_fake] [7] [8]
+[Warning: scrap outline intersects itself in scrap LowerSeriesSP4@clearwater_ca
+ve_fake] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20] [21] [22]
+[23] [24] [25] [26]
 [Warning: scrap outline intersects itself in scrap clearwater_II_s2@clearwater_
-cave_fake] [27] [28] [29] [30] [31] [32] [33] [34] [35] [36] [37] [38] [39]
-[40] [41] [42] [43] [44] [45] [46] [47] [48] [49] [50] [51] [52] [53] [54]
-[55] [56] [57]
+cave_fake] [27] [28] [29] [30] [31] [32] [33] [34] [35] [36]
+[Warning: scrap outline intersects itself in scrap ClearwaterOneSP5@clearwater_
+cave_fake] [37] [38] [39] [40] [41] [42] [43] [44] [45] [46] [47] [48] [49]
+[50] [51]
+[Warning: scrap outline intersects itself in scrap goldwater_s1@clearwater_cave
+_fake] [52] [53] [54]
+[Warning: scrap outline intersects itself in scrap richards_passage_s1@clearwat
+er_cave_fake] [55] [56] [57]
 [Warning: scrap outline intersects itself in scrap clearwater_river_s4@clearwat
 er_cave_fake] [58] [59] [60]
 [Warning: scrap outline intersects itself in scrap balcony_s1@clearwater_cave_f
 ake] [61] [62] [63] [64] [65] [66] [67] [68] [69] [70] [71]
 [Warning: scrap outline intersects itself in scrap ronnies_delight_s1@clearwate
-r_cave_fake] [72] [73] [74] [75] [76] [77] [78] [79] [80] [81] [82] [83] [84]
-[85] [86] [87] [88] [89] [90] [91] [92] [93] [94] [95] [96] [97] [98] [99]
-[100] [101] [102] [103] [104] [105] [106] [107] [108] [109] [110] [111] [112]
-[113] [114] [115] [116] [117] [118] [119] [120] [121] [122] [123] [124] [125]
-[126] [127] [128] [129] [130] [131] [132] [133] [134] [135] [136] [137] [138]
-[139] [140] [141] [142] [143] [144] [145] [146] [147]
-[Warning: scrap outline intersects itself in scrap COTWSP3@clearwater_cave_fake
-] [148] [149] [150] [151] [152] [153] [154] [155] [156] [157] [158] [159] [160]
-[161] [162]
+r_cave_fake] [72] [73] [74]
+[Warning: scrap outline intersects itself in scrap BeckoningFingerSP1@clearwate
+r_cave_fake] [75] [76] [77] [78] [79] [80] [81] [82] [83] [84] [85] [86] [87]
+[88] [89] [90] [91] [92] [93] [94] [95] [96] [97] [98] [99] [100] [101] [102]
+[103] [104] [105] [106] [107] [108] [109] [110] [111] [112] [113] [114] [115]
+[116] [117] [118] [119] [120] [121] [122] [123] [124] [125] [126] [127] [128]
+[129] [130] [131] [132] [133] [134] [135] [136] [137] [138] [139] [140] [141]
+[142] [143] [144] [145] [146] [147] [148] [149] [150] [151] [152] [153] [154]
+[155] [156]
+[Warning: scrap outline intersects itself in scrap UpperSeriesConnectionSP1@cle
+arwater_cave_fake] [157] [158] [159] [160] [161] [162]
 [Warning: scrap outline intersects itself in scrap SecretGardenSP2@clearwater_c
 ave_fake] [163] [164] [165] [166] [167] [168] [169] [170] [171] [172] [173]
 (./mptextmp.mp) [174] [175] [176] [177] [178] [179] [180] [181] [182] [183]
 [184] [185] [186] [187] [188] [189] [190] [191] [192] [193] [194] [195] [196]
 [197] [198] [199] [200] [201] [202] [203] [204] [205] [206] [207] [208] [209]
-[210] [211] [212] [213] [214] )
+[210] [211] [212] [213] )
  
 Here is how much of MetaPost's memory you used:
- 167574 strings using 4115126 characters
- 16298744 bytes of node memory
- 1903 symbolic tokens
- 11i,82n,16p,452b,5f stack positions out of 16i,98n,17p,487b,6f
-231 output files written: data.1 .. data.4017
+ 160427 strings using 3784531 characters
+ 13212360 bytes of node memory
+ 1923 symbolic tokens
+ 11i,82n,16p,450b,5f stack positions out of 16i,98n,17p,487b,6f
+230 output files written: data-patt.1 .. data.213
 
 
 #################### end of metapost log file ####################
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdftex 2021.3.1)  3 MAR 2021 13:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdftex 2020.6.19)  31 OCT 2022 16:40
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
-(/usr/share/texlive/texmf-dist/tex/generic/pdftex/glyphtounicode.tex))
-(./th_fontdef.tex{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map})
+(c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
+(./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
 (./th_formdef.tex
 Normal \count register pool exhausted, switching to extended pool.)
 (./th_pagedef.tex) (./th_pages.tex)
  253 numeric registers used out of 32768
  [1] ) 
 Here is how much of TeX's memory you used:
- 647 strings out of 495031
- 6714 string characters out of 6159438
- 1905077 words of memory out of 5000000
- 2247 multiletter control sequences out of 15000+600000
- 20080 words of font info for 63 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 9i,5n,9p,276b,56s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb>
-Output written on data.pdf (1 page, 2725272 bytes).
+ 793 strings out of 94623
+ 10198 string characters out of 1150079
+ 2203579 words of memory out of 6928322
+ 2444 multiletter control sequences out of 15000+50000
+ 20080 words of font info for 63 fonts, out of 1000000 for 2000
+ 1416 hyphenation exceptions out of 5000
+ 9i,5n,9p,309b,56s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Program Files (x86)/Therion/texmf/fonts/type1/cmmi10.pfb><c:/Program 
+Files (x86)/Therion/texmf/fonts/type1/cmr10.pfb><c:/Program Files (x86)/Therion
+/texmf/fonts/type1/cmss10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/type1
+/cmssi10.pfb>
+Output written on data.pdf (1 page, 2598819 bytes).
 PDF statistics:
- 914 PDF objects out of 1000 (max. 8388607)
- 459 compressed objects within 5 object streams
+ 1157 PDF objects out of 1200 (max. 8388607)
+ 580 compressed objects within 6 object streams
  0 named destinations out of 1000 (max. 500000)
- 2659 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3385 words of extra memory for PDF output out of 10000 (max. 10000000)
 
 
 ##################### end of pdftex log file #####################
 done
-compilation time: 53 sec
+writing xtherion file ... done
+compilation time: 14 sec
 
 
 ######################### loop errors ##########################
@@ -309,14 +279,14 @@ REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
   0.00%    0.0m  470.0m   4   -0.0m    0.0m    0.0m [130@clearwater_cave_fake - 145 - 132 - 131 - 130]
   0.00%    0.0m  241.9m   5    0.0m   -0.0m    0.0m [923@clearwater_cave_fake - 960 - 961 - 962 - 924 - 923]
   0.00%    0.0m  246.9m   5    0.0m   -0.0m    0.0m [745@clearwater_cave_fake - 746 - 726 - 725 - 724 - 745]
-  0.00%    0.0m  232.9m   3    0.0m    0.0m    0.0m [288@clearwater_cave_fake - 645 - 289 - 288]
-  0.00%    0.0m  297.4m   4    0.0m    0.0m    0.0m [602@clearwater_cave_fake - 675 - 676 - 603 - 602]
-  0.00%    0.0m  222.5m   4    0.0m    0.0m    0.0m [605@clearwater_cave_fake - 630 - 631 - 606 - 605]
-  0.00%    0.0m  248.2m   4    0.0m    0.0m    0.0m [607@clearwater_cave_fake - 282 - 283 - 608 - 607]
-  0.00%    0.0m  285.6m   4    0.0m    0.0m    0.0m [746@clearwater_cave_fake - 726 - 727 - 747 - 746]
-  0.00%    0.0m  161.3m   4    0.0m    0.0m    0.0m [740@clearwater_cave_fake - 721 - 720 - 719 - 740]
-  0.00%    0.0m  163.3m   5    0.0m    0.0m    0.0m [500@clearwater_cave_fake - 535 - 536 - 540 - 501 - 500]
   0.00%    0.0m  187.0m   5    0.0m    0.0m    0.0m [722@clearwater_cave_fake - 742 - 741 - 740 - 721 - 722]
+  0.00%    0.0m  161.3m   4    0.0m    0.0m    0.0m [740@clearwater_cave_fake - 721 - 720 - 719 - 740]
+  0.00%    0.0m  285.6m   4    0.0m    0.0m    0.0m [746@clearwater_cave_fake - 726 - 727 - 747 - 746]
+  0.00%    0.0m  248.2m   4    0.0m    0.0m    0.0m [607@clearwater_cave_fake - 282 - 283 - 608 - 607]
+  0.00%    0.0m  222.5m   4    0.0m    0.0m    0.0m [605@clearwater_cave_fake - 630 - 631 - 606 - 605]
+  0.00%    0.0m  297.4m   4    0.0m    0.0m    0.0m [602@clearwater_cave_fake - 675 - 676 - 603 - 602]
+  0.00%    0.0m  163.3m   5    0.0m    0.0m    0.0m [500@clearwater_cave_fake - 535 - 536 - 540 - 501 - 500]
+  0.00%    0.0m  232.9m   3    0.0m    0.0m    0.0m [288@clearwater_cave_fake - 645 - 289 - 288]
   0.00%    0.0m  247.0m   5    0.0m    0.0m    0.0m [735@clearwater_cave_fake - 714 - 713 - 712 - 711 - 735]
   0.00%    0.0m  462.2m   6    0.0m    0.0m    0.0m [555@clearwater_cave_fake - 554 - 553 - 565 - 283 - 282 - 555]
 ##################### end of loop errors #######################
@@ -328,6 +298,7 @@ REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
   76.27%   93.90%  dune_s2@clearwater_cave_fake
   34.22%   87.24%  WanWaySP1@clearwater_cave_fake
   63.06%   84.18%  KingSethToWanWay@clearwater_cave_fake
+   0.35%   69.19%  volcano_s1@clearwater_cave_fake
   11.00%   63.81%  revival_s1@clearwater_cave_fake
    5.82%   63.40%  clearwater_II_s4@clearwater_cave_fake
    6.09%   62.12%  SecretGardenSP1@clearwater_cave_fake
@@ -372,8 +343,7 @@ REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
    2.09%   16.64%  LowerSeriesSP4@clearwater_cave_fake
    5.78%   15.63%  ClayHallSP3@clearwater_cave_fake
    2.59%   13.84%  IIDSP2@clearwater_cave_fake
-   1.96%   12.57%  JunctionCavernSP1@clearwater_cave_fake
-   0.35%   10.46%  volcano_s1@clearwater_cave_fake
+   1.96%   11.82%  JunctionCavernSP1@clearwater_cave_fake
    1.17%    9.94%  clearwater_river_s3@clearwater_cave_fake
    1.33%    8.54%  SecretGardenSP2@clearwater_cave_fake
    3.21%    8.45%  clearwater_II_s3@clearwater_cave_fake
@@ -385,10 +355,10 @@ REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
    2.34%    3.57%  clearwater_ii_old@clearwater_cave_fake
    0.32%    2.52%  KingSethsMazeSP1@clearwater_cave_fake
    0.22%    1.09%  clearwater_river_s4@clearwater_cave_fake
-   0.00%    0.01%  volcano_s2@clearwater_cave_fake
+   0.00%    0.05%  volcano_s2@clearwater_cave_fake
    0.00%    0.01%  clearwater_II_s5@clearwater_cave_fake
-   0.00%    0.00%  COTWSP4@clearwater_cave_fake
    0.00%    0.00%  cleartop_s1@clearwater_cave_fake
-   0.00%    0.00%  GnomeOxbowSP2@clearwater_cave_fake
+   0.00%    0.00%  COTWSP4@clearwater_cave_fake
    0.00%    0.00%  rmaf_s1@clearwater_cave_fake
+   0.00%    0.00%  GnomeOxbowSP2@clearwater_cave_fake
 ################### end of scrap distortions ###################

@@ -1,5 +1,9 @@
+encoding  utf-8
+encoding  utf-8
+input ../../../../../layouts/mulu_layouts.thc
+
 source ginpalace.th
 
 export model -o ginpalace.3d
-export model -o ginpalace.lox
-export map -o ginpalace.pdf
+#export model -o ginpalace.lox
+export map -o ginpalace.pdf -layout MuluMedium
