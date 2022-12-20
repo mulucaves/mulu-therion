@@ -1,0 +1,2360 @@
+therion 6.0.1 (2021-07-25)
+  - using Proj 5.1.0, compiled against 5.1.0
+initialization file: C:\Program Files (x86)\Therion/therion.ini
+reading ... done
+configuration file: thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.2.44
+ 2> Copyright ¸ 1990-2021 Olly Betts
+ 3> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:122: warning: Unused fixed point "129"
+ 4> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:136: warning: Unused fixed point "138"
+ 5> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:178: warning: Unused fixed point "180"
+ 6> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:208: warning: Unused fixed point "181"
+ 7> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:237: warning: Unused fixed point "195"
+ 8> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:334: warning: Unused fixed point "240"
+ 9> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:347: warning: Unused fixed point "246"
+10> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:360: warning: Unused fixed point "251"
+11> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:371: warning: Unused fixed point "256"
+12> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:390: warning: Unused fixed point "264"
+13> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:479: warning: Unused fixed point "345"
+14> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:548: warning: Unused fixed point "346"
+15> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:566: warning: Unused fixed point "355"
+16> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:794: warning: Unused fixed point "466"
+17> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:800: warning: Unused fixed point "469"
+18> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:802: warning: Unused fixed point "470"
+19> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:1116: warning: Unused fixed point "621"
+20> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:1118: warning: Unused fixed point "622"
+21> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:1167: warning: Unused fixed point "645"
+22> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:1177: warning: Unused fixed point "650"
+23> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:1203: warning: Unused fixed point "662"
+24> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:1355: warning: Unused fixed point "733"
+25> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:1384: warning: Unused fixed point "747"
+26> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:1434: warning: Unused fixed point "771"
+27> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:1488: warning: Unused fixed point "809"
+28> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:1544: warning: Unused fixed point "825"
+29> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:1980: warning: Unused fixed point "1200"
+30> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:2428: warning: Unused fixed point "1269"
+31> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:2542: warning: Unused fixed point "1348"
+32> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:2833: warning: Unused fixed point "1467"
+33> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:2990: warning: Unused fixed point "1545"
+34> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:3137: warning: Unused fixed point "1616"
+35> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:3197: warning: Unused fixed point "1645"
+36> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:3501: warning: Unused fixed point "1812"
+37> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:3633: warning: Unused fixed point "1859"
+38> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:3752: warning: Unused fixed point "1916"
+39> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:3905: warning: Unused fixed point "1992"
+40> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:3930: warning: Unused fixed point "2013"
+41> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:4166: warning: Unused fixed point "2227"
+42> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:4892: warning: Unused fixed point "2585"
+43> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:5119: warning: Unused fixed point "2714"
+44> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:5231: warning: Unused fixed point "2764"
+45> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:5232: warning: Unused fixed point "2765"
+46> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:5840: warning: Unused fixed point "3069"
+47> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:5866: warning: Unused fixed point "3082"
+48> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:6080: warning: Unused fixed point "3187"
+49> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:7316: warning: Unused fixed point "3887"
+50> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:7648: warning: Unused fixed point "3982"
+51> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:7755: warning: Unused fixed point "4055"
+52> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:7796: warning: Unused fixed point "4056"
+53> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:7799: warning: Unused fixed point "4057"
+54> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:8038: warning: Unused fixed point "4172"
+55> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:8255: warning: Unused fixed point "4273"
+56> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:8256: warning: Unused fixed point "4274"
+57> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:8715: warning: Unused fixed point "4499"
+58> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:9132: warning: Unused fixed point "4893"
+59> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:9254: warning: Unused fixed point "4894"
+60> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:9479: warning: Unused fixed point "4895"
+61> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:9546: warning: Unused fixed point "4896"
+62> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:9563: warning: Unused fixed point "4909"
+63> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:9584: warning: Unused fixed point "4919"
+64> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:9592: warning: Unused fixed point "4923"
+65> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:9666: warning: Unused fixed point "4960"
+66> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:9780: warning: Unused fixed point "5012"
+67> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:10187: warning: Unused fixed point "5217"
+68> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:10318: warning: Unused fixed point "5281"
+69> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:10493: warning: Unused fixed point "5423"
+70> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:10621: warning: Unused fixed point "5424"
+71> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:10887: warning: Unused fixed point "5669"
+72> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:11129: warning: Unused fixed point "5670"
+73> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:11241: warning: Unused fixed point "5724"
+74> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:11725: warning: Unused fixed point "5979"
+75> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:12147: warning: Unused fixed point "6186"
+76> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:12282: warning: Unused fixed point "6276"
+77> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:12341: warning: Unused fixed point "6277"
+78> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:12342: warning: Unused fixed point "6278"
+79> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:12830: warning: Unused fixed point "6670"
+80> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:12985: warning: Unused fixed point "6671"
+81> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:13615: warning: Unused fixed point "6900"
+82> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:13686: warning: Unused fixed point "6952"
+83> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:13723: warning: Unused fixed point "6953"
+84> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:14554: warning: Unused fixed point "7542"
+85> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:14658: warning: Unused fixed point "7543"
+86> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:14869: warning: Unused fixed point "7544"
+87> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:14948: warning: Unused fixed point "7545"
+88> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:14964: warning: Unused fixed point "7551"
+89> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:14994: warning: Unused fixed point "7566"
+90> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:15592: warning: Unused fixed point "7863"
+91> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:16653: warning: Unused fixed point "8392"
+92> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:16654: warning: Unused fixed point "8393"
+93> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:17379: warning: Unused fixed point "8753"
+94> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:18235: warning: Unused fixed point "9181"
+95> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:18265: warning: Unused fixed point "9196"
+96> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:18333: warning: Unused fixed point "9258"
+97> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:18580: warning: Unused fixed point "9360"
+98> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:18778: warning: Unused fixed point "9458"
+99> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:18848: warning: Unused fixed point "9492"
+100> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:19010: warning: Unused fixed point "9572"
+101> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:19191: warning: Unused fixed point "9686"
+102> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:19228: warning: Unused fixed point "9687"
+103> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:19456: warning: Unused fixed point "9791"
+104> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:19462: warning: Unused fixed point "9792"
+105> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:19667: warning: Unused fixed point "9891"
+106> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:19778: warning: Unused fixed point "9960"
+107> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:19886: warning: Unused fixed point "9996"
+108> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:19933: warning: Unused fixed point "10019"
+109> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:19948: warning: Unused fixed point "10025"
+110> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:20061: warning: Unused fixed point "10081"
+111> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:20091: warning: Unused fixed point "10106"
+112> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:20117: warning: Unused fixed point "10107"
+113> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:20142: warning: Unused fixed point "10123"
+114> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:20198: warning: Unused fixed point "10150"
+115> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:20216: warning: Unused fixed point "10159"
+116> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:20282: warning: Unused fixed point "10194"
+117> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:20292: warning: Unused fixed point "10195"
+118> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:20317: warning: Unused fixed point "10209"
+119> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:20376: warning: Unused fixed point "10237"
+120> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:20591: warning: Unused fixed point "10383"
+121> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:20903: warning: Unused fixed point "10494"
+122> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:20937: warning: Unused fixed point "10511"
+123> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:20943: warning: Unused fixed point "10517"
+124> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:20944: warning: Unused fixed point "10518"
+125> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:20962: warning: Unused fixed point "10526"
+126> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:21009: warning: Unused fixed point "10579"
+127> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:21023: warning: Unused fixed point "10580"
+128> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:21076: warning: Unused fixed point "10606"
+129> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:21158: warning: Unused fixed point "10647"
+130> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:21252: warning: Unused fixed point "10691"
+131> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:21320: warning: Unused fixed point "10727"
+132> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:21382: warning: Unused fixed point "10754"
+133> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:21399: warning: Unused fixed point "10755"
+134> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:21492: warning: Unused fixed point "10810"
+135> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:21517: warning: Unused fixed point "10811"
+136> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:21530: warning: Unused fixed point "10817"
+137> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:21574: warning: Unused fixed point "10844"
+138> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:21597: warning: Unused fixed point "10845"
+139> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:21685: warning: Unused fixed point "10889"
+140> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:21729: warning: Unused fixed point "10910"
+141> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:21766: warning: Unused fixed point "10927"
+142> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:21807: warning: Unused fixed point "10947"
+143> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:21819: warning: Unused fixed point "10952"
+144> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:21891: warning: Unused fixed point "10998"
+145> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:21919: warning: Unused fixed point "10999"
+146> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:22004: warning: Unused fixed point "11100"
+147> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:22012: warning: Unused fixed point "11103"
+148> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:22018: warning: Unused fixed point "11106"
+149> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:22041: warning: Unused fixed point "11117"
+150> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:22061: warning: Unused fixed point "11125"
+151> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:22081: warning: Unused fixed point "11137"
+152> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:22095: warning: Unused fixed point "11143"
+153> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:22122: warning: Unused fixed point "11156"
+154> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:22147: warning: Unused fixed point "11167"
+155> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:22158: warning: Unused fixed point "11170"
+156> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:22199: warning: Unused fixed point "11190"
+157> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:22276: warning: Unused fixed point "11247"
+158> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:22560: warning: Unused fixed point "11377"
+159> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:22610: warning: Unused fixed point "11385"
+160> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:22624: warning: Unused fixed point "11391"
+161> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:22684: warning: Unused fixed point "11421"
+162> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:22713: warning: Unused fixed point "11433"
+163> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:22741: warning: Unused fixed point "11447"
+164> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:22749: warning: Unused fixed point "11450"
+165> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:22755: warning: Unused fixed point "11453"
+166> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:22796: warning: Unused fixed point "11484"
+167> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:22828: warning: Unused fixed point "11486"
+168> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:22830: warning: Unused fixed point "11487"
+169> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:22836: warning: Unused fixed point "11490"
+170> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:22862: warning: Unused fixed point "11501"
+171> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:22891: warning: Unused fixed point "11515"
+172> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:22902: warning: Unused fixed point "11520"
+173> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:22904: warning: Unused fixed point "11521"
+174> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:22908: warning: Unused fixed point "11523"
+175> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:22920: warning: Unused fixed point "11529"
+176> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:22924: warning: Unused fixed point "11531"
+177> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:22928: warning: Unused fixed point "11533"
+178> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:22952: warning: Unused fixed point "11543"
+179> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:22970: warning: Unused fixed point "11551"
+180> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:22980: warning: Unused fixed point "11555"
+181> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:22986: warning: Unused fixed point "11558"
+182> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:23018: warning: Unused fixed point "11572"
+183> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:23067: warning: Unused fixed point "11599"
+184> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:23078: warning: Unused fixed point "11600"
+185> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:23151: warning: Unused fixed point "11635"
+186> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:23196: warning: Unused fixed point "11657"
+187> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:23428: warning: Unused fixed point "11816"
+188> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:23429: warning: Unused fixed point "11817"
+189> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:23809: warning: Unused fixed point "11923"
+190> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:23937: warning: Unused fixed point "11945"
+191> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:23961: warning: Unused fixed point "11956"
+192> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:23993: warning: Unused fixed point "11972"
+193> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:23998: warning: Unused fixed point "11973"
+194> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:24054: warning: Unused fixed point "12001"
+195> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:24105: warning: Unused fixed point "12026"
+196> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:24153: warning: Unused fixed point "12048"
+197> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:24158: warning: Unused fixed point "12050"
+198> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:24160: warning: Unused fixed point "12051"
+199> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:24448: warning: Unused fixed point "12193"
+200> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:24544: warning: Unused fixed point "12241"
+201> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:24775: warning: Unused fixed point "12299"
+202> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:24776: warning: Unused fixed point "12300"
+203> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:24777: warning: Unused fixed point "12301"
+204> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:24778: warning: Unused fixed point "12302"
+205> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:24779: warning: Unused fixed point "12303"
+206> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:24780: warning: Unused fixed point "12304"
+207> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:24900: warning: Unused fixed point "12337"
+208> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:24959: warning: Unused fixed point "12378"
+209> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:25153: warning: Unused fixed point "12465"
+210> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:25491: warning: Unused fixed point "12679"
+211> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:25575: warning: Unused fixed point "12680"
+212> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:25628: warning: Unused fixed point "12681"
+213> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:25810: warning: Unused fixed point "12815"
+214> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:26191: warning: Unused fixed point "12958"
+215> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:26236: warning: Unused fixed point "12980"
+216> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:26306: warning: Unused fixed point "13043"
+217> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:26664: warning: Unused fixed point "13190"
+218> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:26709: warning: Unused fixed point "13212"
+219> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:26875: warning: Unused fixed point "13293"
+220> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:27903: warning: Unused fixed point "13802"
+221> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:27953: warning: Unused fixed point "13826"
+222> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:27975: warning: Unused fixed point "13836"
+223> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:28057: warning: Unused fixed point "13876"
+224> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:28105: warning: Unused fixed point "13899"
+225> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:28133: warning: Unused fixed point "13912"
+226> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:28159: warning: Unused fixed point "13925"
+227> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:28285: warning: Unused fixed point "13985"
+228> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:28317: warning: Unused fixed point "14000"
+229> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:28337: warning: Unused fixed point "14010"
+230> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:28388: warning: Unused fixed point "14034"
+231> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:28407: warning: Unused fixed point "14042"
+232> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:28443: warning: Unused fixed point "14060"
+233> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:28489: warning: Unused fixed point "14088"
+234> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:28537: warning: Unused fixed point "14103"
+235> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:28554: warning: Unused fixed point "14111"
+236> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:28584: warning: Unused fixed point "14123"
+237> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:28676: warning: Unused fixed point "14188"
+238> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:28691: warning: Unused fixed point "14189"
+239> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:28693: warning: Unused fixed point "14190"
+240> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:28704: warning: Unused fixed point "14191"
+241> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:28756: warning: Unused fixed point "14201"
+242> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:28845: warning: Unused fixed point "14247"
+243> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:28848: warning: Unused fixed point "14248"
+244> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:28909: warning: Unused fixed point "14295"
+245> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:28958: warning: Unused fixed point "14296"
+246> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:29009: warning: Unused fixed point "14336"
+247> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:29042: warning: Unused fixed point "14337"
+248> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:29237: warning: Unused fixed point "14435"
+249> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:29581: warning: Unused fixed point "14797"
+250> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:29625: warning: Unused fixed point "14798"
+251> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:29658: warning: Unused fixed point "14814"
+252> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:29662: warning: Unused fixed point "14815"
+253> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:29691: warning: Unused fixed point "14828"
+254> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:29706: warning: Unused fixed point "14834"
+255> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:29790: warning: Unused fixed point "14874"
+256> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:29953: warning: Unused fixed point "14953"
+257> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:29985: warning: Unused fixed point "14983"
+258> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:30016: warning: Unused fixed point "14984"
+259> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:30238: warning: Unused fixed point "15092"
+260> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:30542: warning: Unused fixed point "15241"
+261> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:30594: warning: Unused fixed point "15265"
+262> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:31135: warning: Unused fixed point "15529"
+263> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:31358: warning: Unused fixed point "15636"
+264> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:31429: warning: Unused fixed point "15668"
+265> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:31464: warning: Unused fixed point "15684"
+266> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:31496: warning: Unused fixed point "15700"
+267> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:31543: warning: Unused fixed point "15721"
+268> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:31581: warning: Unused fixed point "15740"
+269> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:31594: warning: Unused fixed point "15745"
+270> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:31656: warning: Unused fixed point "15776"
+271> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:31667: warning: Unused fixed point "15781"
+272> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:31804: warning: Unused fixed point "15848"
+273> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:32118: warning: Unused fixed point "15968"
+274> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:32241: warning: Unused fixed point "16029"
+275> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:32263: warning: Unused fixed point "16044"
+276> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:32281: warning: Unused fixed point "16045"
+277> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:32354: warning: Unused fixed point "16085"
+278> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:32399: warning: Unused fixed point "16100"
+279> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:32421: warning: Unused fixed point "16111"
+280> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:32546: warning: Unused fixed point "16173"
+281> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:32590: warning: Unused fixed point "16195"
+282> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:32618: warning: Unused fixed point "16207"
+283> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:32630: warning: Unused fixed point "16213"
+284> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:32636: warning: Unused fixed point "16214"
+285> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:32650: warning: Unused fixed point "16221"
+286> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:32662: warning: Unused fixed point "16227"
+287> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:32835: warning: Unused fixed point "16343"
+288> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:32923: warning: Unused fixed point "16344"
+289> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:32963: warning: Unused fixed point "16364"
+290> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:32983: warning: Unused fixed point "16374"
+291> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:33013: warning: Unused fixed point "16389"
+292> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:33078: warning: Unused fixed point "16420"
+293> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:33728: warning: Unused fixed point "16743"
+294> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:33754: warning: Unused fixed point "16763"
+295> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:33836: warning: Unused fixed point "16821"
+296> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:34006: warning: Unused fixed point "16929"
+297> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:34120: warning: Unused fixed point "16932"
+298> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:34128: warning: Unused fixed point "16936"
+299> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:35215: warning: Unused fixed point "17478"
+300> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:35291: warning: Unused fixed point "17515"
+301> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:35750: warning: Unused fixed point "17742"
+302> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:36026: warning: Unused fixed point "17875"
+303> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:36463: warning: Unused fixed point "18109"
+304> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:36599: warning: Unused fixed point "18151"
+305> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:36609: warning: Unused fixed point "18156"
+306> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:36695: warning: Unused fixed point "18207"
+307> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:36897: warning: Unused fixed point "18320"
+308> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:36956: warning: Unused fixed point "18321"
+309> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:37159: warning: Unused fixed point "18428"
+310> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:37513: warning: Unused fixed point "18608"
+311> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:37549: warning: Unused fixed point "18609"
+312> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:37731: warning: Unused fixed point "18696"
+313> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:37732: warning: Unused fixed point "18697"
+314> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:38114: warning: Unused fixed point "18889"
+315> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:38121: warning: Unused fixed point "18890"
+316> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:38346: warning: Unused fixed point "19001"
+317> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:38761: warning: Unused fixed point "19215"
+318> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:38889: warning: Unused fixed point "19270"
+319> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:39051: warning: Unused fixed point "19349"
+320> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:40204: warning: Unused fixed point "19916"
+321> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:40439: warning: Unused fixed point "20005"
+322> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:40526: warning: Unused fixed point "20082"
+323> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:40732: warning: Unused fixed point "20148"
+324> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:40830: warning: Unused fixed point "20197"
+325> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:40878: warning: Unused fixed point "20219"
+326> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:40936: warning: Unused fixed point "20248"
+327> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:41050: warning: Unused fixed point "20304"
+328> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:41246: warning: Unused fixed point "20406"
+329> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:41261: warning: Unused fixed point "20407"
+330> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:41354: warning: Unused fixed point "20453"
+331> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:41361: warning: Unused fixed point "20454"
+332> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:41425: warning: Unused fixed point "20502"
+333> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:41455: warning: Unused fixed point "20517"
+334> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:41479: warning: Unused fixed point "20529"
+335> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:41493: warning: Unused fixed point "20535"
+336> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:41727: warning: Unused fixed point "20649"
+337> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:41728: warning: Unused fixed point "20650"
+338> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:41747: warning: Unused fixed point "20658"
+339> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:41828: warning: Unused fixed point "20698"
+340> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:41857: warning: Unused fixed point "20711"
+341> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:41871: warning: Unused fixed point "20712"
+342> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:42084: warning: Unused fixed point "20818"
+343> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:42422: warning: Unused fixed point "20989"
+344> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:42499: warning: Unused fixed point "21011"
+345> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:42542: warning: Unused fixed point "21032"
+346> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:42586: warning: Unused fixed point "21054"
+347> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:42609: warning: Unused fixed point "21064"
+348> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:42628: warning: Unused fixed point "21073"
+349> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:42638: warning: Unused fixed point "21078"
+350> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:42789: warning: Unused fixed point "21152"
+351> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:42992: warning: Unused fixed point "21249"
+352> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:43398: warning: Unused fixed point "21840"
+353> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:43399: warning: Unused fixed point "21841"
+354> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:43450: warning: Unused fixed point "21842"
+355> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:43482: warning: Unused fixed point "21858"
+356> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:43512: warning: Unused fixed point "21870"
+357> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:46639: warning: Unused fixed point "23884"
+358> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:46642: warning: Unused fixed point "23885"
+359> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:46654: warning: Unused fixed point "23891"
+360> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:46682: warning: Unused fixed point "23905"
+361> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:46710: warning: Unused fixed point "23918"
+362> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:46756: warning: Unused fixed point "23941"
+363> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:46770: warning: Unused fixed point "23948"
+364> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:46808: warning: Unused fixed point "23983"
+365> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:46842: warning: Unused fixed point "23984"
+366> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:46866: warning: Unused fixed point "23998"
+367> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:46873: warning: Unused fixed point "23999"
+368> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:46905: warning: Unused fixed point "24015"
+369> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:46920: warning: Unused fixed point "24027"
+370> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:46948: warning: Unused fixed point "24035"
+371> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:46958: warning: Unused fixed point "24040"
+372> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:46988: warning: Unused fixed point "24055"
+373> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:47090: warning: Unused fixed point "24122"
+374> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:47095: warning: Unused fixed point "24123"
+375> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:47096: warning: Unused fixed point "24124"
+376> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:47170: warning: Unused fixed point "24138"
+377> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:47321: warning: Unused fixed point "24209"
+378> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:47374: warning: Unused fixed point "24247"
+379> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:47436: warning: Unused fixed point "24262"
+380> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:47439: warning: Unused fixed point "24263"
+381> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:47477: warning: Unused fixed point "24281"
+382> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:47505: warning: Unused fixed point "24294"
+383> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:47610: warning: Unused fixed point "24381"
+384> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:47654: warning: Unused fixed point "24382"
+385> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:47688: warning: Unused fixed point "24383"
+386> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:47690: warning: Unused fixed point "24384"
+387> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:47772: warning: Unused fixed point "24425"
+388> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:47811: warning: Unused fixed point "24451"
+389> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:47816: warning: Unused fixed point "24452"
+390> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:47835: warning: Unused fixed point "24453"
+391> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:47840: warning: Unused fixed point "24454"
+392> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:47857: warning: Unused fixed point "24467"
+393> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:47870: warning: Unused fixed point "24468"
+394> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:47918: warning: Unused fixed point "24492"
+395> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:47942: warning: Unused fixed point "24502"
+396> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:48025: warning: Unused fixed point "24542"
+397> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:48026: warning: Unused fixed point "24543"
+398> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:48080: warning: Unused fixed point "24568"
+399> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:48092: warning: Unused fixed point "24579"
+400> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:48104: warning: Unused fixed point "24580"
+401> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:48115: warning: Unused fixed point "24585"
+402> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:48133: warning: Unused fixed point "24594"
+403> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:48198: warning: Unused fixed point "24635"
+404> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:48218: warning: Unused fixed point "24636"
+405> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:48272: warning: Unused fixed point "24677"
+406> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:48303: warning: Unused fixed point "24678"
+407> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:48401: warning: Unused fixed point "24754"
+408> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:48566: warning: Unused fixed point "24800"
+409> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:48670: warning: Unused fixed point "24850"
+410> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:48679: warning: Unused fixed point "24851"
+411> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:48715: warning: Unused fixed point "24869"
+412> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:48787: warning: Unused fixed point "24905"
+413> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:48811: warning: Unused fixed point "24917"
+414> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:48829: warning: Unused fixed point "24925"
+415> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:49031: warning: Unused fixed point "25032"
+416> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:49063: warning: Unused fixed point "25042"
+417> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:49072: warning: Unused fixed point "25043"
+418> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:49084: warning: Unused fixed point "25048"
+419> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:49098: warning: Unused fixed point "25054"
+420> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:49148: warning: Unused fixed point "25079"
+421> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:49154: warning: Unused fixed point "25082"
+422> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:49228: warning: Unused fixed point "25127"
+423> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:49312: warning: Unused fixed point "25159"
+424> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:49323: warning: Unused fixed point "25165"
+425> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:49325: warning: Unused fixed point "25166"
+426> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:49379: warning: Unused fixed point "25193"
+427> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:49415: warning: Unused fixed point "25217"
+428> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:49429: warning: Unused fixed point "25218"
+429> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:49480: warning: Unused fixed point "25262"
+430> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:49521: warning: Unused fixed point "25263"
+431> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:49535: warning: Unused fixed point "25270"
+432> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:49631: warning: Unused fixed point "25319"
+433> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:49636: warning: Unused fixed point "25320"
+434> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:49694: warning: Unused fixed point "25356"
+435> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:49741: warning: Unused fixed point "25365"
+436> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:49753: warning: Unused fixed point "25371"
+437> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:49884: warning: Unused fixed point "25433"
+438> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:49989: warning: Unused fixed point "25522"
+439> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:50010: warning: Unused fixed point "25523"
+440> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:50012: warning: Unused fixed point "25524"
+441> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:50016: warning: Unused fixed point "25525"
+442> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:50020: warning: Unused fixed point "25526"
+443> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:50028: warning: Unused fixed point "25527"
+444> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:50063: warning: Unused fixed point "25528"
+445> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:50108: warning: Unused fixed point "25551"
+446> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:50163: warning: Unused fixed point "25567"
+447> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:50189: warning: Unused fixed point "25580"
+448> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:50238: warning: Unused fixed point "25602"
+449> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:50274: warning: Unused fixed point "25620"
+450> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:50324: warning: Unused fixed point "25643"
+451> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:50370: warning: Unused fixed point "25666"
+452> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:50392: warning: Unused fixed point "25677"
+453> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:50416: warning: Unused fixed point "25689"
+454> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:50428: warning: Unused fixed point "25694"
+455> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:50470: warning: Unused fixed point "25715"
+456> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:50502: warning: Unused fixed point "25730"
+457> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:50556: warning: Unused fixed point "25757"
+458> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:50584: warning: Unused fixed point "25771"
+459> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:50674: warning: Unused fixed point "25816"
+460> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:50736: warning: Unused fixed point "25847"
+461> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:50812: warning: Unused fixed point "25884"
+462> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:50867: warning: Unused fixed point "25925"
+463> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:51167: warning: Unused fixed point "26153"
+464> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:51171: warning: Unused fixed point "26154"
+465> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:51178: warning: Unused fixed point "26155"
+466> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:51189: warning: Unused fixed point "26156"
+467> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:51197: warning: Unused fixed point "26157"
+468> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:51200: warning: Unused fixed point "26158"
+469> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:51203: warning: Unused fixed point "26159"
+470> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:51205: warning: Unused fixed point "26160"
+471> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:51210: warning: Unused fixed point "26161"
+472> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:51220: warning: Unused fixed point "26162"
+473> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:51225: warning: Unused fixed point "26163"
+474> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:51238: warning: Unused fixed point "26164"
+475> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:51250: warning: Unused fixed point "26165"
+476> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:51252: warning: Unused fixed point "26166"
+477> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:51254: warning: Unused fixed point "26167"
+478> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:51266: warning: Unused fixed point "26168"
+479> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:51269: warning: Unused fixed point "26169"
+480> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:51274: warning: Unused fixed point "26170"
+481> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:51282: warning: Unused fixed point "26171"
+482> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:51285: warning: Unused fixed point "26172"
+483> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:51291: warning: Unused fixed point "26173"
+484> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:51299: warning: Unused fixed point "26174"
+485> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:51302: warning: Unused fixed point "26175"
+486> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:51308: warning: Unused fixed point "26176"
+487> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:51320: warning: Unused fixed point "26177"
+488> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:51340: warning: Unused fixed point "26178"
+489> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:51354: warning: Unused fixed point "26179"
+490> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:51357: warning: Unused fixed point "26180"
+491> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:51362: warning: Unused fixed point "26181"
+492> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:51368: warning: Unused fixed point "26182"
+493> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:51387: warning: Unused fixed point "26183"
+494> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:51400: warning: Unused fixed point "26184"
+495> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:51403: warning: Unused fixed point "26185"
+496> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:51411: warning: Unused fixed point "26186"
+497> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:51412: warning: Unused fixed point "26187"
+498> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:51416: warning: Unused fixed point "26188"
+499> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:51423: warning: Unused fixed point "26189"
+500> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:51425: warning: Unused fixed point "26190"
+501> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:51429: warning: Unused fixed point "26191"
+502> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:51458: warning: Unused fixed point "26211"
+503> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:51460: warning: Unused fixed point "26212"
+504> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:51462: warning: Unused fixed point "26213"
+505> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:51464: warning: Unused fixed point "26214"
+506> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:51483: warning: Unused fixed point "26232"
+507> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:51503: warning: Unused fixed point "26233"
+508> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:51524: warning: Unused fixed point "26243"
+509> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:51534: warning: Unused fixed point "26248"
+510> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:51542: warning: Unused fixed point "26252"
+511> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:51566: warning: Unused fixed point "26262"
+512> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:51582: warning: Unused fixed point "26270"
+513> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:51602: warning: Unused fixed point "26280"
+514> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:51629: warning: Unused fixed point "26292"
+515> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:51843: warning: Unused fixed point "26429"
+516> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:52016: warning: Unused fixed point "26473"
+517> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:52104: warning: Unused fixed point "26517"
+518> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:52260: warning: Unused fixed point "26593"
+519> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:52314: warning: Unused fixed point "26619"
+520> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:52370: warning: Unused fixed point "26646"
+521> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:52382: warning: Unused fixed point "26652"
+522> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:52399: warning: Unused fixed point "26659"
+523> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:52420: warning: Unused fixed point "26669"
+524> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:52446: warning: Unused fixed point "26681"
+525> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:52543: warning: Unused fixed point "26741"
+526> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:52614: warning: Unused fixed point "26769"
+527> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:52624: warning: Unused fixed point "26770"
+528> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:52664: warning: Unused fixed point "26786"
+529> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:52676: warning: Unused fixed point "26787"
+530> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:52679: warning: Unused fixed point "26788"
+531> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:52716: warning: Unused fixed point "26804"
+532> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:52717: warning: Unused fixed point "26805"
+533> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:52761: warning: Unused fixed point "26826"
+534> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:52896: warning: Unused fixed point "26892"
+535> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:52938: warning: Unused fixed point "26912"
+536> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:52978: warning: Unused fixed point "26932"
+537> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:53024: warning: Unused fixed point "26955"
+538> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:53056: warning: Unused fixed point "26971"
+539> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:53098: warning: Unused fixed point "26992"
+540> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:53169: warning: Unused fixed point "27050"
+541> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:53217: warning: Unused fixed point "27051"
+542> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:53237: warning: Unused fixed point "27061"
+543> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:53341: warning: Unused fixed point "27109"
+544> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:53457: warning: Unused fixed point "27162"
+545> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:53487: warning: Unused fixed point "27177"
+546> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:53499: warning: Unused fixed point "27187"
+547> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:53510: warning: Unused fixed point "27188"
+548> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:53534: warning: Unused fixed point "27208"
+549> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:53554: warning: Unused fixed point "27209"
+550> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:53578: warning: Unused fixed point "27221"
+551> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:53607: warning: Unused fixed point "27239"
+552> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:53616: warning: Unused fixed point "27240"
+553> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:53620: warning: Unused fixed point "27241"
+554> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:53676: warning: Unused fixed point "27269"
+555> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:53698: warning: Unused fixed point "27280"
+556> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:53742: warning: Unused fixed point "27299"
+557> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:53777: warning: Unused fixed point "27323"
+558> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:53793: warning: Unused fixed point "27324"
+559> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:53857: warning: Unused fixed point "27356"
+560> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:53875: warning: Unused fixed point "27365"
+561> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:53988: warning: Unused fixed point "27442"
+562> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:54048: warning: Unused fixed point "27453"
+563> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:54055: warning: Unused fixed point "27454"
+564> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:54077: warning: Unused fixed point "27465"
+565> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:54124: warning: Unused fixed point "27502"
+566> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:54154: warning: Unused fixed point "27503"
+567> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:54166: warning: Unused fixed point "27513"
+568> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:54184: warning: Unused fixed point "27517"
+569> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:54263: warning: Unused fixed point "27556"
+570> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:54267: warning: Unused fixed point "27557"
+571> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:54314: warning: Unused fixed point "27579"
+572> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:54316: warning: Unused fixed point "27580"
+573> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:54363: warning: Unused fixed point "27609"
+574> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:54377: warning: Unused fixed point "27610"
+575> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:54383: warning: Unused fixed point "27613"
+576> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:54391: warning: Unused fixed point "27617"
+577> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:54413: warning: Unused fixed point "27628"
+578> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:54519: warning: Unused fixed point "27706"
+579> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:54557: warning: Unused fixed point "27707"
+580> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:54612: warning: Unused fixed point "27724"
+581> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:54642: warning: Unused fixed point "27739"
+582> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:54767: warning: Unused fixed point "27821"
+583> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:54810: warning: Unused fixed point "27822"
+584> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:54830: warning: Unused fixed point "27828"
+585> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:54886: warning: Unused fixed point "27856"
+586> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:54931: warning: Unused fixed point "27885"
+587> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:55031: warning: Unused fixed point "27923"
+588> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:55032: warning: Unused fixed point "27924"
+589> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:55078: warning: Unused fixed point "27953"
+590> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:55109: warning: Unused fixed point "27960"
+591> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:55119: warning: Unused fixed point "27965"
+592> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:55150: warning: Unused fixed point "27980"
+593> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:55266: warning: Unused fixed point "28039"
+594> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:55270: warning: Unused fixed point "28040"
+595> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:55310: warning: Unused fixed point "28057"
+596> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:55318: warning: Unused fixed point "28058"
+597> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:55320: warning: Unused fixed point "28059"
+598> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:55321: warning: Unused fixed point "28060"
+599> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:55333: warning: Unused fixed point "28065"
+600> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:55334: warning: Unused fixed point "28066"
+601> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:55388: warning: Unused fixed point "28089"
+602> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:55418: warning: Unused fixed point "28104"
+603> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:55473: warning: Unused fixed point "28140"
+604> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:55474: warning: Unused fixed point "28141"
+605> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:55519: warning: Unused fixed point "28156"
+606> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:55530: warning: Unused fixed point "28157"
+607> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:55553: warning: Unused fixed point "28166"
+608> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:55781: warning: Unused fixed point "28309"
+609> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:55795: warning: Unused fixed point "28310"
+610> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:55861: warning: Unused fixed point "28311"
+611> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:55913: warning: Unused fixed point "28334"
+612> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:55939: warning: Unused fixed point "28347"
+613> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:56056: warning: Unused fixed point "28398"
+614> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:56253: warning: Unused fixed point "28519"
+615> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:56266: warning: Unused fixed point "28520"
+616> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:56273: warning: Unused fixed point "28521"
+617> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:56277: warning: Unused fixed point "28522"
+618> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:56297: warning: Unused fixed point "28523"
+619> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:56344: warning: Unused fixed point "28538"
+620> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:56357: warning: Unused fixed point "28539"
+621> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:56447: warning: Unused fixed point "28592"
+622> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:56465: warning: Unused fixed point "28593"
+623> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:56466: warning: Unused fixed point "28594"
+624> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:56477: warning: Unused fixed point "28595"
+625> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:56478: warning: Unused fixed point "28596"
+626> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:56525: warning: Unused fixed point "28616"
+627> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:56596: warning: Unused fixed point "28655"
+628> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:56601: warning: Unused fixed point "28656"
+629> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:56772: warning: Unused fixed point "28738"
+630> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:56775: warning: Unused fixed point "28739"
+631> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:56791: warning: Unused fixed point "28740"
+632> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:56817: warning: Unused fixed point "28750"
+633> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:56835: warning: Unused fixed point "28759"
+634> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:56914: warning: Unused fixed point "28807"
+635> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:56930: warning: Unused fixed point "28808"
+636> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:56942: warning: Unused fixed point "28811"
+637> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:56994: warning: Unused fixed point "28838"
+638> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:57008: warning: Unused fixed point "28840"
+639> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:57011: warning: Unused fixed point "28841"
+640> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:57027: warning: Unused fixed point "28849"
+641> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:57126: warning: Unused fixed point "28914"
+642> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:57141: warning: Unused fixed point "28915"
+643> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:57184: warning: Unused fixed point "28919"
+644> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:57204: warning: Unused fixed point "28932"
+645> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:57215: warning: Unused fixed point "28933"
+646> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:57236: warning: Unused fixed point "28947"
+647> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:57238: warning: Unused fixed point "28948"
+648> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:57250: warning: Unused fixed point "28949"
+649> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:57340: warning: Unused fixed point "28992"
+650> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:57457: warning: Unused fixed point "29058"
+651> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:57474: warning: Unused fixed point "29059"
+652> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:57497: warning: Unused fixed point "29064"
+653> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:57613: warning: Unused fixed point "29124"
+654> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:57659: warning: Unused fixed point "29144"
+655> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:57669: warning: Unused fixed point "29149"
+656> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:57820: warning: Unused fixed point "29222"
+657> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:57858: warning: Unused fixed point "29241"
+658> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:58025: warning: Unused fixed point "29357"
+659> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:58051: warning: Unused fixed point "29370"
+660> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:58069: warning: Unused fixed point "29379"
+661> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:58109: warning: Unused fixed point "29399"
+662> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:58168: warning: Unused fixed point "29437"
+663> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:58183: warning: Unused fixed point "29438"
+664> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:58252: warning: Unused fixed point "29469"
+665> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:58344: warning: Unused fixed point "29515"
+666> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:58516: warning: Unused fixed point "29599"
+667> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:58600: warning: Unused fixed point "29641"
+668> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:58728: warning: Unused fixed point "29703"
+669> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:58792: warning: Unused fixed point "29733"
+670> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:58939: warning: Unused fixed point "29805"
+671> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:58985: warning: Unused fixed point "29828"
+672> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:59065: warning: Unused fixed point "29868"
+673> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:59337: warning: Unused fixed point "30021"
+674> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:59541: warning: Unused fixed point "30120"
+675> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:59612: warning: Unused fixed point "30136"
+676> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:59696: warning: Unused fixed point "30177"
+677> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:59734: warning: Unused fixed point "30206"
+678> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:59762: warning: Unused fixed point "30207"
+679> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:59792: warning: Unused fixed point "30233"
+680> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:59841: warning: Unused fixed point "30245"
+681> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:59973: warning: Unused fixed point "30317"
+682> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:59992: warning: Unused fixed point "30318"
+683> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:60070: warning: Unused fixed point "30353"
+684> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:60198: warning: Unused fixed point "30415"
+685> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:60213: warning: Unused fixed point "30421"
+686> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:60278: warning: Unused fixed point "30453"
+687> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:60281: warning: Unused fixed point "30454"
+688> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:60298: warning: Unused fixed point "30469"
+689> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:60315: warning: Unused fixed point "30470"
+690> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:60326: warning: Unused fixed point "30480"
+691> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:60338: warning: Unused fixed point "30481"
+692> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:60512: warning: Unused fixed point "30576"
+693> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:60564: warning: Unused fixed point "30589"
+694> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:60565: warning: Unused fixed point "30590"
+695> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:60566: warning: Unused fixed point "30591"
+696> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:60567: warning: Unused fixed point "30592"
+697> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:60568: warning: Unused fixed point "30593"
+698> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:60569: warning: Unused fixed point "30594"
+699> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:60570: warning: Unused fixed point "30595"
+700> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:60571: warning: Unused fixed point "30596"
+701> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:60572: warning: Unused fixed point "30597"
+702> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:60573: warning: Unused fixed point "30598"
+703> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:60574: warning: Unused fixed point "30599"
+704> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:60575: warning: Unused fixed point "30600"
+705> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:60580: warning: Unused fixed point "30602"
+706> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:60585: warning: Unused fixed point "30603"
+707> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:60655: warning: Unused fixed point "30635"
+708> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:60665: warning: Unused fixed point "30643"
+709> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:60675: warning: Unused fixed point "30644"
+710> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:60694: warning: Unused fixed point "30651"
+711> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:60702: warning: Unused fixed point "30654"
+712> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:60705: warning: Unused fixed point "30656"
+713> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:60709: warning: Unused fixed point "30657"
+714> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:60723: warning: Unused fixed point "30663"
+715> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:60749: warning: Unused fixed point "30685"
+716> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:60794: warning: Unused fixed point "30697"
+717> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:60801: warning: Unused fixed point "30702"
+718> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:60808: warning: Unused fixed point "30703"
+719> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:60897: warning: Unused fixed point "30766"
+720> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:60953: warning: Unused fixed point "30767"
+721> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:61084: warning: Unused fixed point "30831"
+722> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:61098: warning: Unused fixed point "30832"
+723> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:61134: warning: Unused fixed point "30849"
+724> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:61138: warning: Unused fixed point "30850"
+725> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:61178: warning: Unused fixed point "30869"
+726> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:61196: warning: Unused fixed point "30876"
+727> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:61240: warning: Unused fixed point "30899"
+728> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:61246: warning: Unused fixed point "30900"
+729> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:61254: warning: Unused fixed point "30904"
+730> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:61266: warning: Unused fixed point "30910"
+731> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:61274: warning: Unused fixed point "30911"
+732> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:61310: warning: Unused fixed point "30930"
+733> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:61333: warning: Unused fixed point "30938"
+734> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:61345: warning: Unused fixed point "30939"
+735> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:61366: warning: Unused fixed point "30953"
+736> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:61402: warning: Unused fixed point "30972"
+737> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:61423: warning: Unused fixed point "30973"
+738> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:61513: warning: Unused fixed point "31009"
+739> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:61549: warning: Unused fixed point "31035"
+740> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:61598: warning: Unused fixed point "31046"
+741> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:61616: warning: Unused fixed point "31054"
+742> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:61623: warning: Unused fixed point "31060"
+743> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:61631: warning: Unused fixed point "31061"
+744> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:61635: warning: Unused fixed point "31064"
+745> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:61661: warning: Unused fixed point "31085"
+746> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:61684: warning: Unused fixed point "31086"
+747> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:61686: warning: Unused fixed point "31087"
+748> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:61692: warning: Unused fixed point "31092"
+749> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:61699: warning: Unused fixed point "31093"
+750> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:61707: warning: Unused fixed point "31100"
+751> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:61716: warning: Unused fixed point "31101"
+752> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:61724: warning: Unused fixed point "31108"
+753> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:61733: warning: Unused fixed point "31109"
+754> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:61773: warning: Unused fixed point "31127"
+755> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:61785: warning: Unused fixed point "31138"
+756> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:61798: warning: Unused fixed point "31139"
+757> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:61816: warning: Unused fixed point "31147"
+758> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:61826: warning: Unused fixed point "31154"
+759> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:61835: warning: Unused fixed point "31155"
+760> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:61845: warning: Unused fixed point "31162"
+761> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:61846: warning: Unused fixed point "31163"
+762> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:61868: warning: Unused fixed point "31176"
+763> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:61883: warning: Unused fixed point "31177"
+764> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:61933: warning: Unused fixed point "31201"
+765> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:61945: warning: Unused fixed point "31202"
+766> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:61969: warning: Unused fixed point "31213"
+767> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:61976: warning: Unused fixed point "31218"
+768> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:62055: warning: Unused fixed point "31254"
+769> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:62132: warning: Unused fixed point "31327"
+770> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:62209: warning: Unused fixed point "31328"
+771> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:62282: warning: Unused fixed point "31400"
+772> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:62356: warning: Unused fixed point "31401"
+773> C:\Users\Rob\AppData\Local\Temp\th43028\data.svx:62383: warning: Unused fixed point "31413"
+774> 
+775> Survey contains 31413 survey stations, joined by 0 legs.
+776> There are 0 loops.
+777> Survey has 31413 connected components.
+778> Total length of survey legs =    0.00m (   0.00m adjusted)
+779> Total plan length of survey legs =    0.00m
+780> Total vertical length of survey legs =    0.00m
+781> Vertical range = 734.30m (from 95 at 737.36m to 20090 at 3.06m)
+782> North-South range = 9902.60m (from 125 at 457429.27m to 14024 at 447526.67m)
+783> East-West range = 9808.51m (from 823 at 268099.85m to 69 at 258291.34m)
+784> 31413 0-nodes.
+785> There were 771 warning(s).
+786> 
+######################### transcription ########################
+ 3> input:122 -- api_master.th [3]
+ 3> 129 : 0@bouldery_sink.bouldery_sink_master
+ 4> input:136 -- api_master.th [3]
+ 4> 138 : 0@maypole_hole.maypole_hole_master
+ 5> input:178 -- api_master.th [3]
+ 5> 180 : 0@low_country_traverse.gorge_surface_master
+ 6> input:208 -- api_master.th [3]
+ 6> 181 : 31@low_country_traverse.gorge_surface_master
+ 7> input:237 -- api_master.th [3]
+ 7> 195 : 2_8@doline_sink.doline_sink_master
+ 8> input:334 -- api_master.th [3]
+ 8> 240 : 49@dolines_traverse.gorge_surface_master
+ 9> input:347 -- api_master.th [3]
+ 9> 246 : 6@cairn_pot.cairn_master
+10> input:360 -- api_master.th [3]
+10> 251 : 7@cairn_surface.gorge_surface_master
+11> input:371 -- api_master.th [3]
+11> 256 : 0@pre_repast_cave.pre_repast_master
+12> input:390 -- api_master.th [3]
+12> 264 : 1@2011_surface.gorge_surface_master
+13> input:479 -- api_master.th [3]
+13> 345 : 12@redtipracerclimb.red_tip_racer_master
+14> input:548 -- api_master.th [3]
+14> 346 : mb1@2013rtrclimb.red_tip_racer_master
+15> input:566 -- api_master.th [3]
+15> 355 : 9@red_tip_racer_2.red_tip_racer_master
+16> input:794 -- api_master.th [3]
+16> 466 : 11@frog_cave.frog_master
+17> input:800 -- api_master.th [3]
+17> 469 : 2@tree_cave.tree_master
+18> input:802 -- api_master.th [3]
+18> 470 : m13a@penan_pot_cave.penan_pot_master
+19> input:1116 -- api_master.th [3]
+19> 621 : 94@2007_surface.gorge_surface_master
+20> input:1118 -- api_master.th [3]
+20> 622 : m11@shatterbox.shatterbox_master
+21> input:1167 -- api_master.th [3]
+21> 645 : 0@bat_cave.bat_master
+22> input:1177 -- api_master.th [3]
+22> 650 : 16@no_country_surface.gorge_surface_master
+23> input:1203 -- api_master.th [3]
+23> 662 : 1@bouldery_sink_surface.gorge_surface_master
+24> input:1355 -- api_master.th [3]
+24> 733 : 28@2000_surface.gorge_surface_master
+25> input:1384 -- api_master.th [3]
+25> 747 : 14@white_rift_cave.white_rift_master
+26> input:1434 -- api_master.th [3]
+26> 771 : ent@rat_cave.rat_master
+27> input:1488 -- api_master.th [3]
+27> 809 : 0@pinnacle_cave.pinnacle_master
+28> input:1544 -- api_master.th [3]
+28> 825 : 17@pinnacle_cave_no2.pinnacle_no2_master
+29> input:1980 -- api_master.th [3]
+29> 1200 : 98h@train_cave_south.train_master
+30> input:2428 -- api_master.th [3]
+30> 1269 : 1@train_cave_north_2012.train_master
+31> input:2542 -- api_master.th [3]
+31> 1348 : 44@train_cave_2012.train_master
+32> input:2833 -- api_master.th [3]
+32> 1467 : 23s@red_leaf_monkey_cave_2.red_leaf_monkey_2_master
+33> input:2990 -- api_master.th [3]
+33> 1545 : 0@red_leaf_monkey_cave_1.red_leaf_monkey_1_master
+34> input:3137 -- api_master.th [3]
+34> 1616 : tw019@tiger_foot_caves.tiger_foot_master
+35> input:3197 -- api_master.th [3]
+35> 1645 : 43@paku_surface.paku_valley_surface_master
+36> input:3501 -- api_master.th [3]
+36> 1812 : 8@1.roof_shelf.nasib_bagus_master
+37> input:3633 -- api_master.th [3]
+37> 1859 : 0@badgers_baptism.nasib_bagus_master
+38> input:3752 -- api_master.th [3]
+38> 1916 : 1@nasib_bagus.nasib_bagus_master
+39> input:3905 -- api_master.th [3]
+39> 1992 : 400@no_name.no_name_master
+40> input:3930 -- api_master.th [3]
+40> 2013 : 61@no_name.hidden_valley_surface_master
+41> input:4166 -- api_master.th [3]
+41> 2227 : 0@wonder_cave_2015.wonder_master
+42> input:4892 -- api_master.th [3]
+42> 2585 : 0@11jrpa.sugar_were_going_down.wonder_master
+43> input:5119 -- api_master.th [3]
+43> 2714 : 0@16lca.secret_affair.wonder_master
+44> input:5231 -- api_master.th [3]
+44> 2764 : 0@16jrpa.secret_affair.wonder_master
+45> input:5232 -- api_master.th [3]
+45> 2765 : 8@16jrpa.secret_affair.wonder_master
+46> input:5840 -- api_master.th [3]
+46> 3069 : 0@16dn_a.secret_affair.wonder_master
+47> input:5866 -- api_master.th [3]
+47> 3082 : 0@15dn_b.secret_affair.wonder_master
+48> input:6080 -- api_master.th [3]
+48> 3187 : 0@15dn_a.secret_affair.wonder_master
+49> input:7316 -- api_master.th [3]
+49> 3887 : 200@rhino_canyon.wonder_master
+50> input:7648 -- api_master.th [3]
+50> 3982 : 0@17dn_a.rhino_canyon.wonder_master
+51> input:7755 -- api_master.th [3]
+51> 4055 : 6n@11dn_a.rhino_canyon.wonder_master
+52> input:7796 -- api_master.th [3]
+52> 4056 : 0@11dn_a.rhino_canyon.wonder_master
+53> input:7799 -- api_master.th [3]
+53> 4057 : 13@11dn_a.rhino_canyon.wonder_master
+54> input:8038 -- api_master.th [3]
+54> 4172 : 0@09reb.rhino_canyon.wonder_master
+55> input:8255 -- api_master.th [3]
+55> 4273 : 0@09rea.rhino_canyon.wonder_master
+56> input:8256 -- api_master.th [3]
+56> 4274 : 15@09rea.rhino_canyon.wonder_master
+57> input:8715 -- api_master.th [3]
+57> 4499 : 0@05reb.rhino_canyon.wonder_master
+58> input:9132 -- api_master.th [3]
+58> 4893 : 56@05dn_a.rhino_canyon.wonder_master
+59> input:9254 -- api_master.th [3]
+59> 4894 : 39@05dn_a.rhino_canyon.wonder_master
+60> input:9479 -- api_master.th [3]
+60> 4895 : 9@05dn_a.rhino_canyon.wonder_master
+61> input:9546 -- api_master.th [3]
+61> 4896 : 0@05dn_a.rhino_canyon.wonder_master
+62> input:9563 -- api_master.th [3]
+62> 4909 : 0@15cha.pinky_promise.wonder_master
+63> input:9584 -- api_master.th [3]
+63> 4919 : 0@13jw_a.pinky_promise.wonder_master
+64> input:9592 -- api_master.th [3]
+64> 4923 : 0@11chc.pinky_promise.wonder_master
+65> input:9666 -- api_master.th [3]
+65> 4960 : 0@11chb.pinky_promise.wonder_master
+66> input:9780 -- api_master.th [3]
+66> 5012 : 54@09dn_a.pinky_promise.wonder_master
+67> input:10187 -- api_master.th [3]
+67> 5217 : 0@12rea.middle_pocket.wonder_master
+68> input:10318 -- api_master.th [3]
+68> 5281 : 0@11cha.middle_pocket.wonder_master
+69> input:10493 -- api_master.th [3]
+69> 5423 : 174@govenors_pleasure.wonder_master
+70> input:10621 -- api_master.th [3]
+70> 5424 : 154@govenors_pleasure.wonder_master
+71> input:10887 -- api_master.th [3]
+71> 5669 : 96@generation_gap.wonder_master
+72> input:11129 -- api_master.th [3]
+72> 5670 : 53@generation_gap.wonder_master
+73> input:11241 -- api_master.th [3]
+73> 5724 : 0@13dn_a.generation_gap.wonder_master
+74> input:11725 -- api_master.th [3]
+74> 5979 : 0@10jpa.liberation.wonder_master
+75> input:12147 -- api_master.th [3]
+75> 6186 : 0@10chb.liberation.wonder_master
+76> input:12282 -- api_master.th [3]
+76> 6276 : 11e@10cha.liberation.wonder_master
+77> input:12341 -- api_master.th [3]
+77> 6277 : 0@10cha.liberation.wonder_master
+78> input:12342 -- api_master.th [3]
+78> 6278 : 2@10cha.liberation.wonder_master
+79> input:12830 -- api_master.th [3]
+79> 6670 : 49@06dn_a.liberation.wonder_master
+80> input:12985 -- api_master.th [3]
+80> 6671 : 24@06dn_a.liberation.wonder_master
+81> input:13615 -- api_master.th [3]
+81> 6900 : 0@15jrpa.footsteps_in_time.wonder_master
+82> input:13686 -- api_master.th [3]
+82> 6952 : 38@elephants_graveyard.wonder_master
+83> input:13723 -- api_master.th [3]
+83> 6953 : 30@elephants_graveyard.wonder_master
+84> input:14554 -- api_master.th [3]
+84> 7542 : 153@doing_time.wonder_master
+85> input:14658 -- api_master.th [3]
+85> 7543 : 140@doing_time.wonder_master
+86> input:14869 -- api_master.th [3]
+86> 7544 : 110@doing_time.wonder_master
+87> input:14948 -- api_master.th [3]
+87> 7545 : 109@doing_time.wonder_master
+88> input:14964 -- api_master.th [3]
+88> 7551 : 0@17reb.doing_time.wonder_master
+89> input:14994 -- api_master.th [3]
+89> 7566 : 0@17rea.doing_time.wonder_master
+90> input:15592 -- api_master.th [3]
+90> 7863 : 0@conviction.wonder_master
+91> input:16653 -- api_master.th [3]
+91> 8392 : 0@06rea.catacombs.wonder_master
+92> input:16654 -- api_master.th [3]
+92> 8393 : 3@06rea.catacombs.wonder_master
+93> input:17379 -- api_master.th [3]
+93> 8753 : 0@06cha.catacombs.wonder_master
+94> input:18235 -- api_master.th [3]
+94> 9181 : 34@golden_syrup_spoon_series.cloud_master
+95> input:18265 -- api_master.th [3]
+95> 9196 : 4@crab_inlet.cloud_master
+96> input:18333 -- api_master.th [3]
+96> 9258 : 92@kamakazi_passage.cloud_master
+97> input:18580 -- api_master.th [3]
+97> 9360 : 150@tombraider_series.bridge_master
+98> input:18778 -- api_master.th [3]
+98> 9458 : 7@earthquake_inlet_series.bridge_master
+99> input:18848 -- api_master.th [3]
+99> 9492 : x84@twin_waterfalls_series.bridge_master
+100> input:19010 -- api_master.th [3]
+100> 9572 : md39@white_cobra_north.bridge_master
+101> input:19191 -- api_master.th [3]
+101> 9686 : x133@pipped_to_the_post.bridge_master
+102> input:19228 -- api_master.th [3]
+102> 9687 : md34@pipped_to_the_post.bridge_master
+103> input:19456 -- api_master.th [3]
+103> 9791 : md39@white_cobra_south.bridge_master
+104> input:19462 -- api_master.th [3]
+104> 9792 : md28@white_cobra_south.bridge_master
+105> input:19667 -- api_master.th [3]
+105> 9891 : 0@perseverance_1998.perseverance_master
+106> input:19778 -- api_master.th [3]
+106> 9960 : 1p@perseverance_1996.perseverance_master
+107> input:19886 -- api_master.th [3]
+107> 9996 : mk39@bridge_to_perseverance.hidden_valley_surface_master
+108> input:19933 -- api_master.th [3]
+108> 10019 : cs0@damocles.damocles_master
+109> input:19948 -- api_master.th [3]
+109> 10025 : 74@damocles_surface.hidden_valley_surface_master
+110> input:20061 -- api_master.th [3]
+110> 10081 : 1@wonder_conviction_surface.hidden_valley_surface_master
+111> input:20091 -- api_master.th [3]
+111> 10106 : 112@camp_to_wonder_cave.hidden_valley_surface_master
+112> input:20117 -- api_master.th [3]
+112> 10107 : 138@camp_to_wonder_cave.hidden_valley_surface_master
+113> input:20142 -- api_master.th [3]
+113> 10123 : s23@vipers_pit.arch_master
+114> input:20198 -- api_master.th [3]
+114> 10150 : 56@swan_song.arch_master
+115> input:20216 -- api_master.th [3]
+115> 10159 : 0@raw_deal.arch_master
+116> input:20282 -- api_master.th [3]
+116> 10194 : 21@arch_entrance.arch_master
+117> input:20292 -- api_master.th [3]
+117> 10195 : 39@arch_entrance.arch_master
+118> input:20317 -- api_master.th [3]
+118> 10209 : 0@minaretrevised.minaret_master
+119> input:20376 -- api_master.th [3]
+119> 10237 : 29@minaret_surface.minaret_master
+120> input:20591 -- api_master.th [3]
+120> 10383 : 37@soup_dragon.moonmilk_master
+121> input:20903 -- api_master.th [3]
+121> 10494 : 39@consolation_cave.consolation_master
+122> input:20937 -- api_master.th [3]
+122> 10511 : 0@surprisingly_obvious_cave.surprisingly_obvious_master
+123> input:20943 -- api_master.th [3]
+123> 10517 : c_o_w_lower_ent@racer_area_surface_master
+124> input:20944 -- api_master.th [3]
+124> 10518 : hq_helipad_kd@racer_area_surface_master
+125> input:20962 -- api_master.th [3]
+125> 10526 : 26@surprisingly_obvious_totjunction.racer_area_surface_master
+126> input:21009 -- api_master.th [3]
+126> 10579 : 35@easter_lower.easter_master
+127> input:21023 -- api_master.th [3]
+127> 10580 : 1@easter_lower.easter_master
+128> input:21076 -- api_master.th [3]
+128> 10606 : 0@easter_pass_go.easter_master
+129> input:21158 -- api_master.th [3]
+129> 10647 : 15@roadtonowhere.easter_master
+130> input:21252 -- api_master.th [3]
+130> 10691 : 48@easter_canyon_north2.easter_master
+131> input:21320 -- api_master.th [3]
+131> 10727 : 21@easter_re-survey.easter_master
+132> input:21382 -- api_master.th [3]
+132> 10754 : 3310@stinky_pete.easter_master
+133> input:21399 -- api_master.th [3]
+133> 10755 : 0@stinky_pete.easter_master
+134> input:21492 -- api_master.th [3]
+134> 10810 : 25@canyon_the_sequel.easter_master
+135> input:21517 -- api_master.th [3]
+135> 10811 : 5@canyon_the_sequel.easter_master
+136> input:21530 -- api_master.th [3]
+136> 10817 : 119@easter_lower_five.easter_master
+137> input:21574 -- api_master.th [3]
+137> 10844 : 114@easter_lower_three.easter_master
+138> input:21597 -- api_master.th [3]
+138> 10845 : 13@easter_lower_three.easter_master
+139> input:21685 -- api_master.th [3]
+139> 10889 : 20@easter_lower_se.easter_master
+140> input:21729 -- api_master.th [3]
+140> 10910 : 517@easter_headhunters_contd.easter_master
+141> input:21766 -- api_master.th [3]
+141> 10927 : 21@easter_headhunters.easter_master
+142> input:21807 -- api_master.th [3]
+142> 10947 : 304@easter_canyon.easter_master
+143> input:21819 -- api_master.th [3]
+143> 10952 : 26@canyon_climb.easter_master
+144> input:21891 -- api_master.th [3]
+144> 10998 : 34@easter.easter_master
+145> input:21919 -- api_master.th [3]
+145> 10999 : 23@easter.easter_master
+146> input:22004 -- api_master.th [3]
+146> 11100 : 0@14.fatsnake.racer_master
+147> input:22012 -- api_master.th [3]
+147> 11103 : 0@12.fatsnake.racer_master
+148> input:22018 -- api_master.th [3]
+148> 11106 : 0@11.fatsnake.racer_master
+149> input:22041 -- api_master.th [3]
+149> 11117 : 5@5.fatsnake.racer_master
+150> input:22061 -- api_master.th [3]
+150> 11125 : 0@2.missed.racer_master
+151> input:22081 -- api_master.th [3]
+151> 11137 : 7@4.boneyardsump.racer_master
+152> input:22095 -- api_master.th [3]
+152> 11143 : 2@1.boneyardsump.racer_master
+153> input:22122 -- api_master.th [3]
+153> 11156 : 668@connection.racer_master
+154> input:22147 -- api_master.th [3]
+154> 11167 : 4@bens_climb.racer_master
+155> input:22158 -- api_master.th [3]
+155> 11170 : 3@dgc.racer_master
+156> input:22199 -- api_master.th [3]
+156> 11190 : 0@footprints_aven.racer_master
+157> input:22276 -- api_master.th [3]
+157> 11247 : 34@racer_lower14.racer_master
+158> input:22560 -- api_master.th [3]
+158> 11377 : 305a@easter-racer.racer_master
+159> input:22610 -- api_master.th [3]
+159> 11385 : s93@sa.racer_master
+160> input:22624 -- api_master.th [3]
+160> 11391 : s118@link91.racer_master
+161> input:22684 -- api_master.th [3]
+161> 11421 : s50@dw91.racer_master
+162> input:22713 -- api_master.th [3]
+162> 11433 : s209@wilsons.racer_master
+163> input:22741 -- api_master.th [3]
+163> 11447 : s900@tubeatba.racer_master
+164> input:22749 -- api_master.th [3]
+164> 11450 : s39@tube1.racer_master
+165> input:22755 -- api_master.th [3]
+165> 11453 : s14@themushroom.racer_master
+166> input:22796 -- api_master.th [3]
+166> 11484 : s8@mushroom.racer_master
+167> input:22828 -- api_master.th [3]
+167> 11486 : s124@mezzanine.racer_master
+168> input:22830 -- api_master.th [3]
+168> 11487 : s6@bottomless.racer_master
+169> input:22836 -- api_master.th [3]
+169> 11490 : s211@parisway.racer_master
+170> input:22862 -- api_master.th [3]
+170> 11501 : s112@mez3.racer_master
+171> input:22891 -- api_master.th [3]
+171> 11515 : s00@lowerseries.racer_master
+172> input:22902 -- api_master.th [3]
+172> 11520 : s126@endofmez.racer_master
+173> input:22904 -- api_master.th [3]
+173> 11521 : s723@circleline.racer_master
+174> input:22908 -- api_master.th [3]
+174> 11523 : s725@circ3.racer_master
+175> input:22920 -- api_master.th [3]
+175> 11529 : s402@branchpassage.racer_master
+176> input:22924 -- api_master.th [3]
+176> 11531 : s502@bensstu.racer_master
+177> input:22928 -- api_master.th [3]
+177> 11533 : s500@bens3.racer_master
+178> input:22952 -- api_master.th [3]
+178> 11543 : s308@bens2.racer_master
+179> input:22970 -- api_master.th [3]
+179> 11551 : s50@toomuchroom.racer_master
+180> input:22980 -- api_master.th [3]
+180> 11555 : s82@aspirins.racer_master
+181> input:22986 -- api_master.th [3]
+181> 11558 : s84@asp3.racer_master
+182> input:23018 -- api_master.th [3]
+182> 11572 : s70@asp2.racer_master
+183> input:23067 -- api_master.th [3]
+183> 11599 : s39@whymper.racer_master
+184> input:23078 -- api_master.th [3]
+184> 11600 : s50@whymper.racer_master
+185> input:23151 -- api_master.th [3]
+185> 11635 : 18@racer89.racer_master
+186> input:23196 -- api_master.th [3]
+186> 11657 : cairn@entrances.racer_master
+187> input:23428 -- api_master.th [3]
+187> 11816 : 0@surfacemainent2fastlaneent.lagangs_master
+188> input:23429 -- api_master.th [3]
+188> 11817 : 60@surfacemainent2fastlaneent.lagangs_master
+189> input:23809 -- api_master.th [3]
+189> 11923 : 0@fastlane_entrance.lagangs_master
+190> input:23937 -- api_master.th [3]
+190> 11945 : 0@withoutwellies.lagangs_master
+191> input:23961 -- api_master.th [3]
+191> 11956 : 11@anniversary_surface_survey.lagangs_master
+192> input:23993 -- api_master.th [3]
+192> 11972 : 220@anniversary_pitch.lagangs_master
+193> input:23998 -- api_master.th [3]
+193> 11973 : 110@anniversary_pitch.lagangs_master
+194> input:24054 -- api_master.th [3]
+194> 12001 : 50@anniversary_climb_chamber.lagangs_master
+195> input:24105 -- api_master.th [3]
+195> 12026 : 1@anniversary_canyon_side_passage.lagangs_master
+196> input:24153 -- api_master.th [3]
+196> 12048 : 25@anniversary_passage.lagangs_master
+197> input:24158 -- api_master.th [3]
+197> 12050 : 35@andy_farrant_fastlane_cross_section_2.lagangs_master
+198> input:24160 -- api_master.th [3]
+198> 12051 : 6_18d@andy_farrant_fastlane_cross_section_1.lagangs_master
+199> input:24448 -- api_master.th [3]
+199> 12193 : 35@tubeways.lagangs_master
+200> input:24544 -- api_master.th [3]
+200> 12241 : 6@fast_lane_aven.lagangs_master
+201> input:24775 -- api_master.th [3]
+201> 12299 : 4_2@showcave2017.lagangs_master
+202> input:24776 -- api_master.th [3]
+202> 12300 : 6_12@showcave2017.lagangs_master
+203> input:24777 -- api_master.th [3]
+203> 12301 : 6_13@showcave2017.lagangs_master
+204> input:24778 -- api_master.th [3]
+204> 12302 : 6_15@showcave2017.lagangs_master
+205> input:24779 -- api_master.th [3]
+205> 12303 : 6_14@showcave2017.lagangs_master
+206> input:24780 -- api_master.th [3]
+206> 12304 : 6_8@showcave2017.lagangs_master
+207> input:24900 -- api_master.th [3]
+207> 12337 : 1@1.the_badger_hole.lagangs_master
+208> input:24959 -- api_master.th [3]
+208> 12378 : 19@3.the_david_loop.lagangs_master
+209> input:25153 -- api_master.th [3]
+209> 12465 : 0@2.the_david_loop.lagangs_master
+210> input:25491 -- api_master.th [3]
+210> 12679 : 121@a_touch_of_the_donald.lagangs_master
+211> input:25575 -- api_master.th [3]
+211> 12680 : 108@a_touch_of_the_donald.lagangs_master
+212> input:25628 -- api_master.th [3]
+212> 12681 : 100@a_touch_of_the_donald.lagangs_master
+213> input:25810 -- api_master.th [3]
+213> 12815 : 17g@white_tunnel.lagangs_master
+214> input:26191 -- api_master.th [3]
+214> 12958 : 32@around_the_houses.lagangs_master
+215> input:26236 -- api_master.th [3]
+215> 12980 : 0@andys_roof_tube.lagangs_master
+216> input:26306 -- api_master.th [3]
+216> 13043 : 29@bat_passage.lagangs_master
+217> input:26664 -- api_master.th [3]
+217> 13190 : 40@dean_hole.lagangs_master
+218> input:26709 -- api_master.th [3]
+218> 13212 : 2@2.coral_aven.lagangs_master
+219> input:26875 -- api_master.th [3]
+219> 13293 : 0@1.coral_aven.lagangs_master
+220> input:27903 -- api_master.th [3]
+220> 13802 : 32@gert_lush.lagangs_master
+221> input:27953 -- api_master.th [3]
+221> 13826 : 1_71@lagans_lsurvey_main_psg.lagangs_master
+222> input:27975 -- api_master.th [3]
+222> 13836 : 1_66@lagans_psurvey_main_psg.lagangs_master
+223> input:28057 -- api_master.th [3]
+223> 13876 : 40@fastlane_aven.lagangs_master
+224> input:28105 -- api_master.th [3]
+224> 13899 : 15@balcony_pitch.lagangs_master
+225> input:28133 -- api_master.th [3]
+225> 13912 : 424@slow_lane.lagangs_master
+226> input:28159 -- api_master.th [3]
+226> 13925 : 0@fastlanetosurface.lagangs_master
+227> input:28285 -- api_master.th [3]
+227> 13985 : 6@lagans_wind_in_the_wallows.lagangs_master
+228> input:28317 -- api_master.th [3]
+228> 14000 : 16@lagans_up_in_the_gods.lagangs_master
+229> input:28337 -- api_master.th [3]
+229> 14010 : 11@lagans_a_bit_on_the_side_extension.lagangs_master
+230> input:28388 -- api_master.th [3]
+230> 14034 : 17@lagans_dream_pool.lagangs_master
+231> input:28407 -- api_master.th [3]
+231> 14042 : 10@lagans_dream_pool_connection.lagangs_master
+232> input:28443 -- api_master.th [3]
+232> 14060 : 19@lagans_lonley_swift_passage.lagangs_master
+233> input:28489 -- api_master.th [3]
+233> 14088 : 418@lagans_a_bit_on_the_side.lagangs_master
+234> input:28537 -- api_master.th [3]
+234> 14103 : 0@lagans_muss_be_mistaken.lagangs_master
+235> input:28554 -- api_master.th [3]
+235> 14111 : 9@lagans_thesis_mine.lagangs_master
+236> input:28584 -- api_master.th [3]
+236> 14123 : 1@lagans_leopard_passage.lagangs_master
+237> input:28676 -- api_master.th [3]
+237> 14188 : 1_93@main_passage.lagangs_master
+238> input:28691 -- api_master.th [3]
+238> 14189 : 1_35@main_passage.lagangs_master
+239> input:28693 -- api_master.th [3]
+239> 14190 : 1_87@main_passage.lagangs_master
+240> input:28704 -- api_master.th [3]
+240> 14191 : 1_63@main_passage.lagangs_master
+241> input:28756 -- api_master.th [3]
+241> 14201 : 6_28@fastlane.lagangs_master
+242> input:28845 -- api_master.th [3]
+242> 14247 : 4_14@lagans_entrance.lagangs_master
+243> input:28848 -- api_master.th [3]
+243> 14248 : 6_28@lagans_entrance.lagangs_master
+244> input:28909 -- api_master.th [3]
+244> 14295 : 48@surface_racertocowpete.racer_area_surface_master
+245> input:28958 -- api_master.th [3]
+245> 14296 : 0@surface_racertocowpete.racer_area_surface_master
+246> input:29009 -- api_master.th [3]
+246> 14336 : 0@eastersurface.racer_area_surface_master
+247> input:29042 -- api_master.th [3]
+247> 14337 : 34@eastersurface.racer_area_surface_master
+248> input:29237 -- api_master.th [3]
+248> 14435 : 79@helipad_to_lagangs.racer_area_surface_master
+249> input:29581 -- api_master.th [3]
+249> 14797 : 45@revival-scumring.clearwater_master
+250> input:29625 -- api_master.th [3]
+250> 14798 : 0@revival-scumring.clearwater_master
+251> input:29658 -- api_master.th [3]
+251> 14814 : 4@little_and_large_connection.clearwater_master
+252> input:29662 -- api_master.th [3]
+252> 14815 : 0@little_and_large_connection.clearwater_master
+253> input:29691 -- api_master.th [3]
+253> 14828 : 14@dune-bc2.clearwater_master
+254> input:29706 -- api_master.th [3]
+254> 14834 : 7@dune-bc1.clearwater_master
+255> input:29790 -- api_master.th [3]
+255> 14874 : 7@great_wall-sheer_delight.clearwater_master
+256> input:29953 -- api_master.th [3]
+256> 14953 : 82@snaketrack-revival.clearwater_master
+257> input:29985 -- api_master.th [3]
+257> 14983 : 31@go_dither.clearwater_master
+258> input:30016 -- api_master.th [3]
+258> 14984 : 0@go_dither.clearwater_master
+259> input:30238 -- api_master.th [3]
+259> 15092 : 0@justanothersquiggle-north2.clearwater_master
+260> input:30542 -- api_master.th [3]
+260> 15241 : 0@justanothersquiggle-north1.clearwater_master
+261> input:30594 -- api_master.th [3]
+261> 15265 : 0@justanothersquiggle2.clearwater_master
+262> input:31135 -- api_master.th [3]
+262> 15529 : 0@justanothersquiggle.clearwater_master
+263> input:31358 -- api_master.th [3]
+263> 15636 : 0@chinashop2.clearwater_master
+264> input:31429 -- api_master.th [3]
+264> 15668 : 0@chinashop1.clearwater_master
+265> input:31464 -- api_master.th [3]
+265> 15684 : 1@chinashop.clearwater_master
+266> input:31496 -- api_master.th [3]
+266> 15700 : 22@scientific_method_ii.clearwater_master
+267> input:31543 -- api_master.th [3]
+267> 15721 : 1@scientific_method.clearwater_master
+268> input:31581 -- api_master.th [3]
+268> 15740 : 0@hypothesis_south.clearwater_master
+269> input:31594 -- api_master.th [3]
+269> 15745 : 206@east_passage.clearwater_master
+270> input:31656 -- api_master.th [3]
+270> 15776 : 1@clearwater_centreline.clearwater_master
+271> input:31667 -- api_master.th [3]
+271> 15781 : 1@quatermass_shaft.clearwater_master
+272> input:31804 -- api_master.th [3]
+272> 15848 : 52@af_leap_in_time.clearwater_master
+273> input:32118 -- api_master.th [3]
+273> 15968 : 1@surface_cotw_to_clearwater.clearwater_master
+274> input:32241 -- api_master.th [3]
+274> 16029 : 71@clearwater_stream_to_sump_1.clearwater_master
+275> input:32263 -- api_master.th [3]
+275> 16044 : 1j@strobe_pit.clearwater_master
+276> input:32281 -- api_master.th [3]
+276> 16045 : 0@strobe_pit.clearwater_master
+277> input:32354 -- api_master.th [3]
+277> 16085 : 20@ibun.clearwater_master
+278> input:32399 -- api_master.th [3]
+278> 16100 : 286@high_noon.clearwater_master
+279> input:32421 -- api_master.th [3]
+279> 16111 : 11@crucible_hopper.clearwater_master
+280> input:32546 -- api_master.th [3]
+280> 16173 : 10@hall_of_the_three.clearwater_master
+281> input:32590 -- api_master.th [3]
+281> 16195 : 20@baba_yaga.clearwater_master
+282> input:32618 -- api_master.th [3]
+282> 16207 : 15@crucibleslopes.clearwater_master
+283> input:32630 -- api_master.th [3]
+283> 16213 : 0@quatermass.clearwater_master
+284> input:32636 -- api_master.th [3]
+284> 16214 : 6@quatermass.clearwater_master
+285> input:32650 -- api_master.th [3]
+285> 16221 : 5@hospitalramp.clearwater_master
+286> input:32662 -- api_master.th [3]
+286> 16227 : 1@leftovers.clearwater_master
+287> input:32835 -- api_master.th [3]
+287> 16343 : 111@jetstream.clearwater_master
+288> input:32923 -- api_master.th [3]
+288> 16344 : 287@jetstream.clearwater_master
+289> input:32963 -- api_master.th [3]
+289> 16364 : 5c@bodiceripper.clearwater_master
+290> input:32983 -- api_master.th [3]
+290> 16374 : 0@dadsarmy.clearwater_master
+291> input:33013 -- api_master.th [3]
+291> 16389 : 0@ginpalace.clearwater_master
+292> input:33078 -- api_master.th [3]
+292> 16420 : 350@jetstream_chandelier.clearwater_master
+293> input:33728 -- api_master.th [3]
+293> 16743 : 0@orange_icing_complete.clearwater_master
+294> input:33754 -- api_master.th [3]
+294> 16763 : 4@rampy_mcrampface.clearwater_master
+295> input:33836 -- api_master.th [3]
+295> 16821 : 230@tight_ripper2.clearwater_master
+296> input:34006 -- api_master.th [3]
+296> 16929 : 254@tight_ripper.clearwater_master
+297> input:34120 -- api_master.th [3]
+297> 16932 : 0@franksfolly.clearwater_master
+298> input:34128 -- api_master.th [3]
+298> 16936 : 0@creedencesiderift.clearwater_master
+299> input:35215 -- api_master.th [3]
+299> 17478 : 7@eastern.clearwater_master
+300> input:35291 -- api_master.th [3]
+300> 17515 : 257@queenofthesouth.clearwater_master
+301> input:35750 -- api_master.th [3]
+301> 17742 : 0@lost_in_translation.clearwater_master
+302> input:36026 -- api_master.th [3]
+302> 17875 : 263@crucible_offset.clearwater_master
+303> input:36463 -- api_master.th [3]
+303> 18109 : 302@creedence.clearwater_master
+304> input:36599 -- api_master.th [3]
+304> 18151 : 214@and_finally.clearwater_master
+305> input:36609 -- api_master.th [3]
+305> 18156 : 5@helic.clearwater_master
+306> input:36695 -- api_master.th [3]
+306> 18207 : 6@downdraught.clearwater_master
+307> input:36897 -- api_master.th [3]
+307> 18320 : 0@c_o_w_ent_to_scumring_mainline_2.clearwater_master
+308> input:36956 -- api_master.th [3]
+308> 18321 : 50@c_o_w_ent_to_scumring_mainline_2.clearwater_master
+309> input:37159 -- api_master.th [3]
+309> 18428 : 0a@nesters.clearwater_master
+310> input:37513 -- api_master.th [3]
+310> 18608 : 1@quattro_formaggio.clearwater_master
+311> input:37549 -- api_master.th [3]
+311> 18609 : 106@quattro_formaggio.clearwater_master
+312> input:37731 -- api_master.th [3]
+312> 18696 : 45@upskirt_lower.clearwater_master
+313> input:37732 -- api_master.th [3]
+313> 18697 : 30@upskirt_lower.clearwater_master
+314> input:38114 -- api_master.th [3]
+314> 18889 : 144@upskirt.clearwater_master
+315> input:38121 -- api_master.th [3]
+315> 18890 : 44@upskirt.clearwater_master
+316> input:38346 -- api_master.th [3]
+316> 19001 : 329@berangs_to_inflation.clearwater_master
+317> input:38761 -- api_master.th [3]
+317> 19215 : 315@the_cairn_farm.clearwater_master
+318> input:38889 -- api_master.th [3]
+318> 19270 : 408@far_from_home.clearwater_master
+319> input:39051 -- api_master.th [3]
+319> 19349 : 372@the_big_uee.clearwater_master
+320> input:40204 -- api_master.th [3]
+320> 19916 : 175@clearwater_cave_fake.clearwater_master
+321> input:40439 -- api_master.th [3]
+321> 20005 : c27@alans_clearwater_5.clearwater_master
+322> input:40526 -- api_master.th [3]
+322> 20082 : ta31@edwins_long_cut.clearwater_master
+323> input:40732 -- api_master.th [3]
+323> 20148 : 1@richards_passage.clearwater_master
+324> input:40830 -- api_master.th [3]
+324> 20197 : 15@clearwater_5.clearwater_master
+325> input:40878 -- api_master.th [3]
+325> 20219 : 01@rampage.clearwater_master
+326> input:40936 -- api_master.th [3]
+326> 20248 : 19@alexandra_palace.clearwater_master
+327> input:41050 -- api_master.th [3]
+327> 20304 : 321@armistice_south.clearwater_master
+328> input:41246 -- api_master.th [3]
+328> 20406 : 334@armistice_north.clearwater_master
+329> input:41261 -- api_master.th [3]
+329> 20407 : 100@armistice_north.clearwater_master
+330> input:41354 -- api_master.th [3]
+330> 20453 : 27@snow_slopes.clearwater_master
+331> input:41361 -- api_master.th [3]
+331> 20454 : 1@snow_slopes.clearwater_master
+332> input:41425 -- api_master.th [3]
+332> 20502 : 0@bloodsweatandfear.cave_of_the_winds_master
+333> input:41455 -- api_master.th [3]
+333> 20517 : 4@eureka_climb_revisited.cave_of_the_winds_master
+334> input:41479 -- api_master.th [3]
+334> 20529 : 1@eureka_crawl.cave_of_the_winds_master
+335> input:41493 -- api_master.th [3]
+335> 20535 : 7@eureka_climb.cave_of_the_winds_master
+336> input:41727 -- api_master.th [3]
+336> 20649 : 67@cotw_centreline.cave_of_the_winds_master
+337> input:41728 -- api_master.th [3]
+337> 20650 : 3@cotw_centreline.cave_of_the_winds_master
+338> input:41747 -- api_master.th [3]
+338> 20658 : 0@skylight_pitch.cave_of_the_winds_master
+339> input:41828 -- api_master.th [3]
+339> 20698 : 1@cotw_entrance_redraw.cave_of_the_winds_master
+340> input:41857 -- api_master.th [3]
+340> 20711 : 14@surface_cotw_to_clearwater.cave_of_the_winds_master
+341> input:41871 -- api_master.th [3]
+341> 20712 : 1@surface_cotw_to_clearwater.cave_of_the_winds_master
+342> input:42084 -- api_master.th [3]
+342> 20818 : 12@20.smashing.cave_of_the_winds_master
+343> input:42422 -- api_master.th [3]
+343> 20989 : 4414@eureka_matt.cave_of_the_winds_master
+344> input:42499 -- api_master.th [3]
+344> 21011 : 45@wind_cave.cave_of_the_winds_master
+345> input:42542 -- api_master.th [3]
+345> 21032 : m0@strapless.cave_of_the_winds_master
+346> input:42586 -- api_master.th [3]
+346> 21054 : 20@snakechimney.cave_of_the_winds_master
+347> input:42609 -- api_master.th [3]
+347> 21064 : 47@snakechim2entrance.cave_of_the_winds_master
+348> input:42628 -- api_master.th [3]
+348> 21073 : 9@fally.cave_of_the_winds_master
+349> input:42638 -- api_master.th [3]
+349> 21078 : 16s4@cowarchclimb.cave_of_the_winds_master
+350> input:42789 -- api_master.th [3]
+350> 21152 : 67@c_o_w_ent_to_scumring_mainline_2.cave_of_the_winds_master
+351> input:42992 -- api_master.th [3]
+351> 21249 : 0@cave_of_the_winds_fake.cave_of_the_winds_master
+352> input:43398 -- api_master.th [3]
+352> 21840 : 53@gone_with_the_wind.whiterock_master
+353> input:43399 -- api_master.th [3]
+353> 21841 : 48@gone_with_the_wind.whiterock_master
+354> input:43450 -- api_master.th [3]
+354> 21842 : 0@gone_with_the_wind.whiterock_master
+355> input:43482 -- api_master.th [3]
+355> 21858 : 17@spiderpig.whiterock_master
+356> input:43512 -- api_master.th [3]
+356> 21870 : 3a@animal_track_south.whiterock_master
+357> input:46639 -- api_master.th [3]
+357> 23884 : 10@if_the_shoe_fits.whiterock_master
+358> input:46642 -- api_master.th [3]
+358> 23885 : 100@if_the_shoe_fits.whiterock_master
+359> input:46654 -- api_master.th [3]
+359> 23891 : 6@big_pit_ramp.whiterock_master
+360> input:46682 -- api_master.th [3]
+360> 23905 : 14@down_t_pit.whiterock_master
+361> input:46710 -- api_master.th [3]
+361> 23918 : 10@the_off_key_pitch.whiterock_master
+362> input:46756 -- api_master.th [3]
+362> 23941 : 0@24bsa.whiterock_master
+363> input:46770 -- api_master.th [3]
+363> 23948 : 4@apismal_resurveying.whiterock_master
+364> input:46808 -- api_master.th [3]
+364> 23983 : 34@cake_weasel.whiterock_master
+365> input:46842 -- api_master.th [3]
+365> 23984 : 0@cake_weasel.whiterock_master
+366> input:46866 -- api_master.th [3]
+366> 23998 : 4@the_pickle_jar.whiterock_master
+367> input:46873 -- api_master.th [3]
+367> 23999 : 15@the_pickle_jar.whiterock_master
+368> input:46905 -- api_master.th [3]
+368> 24015 : 0@apisment_chamber.whiterock_master
+369> input:46920 -- api_master.th [3]
+369> 24027 : 11@i_cant_believe_its_not_better.whiterock_master
+370> input:46948 -- api_master.th [3]
+370> 24035 : 0@rock_it_man.whiterock_master
+371> input:46958 -- api_master.th [3]
+371> 24040 : 1a@bit_on_the_side.whiterock_master
+372> input:46988 -- api_master.th [3]
+372> 24055 : 0@unintended_consequences.whiterock_master
+373> input:47090 -- api_master.th [3]
+373> 24122 : 13@out_of_africa.whiterock_master
+374> input:47095 -- api_master.th [3]
+374> 24123 : ta61@out_of_africa.whiterock_master
+375> input:47096 -- api_master.th [3]
+375> 24124 : ta112@out_of_africa.whiterock_master
+376> input:47170 -- api_master.th [3]
+376> 24138 : 0@rabbit_of_negative_euphoria.whiterock_master
+377> input:47321 -- api_master.th [3]
+377> 24209 : 0@magic_money_tree_2.whiterock_master
+378> input:47374 -- api_master.th [3]
+378> 24247 : 27@on_the_rink.whiterock_master
+379> input:47436 -- api_master.th [3]
+379> 24262 : 2@bird_bath.whiterock_master
+380> input:47439 -- api_master.th [3]
+380> 24263 : 10@bird_bath.whiterock_master
+381> input:47477 -- api_master.th [3]
+381> 24281 : 19@wet_dreams.whiterock_master
+382> input:47505 -- api_master.th [3]
+382> 24294 : 0@perpetual_external_2.whiterock_master
+383> input:47610 -- api_master.th [3]
+383> 24381 : 81@clickbait.whiterock_master
+384> input:47654 -- api_master.th [3]
+384> 24382 : 35@clickbait.whiterock_master
+385> input:47688 -- api_master.th [3]
+385> 24383 : 0@clickbait.whiterock_master
+386> input:47690 -- api_master.th [3]
+386> 24384 : 99@clickbait.whiterock_master
+387> input:47772 -- api_master.th [3]
+387> 24425 : 1@unbeliever.whiterock_master
+388> input:47811 -- api_master.th [3]
+388> 24451 : 51@do_you_hear_the_cavers_sing.whiterock_master
+389> input:47816 -- api_master.th [3]
+389> 24452 : 31@do_you_hear_the_cavers_sing.whiterock_master
+390> input:47835 -- api_master.th [3]
+390> 24453 : 5@do_you_hear_the_cavers_sing.whiterock_master
+391> input:47840 -- api_master.th [3]
+391> 24454 : 0@do_you_hear_the_cavers_sing.whiterock_master
+392> input:47857 -- api_master.th [3]
+392> 24467 : 13@doncaster_virgin.whiterock_master
+393> input:47870 -- api_master.th [3]
+393> 24468 : 2@doncaster_virgin.whiterock_master
+394> input:47918 -- api_master.th [3]
+394> 24492 : 4@sharp_folly.whiterock_master
+395> input:47942 -- api_master.th [3]
+395> 24502 : 1@black_joke.whiterock_master
+396> input:48025 -- api_master.th [3]
+396> 24542 : 44@perpetual_extentions.whiterock_master
+397> input:48026 -- api_master.th [3]
+397> 24543 : 43@perpetual_extentions.whiterock_master
+398> input:48080 -- api_master.th [3]
+398> 24568 : 0@magic_money_tree.whiterock_master
+399> input:48092 -- api_master.th [3]
+399> 24579 : 14@strong_and_stable.whiterock_master
+400> input:48104 -- api_master.th [3]
+400> 24580 : 0@strong_and_stable.whiterock_master
+401> input:48115 -- api_master.th [3]
+401> 24585 : 0@dr_disto_tie_in.whiterock_master
+402> input:48133 -- api_master.th [3]
+402> 24594 : 7@ancestor_chamber.whiterock_master
+403> input:48198 -- api_master.th [3]
+403> 24635 : 24@dancing_queen.whiterock_master
+404> input:48218 -- api_master.th [3]
+404> 24636 : 37@dancing_queen.whiterock_master
+405> input:48272 -- api_master.th [3]
+405> 24677 : 39@overlook.whiterock_master
+406> input:48303 -- api_master.th [3]
+406> 24678 : 0@overlook.whiterock_master
+407> input:48401 -- api_master.th [3]
+407> 24754 : 13@gone_in_60_metres.whiterock_master
+408> input:48566 -- api_master.th [3]
+408> 24800 : 0@unexpected_view.whiterock_master
+409> input:48670 -- api_master.th [3]
+409> 24850 : 0@tons_pitch.whiterock_master
+410> input:48679 -- api_master.th [3]
+410> 24851 : 9@tons_pitch.whiterock_master
+411> input:48715 -- api_master.th [3]
+411> 24869 : 0@overture.whiterock_master
+412> input:48787 -- api_master.th [3]
+412> 24905 : 0@uncharted_engineers.whiterock_master
+413> input:48811 -- api_master.th [3]
+413> 24917 : 12@roaring_crawl.whiterock_master
+414> input:48829 -- api_master.th [3]
+414> 24925 : 8@youth_of_today.whiterock_master
+415> input:49031 -- api_master.th [3]
+415> 25032 : 45@filthy_derbyshire_habits.whiterock_master
+416> input:49063 -- api_master.th [3]
+416> 25042 : 0@6th_last_chance.whiterock_master
+417> input:49072 -- api_master.th [3]
+417> 25043 : 12@6th_last_chance.whiterock_master
+418> input:49084 -- api_master.th [3]
+418> 25048 : 0@5th_last_chance.whiterock_master
+419> input:49098 -- api_master.th [3]
+419> 25054 : 6@4th_last_chance.whiterock_master
+420> input:49148 -- api_master.th [3]
+420> 25079 : 29@3rd_last_chance.whiterock_master
+421> input:49154 -- api_master.th [3]
+421> 25082 : 0@2nd_last_chance.whiterock_master
+422> input:49228 -- api_master.th [3]
+422> 25127 : 17@centurion.whiterock_master
+423> input:49312 -- api_master.th [3]
+423> 25159 : 0@troubling_appendix_pls.whiterock_master
+424> input:49323 -- api_master.th [3]
+424> 25165 : 8@graveyard.whiterock_master
+425> input:49325 -- api_master.th [3]
+425> 25166 : 7@graveyard.whiterock_master
+426> input:49379 -- api_master.th [3]
+426> 25193 : 28@skeleton_lower.whiterock_master
+427> input:49415 -- api_master.th [3]
+427> 25217 : 1@skeleton.whiterock_master
+428> input:49429 -- api_master.th [3]
+428> 25218 : 16@skeleton.whiterock_master
+429> input:49480 -- api_master.th [3]
+429> 25262 : 41@medusa_2.whiterock_master
+430> input:49521 -- api_master.th [3]
+430> 25263 : 0@medusa_2.whiterock_master
+431> input:49535 -- api_master.th [3]
+431> 25270 : 0@medusa_1.whiterock_master
+432> input:49631 -- api_master.th [3]
+432> 25319 : b4@5th_dirty_little_secret.whiterock_master
+433> input:49636 -- api_master.th [3]
+433> 25320 : 1@5th_dirty_little_secret.whiterock_master
+434> input:49694 -- api_master.th [3]
+434> 25356 : 45@4th_dirty_little_secret.whiterock_master
+435> input:49741 -- api_master.th [3]
+435> 25365 : 11@2nd_dirty_little_secret.whiterock_master
+436> input:49753 -- api_master.th [3]
+436> 25371 : 6@1st_dirty_little_secret.whiterock_master
+437> input:49884 -- api_master.th [3]
+437> 25433 : 63@swift_progressupper.whiterock_master
+438> input:49989 -- api_master.th [3]
+438> 25522 : 95@swift_progress.whiterock_master
+439> input:50010 -- api_master.th [3]
+439> 25523 : 74@swift_progress.whiterock_master
+440> input:50012 -- api_master.th [3]
+440> 25524 : 64@swift_progress.whiterock_master
+441> input:50016 -- api_master.th [3]
+441> 25525 : 57@swift_progress.whiterock_master
+442> input:50020 -- api_master.th [3]
+442> 25526 : 56@swift_progress.whiterock_master
+443> input:50028 -- api_master.th [3]
+443> 25527 : 73@swift_progress.whiterock_master
+444> input:50063 -- api_master.th [3]
+444> 25528 : 35@swift_progress.whiterock_master
+445> input:50108 -- api_master.th [3]
+445> 25551 : 210@swift_progressnorthern.whiterock_master
+446> input:50163 -- api_master.th [3]
+446> 25567 : 41@swift_progresslower.whiterock_master
+447> input:50189 -- api_master.th [3]
+447> 25580 : 0@black_and_tan.whiterock_master
+448> input:50238 -- api_master.th [3]
+448> 25602 : 0@swiftwater_oxbow.whiterock_master
+449> input:50274 -- api_master.th [3]
+449> 25620 : 110@swiftwater_sidepassage_extensions.whiterock_master
+450> input:50324 -- api_master.th [3]
+450> 25643 : 0@swiftwater_inlet.whiterock_master
+451> input:50370 -- api_master.th [3]
+451> 25666 : 0@snowboard_tuesday_inlet.whiterock_master
+452> input:50392 -- api_master.th [3]
+452> 25677 : 0@pretty_painfull.whiterock_master
+453> input:50416 -- api_master.th [3]
+453> 25689 : 28@pointless_boulder_chamber.whiterock_master
+454> input:50428 -- api_master.th [3]
+454> 25694 : 1@eastern_climb_passage.whiterock_master
+455> input:50470 -- api_master.th [3]
+455> 25715 : 10@no_hope_passage.whiterock_master
+456> input:50502 -- api_master.th [3]
+456> 25730 : 16@no_hope.whiterock_master
+457> input:50556 -- api_master.th [3]
+457> 25757 : 1@mysterious_minstrel.whiterock_master
+458> input:50584 -- api_master.th [3]
+458> 25771 : 0@mudslide_monday.whiterock_master
+459> input:50674 -- api_master.th [3]
+459> 25816 : 0a@midnight_express.whiterock_master
+460> input:50736 -- api_master.th [3]
+460> 25847 : 20@frilly_knickers.whiterock_master
+461> input:50812 -- api_master.th [3]
+461> 25884 : 39@1954_garden_extension.whiterock_master
+462> input:50867 -- api_master.th [3]
+462> 25925 : 1_9@exodus_series_nile_river.whiterock_master
+463> input:51167 -- api_master.th [3]
+463> 26153 : 39_0@exodus_series.whiterock_master
+464> input:51171 -- api_master.th [3]
+464> 26154 : 40_0@exodus_series.whiterock_master
+465> input:51178 -- api_master.th [3]
+465> 26155 : 38_0@exodus_series.whiterock_master
+466> input:51189 -- api_master.th [3]
+466> 26156 : 37_0@exodus_series.whiterock_master
+467> input:51197 -- api_master.th [3]
+467> 26157 : 6_0@exodus_series.whiterock_master
+468> input:51200 -- api_master.th [3]
+468> 26158 : 36_0@exodus_series.whiterock_master
+469> input:51203 -- api_master.th [3]
+469> 26159 : 35_0@exodus_series.whiterock_master
+470> input:51205 -- api_master.th [3]
+470> 26160 : 34_0@exodus_series.whiterock_master
+471> input:51210 -- api_master.th [3]
+471> 26161 : 32_0@exodus_series.whiterock_master
+472> input:51220 -- api_master.th [3]
+472> 26162 : 31_0@exodus_series.whiterock_master
+473> input:51225 -- api_master.th [3]
+473> 26163 : 30_0@exodus_series.whiterock_master
+474> input:51238 -- api_master.th [3]
+474> 26164 : 29_0@exodus_series.whiterock_master
+475> input:51250 -- api_master.th [3]
+475> 26165 : 26_0@exodus_series.whiterock_master
+476> input:51252 -- api_master.th [3]
+476> 26166 : 25_0@exodus_series.whiterock_master
+477> input:51254 -- api_master.th [3]
+477> 26167 : 24_0@exodus_series.whiterock_master
+478> input:51266 -- api_master.th [3]
+478> 26168 : 23_0@exodus_series.whiterock_master
+479> input:51269 -- api_master.th [3]
+479> 26169 : 22_0@exodus_series.whiterock_master
+480> input:51274 -- api_master.th [3]
+480> 26170 : 21_0@exodus_series.whiterock_master
+481> input:51282 -- api_master.th [3]
+481> 26171 : 19_0@exodus_series.whiterock_master
+482> input:51285 -- api_master.th [3]
+482> 26172 : 18_0@exodus_series.whiterock_master
+483> input:51291 -- api_master.th [3]
+483> 26173 : 17_0@exodus_series.whiterock_master
+484> input:51299 -- api_master.th [3]
+484> 26174 : 16_6@exodus_series.whiterock_master
+485> input:51302 -- api_master.th [3]
+485> 26175 : 15_0@exodus_series.whiterock_master
+486> input:51308 -- api_master.th [3]
+486> 26176 : 13_0@exodus_series.whiterock_master
+487> input:51320 -- api_master.th [3]
+487> 26177 : 12_0@exodus_series.whiterock_master
+488> input:51340 -- api_master.th [3]
+488> 26178 : 8_0@exodus_series.whiterock_master
+489> input:51354 -- api_master.th [3]
+489> 26179 : 5_0@exodus_series.whiterock_master
+490> input:51357 -- api_master.th [3]
+490> 26180 : 4_0@exodus_series.whiterock_master
+491> input:51362 -- api_master.th [3]
+491> 26181 : 3_0@exodus_series.whiterock_master
+492> input:51368 -- api_master.th [3]
+492> 26182 : 2_0@exodus_series.whiterock_master
+493> input:51387 -- api_master.th [3]
+493> 26183 : 14_8@exodus_series.whiterock_master
+494> input:51400 -- api_master.th [3]
+494> 26184 : 28_1@exodus_series.whiterock_master
+495> input:51403 -- api_master.th [3]
+495> 26185 : 1@exodus_series.whiterock_master
+496> input:51411 -- api_master.th [3]
+496> 26186 : 9@exodus_series.whiterock_master
+497> input:51412 -- api_master.th [3]
+497> 26187 : 1_0@exodus_series.whiterock_master
+498> input:51416 -- api_master.th [3]
+498> 26188 : 7_3@exodus_series.whiterock_master
+499> input:51423 -- api_master.th [3]
+499> 26189 : 9_6@exodus_series.whiterock_master
+500> input:51425 -- api_master.th [3]
+500> 26190 : 10_1@exodus_series.whiterock_master
+501> input:51429 -- api_master.th [3]
+501> 26191 : 11_3@exodus_series.whiterock_master
+502> input:51458 -- api_master.th [3]
+502> 26211 : 0@series10.exodus_chamber_ramp.whiterock_master
+503> input:51460 -- api_master.th [3]
+503> 26212 : 0@splay4.exodus_chamber_ramp.whiterock_master
+504> input:51462 -- api_master.th [3]
+504> 26213 : 0@splay3.exodus_chamber_ramp.whiterock_master
+505> input:51464 -- api_master.th [3]
+505> 26214 : 0@splay2.exodus_chamber_ramp.whiterock_master
+506> input:51483 -- api_master.th [3]
+506> 26232 : 20@series6.exodus_chamber_ramp.whiterock_master
+507> input:51503 -- api_master.th [3]
+507> 26233 : 0@series6.exodus_chamber_ramp.whiterock_master
+508> input:51524 -- api_master.th [3]
+508> 26243 : 0@series5.exodus_chamber_ramp.whiterock_master
+509> input:51534 -- api_master.th [3]
+509> 26248 : 0@series4.exodus_chamber_ramp.whiterock_master
+510> input:51542 -- api_master.th [3]
+510> 26252 : 0@series3.exodus_chamber_ramp.whiterock_master
+511> input:51566 -- api_master.th [3]
+511> 26262 : 9@series14.exodus_chamber_ramp.whiterock_master
+512> input:51582 -- api_master.th [3]
+512> 26270 : 8@cascade_inlet.whiterock_master
+513> input:51602 -- api_master.th [3]
+513> 26280 : 9@balcony_climb.whiterock_master
+514> input:51629 -- api_master.th [3]
+514> 26292 : 13@api_ending.whiterock_master
+515> input:51843 -- api_master.th [3]
+515> 26429 : 166@1954.whiterock_master
+516> input:52016 -- api_master.th [3]
+516> 26473 : 1@shane_warnes_incredible_secret_chinaman.whiterock_master
+517> input:52104 -- api_master.th [3]
+517> 26517 : 20@secret_sump.whiterock_master
+518> input:52260 -- api_master.th [3]
+518> 26593 : 1@no_inclination.whiterock_master
+519> input:52314 -- api_master.th [3]
+519> 26619 : 8@zahara_dessert_2.whiterock_master
+520> input:52370 -- api_master.th [3]
+520> 26646 : 27@hopeless.whiterock_master
+521> input:52382 -- api_master.th [3]
+521> 26652 : 14@gww_oxbow.whiterock_master
+522> input:52399 -- api_master.th [3]
+522> 26659 : 17@gone_with_the_wind_rift.whiterock_master
+523> input:52420 -- api_master.th [3]
+523> 26669 : 11@animal_track_north.whiterock_master
+524> input:52446 -- api_master.th [3]
+524> 26681 : 1@snowboard_tuesday.whiterock_master
+525> input:52543 -- api_master.th [3]
+525> 26741 : 102@downhill_racer.whiterock_master
+526> input:52614 -- api_master.th [3]
+526> 26769 : 22@perfect_mulu_manners.whiterock_master
+527> input:52624 -- api_master.th [3]
+527> 26770 : 6@perfect_mulu_manners.whiterock_master
+528> input:52664 -- api_master.th [3]
+528> 26786 : 14@zahara_dessert.whiterock_master
+529> input:52676 -- api_master.th [3]
+529> 26787 : 602@zahara_dessert.whiterock_master
+530> input:52679 -- api_master.th [3]
+530> 26788 : 2@zahara_dessert.whiterock_master
+531> input:52716 -- api_master.th [3]
+531> 26804 : 7@out_of_africa_2.whiterock_master
+532> input:52717 -- api_master.th [3]
+532> 26805 : 6@out_of_africa_2.whiterock_master
+533> input:52761 -- api_master.th [3]
+533> 26826 : 40@whose_ramp_part_2.whiterock_master
+534> input:52896 -- api_master.th [3]
+534> 26892 : 54@whiterock_river_south_2011.whiterock_master
+535> input:52938 -- api_master.th [3]
+535> 26912 : 22@pointless_east.whiterock_master
+536> input:52978 -- api_master.th [3]
+536> 26932 : 12@pointless_north.whiterock_master
+537> input:53024 -- api_master.th [3]
+537> 26955 : 1@makita_ramp.whiterock_master
+538> input:53056 -- api_master.th [3]
+538> 26971 : 0@night_garden.whiterock_master
+539> input:53098 -- api_master.th [3]
+539> 26992 : 0@a65_highway_to_the_dales.whiterock_master
+540> input:53169 -- api_master.th [3]
+540> 27050 : 7b@dirty_yorkshire_habits.whiterock_master
+541> input:53217 -- api_master.th [3]
+541> 27051 : 45@dirty_yorkshire_habits.whiterock_master
+542> input:53237 -- api_master.th [3]
+542> 27061 : 49@animal_track.whiterock_master
+543> input:53341 -- api_master.th [3]
+543> 27109 : 0@whiterock_river.whiterock_master
+544> input:53457 -- api_master.th [3]
+544> 27162 : 54@whiterock_river_downstream.whiterock_master
+545> input:53487 -- api_master.th [3]
+545> 27177 : 16@nothing_to_be_proud_of.whiterock_master
+546> input:53499 -- api_master.th [3]
+546> 27187 : 62@shampoo.whiterock_master
+547> input:53510 -- api_master.th [3]
+547> 27188 : 51@shampoo.whiterock_master
+548> input:53534 -- api_master.th [3]
+548> 27208 : 93@mysterious_ways.whiterock_master
+549> input:53554 -- api_master.th [3]
+549> 27209 : 1@mysterious_ways.whiterock_master
+550> input:53578 -- api_master.th [3]
+550> 27221 : 108@1954_up_ramp.whiterock_master
+551> input:53607 -- api_master.th [3]
+551> 27239 : 203@1954_ramps.whiterock_master
+552> input:53616 -- api_master.th [3]
+552> 27240 : 209m@1954_ramps.whiterock_master
+553> input:53620 -- api_master.th [3]
+553> 27241 : 209i@1954_ramps.whiterock_master
+554> input:53676 -- api_master.th [3]
+554> 27269 : 0@paint_it_black.whiterock_master
+555> input:53698 -- api_master.th [3]
+555> 27280 : 5a@api_birthday_north_09.whiterock_master
+556> input:53742 -- api_master.th [3]
+556> 27299 : 16@api_birthday_north.whiterock_master
+557> input:53777 -- api_master.th [3]
+557> 27323 : 24@grounds_for_divorce.whiterock_master
+558> input:53793 -- api_master.th [3]
+558> 27324 : 0@grounds_for_divorce.whiterock_master
+559> input:53857 -- api_master.th [3]
+559> 27356 : 0@silly_mid_off.whiterock_master
+560> input:53875 -- api_master.th [3]
+560> 27365 : 0@silly_mid_on.whiterock_master
+561> input:53988 -- api_master.th [3]
+561> 27442 : 0@thirsty_ferret.whiterock_master
+562> input:54048 -- api_master.th [3]
+562> 27453 : 34@janets_way_lower.whiterock_master
+563> input:54055 -- api_master.th [3]
+563> 27454 : 40@janets_way_lower.whiterock_master
+564> input:54077 -- api_master.th [3]
+564> 27465 : 200@gruffalo.whiterock_master
+565> input:54124 -- api_master.th [3]
+565> 27502 : 300@pushmepullyou.whiterock_master
+566> input:54154 -- api_master.th [3]
+566> 27503 : 80@pushmepullyou.whiterock_master
+567> input:54166 -- api_master.th [3]
+567> 27513 : 120@poppets_2.whiterock_master
+568> input:54184 -- api_master.th [3]
+568> 27517 : 1@poppets_oxbow.whiterock_master
+569> input:54263 -- api_master.th [3]
+569> 27556 : 1@pompom_passage.whiterock_master
+570> input:54267 -- api_master.th [3]
+570> 27557 : 46@wild_moose_chase.whiterock_master
+571> input:54314 -- api_master.th [3]
+571> 27579 : 67@rifty_business.whiterock_master
+572> input:54316 -- api_master.th [3]
+572> 27580 : 60@big_issue_oxbow.whiterock_master
+573> input:54363 -- api_master.th [3]
+573> 27609 : 14@broken_chain.whiterock_master
+574> input:54377 -- api_master.th [3]
+574> 27610 : 0@broken_chain.whiterock_master
+575> input:54383 -- api_master.th [3]
+575> 27613 : 9@swift_shadow4.whiterock_master
+576> input:54391 -- api_master.th [3]
+576> 27617 : 0@swift_shadow3.whiterock_master
+577> input:54413 -- api_master.th [3]
+577> 27628 : 20@api_birthday_ramps.whiterock_master
+578> input:54519 -- api_master.th [3]
+578> 27706 : t0@reluctant_explorers.whiterock_master
+579> input:54557 -- api_master.th [3]
+579> 27707 : 31c@reluctant_explorers.whiterock_master
+580> input:54612 -- api_master.th [3]
+580> 27724 : 0@uncharted_waters.whiterock_master
+581> input:54642 -- api_master.th [3]
+581> 27739 : 27a@cream_cheese.whiterock_master
+582> input:54767 -- api_master.th [3]
+582> 27821 : 27@borderline.whiterock_master
+583> input:54810 -- api_master.th [3]
+583> 27822 : 0@borderline.whiterock_master
+584> input:54830 -- api_master.th [3]
+584> 27828 : 118@gaping_grotto.whiterock_master
+585> input:54886 -- api_master.th [3]
+585> 27856 : l8a@parsnip.whiterock_master
+586> input:54931 -- api_master.th [3]
+586> 27885 : 0@soapmine.whiterock_master
+587> input:55031 -- api_master.th [3]
+587> 27923 : 0@swift_shadow2.whiterock_master
+588> input:55032 -- api_master.th [3]
+588> 27924 : 19@swift_shadow2.whiterock_master
+589> input:55078 -- api_master.th [3]
+589> 27953 : 89@big_issue.whiterock_master
+590> input:55109 -- api_master.th [3]
+590> 27960 : 30@api_daze.whiterock_master
+591> input:55119 -- api_master.th [3]
+591> 27965 : 0@wait_of_expectation.whiterock_master
+592> input:55150 -- api_master.th [3]
+592> 27980 : 1@api_birthday_south_top.whiterock_master
+593> input:55266 -- api_master.th [3]
+593> 28039 : 1@swift_shadow.whiterock_master
+594> input:55270 -- api_master.th [3]
+594> 28040 : 67@swift_shadow.whiterock_master
+595> input:55310 -- api_master.th [3]
+595> 28057 : 5@under_out_of.whiterock_master
+596> input:55318 -- api_master.th [3]
+596> 28058 : ta112@under_out_of.whiterock_master
+597> input:55320 -- api_master.th [3]
+597> 28059 : 1@under_out_of.whiterock_master
+598> input:55321 -- api_master.th [3]
+598> 28060 : 21@under_out_of.whiterock_master
+599> input:55333 -- api_master.th [3]
+599> 28065 : 7@poppets_passage.whiterock_master
+600> input:55334 -- api_master.th [3]
+600> 28066 : 18@poppets_passage.whiterock_master
+601> input:55388 -- api_master.th [3]
+601> 28089 : 114@matrimony.whiterock_master
+602> input:55418 -- api_master.th [3]
+602> 28104 : 1@pamphlet.whiterock_master
+603> input:55473 -- api_master.th [3]
+603> 28140 : 41@upwind.whiterock_master
+604> input:55474 -- api_master.th [3]
+604> 28141 : 13@upwind.whiterock_master
+605> input:55519 -- api_master.th [3]
+605> 28156 : 16@harley_delightful.whiterock_master
+606> input:55530 -- api_master.th [3]
+606> 28157 : 122@harley_delightful.whiterock_master
+607> input:55553 -- api_master.th [3]
+607> 28166 : 25@northern_line_lake_district2.whiterock_master
+608> input:55781 -- api_master.th [3]
+608> 28309 : 133@northern_line.whiterock_master
+609> input:55795 -- api_master.th [3]
+609> 28310 : 30@northern_line.whiterock_master
+610> input:55861 -- api_master.th [3]
+610> 28311 : 85@northern_line.whiterock_master
+611> input:55913 -- api_master.th [3]
+611> 28334 : 1@northern_line_lake_district1.whiterock_master
+612> input:55939 -- api_master.th [3]
+612> 28347 : 32@lima_puluh.whiterock_master
+613> input:56056 -- api_master.th [3]
+613> 28398 : 13@black_joke2.whiterock_master
+614> input:56253 -- api_master.th [3]
+614> 28519 : 111@strong_hint_of_bigness.whiterock_master
+615> input:56266 -- api_master.th [3]
+615> 28520 : 77@strong_hint_of_bigness.whiterock_master
+616> input:56273 -- api_master.th [3]
+616> 28521 : 90@strong_hint_of_bigness.whiterock_master
+617> input:56277 -- api_master.th [3]
+617> 28522 : 118@strong_hint_of_bigness.whiterock_master
+618> input:56297 -- api_master.th [3]
+618> 28523 : 29@strong_hint_of_bigness.whiterock_master
+619> input:56344 -- api_master.th [3]
+619> 28538 : 4@green_wing.whiterock_master
+620> input:56357 -- api_master.th [3]
+620> 28539 : 53@green_wing.whiterock_master
+621> input:56447 -- api_master.th [3]
+621> 28592 : 1@api_birthday_south.whiterock_master
+622> input:56465 -- api_master.th [3]
+622> 28593 : 12ra@api_birthday_south.whiterock_master
+623> input:56466 -- api_master.th [3]
+623> 28594 : 12s@api_birthday_south.whiterock_master
+624> input:56477 -- api_master.th [3]
+624> 28595 : 23@api_birthday_south.whiterock_master
+625> input:56478 -- api_master.th [3]
+625> 28596 : 12r@api_birthday_south.whiterock_master
+626> input:56525 -- api_master.th [3]
+626> 28616 : 64@upper2.whiterock_master
+627> input:56596 -- api_master.th [3]
+627> 28655 : 47@upper.whiterock_master
+628> input:56601 -- api_master.th [3]
+628> 28656 : 13@upper.whiterock_master
+629> input:56772 -- api_master.th [3]
+629> 28738 : 12@up_and_running.whiterock_master
+630> input:56775 -- api_master.th [3]
+630> 28739 : 112@up_and_running.whiterock_master
+631> input:56791 -- api_master.th [3]
+631> 28740 : 0@up_and_running.whiterock_master
+632> input:56817 -- api_master.th [3]
+632> 28750 : 0@sweetdreams.whiterock_master
+633> input:56835 -- api_master.th [3]
+633> 28759 : 41@sick_note.whiterock_master
+634> input:56914 -- api_master.th [3]
+634> 28807 : start@oldfallhall.whiterock_master
+635> input:56930 -- api_master.th [3]
+635> 28808 : 48@oldfallhall.whiterock_master
+636> input:56942 -- api_master.th [3]
+636> 28811 : 3@lowsidep.whiterock_master
+637> input:56994 -- api_master.th [3]
+637> 28838 : 0@highland.whiterock_master
+638> input:57008 -- api_master.th [3]
+638> 28840 : 4@downunder2.whiterock_master
+639> input:57011 -- api_master.th [3]
+639> 28841 : 0@downunder2.whiterock_master
+640> input:57027 -- api_master.th [3]
+640> 28849 : 21@dicksdefeat.whiterock_master
+641> input:57126 -- api_master.th [3]
+641> 28914 : 73@daydream_believer.whiterock_master
+642> input:57141 -- api_master.th [3]
+642> 28915 : 106@daydream_believer.whiterock_master
+643> input:57184 -- api_master.th [3]
+643> 28919 : 21@camp_passage.whiterock_master
+644> input:57204 -- api_master.th [3]
+644> 28932 : 0@api_chamber_east.whiterock_master
+645> input:57215 -- api_master.th [3]
+645> 28933 : 16@api_chamber_east.whiterock_master
+646> input:57236 -- api_master.th [3]
+646> 28947 : 16@api_birthday.whiterock_master
+647> input:57238 -- api_master.th [3]
+647> 28948 : 18@api_birthday.whiterock_master
+648> input:57250 -- api_master.th [3]
+648> 28949 : 0@api_birthday.whiterock_master
+649> input:57340 -- api_master.th [3]
+649> 28992 : 39@aah_disto.whiterock_master
+650> input:57457 -- api_master.th [3]
+650> 29058 : 41@zebra_passage.whiterock_master
+651> input:57474 -- api_master.th [3]
+651> 29059 : 50@zebra_passage.whiterock_master
+652> input:57497 -- api_master.th [3]
+652> 29064 : 3@whiterock_entrance.whiterock_master
+653> input:57613 -- api_master.th [3]
+653> 29124 : 50@metric_cave.metric_master
+654> input:57659 -- api_master.th [3]
+654> 29144 : 73@metric_to_leopard_surface.metric_master
+655> input:57669 -- api_master.th [3]
+655> 29149 : 51@northern_exit_surface.metric_master
+656> input:57820 -- api_master.th [3]
+656> 29222 : 71@leopard_cave_fake.leopard_master
+657> input:57858 -- api_master.th [3]
+657> 29241 : 1@imperial_cave.imperial_master
+658> input:58025 -- api_master.th [3]
+658> 29357 : 1@ghost_recon.blackrock_master
+659> input:58051 -- api_master.th [3]
+659> 29370 : 8a@petes_peccadillo_2009.blackrock_master
+660> input:58069 -- api_master.th [3]
+660> 29379 : 0@purgatory_91.blackrock_master
+661> input:58109 -- api_master.th [3]
+661> 29399 : 142@caves_is_where_you_find_them.blackrock_master
+662> input:58168 -- api_master.th [3]
+662> 29437 : dg0@no_justice.blackrock_master
+663> input:58183 -- api_master.th [3]
+663> 29438 : 153@no_justice.blackrock_master
+664> input:58252 -- api_master.th [3]
+664> 29469 : 220@flower_shop_lead.blackrock_master
+665> input:58344 -- api_master.th [3]
+665> 29515 : 3@black_silk.blackrock_master
+666> input:58516 -- api_master.th [3]
+666> 29599 : 40@phoenix_south.blackrock_master
+667> input:58600 -- api_master.th [3]
+667> 29641 : 40@phoenix_north.blackrock_master
+668> input:58728 -- api_master.th [3]
+668> 29703 : 01@ramparts.blackrock_master
+669> input:58792 -- api_master.th [3]
+669> 29733 : 72@crinkley_bits.blackrock_master
+670> input:58939 -- api_master.th [3]
+670> 29805 : 180@slippery_when_wet_2.blackrock_master
+671> input:58985 -- api_master.th [3]
+671> 29828 : 93@slippery_when_wet_1.blackrock_master
+672> input:59065 -- api_master.th [3]
+672> 29868 : 47@old_holborn.blackrock_master
+673> input:59337 -- api_master.th [3]
+673> 30021 : f332@racer_series.blackrock_master
+674> input:59541 -- api_master.th [3]
+674> 30120 : f364@firecracker.blackrock_master
+675> input:59612 -- api_master.th [3]
+675> 30136 : 17@rudang_sump.blackrock_master
+676> input:59696 -- api_master.th [3]
+676> 30177 : 112@black_magic.blackrock_master
+677> input:59734 -- api_master.th [3]
+677> 30206 : dg34@rudang_gallery_north.blackrock_master
+678> input:59762 -- api_master.th [3]
+678> 30207 : dg6@rudang_gallery_north.blackrock_master
+679> input:59792 -- api_master.th [3]
+679> 30233 : 112@rudang_gallery_south.blackrock_master
+680> input:59841 -- api_master.th [3]
+680> 30245 : 106@quarry_bypass.blackrock_master
+681> input:59973 -- api_master.th [3]
+681> 30317 : 47@milliways_to_quarry.blackrock_master
+682> input:59992 -- api_master.th [3]
+682> 30318 : 108@milliways_to_quarry.blackrock_master
+683> input:60070 -- api_master.th [3]
+683> 30353 : 37@dapa_series.blackrock_master
+684> input:60198 -- api_master.th [3]
+684> 30415 : 47@centipede_to_milliways.blackrock_master
+685> input:60213 -- api_master.th [3]
+685> 30421 : 6@mysterious_ways_leg_2011.gorge_surface_master
+686> input:60278 -- api_master.th [3]
+686> 30453 : 39@cloud_to_bridge.hidden_valley_surface_master
+687> input:60281 -- api_master.th [3]
+687> 30454 : 935@cloud_to_bridge.hidden_valley_surface_master
+688> input:60298 -- api_master.th [3]
+688> 30469 : 112@camp_to_prediction.hidden_valley_surface_master
+689> input:60315 -- api_master.th [3]
+689> 30470 : 217@camp_to_prediction.hidden_valley_surface_master
+690> input:60326 -- api_master.th [3]
+690> 30480 : 0@perseverance_to_arch.hidden_valley_surface_master
+691> input:60338 -- api_master.th [3]
+691> 30481 : 15@perseverance_to_arch.hidden_valley_surface_master
+692> input:60512 -- api_master.th [3]
+692> 30576 : 99@arch_to_heli_pad.hidden_valley_surface_master
+693> input:60564 -- api_master.th [3]
+693> 30589 : 51@moonmilk_cave.moonmilk_master
+694> input:60565 -- api_master.th [3]
+694> 30590 : 50@moonmilk_cave.moonmilk_master
+695> input:60566 -- api_master.th [3]
+695> 30591 : 49@moonmilk_cave.moonmilk_master
+696> input:60567 -- api_master.th [3]
+696> 30592 : 48@moonmilk_cave.moonmilk_master
+697> input:60568 -- api_master.th [3]
+697> 30593 : 47@moonmilk_cave.moonmilk_master
+698> input:60569 -- api_master.th [3]
+698> 30594 : 46@moonmilk_cave.moonmilk_master
+699> input:60570 -- api_master.th [3]
+699> 30595 : 45@moonmilk_cave.moonmilk_master
+700> input:60571 -- api_master.th [3]
+700> 30596 : 44@moonmilk_cave.moonmilk_master
+701> input:60572 -- api_master.th [3]
+701> 30597 : 43@moonmilk_cave.moonmilk_master
+702> input:60573 -- api_master.th [3]
+702> 30598 : 42@moonmilk_cave.moonmilk_master
+703> input:60574 -- api_master.th [3]
+703> 30599 : 41@moonmilk_cave.moonmilk_master
+704> input:60575 -- api_master.th [3]
+704> 30600 : 40@moonmilk_cave.moonmilk_master
+705> input:60580 -- api_master.th [3]
+705> 30602 : s39@passaget.racer_master
+706> input:60585 -- api_master.th [3]
+706> 30603 : s404@passaget.racer_master
+707> input:60655 -- api_master.th [3]
+707> 30635 : s39@circ2.racer_master
+708> input:60665 -- api_master.th [3]
+708> 30643 : 10@3.missed.racer_master
+709> input:60675 -- api_master.th [3]
+709> 30644 : 0@3.missed.racer_master
+710> input:60694 -- api_master.th [3]
+710> 30651 : 0@1.missed.racer_master
+711> input:60702 -- api_master.th [3]
+711> 30654 : 0@13.fatsnake.racer_master
+712> input:60705 -- api_master.th [3]
+712> 30656 : 0@3.boneyardsump.racer_master
+713> input:60709 -- api_master.th [3]
+713> 30657 : 4@3.boneyardsump.racer_master
+714> input:60723 -- api_master.th [3]
+714> 30663 : 7@2.boneyardsump.racer_master
+715> input:60749 -- api_master.th [3]
+715> 30685 : s602@eyeholes.racer_master
+716> input:60794 -- api_master.th [3]
+716> 30697 : s39@mez2.racer_master
+717> input:60801 -- api_master.th [3]
+717> 30702 : 1_41@lagans_ssurvey_main_psg.lagangs_master
+718> input:60808 -- api_master.th [3]
+718> 30703 : 4_24@lagans_ssurvey_main_psg.lagangs_master
+719> input:60897 -- api_master.th [3]
+719> 30766 : 82@racertotjunction.racer_area_surface_master
+720> input:60953 -- api_master.th [3]
+720> 30767 : 0@racertotjunction.racer_area_surface_master
+721> input:61084 -- api_master.th [3]
+721> 30831 : d1@elevationsurveycheck3.clearwater_master
+722> input:61098 -- api_master.th [3]
+722> 30832 : m15@elevationsurveycheck3.clearwater_master
+723> input:61134 -- api_master.th [3]
+723> 30849 : v18@elevationsurveycheck4.clearwater_master
+724> input:61138 -- api_master.th [3]
+724> 30850 : g3@elevationsurveycheck5.clearwater_master
+725> input:61178 -- api_master.th [3]
+725> 30869 : r13@elevationsurveycheck6.clearwater_master
+726> input:61196 -- api_master.th [3]
+726> 30876 : r22@elevationsurveycheck7.clearwater_master
+727> input:61240 -- api_master.th [3]
+727> 30899 : r11@elevationsurveycheck2.clearwater_master
+728> input:61246 -- api_master.th [3]
+728> 30900 : d1@elevationsurveycheck2.clearwater_master
+729> input:61254 -- api_master.th [3]
+729> 30904 : 105@downdraughtsnowslope.clearwater_master
+730> input:61266 -- api_master.th [3]
+730> 30910 : 9@squeezy_bypass.clearwater_master
+731> input:61274 -- api_master.th [3]
+731> 30911 : 1@squeezy_bypass.clearwater_master
+732> input:61310 -- api_master.th [3]
+732> 30930 : 25@clay_hall_2_streamway.cave_of_the_winds_master
+733> input:61333 -- api_master.th [3]
+733> 30938 : 12@series2.exodus_chamber_ramp.whiterock_master
+734> input:61345 -- api_master.th [3]
+734> 30939 : 0@series2.exodus_chamber_ramp.whiterock_master
+735> input:61366 -- api_master.th [3]
+735> 30953 : 21@janets_way.whiterock_master
+736> input:61402 -- api_master.th [3]
+736> 30972 : 80@unnamed_bypass.whiterock_master
+737> input:61423 -- api_master.th [3]
+737> 30973 : 15a@unnamed_bypass.whiterock_master
+738> input:61513 -- api_master.th [3]
+738> 31009 : 13@bigness_south.whiterock_master
+739> input:61549 -- api_master.th [3]
+739> 31035 : 24@101.whiterock_master
+740> input:61598 -- api_master.th [3]
+740> 31046 : 12@ruse_of_the_valkyrie.whiterock_master
+741> input:61616 -- api_master.th [3]
+741> 31054 : 9@3rd_dirty_little_secret.whiterock_master
+742> input:61623 -- api_master.th [3]
+742> 31060 : 8@technical_underpants_side_loop.whiterock_master
+743> input:61631 -- api_master.th [3]
+743> 31061 : 0@technical_underpants_side_loop.whiterock_master
+744> input:61635 -- api_master.th [3]
+744> 31064 : 4@better_late_than_never.whiterock_master
+745> input:61661 -- api_master.th [3]
+745> 31085 : 1@chance_encounter.whiterock_master
+746> input:61684 -- api_master.th [3]
+746> 31086 : 24@chance_encounter.whiterock_master
+747> input:61686 -- api_master.th [3]
+747> 31087 : 1@own_goal_waterfall.whiterock_master
+748> input:61692 -- api_master.th [3]
+748> 31092 : 109@1954-endloop.whiterock_master
+749> input:61699 -- api_master.th [3]
+749> 31093 : 15@1954-endloop.whiterock_master
+750> input:61707 -- api_master.th [3]
+750> 31100 : 68@into_out_of.whiterock_master
+751> input:61716 -- api_master.th [3]
+751> 31101 : 20@into_out_of.whiterock_master
+752> input:61724 -- api_master.th [3]
+752> 31108 : 28@ancestor_passage.whiterock_master
+753> input:61733 -- api_master.th [3]
+753> 31109 : 9@ancestor_passage.whiterock_master
+754> input:61773 -- api_master.th [3]
+754> 31127 : 20@ancestor2.whiterock_master
+755> input:61785 -- api_master.th [3]
+755> 31138 : 13@apartheid.whiterock_master
+756> input:61798 -- api_master.th [3]
+756> 31139 : 0@apartheid.whiterock_master
+757> input:61816 -- api_master.th [3]
+757> 31147 : 91@oxbow.whiterock_master
+758> input:61826 -- api_master.th [3]
+758> 31154 : 1@whose_ramp.whiterock_master
+759> input:61835 -- api_master.th [3]
+759> 31155 : 10@whose_ramp.whiterock_master
+760> input:61845 -- api_master.th [3]
+760> 31162 : 4@api_chamber_west.whiterock_master
+761> input:61846 -- api_master.th [3]
+761> 31163 : 1@api_chamber_west.whiterock_master
+762> input:61868 -- api_master.th [3]
+762> 31176 : 49@importance_of_being_active.whiterock_master
+763> input:61883 -- api_master.th [3]
+763> 31177 : 15@importance_of_being_active.whiterock_master
+764> input:61933 -- api_master.th [3]
+764> 31201 : 31@lowland.whiterock_master
+765> input:61945 -- api_master.th [3]
+765> 31202 : 19@lowland.whiterock_master
+766> input:61969 -- api_master.th [3]
+766> 31213 : 13@eagleramp.whiterock_master
+767> input:61976 -- api_master.th [3]
+767> 31218 : 0@downunder.whiterock_master
+768> input:62055 -- api_master.th [3]
+768> 31254 : 1@whiterock_surface.whiterock_master
+769> input:62132 -- api_master.th [3]
+769> 31327 : 1@centipede_to_leopard_surface.blackrock_master
+770> input:62209 -- api_master.th [3]
+770> 31328 : 78@centipede_to_leopard_surface.blackrock_master
+771> input:62282 -- api_master.th [3]
+771> 31400 : 74@centipede_to_racer_surface.blackrock_master
+772> input:62356 -- api_master.th [3]
+772> 31401 : mk15@centipede_to_racer_surface.blackrock_master
+773> input:62383 -- api_master.th [3]
+773> 31413 : dg34@slartis_revenge.blackrock_master
+775> 31413 : dg34@slartis_revenge.blackrock_master
+777> 31413 : dg34@slartis_revenge.blackrock_master
+781> 95 : 0d@conviction.wonder_master -- 20090 : 1c@richards_passage.clearwater_master
+782> 125 : 11@low_country_traverse.gorge_surface_master -- 14024 : 13@lagans_dream_pool.lagangs_master
+783> 823 : 6@pinnacle_cave_no2.pinnacle_no2_master -- 69 : 0@surprisingly_obvious_totjunction.racer_area_surface_master
+784> 31413 : dg34@slartis_revenge.blackrock_master
+785> 771 : ent@rat_cave.rat_master
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+writing api_master.lox ...
+processing projection plan ... done
+ done
+writing xtherion file ... done
+compilation time: 4 sec

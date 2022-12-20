@@ -1,0 +1,28 @@
+encoding  utf-8
+# 2022.12.11 created by TopoDroid v 6.1.78
+
+survey serve_cool_houblon -title "Serve Cool, Houblon"
+
+#centerline
+   input 20221122REb.th
+   input 20221121REa.th
+#endcenterline
+
+equate 31@20221121REa 31@20221122REb
+
+ #  map m5p -projection plan
+ #    20221121REa-1p1
+ #    break 
+ #    20221121REa-1p
+ #    break
+ #    20221122REb-1p
+ #  endmap
+
+join line8@20221122REb:end line22@20221121REa:end
+join line5@20221122REb:0 line23@20221121REa:0
+
+join line2@20221122REb:end line58@20221121REa:0
+join line3@20221122REb:0 line60@20221121REa:end
+
+endsurvey
+

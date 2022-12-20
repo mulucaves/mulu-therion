@@ -1,0 +1,6 @@
+encoding  utf-8
+
+
+#input ../layouts/mulu_layouts.thc
+source api_master.th
+export model -o api_master.lox

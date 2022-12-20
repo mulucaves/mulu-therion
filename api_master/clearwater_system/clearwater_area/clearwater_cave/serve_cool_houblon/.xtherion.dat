@@ -1,0 +1,18 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 706.58m (surface 0.00m, duplicated 0.00m)\nvertical range: 114.62m (from 36@20221121REa.serve_cool_houblon at 35.15m to 27@20221121REa.serve_cool_houblon at -79.47m)\nnorth-south range: 374.22m (from 0@20221122REb.serve_cool_houblon at 179.12m to 27@20221121REa.serve_cool_houblon at -195.10m)\neast-west range: 212.08m (from 6@20221122REb.serve_cool_houblon at 52.88m to 27@20221121REa.serve_cool_houblon at -159.20m)\nnumber of shots: 660\nnumber of stations: 662"
+xth_cp_data_tree_insert 72 1 1 serve_cool_houblon serve_cool_houblon "Serve Cool, Houblon" "Serve Cool, Houblon" "length: 706.58m (surface 0.00m, duplicated 0.00m)\nvertical range: 114.62m (from 36@20221121REa.serve_cool_houblon at 35.15m to 27@20221121REa.serve_cool_houblon at -79.47m)\nnorth-south range: 374.22m (from 0@20221122REb.serve_cool_houblon at 179.12m to 27@20221121REa.serve_cool_houblon at -195.10m)\neast-west range: 212.08m (from 6@20221122REb.serve_cool_houblon at 52.88m to 27@20221121REa.serve_cool_houblon at -159.20m)\nnumber of shots: 660\nnumber of stations: 662"
+xth_cp_data_tree_insert 74 72 2 20221122REb 20221122REb.serve_cool_houblon "20221122REb" "20221122REb" "length: 237.16m (surface 0.00m, duplicated 0.00m)\nvertical range: 28.25m (from 31@20221122REb.serve_cool_houblon at 0.00m to 4@20221122REb.serve_cool_houblon at -28.25m)\nnorth-south range: 179.12m (from 0@20221122REb.serve_cool_houblon at 179.12m to 31@20221122REb.serve_cool_houblon at 0.00m)\neast-west range: 60.83m (from 6@20221122REb.serve_cool_houblon at 52.88m to 26@20221122REb.serve_cool_houblon at -7.95m)\nnumber of shots: 288\nnumber of stations: 289"
+xth_cp_data_tree_insert 314 72 2 20221121REa 20221121REa.serve_cool_houblon "20221121REa" "20221121REa" "length: 469.42m (surface 0.00m, duplicated 0.00m)\nvertical range: 114.62m (from 36@20221121REa.serve_cool_houblon at 35.15m to 27@20221121REa.serve_cool_houblon at -79.47m)\nnorth-south range: 235.22m (from 36@20221121REa.serve_cool_houblon at 40.12m to 27@20221121REa.serve_cool_houblon at -195.10m)\neast-west range: 182.70m (from 33@20221121REa.serve_cool_houblon at 23.50m to 27@20221121REa.serve_cool_houblon at -159.20m)\nnumber of shots: 372\nnumber of stations: 373"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 elevation\[115.0\] {} {} {}
+xth_cp_map_tree_insert map 1 310X1 p1 1 m1p m1p@20221122REb.serve_cool_houblon "" ""
+xth_cp_map_tree_insert map 1 311X1 p2 1 m1s m1s@20221122REb.serve_cool_houblon "" ""
+xth_cp_map_tree_insert map 1 622X1 p1 1 m1p m1p@20221121REa.serve_cool_houblon "" ""
+xth_cp_map_tree_insert map 1 623X1 p2 1 m2s m2s@20221121REa.serve_cool_houblon "" ""
+xth_cp_map_tree_create
+xth_cp_comp_stat 707 7
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1671231294
+

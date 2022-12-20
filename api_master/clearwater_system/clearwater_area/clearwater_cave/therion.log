@@ -14,7 +14,7 @@ processing survey data ...
 ####################### cavern log file ########################
  1> Survex 1.2.44
  2> Copyright ¸ 1990-2021 Olly Betts
- 3> C:\Users\Rob\AppData\Local\Temp\th41088\data.svx:10442: warning: Unused fixed point "8961"
+ 3> C:\Users\Rob\AppData\Local\Temp\th7776\data.svx:10442: warning: Unused fixed point "8961"
  4> 
  5> Survey contains 8961 survey stations, joined by 9109 legs.
  6> There are 151 loops.
@@ -64,6 +64,7 @@ processing survey data ...
 50> There were 1 warning(s).
 51> 
 ######################### transcription ########################
+ 3> 7776 : 5m@20.smashing.clearwater_master
  3> input:10442 -- clearwater_master.th [208]
  3> 8961 : clearwater_cave_fake.0@clearwater_master
  5> 8961 : clearwater_cave_fake.0@clearwater_master
@@ -348,7 +349,7 @@ S    21.31 cleartop_s1@clearwater_cave_fake.clearwater_master ()
 ########## end of export maps & scraps selection ###############
 writing clearwater_master.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.00 (TeX Live 2020/W32TeX) (kpathsea version 6.3.2)  1 NOV 2022 20:16
+This is MetaPost, version 2.00 (TeX Live 2020/W32TeX) (kpathsea version 6.3.2)  15 DEC 2022 08:53
 **data.mp
 (c:/Program Files (x86)/Therion/texmf/mpost/mpost.mp
 (c:/Program Files (x86)/Therion/texmf/mpost/plain.mp
@@ -556,7 +557,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdftex 2020.6.19)  1 NOV 2022 20:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdftex 2020.6.19)  15 DEC 2022 08:54
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
@@ -575,22 +576,21 @@ Here is how much of TeX's memory you used:
  20080 words of font info for 63 fonts, out of 1000000 for 2000
  1416 hyphenation exceptions out of 5000
  9i,5n,9p,321b,56s stack positions out of 5000i,500n,10000p,200000b,50000s
-<c:/Program Files (x86)/Therion/texmf/fonts/type1/cmmi10.pfb><c:/Program 
-Files (x86)/Therion/texmf/fonts/type1/cmr10.pfb><c:/Program Files (x86)/Therion
-/texmf/fonts/type1/cmss10.pfb><c:/Program Files (x86)/Therion/texmf/fonts/type1
-/cmssi10.pfb>
-Output written on data.pdf (1 page, 6770652 bytes).
+<c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program 
+Files (x86)/Therion/texmf/fonts/type1/cmssi10.pfb>
+Output written on data.pdf (1 page, 6751678 bytes).
 PDF statistics:
- 2979 PDF objects out of 2984 (max. 8388607)
- 1487 compressed objects within 15 object streams
+ 2969 PDF objects out of 2984 (max. 8388607)
+ 1481 compressed objects within 15 object streams
  0 named destinations out of 1000 (max. 500000)
  8825 words of extra memory for PDF output out of 10000 (max. 10000000)
 
 
 ##################### end of pdftex log file #####################
 done
+writing clearwater_master_walls.3d ... done
 writing xtherion file ... done
-compilation time: 38 sec
+compilation time: 37 sec
 
 
 ######################### loop errors ##########################

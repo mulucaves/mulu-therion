@@ -1,5 +1,6 @@
-therion 5.4.4 (2019-05-01)
-initialization file: C:\Users\reavis\AppData\Local\Therion/therion.ini
+therion 6.1.3 (2022-11-26)
+  - using Proj 9.1.0, compiled against 9.1.0
+initialization file: C:\Program Files (x86)\Therion/therion.ini
 reading ... done
 configuration file: thconfig
 reading ... done
@@ -11,19 +12,19 @@ calculating station coordinates ... done
 average loop error: 1.16%
 processing survey data ... 
 ####################### cavern log file ########################
- 1> Survex 1.2.41
- 2> Copyright ¸ 1990-2018 Olly Betts
- 3> C:\Users\reavis\AppData\Local\Temp\th37008\data.svx:9036: warning: Unused fixed point "8961"
+ 1> Survex 1.2.44
+ 2> Copyright ¸ 1990-2021 Olly Betts
+ 3> C:\Users\Rob\AppData\Local\Temp\th32400\data.svx:10442: warning: Unused fixed point "8961"
  4> 
  5> Survey contains 8998 survey stations, joined by 9143 legs.
  6> There are 151 loops.
  7> Survey has 6 connected components.
- 8> Total length of survey legs = 156398.96m (156362.88m adjusted)
- 9> Total plan length of survey legs = 139290.34m
-10> Total vertical length of survey legs = 44086.06m
+ 8> Total length of survey legs = 94558.61m (94529.44m adjusted)
+ 9> Total plan length of survey legs = 89087.81m
+10> Total vertical length of survey legs = 19431.77m
 11> Vertical range = 521.59m (from 4984 at 537.20m to 4792 at 15.61m)
 12> North-South range = 4186.99m (from 873 at 452933.14m to 6889 at 448746.15m)
-13> East-West range = 3429.85m (from 5275 at 262583.15m to 7648 at 259153.29m)
+13> East-West range = 3423.85m (from 5275 at 262583.15m to 6655 at 259159.30m)
 14>    1 0-node.
 15> 5327 1-nodes.
 16> 2451 2-nodes.
@@ -63,14 +64,14 @@ processing survey data ...
 50> There were 1 warning(s).
 51> 
 ######################### transcription ########################
- 3> input:9036 -- clearwater_cave/clearwater_master.th [208]
+ 3> input:10442 -- clearwater_cave/clearwater_master.th [208]
  3> 8961 : clearwater_cave_fake.0@clearwater_master
  5> 8998 : 4@solo.solo_master
  6> 151 : 123@armistice_north.clearwater_master
  7> 6 : 6@snow_slopes.clearwater_master
 11> 4984 : 22c@highandmighty.clearwater_master -- 4792 : 16s3@cowarchclimb.clearwater_master
 12> 873 : 443@clearwater_cave_fake.clearwater_master -- 6889 : 108@eureka_matt.clearwater_master
-13> 5275 : 67e@eastern.clearwater_master -- 7648 : 4@surface_cotw_to_clearwater.clearwater_master
+13> 5275 : 67e@eastern.clearwater_master -- 6655 : 44@4.wind_cave.clearwater_master
 14> 1 : 1@snow_slopes.clearwater_master
 15> 5327 : 80b@eastern.clearwater_master
 16> 2451 : -@jetstream.clearwater_master
@@ -111,4 +112,4 @@ processing survey data ...
 #################### end of cavern log file ####################
 done
 calculating basic statistics ... done
-processing extended elevatio
+processi

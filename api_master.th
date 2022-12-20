@@ -1,0 +1,5 @@
+encoding  utf-8
+
+import api_master.3d -surveys create
+survey api_master
+endsurvey

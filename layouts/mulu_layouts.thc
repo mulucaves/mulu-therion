@@ -6,6 +6,13 @@ input layoutscales.thc           #pre-defined settings to suit output scales
 input layoutstatisticsreporting.thc
 input common_layout.thc
 
+layout MuluTiny
+    copy common
+    copy LayoutStandard 
+    copy LayoutScale500 
+    copy LayoutStatisticsNormal
+endlayout
+
 layout MuluSmall
     copy common
     copy LayoutStandard 

@@ -1,0 +1,42 @@
+encoding  utf-8
+
+input ../../../../../layouts/mulu_layouts.thc
+
+source serve_cool_houblon.th
+
+export model -o serve_cool_houblon.3d
+#export model -o serve_cool_houblon.lox
+
+export map -proj plan -o serve_cool_houblon_plan.pdf -layout MuluSmall -layout local
+export map -proj plan -o serve_cool_houblon.pdf -layout MuluSmall -layout local -layout localsideinsert
+export map -proj [elevation 115] -o serve_cool_houblon_side.pdf -layout MuluSmall -layout localside
+
+export map -proj plan -o serve_cool_houblon_plan.3d -layout MuluSmall -layout local
+
+layout local
+map-comment "Scumring Series, Clearwater<br>Plan View<br>Suveyed Length = 707m"
+map-header 5 85 sw
+  code tex-map		#puts square boarder around survey
+    \framethickness=0.5mm
+
+endlayout
+
+layout localside
+map-comment "Elevation Projection 115"
+symbol-hide special north-arrow
+    code tex-map
+      \legendtitle={}
+      \cavename={}
+      \scalebarfalse
+      \cavelengthtitle={}
+      \cavelength={}
+      \cavedepthtitle={}
+      \cavedepth={}
+    endcode
+  statistics topo off
+  map-header 5 20 sw
+endlayout
+
+layout localsideinsert
+map-image 50 0 n serve_cool_houblon_side.pdf
+endlayout

@@ -1,0 +1,10 @@
+encoding  utf-8
+
+input ../../../../../layouts/mulu_layouts.thc
+
+source 20221121REa.th
+
+export model -o 20221121REa.3d
+#export model -o 20221121REa.lox
+export map -proj plan -o 20221121REa_Plan.pdf -layout MuluSmall
+export map -proj [elevation 115] -o 20221121REa_Side.pdf -layout MuluSmall

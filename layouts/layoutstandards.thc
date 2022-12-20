@@ -62,7 +62,7 @@ layout LayoutStandard # Make settings that apply to map AND atlas outputs
   grid-size 100 100 100 metres  # coordinate grid
   grid bottom                  # plots grid under cave passage   
   
-  grid-coords border  #label grids on GRID border intersections only
+  #grid-coords border  #label grids on GRID border intersections only
   #grid-coords all          #label grids on all grid intersections     
   
 ###  overlap 2 cm        # empty border around the page  

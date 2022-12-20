@@ -42,7 +42,7 @@ layout LayoutScale1000
   #code metapost
   #fonts_setup(4,5,7,8,11); 
   #these fonts approx same as above if scaled x1.5 using basescale
-
+  
 endlayout LayoutScale1000
 
 layout LayoutScale2000 
