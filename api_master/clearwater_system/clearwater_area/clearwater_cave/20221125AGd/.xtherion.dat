@@ -1,0 +1,14 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 514.63m (surface 0.00m, duplicated 0.00m)\nvertical range: 96.22m (from 30@20221125AGd at 66.47m to 58@20221125AGd at -29.75m)\nnorth-south range: 77.47m (from 3@20221125AGd at 11.92m to 52@20221125AGd at -65.55m)\neast-west range: 133.14m (from 30@20221125AGd at 88.18m to 58@20221125AGd at -44.96m)\nnumber of shots: 761\nnumber of stations: 758"
+xth_cp_data_tree_insert 69 1 1 20221125AGd 20221125AGd "Iron Maiden" "Iron Maiden" "length: 514.63m (surface 0.00m, duplicated 0.00m)\nvertical range: 96.22m (from 30@20221125AGd at 66.47m to 58@20221125AGd at -29.75m)\nnorth-south range: 77.47m (from 3@20221125AGd at 11.92m to 52@20221125AGd at -65.55m)\neast-west range: 133.14m (from 30@20221125AGd at 88.18m to 58@20221125AGd at -44.96m)\nnumber of shots: 761\nnumber of stations: 758"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert projection 0 p3 {} 0 elevation\[21.0\] {} {} {}
+xth_cp_map_tree_insert map 1 421X1 p3 1 20221125AGdML 20221125AGdML@20221125AGd "" ""
+xth_cp_map_tree_create
+xth_cp_comp_stat 515 9
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1673019081
+

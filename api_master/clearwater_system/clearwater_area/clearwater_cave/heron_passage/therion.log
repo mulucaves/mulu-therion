@@ -1,0 +1,203 @@
+therion 6.1.3 (2022-11-26)
+  - using Proj 9.1.0, compiled against 9.1.0
+initialization file: C:\Program Files (x86)\Therion/therion.ini
+reading ... done
+configuration file: heron_passage.thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.2.44
+ 2> Copyright ¸ 1990-2021 Olly Betts
+ 3> Survey has no fixed points. Therefore I've fixed 1 at (0,0,0)
+ 4> 
+ 5> Survey contains 150 survey stations, joined by 149 legs.
+ 6> There is 1 loop.
+ 7> Survey has 2 connected components.
+ 8> Total length of survey legs =  180.73m ( 180.73m adjusted)
+ 9> Total plan length of survey legs =  136.65m
+10> Total vertical length of survey legs =  103.27m
+11> Vertical range = 108.90m (from 14 at 8.42m to 150 at -100.49m)
+12> North-South range = 49.45m (from 7 at 12.00m to 108 at -37.44m)
+13> East-West range = 70.84m (from 62 at 59.38m to 139 at -11.47m)
+14>  135 1-nodes.
+15>    1 5-node.
+16>    2 6-nodes.
+17>    2 9-nodes.
+18>    1 10-node.
+19>    2 11-nodes.
+20>    3 12-nodes.
+21>    2 14-nodes.
+22>    2 16-nodes.
+23> 
+######################### transcription ########################
+ 3> 1 : 0@heron_passage
+ 5> 150 : .@heron_passage -- 149 : .@heron_passage
+ 6> 1 : 0@heron_passage
+ 7> 2 : .@heron_passage
+11> 14 : .@heron_passage -- 150 : .@heron_passage
+12> 7 : .@heron_passage -- 108 : .@heron_passage
+13> 62 : .@heron_passage -- 139 : .@heron_passage
+14> 135 : .@heron_passage
+15> 1 : 0@heron_passage
+16> 2 : .@heron_passage
+17> 2 : .@heron_passage
+18> 1 : 0@heron_passage
+19> 2 : .@heron_passage
+20> 3 : .@heron_passage
+21> 2 : .@heron_passage
+22> 2 : .@heron_passage
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+writing heron_passage.3d ... done
+processing projection plan ... done
+average distortion: 0.05%
+
+
+############### export maps & scraps selection #################
+S   -10.16 heron_passage-1p@heron_passage ()
+S   -67.56 heron_passage-1p1@heron_passage ()
+S   -85.63 heron_passage-1p2@heron_passage ()
+########## end of export maps & scraps selection ###############
+writing heron_passage_plan.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  13 JAN 2023 13:46
+**data.mp
+(c:/Program Files (x86)/Therion/texmf/mpost/mpost.mp
+(c:/Program Files (x86)/Therion/texmf/mpost/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [1] [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+[15] [16] [17] [1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12]
+(./mptextmp.mp) [13] [14] [15] [16] [17] [18] [19] [20] [21] [22] [23] [24]
+[25] [26] [27] [28] [29] [30] [31] [32] [33] [34] [35] )
+ 
+Here is how much of MetaPost's memory you used:
+ 4768 strings using 110720 characters
+ 2527056 bytes of node memory
+ 1918 symbolic tokens
+ 11i,82n,16p,331b,5f stack positions out of 16i,98n,17p,390b,6f
+52 output files written: data-patt.1 .. data.35
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  13 JAN 2023 13:46
+entering extended mode
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
+(./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 88 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 311 strings out of 94604
+ 4206 string characters out of 1142524
+ 33316 words of memory out of 5018044
+ 1966 multiletter control sequences out of 15000+50000
+ 20080 words of font info for 63 fonts, out of 1000000 for 2000
+ 1416 hyphenation exceptions out of 5000
+ 9i,5n,6p,627b,60s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program 
+Files (x86)/Therion/texmf/fonts/type1/cmssi10.pfb>
+Output written on data.pdf (1 page, 57444 bytes).
+PDF statistics:
+ 116 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 301 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+processing projection elevation ... done
+average distortion: 0.04%
+
+
+############### export maps & scraps selection #################
+S    -5.16 heron_passage-1s@heron_passage ()
+########## end of export maps & scraps selection ###############
+writing heron_passage_side.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  13 JAN 2023 13:46
+**data.mp
+(c:/Program Files (x86)/Therion/texmf/mpost/mpost.mp
+(c:/Program Files (x86)/Therion/texmf/mpost/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [1] [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+[15] [16] [17] [1] [2] [3] [4] (./mptextmp.mp) [5] [6] [7] [8] [9] [10] [11]
+[12] [13] [14] [15] [16] [17] [18] [19] [20] )
+ 
+Here is how much of MetaPost's memory you used:
+ 3813 strings using 90990 characters
+ 2475388 bytes of node memory
+ 1916 symbolic tokens
+ 8i,82n,11p,312b,4f stack positions out of 16i,98n,12p,312b,6f
+37 output files written: data-patt.1 .. data.20
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  13 JAN 2023 13:46
+entering extended mode
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
+(./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 69 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 292 strings out of 94604
+ 4013 string characters out of 1142524
+ 30130 words of memory out of 5014858
+ 1947 multiletter control sequences out of 15000+50000
+ 18931 words of font info for 60 fonts, out of 1000000 for 2000
+ 1416 hyphenation exceptions out of 5000
+ 9i,5n,6p,249b,56s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program 
+Files (x86)/Therion/texmf/fonts/type1/cmssi10.pfb>
+Output written on data.pdf (1 page, 37633 bytes).
+PDF statistics:
+ 74 PDF objects out of 1000 (max. 8388607)
+ 41 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 175 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+writing xtherion file ... done
+compilation time: 1 sec
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+   0.08%    0.92%  heron_passage-1p2@heron_passage
+   0.05%    0.88%  heron_passage-1p1@heron_passage
+   0.02%    0.18%  heron_passage-1p@heron_passage
+################### end of scrap distortions ###################
+
+
+###################### scrap distortions #######################
+ PROJECTION: elevation
+ AVERAGE  MAXIMAL  SCRAP
+   0.04%    0.94%  heron_passage-1s@heron_passage
+################### end of scrap distortions ###################

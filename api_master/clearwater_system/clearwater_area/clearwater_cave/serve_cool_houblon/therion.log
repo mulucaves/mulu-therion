@@ -82,7 +82,7 @@ S   -22.26 20221121REa-1p@20221121REa.serve_cool_houblon ()
 ########## end of export maps & scraps selection ###############
 writing serve_cool_houblon_plan.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  16 DEC 2022 22:54
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  13 JAN 2023 13:39
 **data.mp
 (c:/Program Files (x86)/Therion/texmf/mpost/mpost.mp
 (c:/Program Files (x86)/Therion/texmf/mpost/plain.mp
@@ -110,7 +110,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  16 DEC 2022 22:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  13 JAN 2023 13:39
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
@@ -151,7 +151,7 @@ S   -22.26 20221121REa-1p@20221121REa.serve_cool_houblon ()
 ########## end of export maps & scraps selection ###############
 writing serve_cool_houblon.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  16 DEC 2022 22:54
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  13 JAN 2023 13:39
 **data.mp
 (c:/Program Files (x86)/Therion/texmf/mpost/mpost.mp
 (c:/Program Files (x86)/Therion/texmf/mpost/plain.mp
@@ -179,7 +179,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  16 DEC 2022 22:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  13 JAN 2023 13:39
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
@@ -200,7 +200,7 @@ Here is how much of TeX's memory you used:
  10i,5n,7p,555b,60s stack positions out of 5000i,500n,10000p,200000b,50000s
 <c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program 
 Files (x86)/Therion/texmf/fonts/type1/cmssi10.pfb>
-Output written on data.pdf (1 page, 177294 bytes).
+Output written on data.pdf (1 page, 177298 bytes).
 PDF statistics:
  209 PDF objects out of 1000 (max. 8388607)
  111 compressed objects within 2 object streams
@@ -223,7 +223,7 @@ S   198.44 20221121REa-2s@20221121REa.serve_cool_houblon ()
 ########## end of export maps & scraps selection ###############
 writing serve_cool_houblon_side.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  16 DEC 2022 22:54
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  13 JAN 2023 13:39
 **data.mp
 (c:/Program Files (x86)/Therion/texmf/mpost/mpost.mp
 (c:/Program Files (x86)/Therion/texmf/mpost/plain.mp
@@ -247,7 +247,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  16 DEC 2022 22:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  13 JAN 2023 13:39
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
@@ -257,15 +257,15 @@ entering extended mode
  90 numeric registers used out of 32768
  [1] ) 
 Here is how much of TeX's memory you used:
- 310 strings out of 94604
- 4188 string characters out of 1142524
+ 311 strings out of 94604
+ 4202 string characters out of 1142524
  136030 words of memory out of 5108758
- 1967 multiletter control sequences out of 15000+50000
+ 1968 multiletter control sequences out of 15000+50000
  17652 words of font info for 57 fonts, out of 1000000 for 2000
  1416 hyphenation exceptions out of 5000
  8i,5n,6p,249b,51s stack positions out of 5000i,500n,10000p,200000b,50000s
 <c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb>
-Output written on data.pdf (1 page, 76300 bytes).
+Output written on data.pdf (1 page, 76352 bytes).
 PDF statistics:
  116 PDF objects out of 1000 (max. 8388607)
  62 compressed objects within 1 object stream
@@ -277,7 +277,7 @@ PDF statistics:
 done
 writing serve_cool_houblon_plan.3d ... done
 writing xtherion file ... done
-compilation time: 4 sec
+compilation time: 3 sec
 
 
 ###################### scrap distortions #######################

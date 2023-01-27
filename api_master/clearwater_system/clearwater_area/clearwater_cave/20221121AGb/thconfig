@@ -1,0 +1,14 @@
+encoding  utf-8
+input ../../../../../layouts/mulu_layouts.thc
+#input ../../layouts/mulu_layouts.thc
+
+source 20221122AGb.th
+
+export model -fmt survex -o 20221122AGb.3d
+
+export map -o 20221122AGb_Plan.pdf -proj plan -layout MuluSmall
+
+export map -o 20221122AGb_Extended.pdf -proj extended -layout MuluSmall
+
+export map -proj [elevation 115] -o 20221122AGb-elevation115.xvi
+export map -proj [elevation 115] -o 20221122AGb_Side115.pdf -layout MuluSmall

@@ -1,0 +1,14 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 64.08m (surface 0.00m, duplicated 0.00m)\nvertical range: 20.40m (from 4@20221121AGa at 17.98m to 1@20221121AGa at -2.42m)\nnorth-south range: 16.69m (from 1@20221121AGa at 5.63m to 8@20221121AGa at -11.06m)\neast-west range: 21.79m (from 9@20221121AGa at 21.79m to 0@20221121AGa at 0.00m)\nnumber of shots: 77\nnumber of stations: 78"
+xth_cp_data_tree_insert 69 1 1 20221121AGa 20221121AGa "Busy Earnins" "Busy Earnins" "length: 64.08m (surface 0.00m, duplicated 0.00m)\nvertical range: 20.40m (from 4@20221121AGa at 17.98m to 1@20221121AGa at -2.42m)\nnorth-south range: 16.69m (from 1@20221121AGa at 5.63m to 8@20221121AGa at -11.06m)\neast-west range: 21.79m (from 9@20221121AGa at 21.79m to 0@20221121AGa at 0.00m)\nnumber of shots: 77\nnumber of stations: 78"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert projection 0 p3 {} 0 elevation\[21.0\] {} {} {}
+xth_cp_map_tree_insert map 1 176X1 p3 1 20221121AGaML21 20221121AGaML21@20221121AGa "" ""
+xth_cp_map_tree_create
+xth_cp_comp_stat 64 8
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1673018940
+

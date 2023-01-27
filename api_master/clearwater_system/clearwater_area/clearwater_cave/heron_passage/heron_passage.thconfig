@@ -1,0 +1,38 @@
+encoding  utf-8
+
+input ../../../../../layouts/mulu_layouts.thc
+
+source heron_passage.th
+
+export model -o heron_passage.3d
+#export model -o heron_passage.lox
+
+export map -proj plan -o heron_passage_plan.pdf -layout MuluTiny -layout local
+export map -proj [elevation 25] -o heron_passage_side.pdf -layout localside -layout MuluSmall
+
+
+layout local
+map-comment "Upskirt Level, Creedence, Clearwater<br>Plan View<br>Suveyed Length = 137m"
+map-header 0 115 sw
+  code tex-map		#puts square boarder around survey
+    \framethickness=0.5mm
+
+endlayout
+
+layout localside
+map-comment "Elevation Projection 115"
+symbol-hide special north-arrow
+    code tex-map
+      \legendtitle={}
+      \cavename={}
+      \scalebarfalse
+      \cavelengthtitle={}
+      \cavelength={}
+      \cavedepthtitle={}
+      \cavedepth={}
+    endcode
+  statistics topo off
+  map-header 5 20 sw
+  code tex-map		#puts square boarder around survey
+    \framethickness=0.5mm
+endlayout

@@ -1,0 +1,13 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 124.06m (surface 0.00m, duplicated 0.00m)\nvertical range: 43.42m (from 11@20221125AGc at 43.42m to 0@20221125AGc at 0.00m)\nnorth-south range: 48.11m (from 10@20221125AGc at 48.11m to 0@20221125AGc at 0.00m)\neast-west range: 31.71m (from 3@20221125AGc at 20.84m to 11@20221125AGc at -10.87m)\nnumber of shots: 112\nnumber of stations: 113"
+xth_cp_data_tree_insert 69 1 1 20221125AGc 20221125AGc "Ibiza Sunset" "Ibiza Sunset" "length: 124.06m (surface 0.00m, duplicated 0.00m)\nvertical range: 43.42m (from 11@20221125AGc at 43.42m to 0@20221125AGc at 0.00m)\nnorth-south range: 48.11m (from 10@20221125AGc at 48.11m to 0@20221125AGc at 0.00m)\neast-west range: 31.71m (from 3@20221125AGc at 20.84m to 11@20221125AGc at -10.87m)\nnumber of shots: 112\nnumber of stations: 113"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert projection 0 p3 {} 0 elevation\[115.0\] {} {} {}
+xth_cp_map_tree_create
+xth_cp_comp_stat 124 3
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1673019038
+

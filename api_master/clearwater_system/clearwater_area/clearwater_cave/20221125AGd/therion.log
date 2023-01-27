@@ -1,0 +1,312 @@
+therion 6.1.3 (2022-11-26)
+  - using Proj 9.1.0, compiled against 9.1.0
+initialization file: C:\Program Files (x86)\Therion/therion.ini
+reading ... done
+configuration file: thconfig
+reading ... done
+reading source files ... done
+preprocessing database ... done
+scanning centreline tree ... done
+searching for centerline loops ... done
+calculating station coordinates ... done
+average loop error: 0.25%
+processing survey data ... 
+####################### cavern log file ########################
+ 1> Survex 1.2.44
+ 2> Copyright ¸ 1990-2021 Olly Betts
+ 3> Survey has no fixed points. Therefore I've fixed 1 at (0,0,0)
+ 4> 
+ 5> Survey contains 758 survey stations, joined by 761 legs.
+ 6> There are 5 loops.
+ 7> Survey has 2 connected components.
+ 8> Total length of survey legs =  514.63m ( 514.62m adjusted)
+ 9> Total plan length of survey legs =  421.23m
+10> Total vertical length of survey legs =  267.35m
+11> Vertical range = 98.98m (from 402 at 66.60m to 737 at -32.38m)
+12> North-South range = 77.98m (from 53 at 12.07m to 650 at -65.91m)
+13> East-West range = 134.10m (from 397 at 88.18m to 737 at -45.91m)
+14>  713 1-nodes.
+15>    1 6-node.
+16>    1 9-node.
+17>    2 12-nodes.
+18>    3 13-nodes.
+19>    1 14-node.
+20>    7 15-nodes.
+21>    3 16-nodes.
+22>    5 17-nodes.
+23>    2 18-nodes.
+24>    3 19-nodes.
+25>    3 20-nodes.
+26>    2 21-nodes.
+27>    5 22-nodes.
+28>    3 23-nodes.
+29>    2 24-nodes.
+30>    1 26-node.
+31>    1 31-node.
+32> 
+######################### transcription ########################
+ 3> 1 : 0@20221125AGd
+ 5> 758 : .@20221125AGd
+ 6> 5 : .@20221125AGd
+ 7> 2 : .@20221125AGd
+11> 402 : .@20221125AGd -- 737 : .@20221125AGd
+12> 53 : .@20221125AGd -- 650 : .@20221125AGd
+13> 397 : 30@20221125AGd -- 737 : .@20221125AGd
+14> 713 : .@20221125AGd
+15> 1 : 0@20221125AGd
+16> 1 : 0@20221125AGd
+17> 2 : .@20221125AGd
+18> 3 : .@20221125AGd
+19> 1 : 0@20221125AGd
+20> 7 : .@20221125AGd
+21> 3 : .@20221125AGd
+22> 5 : .@20221125AGd
+23> 2 : .@20221125AGd
+24> 3 : .@20221125AGd
+25> 3 : .@20221125AGd
+26> 2 : .@20221125AGd
+27> 5 : .@20221125AGd
+28> 3 : .@20221125AGd
+29> 2 : .@20221125AGd
+30> 1 : 0@20221125AGd
+31> 1 : 0@20221125AGd
+#################### end of cavern log file ####################
+done
+calculating basic statistics ... done
+processing extended elevation ... done
+processing references ... done
+selecting export objects ... done
+writing 20221125AGd.3d ... done
+processing projection plan ... done
+average distortion: 0.06%
+
+
+############### export maps & scraps selection #################
+S    35.26 20221125AGdSP1@20221125AGd ()
+S    24.79 20221125AGdSP2@20221125AGd ()
+S   -14.62 20221125AGdSP3@20221125AGd ()
+########## end of export maps & scraps selection ###############
+writing 20221125AGd_Plan.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  6 JAN 2023 15:31
+**data.mp
+(c:/Program Files (x86)/Therion/texmf/mpost/mpost.mp
+(c:/Program Files (x86)/Therion/texmf/mpost/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [1] [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+[15] [16] [17] [1] [2] [3] [4] [5] [6] [7]
+[Warning: scrap outline intersects itself in scrap 20221125AGdSP1@20221125AGd]
+[Warning: scrap outline intersects itself in scrap 20221125AGdSP1@20221125AGd]
+[8] [9] [10] (./mptextmp.mp) [11] [12] [13] [14] [15] [16] [17] [18] [19] [20]
+[21] [22] [23] [24] [25] [26] [27] [28] [29] [30] [31] [32] [33] [34] [35] )
+ 
+Here is how much of MetaPost's memory you used:
+ 14208 strings using 300038 characters
+ 2787764 bytes of node memory
+ 1916 symbolic tokens
+ 8i,82n,11p,312b,4f stack positions out of 16i,98n,12p,312b,6f
+52 output files written: data-patt.1 .. data.35
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  6 JAN 2023 15:31
+entering extended mode
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
+(./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 88 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 310 strings out of 94604
+ 4184 string characters out of 1142524
+ 75909 words of memory out of 5056637
+ 1965 multiletter control sequences out of 15000+50000
+ 20080 words of font info for 63 fonts, out of 1000000 for 2000
+ 1416 hyphenation exceptions out of 5000
+ 9i,5n,6p,229b,56s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program 
+Files (x86)/Therion/texmf/fonts/type1/cmssi10.pfb>
+Output written on data.pdf (1 page, 90924 bytes).
+PDF statistics:
+ 116 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 301 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+processing projection extended ... done
+average distortion: 3.33%
+
+
+############### export maps & scraps selection #################
+S     0.00 20221125AGdSE1@20221125AGd ()
+########## end of export maps & scraps selection ###############
+writing 20221125AGd_Extended.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  6 JAN 2023 15:31
+**data.mp
+(c:/Program Files (x86)/Therion/texmf/mpost/mpost.mp
+(c:/Program Files (x86)/Therion/texmf/mpost/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [1] [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+[15] [16] [17] [1] [2] (./mptextmp.mp) [3] [4] [5] [6] [7] [8] [9] [10] [11]
+[12] [13] )
+ 
+Here is how much of MetaPost's memory you used:
+ 2494 strings using 64445 characters
+ 2456060 bytes of node memory
+ 1916 symbolic tokens
+ 8i,82n,11p,312b,4f stack positions out of 16i,98n,12p,312b,6f
+30 output files written: data-patt.1 .. data-patt.17
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  6 JAN 2023 15:31
+entering extended mode
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
+(./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 60 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 282 strings out of 94604
+ 3914 string characters out of 1142524
+ 47332 words of memory out of 5031060
+ 1937 multiletter control sequences out of 15000+50000
+ 20080 words of font info for 63 fonts, out of 1000000 for 2000
+ 1416 hyphenation exceptions out of 5000
+ 9i,5n,6p,229b,56s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program 
+Files (x86)/Therion/texmf/fonts/type1/cmssi10.pfb>
+Output written on data.pdf (1 page, 33272 bytes).
+PDF statistics:
+ 56 PDF objects out of 1000 (max. 8388607)
+ 32 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 121 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+processing projection elevation ... done
+average distortion: 0.00%
+writing 20221125AGd-elevation021.xvi ... done
+
+
+############### export maps & scraps selection #################
+M    -1.79 20221125AGdML@20221125AGd ()
+S   -27.41 20221125AGdSL3@20221125AGd ()
+S    -8.00 20221125AGdSL2@20221125AGd ()
+S    -0.58 20221125AGdSL4@20221125AGd ()
+S     5.86 20221125AGdSL1@20221125AGd ()
+S    21.18 20221125AGdSL5@20221125AGd ()
+########## end of export maps & scraps selection ###############
+writing 20221125AGd_Side021.pdf ...
+####################### metapost log file ########################
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  6 JAN 2023 15:31
+**data.mp
+(c:/Program Files (x86)/Therion/texmf/mpost/mpost.mp
+(c:/Program Files (x86)/Therion/texmf/mpost/plain.mp
+Preloading the plain mem file, version 1.005) ) (./data.mp
+{randomseed:=42}
+ [1] [2] [3] [4]
+[5] [6] [7] [8] [9] [10] [11] [12] [13] [14]
+[15] [16] [17] [1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13]
+(./mptextmp.mp) [14] [15] [16] [17] [18] [19] [20] [21] [22] [23] [24] [25]
+[26] [27] )
+ 
+Here is how much of MetaPost's memory you used:
+ 6608 strings using 148891 characters
+ 2484952 bytes of node memory
+ 1916 symbolic tokens
+ 8i,82n,11p,312b,4f stack positions out of 16i,98n,12p,312b,6f
+44 output files written: data-patt.1 .. data.27
+
+
+#################### end of metapost log file ####################
+converting scraps ... done
+making map ... done
+######################## pdftex log file #########################
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  6 JAN 2023 15:31
+entering extended mode
+**data.tex
+(./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
+(c:/Program Files (x86)/Therion/texmf/tex/glyphtounicode.tex))
+(./th_fontdef.tex{c:/Program Files (x86)/Therion/texmf/fonts/pdftex.map})
+(./th_formdef.tex) (./th_pagedef.tex) (./th_pages.tex)
+ 84 numeric registers used out of 32768
+ [1] ) 
+Here is how much of TeX's memory you used:
+ 306 strings out of 94604
+ 4199 string characters out of 1142524
+ 39629 words of memory out of 5023357
+ 1961 multiletter control sequences out of 15000+50000
+ 20080 words of font info for 63 fonts, out of 1000000 for 2000
+ 1416 hyphenation exceptions out of 5000
+ 9i,5n,6p,229b,56s stack positions out of 5000i,500n,10000p,200000b,50000s
+<c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program 
+Files (x86)/Therion/texmf/fonts/type1/cmssi10.pfb>
+Output written on data.pdf (1 page, 55122 bytes).
+PDF statistics:
+ 112 PDF objects out of 1000 (max. 8388607)
+ 60 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 289 words of extra memory for PDF output out of 10000 (max. 10000000)
+
+
+##################### end of pdftex log file #####################
+done
+writing xtherion file ... done
+compilation time: 3 sec
+
+
+######################### loop errors ##########################
+REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
+  0.48%    0.1m   22.6m   4   -0.0m   -0.1m   -0.1m [27@20221125AGd - 33 - 32 - 29 - 27]
+  0.24%    0.1m   44.8m   5   -0.0m   -0.1m    0.0m [6@20221125AGd - 17 - 15 - 14 - 13 - 6]
+  0.24%    0.1m   39.2m   4    0.0m    0.0m   -0.1m [13@20221125AGd - 6 - 5 - 10 - 13]
+  0.12%    0.1m   66.1m   6    0.0m    0.0m   -0.1m [0@20221125AGd - 9 - 8 - 7 - 6 - 5 - 0]
+##################### end of loop errors #######################
+
+
+###################### scrap distortions #######################
+ PROJECTION: plan
+ AVERAGE  MAXIMAL  SCRAP
+   0.07%    2.82%  20221125AGdSP1@20221125AGd
+   0.03%    1.21%  20221125AGdSP2@20221125AGd
+   0.03%    0.57%  20221125AGdSP3@20221125AGd
+################### end of scrap distortions ###################
+
+
+###################### scrap distortions #######################
+ PROJECTION: extended
+ AVERAGE  MAXIMAL  SCRAP
+   3.33%   77.95%  20221125AGdSE1@20221125AGd
+################### end of scrap distortions ###################
+
+
+###################### scrap distortions #######################
+ PROJECTION: elevation
+ AVERAGE  MAXIMAL  SCRAP
+   0.00%    0.24%  20221125AGdSL4@20221125AGd
+   0.00%    0.10%  20221125AGdSL1@20221125AGd
+   0.00%    0.01%  20221125AGdSL2@20221125AGd
+   0.00%    0.01%  20221125AGdSL3@20221125AGd
+   0.00%    0.01%  20221125AGdSL5@20221125AGd
+################### end of scrap distortions ###################
