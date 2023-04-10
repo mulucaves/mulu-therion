@@ -1,5 +1,5 @@
-therion 6.0.1 (2021-07-25)
-  - using Proj 5.1.0, compiled against 5.1.0
+therion 6.1.3 (2022-11-26)
+  - using Proj 9.1.0, compiled against 9.1.0
 initialization file: C:\Program Files (x86)\Therion/therion.ini
 reading ... done
 configuration file: thconfig
@@ -14,7 +14,7 @@ processing survey data ...
 ####################### cavern log file ########################
  1> Survex 1.2.44
  2> Copyright ¸ 1990-2021 Olly Betts
- 3> C:\Users\Rob\AppData\Local\Temp\th7776\data.svx:10442: warning: Unused fixed point "8961"
+ 3> C:\Users\Rob\AppData\Local\Temp\th69732\data.svx:10442: warning: Unused fixed point "8961"
  4> 
  5> Survey contains 8961 survey stations, joined by 9109 legs.
  6> There are 151 loops.
@@ -64,7 +64,6 @@ processing survey data ...
 50> There were 1 warning(s).
 51> 
 ######################### transcription ########################
- 3> 7776 : 5m@20.smashing.clearwater_master
  3> input:10442 -- clearwater_master.th [208]
  3> 8961 : clearwater_cave_fake.0@clearwater_master
  5> 8961 : clearwater_cave_fake.0@clearwater_master
@@ -349,7 +348,7 @@ S    21.31 cleartop_s1@clearwater_cave_fake.clearwater_master ()
 ########## end of export maps & scraps selection ###############
 writing clearwater_master.pdf ...
 ####################### metapost log file ########################
-This is MetaPost, version 2.00 (TeX Live 2020/W32TeX) (kpathsea version 6.3.2)  15 DEC 2022 08:53
+This is MetaPost, version 2.01 (TeX Live 2021/W32TeX) (kpathsea version 6.3.3)  22 FEB 2023 21:08
 **data.mp
 (c:/Program Files (x86)/Therion/texmf/mpost/mpost.mp
 (c:/Program Files (x86)/Therion/texmf/mpost/plain.mp
@@ -546,9 +545,9 @@ ave_fake.clearwater_master] [484] [485] [486] [487] [488] [489] [490] [491]
 [554] [555] [556] [557] [558] [559] [560] [561] [562] [563] [564] [565] )
  
 Here is how much of MetaPost's memory you used:
- 353368 strings using 8488051 characters
- 20477936 bytes of node memory
- 1929 symbolic tokens
+ 353420 strings using 8497513 characters
+ 20490404 bytes of node memory
+ 1932 symbolic tokens
  11i,82n,16p,456b,5f stack positions out of 16i,98n,20p,487b,6f
 582 output files written: data-patt.1 .. data.565
 
@@ -557,7 +556,7 @@ Here is how much of MetaPost's memory you used:
 converting scraps ... done
 making map ... done
 ######################## pdftex log file #########################
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdftex 2020.6.19)  15 DEC 2022 08:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdftex 2021.6.19)  22 FEB 2023 21:09
 entering extended mode
 **data.tex
 (./data.tex (./th_enc.tex) (./th_texts.tex) (./th_resources.tex
@@ -569,16 +568,16 @@ Normal \count register pool exhausted, switching to extended pool.)
  253 numeric registers used out of 32768
  [1] ) 
 Here is how much of TeX's memory you used:
- 1646 strings out of 94623
- 20795 string characters out of 1150079
- 2542854 words of memory out of 7000000
- 3297 multiletter control sequences out of 15000+50000
+ 1646 strings out of 94604
+ 20796 string characters out of 1142524
+ 2521540 words of memory out of 7000000
+ 3301 multiletter control sequences out of 15000+50000
  20080 words of font info for 63 fonts, out of 1000000 for 2000
  1416 hyphenation exceptions out of 5000
  9i,5n,9p,321b,56s stack positions out of 5000i,500n,10000p,200000b,50000s
 <c:/Program Files (x86)/Therion/texmf/fonts/type1/cmss10.pfb><c:/Program 
 Files (x86)/Therion/texmf/fonts/type1/cmssi10.pfb>
-Output written on data.pdf (1 page, 6751678 bytes).
+Output written on data.pdf (1 page, 6618208 bytes).
 PDF statistics:
  2969 PDF objects out of 2984 (max. 8388607)
  1481 compressed objects within 15 object streams
@@ -590,7 +589,7 @@ PDF statistics:
 done
 writing clearwater_master_walls.3d ... done
 writing xtherion file ... done
-compilation time: 37 sec
+compilation time: 39 sec
 
 
 ######################### loop errors ##########################
@@ -700,57 +699,57 @@ REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
   0.05%    0.0m   16.2m   2    0.0m   -0.0m   -0.0m [43@surface_cotw_to_clearwater.clearwater_master - 44 - 43]
   0.04%    0.0m   27.3m   2   -0.0m    0.0m    0.0m [0@cotw_centreline.clearwater_master - 1 - 0]
   0.04%    0.0m   14.8m   2   -0.0m    0.0m    0.0m [28@surface_cotw_to_clearwater.clearwater_master - 29 - 28]
-  0.00%    0.0m  589.0m   7    0.0m   -0.0m    0.0m [305@clearwater_cave_fake.clearwater_master - 322 - 321 - 320 - 302 - 303 - 304 - 305]
-  0.00%    0.0m 1820.4m  27    0.0m    0.0m    0.0m [275@clearwater_cave_fake.clearwater_master - 276 - 277 - 278 - 279 - 280 - 605 - 604 - 603 - 602 - 601 - 600 - 599 - 598 - 597 - 596 - 595 - 594 - 593 - 592 - 591 - 590 - 270 - 271 - 272 - 273 - 274 - 275]
-  0.00%    0.0m 1745.7m  23    0.0m   -0.0m    0.0m [966@clearwater_cave_fake.clearwater_master - 965 - 903 - 904 - 905 - 906 - 907 - 908 - 920 - 921 - 922 - 923 - 924 - 1005 - 1006 - 1007 - 1008 - 1009 - 1010 - 1011 - 997 - 996 - 995 - 966]
-  0.00%    0.0m  205.4m   4   -0.0m    0.0m    0.0m [286@clearwater_cave_fake.clearwater_master - 670 - 647 - 287 - 286]
-  0.00%    0.0m 1336.8m  23    0.0m    0.0m    0.0m [302@clearwater_cave_fake.clearwater_master - 405 - 406 - 407 - 408 - 409 - 410 - 411 - 412 - 413 - 414 - 415 - 416 - 375 - 367 - 366 - 365 - 364 - 363 - 362 - 361 - 360 - 303 - 302]
-  0.00%    0.0m  176.1m   4   -0.0m   -0.0m    0.0m [782@clearwater_cave_fake.clearwater_master - 790 - 784 - 783 - 782]
-  0.00%    0.0m 1032.9m  16   -0.0m   -0.0m    0.0m [967@clearwater_cave_fake.clearwater_master - 1030 - 1031 - 1032 - 1033 - 1034 - 1035 - 1036 - 1001 - 1000 - 999 - 998 - 997 - 996 - 995 - 966 - 967]
+  0.00%    0.0m 1820.4m  27   -0.0m    0.0m    0.0m [275@clearwater_cave_fake.clearwater_master - 276 - 277 - 278 - 279 - 280 - 605 - 604 - 603 - 602 - 601 - 600 - 599 - 598 - 597 - 596 - 595 - 594 - 593 - 592 - 591 - 590 - 270 - 271 - 272 - 273 - 274 - 275]
   0.00%    0.0m  476.4m  12    0.0m    0.0m    0.0m [784@clearwater_cave_fake.clearwater_master - 762 - 761 - 770 - 771 - 772 - 724 - 725 - 780 - 781 - 782 - 790 - 784]
-  0.00%    0.0m  353.0m   5   -0.0m   -0.0m    0.0m [762@clearwater_cave_fake.clearwater_master - 765 - 766 - 767 - 761 - 762]
   0.00%    0.0m  830.6m  15    0.0m    0.0m    0.0m [682@clearwater_cave_fake.clearwater_master - 683 - 274 - 273 - 272 - 271 - 699 - 698 - 697 - 696 - 695 - 691 - 690 - 680 - 681 - 682]
-  0.00%    0.0m  537.8m  12    0.0m    0.0m    0.0m [5@clearwater_cave_fake.clearwater_master - 30 - 31 - 32 - 33 - 34 - 35 - 36 - 37 - 8 - 7 - 6 - 5]
-  0.00%    0.0m  347.4m   7   -0.0m   -0.0m    0.0m [718@clearwater_cave_fake.clearwater_master - 736 - 735 - 714 - 715 - 716 - 717 - 718]
-  0.00%    0.0m  800.0m  11    0.0m    0.0m    0.0m [285@clearwater_cave_fake.clearwater_master - 286 - 287 - 288 - 289 - 290 - 545 - 546 - 570 - 571 - 572 - 285]
+  0.00%    0.0m  176.1m   4   -0.0m   -0.0m    0.0m [782@clearwater_cave_fake.clearwater_master - 790 - 784 - 783 - 782]
+  0.00%    0.0m  353.0m   5   -0.0m   -0.0m    0.0m [762@clearwater_cave_fake.clearwater_master - 765 - 766 - 767 - 761 - 762]
+  0.00%    0.0m  382.1m   6   -0.0m    0.0m    0.0m [59@clearwater_cave_fake.clearwater_master - 170 - 171 - 172 - 173 - 60 - 59]
+  0.00%    0.0m  205.4m   4   -0.0m    0.0m    0.0m [286@clearwater_cave_fake.clearwater_master - 670 - 647 - 287 - 286]
   0.00%    0.0m  201.3m   4    0.0m   -0.0m    0.0m [30@clearwater_cave_fake.clearwater_master - 45 - 32 - 31 - 30]
-  0.00%    0.0m  184.2m   3    0.0m    0.0m    0.0m [557@clearwater_cave_fake.clearwater_master - 559 - 558 - 557]
   0.00%    0.0m  392.8m   6   -0.0m    0.0m    0.0m [178@clearwater_cave_fake.clearwater_master - 241 - 240 - 175 - 176 - 177 - 178]
-  0.00%    0.0m  382.1m   6    0.0m    0.0m    0.0m [59@clearwater_cave_fake.clearwater_master - 170 - 171 - 172 - 173 - 60 - 59]
-  0.00%    0.0m  394.3m   8    0.0m    0.0m    0.0m [761@clearwater_cave_fake.clearwater_master - 770 - 771 - 772 - 724 - 723 - 722 - 760 - 761]
-  0.00%    0.0m  384.7m   9   -0.0m   -0.0m    0.0m [446@clearwater_cave_fake.clearwater_master - 455 - 456 - 457 - 458 - 459 - 460 - 461 - 447 - 446]
-  0.00%    0.0m  469.1m   9   -0.0m    0.0m    0.0m [434@clearwater_cave_fake.clearwater_master - 478 - 477 - 476 - 475 - 438 - 437 - 436 - 435 - 434]
-  0.00%    0.0m  329.1m   8   -0.0m   -0.0m    0.0m [727@clearwater_cave_fake.clearwater_master - 796 - 795 - 782 - 781 - 780 - 725 - 726 - 727]
-  0.00%    0.0m 1386.5m  20    0.0m    0.0m    0.0m [296@clearwater_cave_fake.clearwater_master - 341 - 340 - 339 - 338 - 337 - 336 - 335 - 308 - 307 - 306 - 305 - 304 - 303 - 302 - 301 - 300 - 299 - 298 - 297 - 296]
-  0.00%    0.0m 2564.7m  36   -0.0m    0.0m    0.0m [273@clearwater_cave_fake.clearwater_master - 705 - 706 - 850 - 851 - 852 - 853 - 854 - 855 - 856 - 857 - 858 - 859 - 860 - 861 - 862 - 863 - 864 - 865 - 866 - 180 - 181 - 182 - 183 - 184 - 185 - 186 - 187 - 188 - 189 - 190 - 191 - 192 - 270 - 271 - 272 - 273]
-  0.00%    0.0m 1103.4m  20    0.0m    0.0m    0.0m [425@clearwater_cave_fake.clearwater_master - 480 - 481 - 482 - 483 - 484 - 485 - 486 - 487 - 488 - 489 - 490 - 433 - 432 - 431 - 430 - 429 - 428 - 427 - 426 - 425]
+  0.00%    0.0m  469.1m   9    0.0m    0.0m    0.0m [434@clearwater_cave_fake.clearwater_master - 478 - 477 - 476 - 475 - 438 - 437 - 436 - 435 - 434]
+  0.00%    0.0m 1336.8m  23    0.0m    0.0m    0.0m [302@clearwater_cave_fake.clearwater_master - 405 - 406 - 407 - 408 - 409 - 410 - 411 - 412 - 413 - 414 - 415 - 416 - 375 - 367 - 366 - 365 - 364 - 363 - 362 - 361 - 360 - 303 - 302]
+  0.00%    0.0m  800.0m  11    0.0m    0.0m    0.0m [285@clearwater_cave_fake.clearwater_master - 286 - 287 - 288 - 289 - 290 - 545 - 546 - 570 - 571 - 572 - 285]
+  0.00%    0.0m  384.7m   9    0.0m   -0.0m    0.0m [446@clearwater_cave_fake.clearwater_master - 455 - 456 - 457 - 458 - 459 - 460 - 461 - 447 - 446]
+  0.00%    0.0m  241.9m   5    0.0m   -0.0m    0.0m [923@clearwater_cave_fake.clearwater_master - 960 - 961 - 962 - 924 - 923]
+  0.00%    0.0m 1103.4m  20   -0.0m    0.0m    0.0m [425@clearwater_cave_fake.clearwater_master - 480 - 481 - 482 - 483 - 484 - 485 - 486 - 487 - 488 - 489 - 490 - 433 - 432 - 431 - 430 - 429 - 428 - 427 - 426 - 425]
+  0.00%    0.0m  263.6m   6    0.0m   -0.0m    0.0m [63@clearwater_cave_fake.clearwater_master - 685 - 686 - 682 - 681 - 680 - 63]
   0.00%    0.0m  311.8m   6   -0.0m    0.0m    0.0m [965@clearwater_cave_fake.clearwater_master - 987 - 986 - 985 - 904 - 903 - 965]
-  0.00%    0.0m  227.4m  11   -0.0m   -0.0m    0.0m [35@clearwater_cave_fake.clearwater_master - 15 - 14 - 13 - 12 - 11 - 10 - 9 - 8 - 37 - 36 - 35]
+  0.00%    0.0m  329.1m   8   -0.0m   -0.0m    0.0m [727@clearwater_cave_fake.clearwater_master - 796 - 795 - 782 - 781 - 780 - 725 - 726 - 727]
+  0.00%    0.0m 1032.9m  16   -0.0m   -0.0m    0.0m [967@clearwater_cave_fake.clearwater_master - 1030 - 1031 - 1032 - 1033 - 1034 - 1035 - 1036 - 1001 - 1000 - 999 - 998 - 997 - 996 - 995 - 966 - 967]
+  0.00%    0.0m 1386.5m  20    0.0m    0.0m    0.0m [296@clearwater_cave_fake.clearwater_master - 341 - 340 - 339 - 338 - 337 - 336 - 335 - 308 - 307 - 306 - 305 - 304 - 303 - 302 - 301 - 300 - 299 - 298 - 297 - 296]
+  0.00%    0.0m  184.2m   3    0.0m    0.0m    0.0m [557@clearwater_cave_fake.clearwater_master - 559 - 558 - 557]
+  0.00%    0.0m  246.9m   5   -0.0m   -0.0m    0.0m [745@clearwater_cave_fake.clearwater_master - 746 - 726 - 725 - 724 - 745]
+  0.00%    0.0m  394.3m   8    0.0m    0.0m    0.0m [761@clearwater_cave_fake.clearwater_master - 770 - 771 - 772 - 724 - 723 - 722 - 760 - 761]
   0.00%    0.0m  638.8m  11    0.0m    0.0m    0.0m [546@clearwater_cave_fake.clearwater_master - 570 - 571 - 572 - 553 - 552 - 551 - 550 - 549 - 548 - 547 - 546]
   0.00%    0.0m  360.0m   5    0.0m    0.0m    0.0m [282@clearwater_cave_fake.clearwater_master - 555 - 556 - 557 - 281 - 282]
-  0.00%    0.0m  372.0m   6    0.0m    0.0m    0.0m [606@clearwater_cave_fake.clearwater_master - 607 - 282 - 281 - 280 - 605 - 606]
-  0.00%    0.0m  756.1m  12    0.0m    0.0m    0.0m [710@clearwater_cave_fake.clearwater_master - 745 - 724 - 723 - 722 - 721 - 720 - 719 - 718 - 736 - 735 - 711 - 710]
   0.00%    0.0m  419.6m   7    0.0m    0.0m    0.0m [284@clearwater_cave_fake.clearwater_master - 620 - 611 - 610 - 609 - 608 - 283 - 284]
-  0.00%    0.0m  434.6m   6   -0.0m    0.0m    0.0m [553@clearwater_cave_fake.clearwater_master - 572 - 285 - 284 - 283 - 565 - 553]
-  0.00%    0.0m  228.4m   4   -0.0m    0.0m    0.0m [997@clearwater_cave_fake.clearwater_master - 1011 - 1012 - 996 - 997]
+  0.00%    0.0m  537.8m  12   -0.0m    0.0m    0.0m [5@clearwater_cave_fake.clearwater_master - 30 - 31 - 32 - 33 - 34 - 35 - 36 - 37 - 8 - 7 - 6 - 5]
+  0.00%    0.0m  227.4m  11    0.0m   -0.0m    0.0m [35@clearwater_cave_fake.clearwater_master - 15 - 14 - 13 - 12 - 11 - 10 - 9 - 8 - 37 - 36 - 35]
   0.00%    0.0m  234.2m   3   -0.0m    0.0m    0.0m [683@clearwater_cave_fake.clearwater_master - 275 - 274 - 683]
   0.00%    0.0m  179.6m   4    0.0m    0.0m    0.0m [812@clearwater_cave_fake.clearwater_master - 820 - 814 - 813 - 812]
-  0.00%    0.0m  431.6m   8    0.0m    0.0m    0.0m [762@clearwater_cave_fake.clearwater_master - 785 - 786 - 787 - 778 - 777 - 776 - 775 - 762]
+  0.00%    0.0m 2564.7m  36    0.0m    0.0m    0.0m [273@clearwater_cave_fake.clearwater_master - 705 - 706 - 850 - 851 - 852 - 853 - 854 - 855 - 856 - 857 - 858 - 859 - 860 - 861 - 862 - 863 - 864 - 865 - 866 - 180 - 181 - 182 - 183 - 184 - 185 - 186 - 187 - 188 - 189 - 190 - 191 - 192 - 270 - 271 - 272 - 273]
+  0.00%    0.0m 1745.7m  23   -0.0m   -0.0m    0.0m [966@clearwater_cave_fake.clearwater_master - 965 - 903 - 904 - 905 - 906 - 907 - 908 - 920 - 921 - 922 - 923 - 924 - 1005 - 1006 - 1007 - 1008 - 1009 - 1010 - 1011 - 997 - 996 - 995 - 966]
+  0.00%    0.0m  589.0m   7   -0.0m   -0.0m    0.0m [305@clearwater_cave_fake.clearwater_master - 322 - 321 - 320 - 302 - 303 - 304 - 305]
+  0.00%    0.0m  347.4m   7   -0.0m   -0.0m    0.0m [718@clearwater_cave_fake.clearwater_master - 736 - 735 - 714 - 715 - 716 - 717 - 718]
   0.00%    0.0m  305.6m   5    0.0m    0.0m    0.0m [287@clearwater_cave_fake.clearwater_master - 288 - 645 - 646 - 647 - 287]
-  0.00%    0.0m  263.6m   6    0.0m   -0.0m    0.0m [63@clearwater_cave_fake.clearwater_master - 685 - 686 - 682 - 681 - 680 - 63]
-  0.00%    0.0m 2345.3m  33   -0.0m   -0.0m    0.0m [277@clearwater_cave_fake.clearwater_master - 710 - 973 - 972 - 971 - 970 - 969 - 968 - 967 - 966 - 965 - 903 - 902 - 901 - 900 - 899 - 898 - 897 - 896 - 895 - 596 - 597 - 598 - 599 - 600 - 601 - 602 - 603 - 604 - 605 - 280 - 279 - 278 - 277]
-  0.00%    0.0m  470.0m   4   -0.0m    0.0m    0.0m [130@clearwater_cave_fake.clearwater_master - 145 - 132 - 131 - 130]
-  0.00%    0.0m  241.9m   5    0.0m   -0.0m    0.0m [923@clearwater_cave_fake.clearwater_master - 960 - 961 - 962 - 924 - 923]
-  0.00%    0.0m  246.9m   5    0.0m   -0.0m    0.0m [745@clearwater_cave_fake.clearwater_master - 746 - 726 - 725 - 724 - 745]
-  0.00%    0.0m  297.4m   4    0.0m    0.0m    0.0m [602@clearwater_cave_fake.clearwater_master - 675 - 676 - 603 - 602]
-  0.00%    0.0m    7.6m   2    0.0m    0.0m    0.0m [5@scientific_method.clearwater_master - 6 - 5]
+  0.00%    0.0m  372.0m   6    0.0m    0.0m    0.0m [606@clearwater_cave_fake.clearwater_master - 607 - 282 - 281 - 280 - 605 - 606]
+  0.00%    0.0m  431.6m   8    0.0m    0.0m    0.0m [762@clearwater_cave_fake.clearwater_master - 785 - 786 - 787 - 778 - 777 - 776 - 775 - 762]
+  0.00%    0.0m  434.6m   6    0.0m    0.0m    0.0m [553@clearwater_cave_fake.clearwater_master - 572 - 285 - 284 - 283 - 565 - 553]
   0.00%    0.0m  462.2m   6    0.0m    0.0m    0.0m [555@clearwater_cave_fake.clearwater_master - 554 - 553 - 565 - 283 - 282 - 555]
-  0.00%    0.0m  248.2m   4    0.0m    0.0m    0.0m [607@clearwater_cave_fake.clearwater_master - 282 - 283 - 608 - 607]
+  0.00%    0.0m  187.0m   5   -0.0m    0.0m    0.0m [722@clearwater_cave_fake.clearwater_master - 742 - 741 - 740 - 721 - 722]
+  0.00%    0.0m  756.1m  12    0.0m    0.0m    0.0m [710@clearwater_cave_fake.clearwater_master - 745 - 724 - 723 - 722 - 721 - 720 - 719 - 718 - 736 - 735 - 711 - 710]
+  0.00%    0.0m 2345.3m  33    0.0m   -0.0m    0.0m [277@clearwater_cave_fake.clearwater_master - 710 - 973 - 972 - 971 - 970 - 969 - 968 - 967 - 966 - 965 - 903 - 902 - 901 - 900 - 899 - 898 - 897 - 896 - 895 - 596 - 597 - 598 - 599 - 600 - 601 - 602 - 603 - 604 - 605 - 280 - 279 - 278 - 277]
+  0.00%    0.0m  470.0m   4   -0.0m    0.0m    0.0m [130@clearwater_cave_fake.clearwater_master - 145 - 132 - 131 - 130]
   0.00%    0.0m  247.0m   5    0.0m    0.0m    0.0m [735@clearwater_cave_fake.clearwater_master - 714 - 713 - 712 - 711 - 735]
-  0.00%    0.0m  187.0m   5    0.0m    0.0m    0.0m [722@clearwater_cave_fake.clearwater_master - 742 - 741 - 740 - 721 - 722]
-  0.00%    0.0m  163.3m   5    0.0m    0.0m    0.0m [500@clearwater_cave_fake.clearwater_master - 535 - 536 - 540 - 501 - 500]
-  0.00%    0.0m  285.6m   4    0.0m    0.0m    0.0m [746@clearwater_cave_fake.clearwater_master - 726 - 727 - 747 - 746]
+  0.00%    0.0m  297.4m   4    0.0m    0.0m    0.0m [602@clearwater_cave_fake.clearwater_master - 675 - 676 - 603 - 602]
+  0.00%    0.0m  228.4m   4    0.0m    0.0m    0.0m [997@clearwater_cave_fake.clearwater_master - 1011 - 1012 - 996 - 997]
   0.00%    0.0m  232.9m   3    0.0m    0.0m    0.0m [288@clearwater_cave_fake.clearwater_master - 645 - 289 - 288]
+  0.00%    0.0m  248.2m   4    0.0m    0.0m    0.0m [607@clearwater_cave_fake.clearwater_master - 282 - 283 - 608 - 607]
+  0.00%    0.0m  285.6m   4    0.0m    0.0m    0.0m [746@clearwater_cave_fake.clearwater_master - 726 - 727 - 747 - 746]
+  0.00%    0.0m    7.6m   2    0.0m    0.0m    0.0m [5@scientific_method.clearwater_master - 6 - 5]
+  0.00%    0.0m  163.3m   5    0.0m    0.0m    0.0m [500@clearwater_cave_fake.clearwater_master - 535 - 536 - 540 - 501 - 500]
   0.00%    0.0m  161.3m   4    0.0m    0.0m    0.0m [740@clearwater_cave_fake.clearwater_master - 721 - 720 - 719 - 740]
   0.00%    0.0m  222.5m   4    0.0m    0.0m    0.0m [605@clearwater_cave_fake.clearwater_master - 630 - 631 - 606 - 605]
 ##################### end of loop errors #######################
@@ -925,15 +924,15 @@ REL-ERR ABS-ERR TOTAL-L STS X-ERROR Y-ERROR Z-ERROR STATIONS
    0.00%    0.01%  clearwater_II_s5@clearwater_cave_fake.clearwater_master
    0.00%    0.00%  far_from_home_s1@far_from_home.clearwater_master
    0.00%    0.00%  and_finally_s3@and_finally.clearwater_master
+   0.00%    0.00%  cleartop_s1@clearwater_cave_fake.clearwater_master
+   0.00%    0.00%  COTWSP4@clearwater_cave_fake.clearwater_master
+   0.00%    0.00%  GnomeOxbowSP2@clearwater_cave_fake.clearwater_master
+   0.00%    0.00%  rmaf_s1@clearwater_cave_fake.clearwater_master
+   0.00%    0.00%  surface@high_noon.clearwater_master
    0.00%    0.00%  high_noon_s4@high_noon.clearwater_master
    0.00%    0.00%  creedence_s6@creedence.clearwater_master
-   0.00%    0.00%  COTWSP4@clearwater_cave_fake.clearwater_master
-   0.00%    0.00%  SnakeChimneySP1@snakechimney.clearwater_master
-   0.00%    0.00%  cleartop_s1@clearwater_cave_fake.clearwater_master
-   0.00%    0.00%  surface@high_noon.clearwater_master
-   0.00%    0.00%  rmaf_s1@clearwater_cave_fake.clearwater_master
-   0.00%    0.00%  GnomeOxbowSP2@clearwater_cave_fake.clearwater_master
    0.00%    0.00%  FallySP1@fally.clearwater_master
-   0.00%    0.00%  CowArchClimbSP1@cowarchclimb.clearwater_master
    0.00%    0.00%  WindCaveSP1@wind_cave.clearwater_master
+   0.00%    0.00%  SnakeChimneySP1@snakechimney.clearwater_master
+   0.00%    0.00%  CowArchClimbSP1@cowarchclimb.clearwater_master
 ################### end of scrap distortions ###################

@@ -8,5 +8,5 @@ xth_cp_map_tree_insert projection 0 p2 {} 0 elevation\[25.0\] {} {} {}
 xth_cp_map_tree_create
 xth_cp_comp_stat 181 4
 set xth(th_exit_state) 2
-set xth(th_exit_number) 1673617605
+set xth(th_exit_number) 1677100543
 
